@@ -33,18 +33,18 @@ export default function Projects() {
               data-testid={`card-project-${project.slug}`}
               className="block bg-white border-2 border-gray-200 hover:border-primary transition-colors"
             >
-              <div className="bg-gray-200 h-48 flex items-center justify-center">
-                <div className="text-center p-4">
-                  <span className="text-gray-500 text-sm uppercase tracking-wider">Before / After</span>
-                  <p className="text-xs text-gray-400 mt-1">{project.service}</p>
-                </div>
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src={project.image} 
+                  alt={`${project.title} - ${project.service} in ${project.location}`}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-start mb-2">
                   <span className="bg-accent text-white text-xs font-bold px-3 py-1 uppercase">
                     {project.service}
                   </span>
-                  <span className="text-xs text-gray-500">{project.date}</span>
                 </div>
                 <h3 className="text-lg font-heading font-bold text-primary mt-3 mb-2">
                   {project.title}

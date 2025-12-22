@@ -42,23 +42,15 @@ export default function ProjectDetail() {
           <span className="bg-secondary text-white px-4 py-2 font-bold text-sm uppercase">
             {project.location}
           </span>
-          <span className="bg-gray-200 text-gray-700 px-4 py-2 font-bold text-sm">
-            {project.date}
-          </span>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-gray-200 h-64 md:h-96 flex items-center justify-center">
-            <div className="text-center p-8">
-              <p className="text-gray-600 font-bold text-xl mb-2">BEFORE</p>
-              <p className="text-gray-500 text-sm">Project photo coming soon</p>
-            </div>
-          </div>
-          <div className="bg-gray-300 h-64 md:h-96 flex items-center justify-center">
-            <div className="text-center p-8">
-              <p className="text-gray-600 font-bold text-xl mb-2">AFTER</p>
-              <p className="text-gray-500 text-sm">Project photo coming soon</p>
-            </div>
+        <div className="mb-12">
+          <div className="h-64 md:h-96 overflow-hidden">
+            <img 
+              src={project.image} 
+              alt={`${project.title} - ${project.service} results in ${project.location}`}
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
@@ -102,8 +94,12 @@ export default function ProjectDetail() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {similarProjects.map((p) => (
                 <Link key={p.slug} href={`/projects/${p.slug}`} className="block bg-white border-2 border-gray-200 hover:border-primary transition-colors">
-                  <div className="bg-gray-200 h-32 flex items-center justify-center">
-                    <span className="text-gray-500 text-sm">Before / After</span>
+                  <div className="h-32 overflow-hidden">
+                    <img 
+                      src={p.image} 
+                      alt={`${p.title} - ${p.service} in ${p.location}`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div className="p-4">
                     <h3 className="font-heading font-bold text-primary text-sm">{p.title}</h3>

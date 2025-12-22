@@ -1,13 +1,15 @@
 import { Link } from "wouter";
 import { services, neighborhoods } from "@/lib/data";
-import logoImage from "@assets/generated_images/pressure_washing_company_logo_for_canmancam.png";
+import { Logo } from "@/components/Logo";
 
 export function Footer() {
   return (
     <footer className="bg-primary text-white pt-16 pb-8">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
         <div className="flex flex-col gap-4">
-          <img src={logoImage} alt="CanManCam Logo" className="h-20 w-auto object-contain bg-white/10 p-2 self-start" />
+          <Link href="/" className="self-start">
+            <Logo className="text-3xl" />
+          </Link>
           <p className="text-gray-300 leading-relaxed">
             CanManCam is Mount Pleasant's most trusted pressure washing company. We provide top-tier exterior cleaning services with a satisfaction guarantee.
           </p>

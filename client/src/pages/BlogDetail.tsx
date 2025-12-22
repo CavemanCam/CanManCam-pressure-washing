@@ -33,7 +33,7 @@ export default function BlogDetail() {
             {post.question}
           </h1>
           <p className="text-gray-500 text-sm mb-8">
-            Posted on December 22, 2024 | CanManCam Pressure Washing | Mount Pleasant, SC
+            CanManCam Pressure Washing | Mount Pleasant, SC
           </p>
 
           <div className="bg-secondary text-white p-6 mb-8">

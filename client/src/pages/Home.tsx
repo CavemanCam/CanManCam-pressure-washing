@@ -1,18 +1,51 @@
+import { useState } from "react";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { services, reviews, projects } from "@/lib/data";
 import heroImage from "@assets/stock_images/pressure_washing_hou_08430493.jpg";
+import houseSidingImage from "@assets/uploaded_images/soft-washing-house-siding-after.JPEG";
+import drivewayImage from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
+import sidewalkImage from "@assets/uploaded_images/pressure-washing-sidewalk-mount-pleasant.JPEG";
+import patioImage from "@assets/uploaded_images/pressure-washing-patio-after.JPEG";
+import trashCanImage from "@assets/uploaded_images/trash-can-cleaning-after.JPEG";
 import { Link } from "wouter";
+
+function ExpandableHomeReview({ review, idx }: { review: typeof reviews[0], idx: number }) {
+  const [expanded, setExpanded] = useState(false);
+  const isLong = review.text.length > 150;
+  const displayText = isLong && !expanded ? review.text.slice(0, 150) + "..." : review.text;
+
+  return (
+    <div data-testid={`card-review-${idx}`} className="bg-gray-50 p-8">
+      <div className="flex text-accent mb-4">
+        {[...Array(review.rating)].map((_, i) => <span key={i} className="text-lg">★</span>)}
+      </div>
+      <p className="text-gray-700 italic mb-4 whitespace-pre-line">"{displayText}"</p>
+      {isLong && (
+        <button 
+          onClick={() => setExpanded(!expanded)}
+          className="text-accent font-bold text-sm uppercase tracking-wider mb-4 hover:underline cursor-pointer"
+        >
+          {expanded ? "Show Less" : "Read More"}
+        </button>
+      )}
+      <div className="flex justify-between items-center">
+        <p className="font-bold text-primary">- {review.name}</p>
+        <p className="text-sm text-gray-500">{review.location}</p>
+      </div>
+    </div>
+  );
+}
 
 export default function Home() {
   const serviceImages: Record<string, string> = {
-    "house-washing": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
-    "driveway-cleaning": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&h=400&fit=crop",
-    "sidewalk-cleaning": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&h=400&fit=crop",
-    "gutter-cleaning": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&h=400&fit=crop",
-    "window-cleaning": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=600&h=400&fit=crop",
-    "trash-can-cleaning": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=600&h=400&fit=crop"
+    "house-washing": houseSidingImage,
+    "driveway-cleaning": drivewayImage,
+    "sidewalk-cleaning": sidewalkImage,
+    "gutter-cleaning": patioImage,
+    "window-cleaning": houseSidingImage,
+    "trash-can-cleaning": trashCanImage
   };
 
   return (
@@ -175,16 +208,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {reviews.map((review, idx) => (
-              <div key={idx} data-testid={`card-review-${idx}`} className="bg-gray-50 p-8">
-                <div className="flex text-accent mb-4">
-                  {[...Array(review.rating)].map((_, i) => <span key={i} className="text-lg">★</span>)}
-                </div>
-                <p className="text-gray-700 italic mb-6">"{review.text}"</p>
-                <div className="flex justify-between items-center">
-                  <p className="font-bold text-primary">- {review.name}</p>
-                  <p className="text-sm text-gray-500">{review.location}</p>
-                </div>
-              </div>
+              <ExpandableHomeReview key={idx} review={review} idx={idx} />
             ))}
           </div>
           
@@ -214,14 +238,20 @@ export default function Home() {
                 key={project.slug} 
                 href={`/projects/${project.slug}`}
                 data-testid={`card-project-${project.slug}`} 
-                className="block bg-white p-6 hover:shadow-lg transition-shadow"
+                className="block bg-white hover:shadow-lg transition-shadow overflow-hidden"
               >
-                <div className="bg-gray-200 h-40 mb-4 flex items-center justify-center">
-                  <span className="text-gray-500 text-sm uppercase tracking-wider">Before / After</span>
+                <div className="h-40 overflow-hidden">
+                  <img 
+                    src={project.image} 
+                    alt={`${project.title} - ${project.service} in ${project.location}`}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <h3 className="font-heading font-bold text-primary text-lg mb-2">{project.title}</h3>
-                <p className="text-sm text-gray-600 mb-2">{project.description}</p>
-                <p className="text-xs text-accent font-bold uppercase">{project.date}</p>
+                <div className="p-6">
+                  <h3 className="font-heading font-bold text-primary text-lg mb-2">{project.title}</h3>
+                  <p className="text-sm text-gray-600 mb-2">{project.description}</p>
+                  <span className="text-xs text-accent font-bold uppercase">View Project →</span>
+                </div>
               </Link>
             ))}
           </div>

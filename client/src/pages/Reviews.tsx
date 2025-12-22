@@ -1,9 +1,47 @@
+import { useState } from "react";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/ui/button";
 import { reviews } from "@/lib/data";
 import { Link } from "wouter";
+
+function ExpandableReview({ review, idx }: { review: typeof reviews[0], idx: number }) {
+  const [expanded, setExpanded] = useState(false);
+  const isLong = review.text.length > 200;
+  const displayText = isLong && !expanded ? review.text.slice(0, 200) + "..." : review.text;
+
+  return (
+    <div 
+      data-testid={`card-review-${idx}`}
+      className="bg-gray-50 p-8"
+    >
+      <div className="flex text-accent mb-4">
+        {[...Array(review.rating)].map((_, i) => (
+          <span key={i} className="text-xl">★</span>
+        ))}
+      </div>
+      <p className="text-gray-700 italic mb-4 text-lg leading-relaxed whitespace-pre-line">
+        "{displayText}"
+      </p>
+      {isLong && (
+        <button 
+          onClick={() => setExpanded(!expanded)}
+          className="text-accent font-bold text-sm uppercase tracking-wider mb-4 hover:underline cursor-pointer"
+          data-testid={`button-expand-review-${idx}`}
+        >
+          {expanded ? "Show Less" : "Read More"}
+        </button>
+      )}
+      <div className="flex justify-between items-center pt-4 border-t border-gray-200">
+        <div>
+          <p className="font-bold text-primary">{review.name}</p>
+          <p className="text-sm text-gray-500">{review.location}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default function Reviews() {
   return (
@@ -27,26 +65,7 @@ export default function Reviews() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mb-12">
           {reviews.map((review, idx) => (
-            <div 
-              key={idx}
-              data-testid={`card-review-${idx}`}
-              className="bg-gray-50 p-8"
-            >
-              <div className="flex text-accent mb-4">
-                {[...Array(review.rating)].map((_, i) => (
-                  <span key={i} className="text-xl">★</span>
-                ))}
-              </div>
-              <p className="text-gray-700 italic mb-6 text-lg leading-relaxed">
-                "{review.text}"
-              </p>
-              <div className="flex justify-between items-center pt-4 border-t border-gray-200">
-                <div>
-                  <p className="font-bold text-primary">{review.name}</p>
-                  <p className="text-sm text-gray-500">{review.location}, Mount Pleasant</p>
-                </div>
-              </div>
-            </div>
+            <ExpandableReview key={idx} review={review} idx={idx} />
           ))}
         </div>
 
@@ -78,7 +97,6 @@ export default function Reviews() {
             </div>
           </div>
         </div>
-
 
         <div className="text-center">
           <h2 className="text-2xl font-heading font-bold text-primary mb-4">

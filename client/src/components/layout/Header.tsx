@@ -8,7 +8,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { services, neighborhoods } from "@/lib/data";
-import logoImage from "@assets/generated_images/pressure_washing_company_logo_for_canmancam.png";
+import { Logo } from "@/components/Logo";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +30,7 @@ export function Header() {
 
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2">
-          <img src={logoImage} alt="CanManCam Pressure Washing" className="h-28 w-auto object-contain" />
+          <Logo className="text-4xl md:text-5xl" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6">

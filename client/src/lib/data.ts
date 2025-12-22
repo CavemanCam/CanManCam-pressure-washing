@@ -784,7 +784,7 @@ export const projects = [
     service: "House Washing",
     location: "Isle of Palms",
     description: "Complete soft wash house cleaning for an oceanfront property in Isle of Palms. Removed years of salt buildup, algae, and coastal staining from vinyl siding and painted trim.",
-    date: "December 2024"
+    image: "/assets/uploaded_images/lowcountry-home-soft-washing-front.JPEG"
   },
   { 
     slug: "driveway-cleaning-park-west", 
@@ -792,7 +792,7 @@ export const projects = [
     service: "Driveway Cleaning",
     location: "Park West",
     description: "Comprehensive driveway restoration for a Park West residence. Removed oil stains, tire marks, and algae growth from concrete driveway and walkways.",
-    date: "December 2024"
+    image: "/assets/uploaded_images/concrete-driveway-cleaning-after.JPEG"
   },
   { 
     slug: "window-cleaning-old-village", 
@@ -800,7 +800,7 @@ export const projects = [
     service: "Window Cleaning",
     location: "Old Village",
     description: "Professional window cleaning for a historic Old Village home. Cleaned all interior and exterior windows, removing hard water spots and restoring clarity to antique glass.",
-    date: "November 2024"
+    image: "/assets/uploaded_images/bay-window-exterior-cleaning.JPEG"
   },
   { 
     slug: "sidewalk-cleaning-carolina-park", 
@@ -808,7 +808,7 @@ export const projects = [
     service: "Sidewalk Cleaning",
     location: "Carolina Park",
     description: "Complete walkway and patio cleaning for a Carolina Park family home. Removed slippery algae and restored concrete brightness throughout outdoor living areas.",
-    date: "November 2024"
+    image: "/assets/uploaded_images/front-walkway-pressure-washing-01.JPEG"
   },
   { 
     slug: "gutter-cleaning-hamlin-plantation", 
@@ -816,7 +816,7 @@ export const projects = [
     service: "Gutter Cleaning",
     location: "Hamlin Plantation",
     description: "Comprehensive gutter cleaning for a large estate in Hamlin Plantation. Cleared debris from all gutters and downspouts, cleaned gutter exteriors, and ensured proper drainage.",
-    date: "October 2024"
+    image: "/assets/uploaded_images/lowcountry-home-pressure-washing-01.JPEG"
   },
   { 
     slug: "house-washing-dunes-west", 
@@ -824,7 +824,7 @@ export const projects = [
     service: "House Washing",
     location: "Dunes West",
     description: "Full exterior soft wash for a Dunes West golf course home. Removed heavy mildew growth from shaded areas and restored the home's elegant appearance.",
-    date: "October 2024"
+    image: "/assets/uploaded_images/house-washing-mount-pleasant-01.JPEG"
   },
   { 
     slug: "driveway-cleaning-crowfield", 
@@ -832,7 +832,7 @@ export const projects = [
     service: "Driveway Cleaning",
     location: "Crowfield",
     description: "Driveway and garage floor cleaning for a Crowfield residence. Removed decades of staining and restored concrete to near-original condition.",
-    date: "September 2024"
+    image: "/assets/uploaded_images/paver-walkway-pressure-washing-01.JPEG"
   },
   { 
     slug: "trash-can-cleaning-shem-creek", 
@@ -840,7 +840,7 @@ export const projects = [
     service: "Trash Can Cleaning",
     location: "Shem Creek",
     description: "Sanitization service for a Shem Creek condominium community. Cleaned and sanitized all residential trash and recycling bins, eliminating odors and bacteria.",
-    date: "September 2024"
+    image: "/assets/uploaded_images/trash-can-cleaning-after.JPEG"
   },
   { 
     slug: "house-washing-planters-pointe", 
@@ -848,7 +848,7 @@ export const projects = [
     service: "House Washing",
     location: "Planters Pointe",
     description: "Complete house washing for a Planters Pointe home preparing for sale. Transformed the exterior appearance and dramatically improved curb appeal.",
-    date: "August 2024"
+    image: "/assets/uploaded_images/lowcountry-home-soft-washing-side.JPEG"
   },
   { 
     slug: "sidewalk-cleaning-long-point", 
@@ -856,7 +856,7 @@ export const projects = [
     service: "Sidewalk Cleaning",
     location: "Long Point",
     description: "Pool deck and patio cleaning for a waterfront Long Point property. Removed algae and salt deposits from all hardscape surfaces.",
-    date: "August 2024"
+    image: "/assets/uploaded_images/paver-patio-cleaning-mount-pleasant-01.JPEG"
   },
   { 
     slug: "window-cleaning-lexington-park", 
@@ -864,7 +864,7 @@ export const projects = [
     service: "Window Cleaning",
     location: "Lexington Park",
     description: "Complete window cleaning for a two-story Lexington Park home. Cleaned all windows inside and out, including screen cleaning and track detailing.",
-    date: "July 2024"
+    image: "/assets/uploaded_images/screened-porch-cleaning-mount-pleasant.JPEG"
   },
   { 
     slug: "gutter-cleaning-pin-oak", 
@@ -872,7 +872,7 @@ export const projects = [
     service: "Gutter Cleaning",
     location: "Pin Oak",
     description: "Fall gutter cleaning service for a Pin Oak residence surrounded by mature trees. Cleared heavy debris accumulation and restored proper drainage.",
-    date: "July 2024"
+    image: "/assets/uploaded_images/lowcountry-sunroom-cleaning.JPEG"
   }
 ];
 
@@ -880,13 +880,13 @@ export const reviews = [
   {
     name: "Nikki Hill Johnson",
     rating: 5,
-    text: "CanManCam did an awesome job. They powerwashed our home, porches, sidewalks, detached garage, deck & brick columns. Everything is so clean. I would recommend this company & know they would do a fantastic job.",
-    location: "Park West"
+    text: "We had Camrin pressure wash our house (including gutters), (very) long driveway, sidewalk, walkways, front porch, and deck, and the results were honestly incredible. It had been about four years since our last pressure washing, and he didn't rush anything. He went over tough spots five or six times to make sure they were actually clean, not just \"good enough.\"\n\nThe before and after was amazing. My kids came home from school and asked if he painted the house because it looked that different. ha!\n\nCamrin was extremely professional, communicated clearly from start to finish, showed up when he said he would, and was friendly and easy to work with the entire time. The price was very fair for the amount of work and the level of detail he put in.\n\nIf you're looking for someone who truly cares about doing the job right and takes pride in their work, Camrin is your guy. We'll absolutely be using him again and recommending him to neighbors.",
+    location: "Mount Pleasant"
   },
   {
     name: "Victor Dawkes",
     rating: 5,
-    text: "They did a fantastic job! Very communicative, arrived early, got the job done quickly and thoroughly. Our house and deck look like new. We couldn't have asked for a smoother process!",
-    location: "Isle of Palms"
+    text: "We were so pleased with the finished product. He performed the power washing in a timely manner and it showed his attention to detail. Will use him for power washing our entire home in the spring. Job well done.",
+    location: "Mount Pleasant"
   }
 ];
