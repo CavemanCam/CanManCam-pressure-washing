@@ -22,7 +22,6 @@ export function Footer() {
             <li><Link href="/about" className="hover:text-accent transition-colors">About Us</Link></li>
             <li><Link href="/services" className="hover:text-accent transition-colors">Our Services</Link></li>
             <li><Link href="/reviews" className="hover:text-accent transition-colors">Reviews</Link></li>
-            <li><Link href="/projects" className="hover:text-accent transition-colors">Recent Projects</Link></li>
             <li><Link href="/contact" className="hover:text-accent transition-colors">Contact Us</Link></li>
             <li><Link href="/price-beat-guarantee" className="hover:text-accent transition-colors">Price Beat Guarantee</Link></li>
           </ul>

@@ -87,7 +87,6 @@ export function Header() {
 
           <NavLink href="/pressure-washing-tips">BLOG</NavLink>
           <NavLink href="/reviews">REVIEWS</NavLink>
-          <NavLink href="/projects">PROJECTS</NavLink>
           <NavLink href="/contact">CONTACT</NavLink>
           
           <Button asChild className="bg-accent hover:bg-accent/90 text-white font-bold uppercase tracking-wider rounded-none">
@@ -114,7 +113,6 @@ export function Header() {
           <Link href="/service-areas" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>NEIGHBORHOODS</Link>
           <Link href="/pressure-washing-tips" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>BLOG</Link>
           <Link href="/reviews" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>REVIEWS</Link>
-          <Link href="/projects" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>PROJECTS</Link>
           <Link href="/contact" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>CONTACT</Link>
           <Button asChild className="bg-accent hover:bg-accent/90 w-full mt-2 rounded-none">
             <a href="https://clienthub.getjobber.com/hubs/bb7e70fa-ec16-417a-9059-46487bf60acb/public/requests/2107339/new" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>

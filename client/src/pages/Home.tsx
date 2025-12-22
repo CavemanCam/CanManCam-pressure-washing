@@ -2,12 +2,12 @@ import { useState } from "react";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { services, reviews, projects } from "@/lib/data";
-import heroImage from "@assets/stock_images/pressure_washing_hou_08430493.jpg";
-import houseSidingImage from "@assets/uploaded_images/soft-washing-house-siding-after.JPEG";
+import { services, reviews } from "@/lib/data";
+import heroImage from "@assets/uploaded_images/mount-pleasant-lowcountry-home-exterior-hero.png";
+import houseWashingImage from "@assets/uploaded_images/house-washing-siding-exterior-cleaning.png";
 import drivewayImage from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
 import sidewalkImage from "@assets/uploaded_images/pressure-washing-sidewalk-mount-pleasant.JPEG";
-import patioImage from "@assets/uploaded_images/pressure-washing-patio-after.JPEG";
+import gutterCleaningImage from "@assets/uploaded_images/gutter-cleaning-service-mount-pleasant.png";
 import trashCanImage from "@assets/uploaded_images/trash-can-cleaning-after.JPEG";
 import { Link } from "wouter";
 
@@ -40,11 +40,11 @@ function ExpandableHomeReview({ review, idx }: { review: typeof reviews[0], idx:
 
 export default function Home() {
   const serviceImages: Record<string, string> = {
-    "house-washing": houseSidingImage,
+    "house-washing": houseWashingImage,
     "driveway-cleaning": drivewayImage,
     "sidewalk-cleaning": sidewalkImage,
-    "gutter-cleaning": patioImage,
-    "window-cleaning": houseSidingImage,
+    "gutter-cleaning": gutterCleaningImage,
+    "window-cleaning": houseWashingImage,
     "trash-can-cleaning": trashCanImage
   };
 
@@ -220,49 +220,6 @@ export default function Home() {
               className="border-2 border-primary text-primary hover:bg-primary hover:text-white uppercase font-bold tracking-wide rounded-none"
             >
               <Link href="/reviews">Read More Reviews</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      <section data-testid="projects-section" className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-heading font-bold text-primary mb-4">RECENT PROJECTS</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">See the difference professional pressure washing makes. Browse our recent projects throughout Mount Pleasant neighborhoods.</p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            {projects.slice(0, 3).map((project) => (
-              <Link 
-                key={project.slug} 
-                href={`/projects/${project.slug}`}
-                data-testid={`card-project-${project.slug}`} 
-                className="block bg-white hover:shadow-lg transition-shadow overflow-hidden"
-              >
-                <div className="h-40 overflow-hidden">
-                  <img 
-                    src={project.image} 
-                    alt={`${project.title} - ${project.service} in ${project.location}`}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-heading font-bold text-primary text-lg mb-2">{project.title}</h3>
-                  <p className="text-sm text-gray-600 mb-2">{project.description}</p>
-                  <span className="text-xs text-accent font-bold uppercase">View Project →</span>
-                </div>
-              </Link>
-            ))}
-          </div>
-          
-          <div className="text-center mt-12">
-            <Button 
-              asChild 
-              data-testid="button-view-projects"
-              className="bg-accent hover:bg-accent/90 text-white font-bold uppercase tracking-wider px-8 py-6 h-auto rounded-none"
-            >
-              <Link href="/projects">View All Projects</Link>
             </Button>
           </div>
         </div>
