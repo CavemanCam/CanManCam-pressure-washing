@@ -5,6 +5,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/ui/button";
 import { blogPosts, services, neighborhoods } from "@/lib/data";
 import { Link } from "wouter";
+import { LinkedParagraph } from "@/lib/contentLinks";
 
 export default function BlogDetail() {
   const [match, params] = useRoute("/pressure-washing-tips/:slug");
@@ -44,9 +45,12 @@ export default function BlogDetail() {
 
           <div className="prose prose-lg max-w-none mb-12">
             {post.content.split('\n\n').map((paragraph, idx) => (
-              <p key={idx} className="text-base leading-relaxed text-gray-700 mb-6">
-                {paragraph}
-              </p>
+              <LinkedParagraph 
+                key={idx} 
+                text={paragraph}
+                excludeHrefs={[`/pressure-washing-tips/${post.slug}`]}
+                maxLinks={idx < 4 ? 2 : 1}
+              />
             ))}
           </div>
 

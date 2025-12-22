@@ -6,6 +6,7 @@ import { PriceBeatGuarantee } from "@/components/PriceBeatGuarantee";
 import { Button } from "@/components/ui/button";
 import { services, neighborhoods, blogPosts } from "@/lib/data";
 import { Link } from "wouter";
+import { LinkedParagraph } from "@/lib/contentLinks";
 
 export default function NeighborhoodDetail() {
   const [match, params] = useRoute("/sc/:slug");
@@ -41,17 +42,23 @@ export default function NeighborhoodDetail() {
         </p>
 
         <div className="prose prose-lg max-w-4xl mb-12">
-          <p className="text-base leading-relaxed text-gray-700 mb-6">
-            {neighborhood.description}
-          </p>
+          <LinkedParagraph 
+            text={neighborhood.description}
+            excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
+            maxLinks={3}
+          />
           
-          <p className="text-base leading-relaxed text-gray-700 mb-6">
-            {neighborhood.characteristics}
-          </p>
+          <LinkedParagraph 
+            text={neighborhood.characteristics}
+            excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
+            maxLinks={3}
+          />
 
-          <p className="text-base leading-relaxed text-gray-700 mb-6">
-            {neighborhood.content}
-          </p>
+          <LinkedParagraph 
+            text={neighborhood.content}
+            excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
+            maxLinks={4}
+          />
 
           <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">
             SERVICES AVAILABLE IN {neighborhood.name.toUpperCase()}

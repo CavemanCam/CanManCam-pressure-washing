@@ -6,6 +6,7 @@ import { PriceBeatGuarantee } from "@/components/PriceBeatGuarantee";
 import { Button } from "@/components/ui/button";
 import { services, neighborhoods, blogPosts } from "@/lib/data";
 import { Link } from "wouter";
+import { LinkedParagraph } from "@/lib/contentLinks";
 
 import houseWashing1 from "@assets/uploaded_images/house-washing-siding-exterior-cleaning.png";
 import houseWashing2 from "@assets/uploaded_images/soft-washing-house-siding-after.JPEG";
@@ -96,9 +97,12 @@ export default function ServiceDetail() {
 
         <div className="prose prose-lg max-w-4xl mb-12">
           {service.fullDescription.split('\n\n').map((paragraph, idx) => (
-            <p key={idx} className="text-base leading-relaxed text-gray-700 mb-6">
-              {paragraph}
-            </p>
+            <LinkedParagraph 
+              key={idx} 
+              text={paragraph}
+              excludeHrefs={[`/services/${service.slug}`]}
+              maxLinks={idx < 3 ? 2 : 1}
+            />
           ))}
 
           <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">
