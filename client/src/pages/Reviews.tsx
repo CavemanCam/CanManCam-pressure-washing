@@ -1,78 +1,134 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { Card, CardContent } from "@/components/ui/card";
-import { Star } from "lucide-react";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { Button } from "@/components/ui/button";
+import { reviews } from "@/lib/data";
+import { Link } from "wouter";
 
 export default function Reviews() {
-  const reviews = [
-    {
-      name: "Sarah Jenkins",
-      date: "2 weeks ago",
-      rating: 5,
-      text: "CanManCam did an amazing job on our house and driveway! The team was professional, on time, and the results exceeded our expectations. Our home looks brand new again. Highly recommend!"
-    },
-    {
-      name: "Mike Thompson",
-      date: "1 month ago",
-      rating: 5,
-      text: "I called for a quote and got a response immediately. They came out the next day to clean my roof and gutters. Very fair pricing and excellent service. Will definitely use them again."
-    },
-    {
-      name: "Emily Davis",
-      date: "2 months ago",
-      rating: 5,
-      text: "Best pressure washing service in Mount Pleasant! They were careful with my plants and outdoor furniture. The soft wash on the siding made such a huge difference."
-    },
-    {
-      name: "Robert Wilson",
-      date: "3 months ago",
-      rating: 5,
-      text: "Professional, courteous, and detailed. They even cleaned a walkway I didn't ask for. Great attention to detail. 5 stars all the way."
-    },
-    {
-      name: "Jessica Brown",
-      date: "4 months ago",
-      rating: 5,
-      text: "My driveway was covered in oil stains and algae. CanManCam removed it all. It looks like fresh concrete now. Thank you!"
-    },
-    {
-      name: "David Miller",
-      date: "5 months ago",
-      rating: 5,
-      text: "Commercial service was top notch. Cleaned our storefront and sidewalk overnight so we didn't disrupt customers. Great job."
-    }
-  ];
-
   return (
-    <div className="min-h-screen flex flex-col font-body">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="bg-primary py-20 text-center text-white">
-        <h1 className="text-5xl font-heading font-bold">Customer Reviews</h1>
-        <p className="mt-4 text-xl opacity-90">See what your neighbors are saying about us</p>
-      </div>
-      
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {reviews.map((review, index) => (
-            <Card key={index} className="border-none shadow-md bg-gray-50 hover:bg-white transition-colors">
-              <CardContent className="p-6">
-                <div className="flex justify-between items-start mb-4">
-                  <div>
-                    <h4 className="font-bold text-lg text-primary">{review.name}</h4>
-                    <span className="text-xs text-gray-400">{review.date}</span>
-                  </div>
-                  <div className="flex text-accent">
-                    {[...Array(review.rating)].map((_, i) => (
-                      <Star key={i} className="h-4 w-4 fill-current" />
-                    ))}
-                  </div>
+      <Breadcrumb items={[{ label: "Reviews", href: "/reviews" }]} />
+
+      <main className="flex-grow container mx-auto px-4 py-12">
+        <h1 
+          data-testid="text-reviews-title"
+          className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
+        >
+          WHAT MOUNT PLEASANT CUSTOMERS SAY ABOUT CANMANCAM
+        </h1>
+        <p className="text-lg text-gray-600 mb-4">
+          Don't just take our word for it. Read what our customers have to say about their experience with CanManCam Pressure Washing.
+        </p>
+        <p className="text-base text-gray-500 mb-12">
+          We're proud to serve the Mount Pleasant community with professional pressure washing services. Our 5-star reviews reflect our commitment to quality, customer service, and outstanding results.
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mb-12">
+          {reviews.map((review, idx) => (
+            <div 
+              key={idx}
+              data-testid={`card-review-${idx}`}
+              className="bg-gray-50 p-8"
+            >
+              <div className="flex text-accent mb-4">
+                {[...Array(review.rating)].map((_, i) => (
+                  <span key={i} className="text-xl">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 italic mb-6 text-lg leading-relaxed">
+                "{review.text}"
+              </p>
+              <div className="flex justify-between items-center pt-4 border-t border-gray-200">
+                <div>
+                  <p className="font-bold text-primary">{review.name}</p>
+                  <p className="text-sm text-gray-500">{review.location}, Mount Pleasant</p>
                 </div>
-                <p className="text-gray-600 italic">"{review.text}"</p>
-              </CardContent>
-            </Card>
+                <p className="text-xs text-gray-400">{review.date}</p>
+              </div>
+            </div>
           ))}
         </div>
-      </div>
+
+        <div className="bg-primary text-white p-8 mb-12">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+              <h2 className="text-2xl font-heading font-bold mb-4">
+                LEAVE YOUR REVIEW ON GOOGLE
+              </h2>
+              <p className="text-gray-200 mb-4">
+                Had a great experience with CanManCam? We'd love to hear about it! Leave us a review on Google to help other Mount Pleasant homeowners find quality pressure washing services.
+              </p>
+              <Button 
+                asChild 
+                data-testid="button-google-review"
+                className="bg-accent hover:bg-accent/90 text-white font-bold uppercase rounded-none"
+              >
+                <a href="https://g.page/r/CanManCam/review" target="_blank" rel="noopener noreferrer">
+                  Leave a Google Review
+                </a>
+              </Button>
+            </div>
+            <div className="text-center">
+              <div className="text-6xl font-heading font-bold text-accent mb-2">5.0</div>
+              <div className="flex justify-center text-accent mb-2">
+                {[...Array(5)].map((_, i) => <span key={i} className="text-2xl">★</span>)}
+              </div>
+              <p className="text-gray-200">Google Rating</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-gray-50 p-8 mb-12">
+          <h2 className="text-2xl font-heading font-bold text-primary mb-4">
+            WHY CUSTOMERS CHOOSE CANMANCAM
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="text-center p-4">
+              <div className="text-3xl font-heading font-bold text-accent mb-2">100%</div>
+              <p className="text-gray-600">Satisfaction Guaranteed</p>
+            </div>
+            <div className="text-center p-4">
+              <div className="text-3xl font-heading font-bold text-accent mb-2">5%</div>
+              <p className="text-gray-600">Price Beat Guarantee</p>
+            </div>
+            <div className="text-center p-4">
+              <div className="text-3xl font-heading font-bold text-accent mb-2">12+</div>
+              <p className="text-gray-600">Neighborhoods Served</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="text-center">
+          <h2 className="text-2xl font-heading font-bold text-primary mb-4">
+            READY TO EXPERIENCE THE CANMANCAM DIFFERENCE?
+          </h2>
+          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+            Join our satisfied customers throughout Mount Pleasant. Get a free estimate today and see why homeowners trust CanManCam for their pressure washing needs.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button 
+              asChild 
+              data-testid="button-reviews-estimate"
+              className="bg-accent hover:bg-accent/90 text-white font-bold uppercase px-8 py-6 h-auto rounded-none"
+            >
+              <a href="https://clienthub.getjobber.com/hubs/bb7e70fa-ec16-417a-9059-46487bf60acb/public/requests/2107339/new" target="_blank" rel="noopener noreferrer">
+                Get Free Estimate
+              </a>
+            </Button>
+            <Button 
+              asChild 
+              variant="outline"
+              data-testid="button-reviews-services"
+              className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold uppercase px-8 py-6 h-auto rounded-none"
+            >
+              <Link href="/services">View Our Services</Link>
+            </Button>
+          </div>
+        </div>
+      </main>
+
       <Footer />
     </div>
   );
