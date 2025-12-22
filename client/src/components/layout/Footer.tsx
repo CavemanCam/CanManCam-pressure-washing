@@ -11,10 +11,6 @@ export function Footer() {
           <p className="text-gray-300 leading-relaxed">
             CanManCam is Mount Pleasant's most trusted pressure washing company. We provide top-tier exterior cleaning services with a satisfaction guarantee.
           </p>
-          <div className="flex gap-4 mt-2">
-            <span className="bg-secondary p-2 text-white font-bold text-sm cursor-pointer hover:bg-accent transition-colors">FB</span>
-            <span className="bg-secondary p-2 text-white font-bold text-sm cursor-pointer hover:bg-accent transition-colors">IG</span>
-          </div>
         </div>
 
         <div>

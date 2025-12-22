@@ -41,16 +41,16 @@ export function Header() {
               ABOUT ▾
             </DropdownMenuTrigger>
             <DropdownMenuContent className="rounded-none">
-              <DropdownMenuItem className="rounded-none" asChild>
+              <DropdownMenuItem className="rounded-none cursor-pointer" asChild>
                 <Link href="/about">About Us</Link>
               </DropdownMenuItem>
-              <DropdownMenuItem className="rounded-none" asChild>
+              <DropdownMenuItem className="rounded-none cursor-pointer" asChild>
                 <Link href="/pressure-washing-faq">FAQ</Link>
               </DropdownMenuItem>
-              <DropdownMenuItem className="rounded-none" asChild>
+              <DropdownMenuItem className="rounded-none cursor-pointer" asChild>
                 <Link href="/service-areas">Service Areas</Link>
               </DropdownMenuItem>
-              <DropdownMenuItem className="rounded-none" asChild>
+              <DropdownMenuItem className="rounded-none cursor-pointer" asChild>
                 <Link href="/feedback">Submit Feedback</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
@@ -61,11 +61,11 @@ export function Header() {
               SERVICES ▾
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56 rounded-none">
-              <DropdownMenuItem className="rounded-none" asChild>
+              <DropdownMenuItem className="rounded-none cursor-pointer" asChild>
                 <Link href="/services">All Services</Link>
               </DropdownMenuItem>
               {services.map((service) => (
-                <DropdownMenuItem key={service.slug} className="rounded-none" asChild>
+                <DropdownMenuItem key={service.slug} className="rounded-none cursor-pointer" asChild>
                   <Link href={`/services/${service.slug}`}>{service.name}</Link>
                 </DropdownMenuItem>
               ))}
@@ -76,9 +76,9 @@ export function Header() {
             <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none">
               NEIGHBORHOODS ▾
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-56 max-h-96 overflow-y-auto rounded-none">
+            <DropdownMenuContent className="w-56 rounded-none">
               {neighborhoods.map((neighborhood) => (
-                <DropdownMenuItem key={neighborhood.slug} className="rounded-none" asChild>
+                <DropdownMenuItem key={neighborhood.slug} className="rounded-none cursor-pointer" asChild>
                   <Link href={`/sc/${neighborhood.slug}-pressure-washing`}>{neighborhood.name}</Link>
                 </DropdownMenuItem>
               ))}

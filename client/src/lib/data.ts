@@ -878,17 +878,15 @@ export const projects = [
 
 export const reviews = [
   {
-    name: "Sarah M.",
+    name: "Nikki Hill Johnson",
     rating: 5,
     text: "CanManCam did an awesome job. They powerwashed our home, porches, sidewalks, detached garage, deck & brick columns. Everything is so clean. I would recommend this company & know they would do a fantastic job.",
-    location: "Park West",
-    date: "November 2024"
+    location: "Park West"
   },
   {
-    name: "Michael T.",
+    name: "Victor Dawkes",
     rating: 5,
     text: "They did a fantastic job! Very communicative, arrived early, got the job done quickly and thoroughly. Our house and deck look like new. We couldn't have asked for a smoother process!",
-    location: "Isle of Palms",
-    date: "October 2024"
+    location: "Isle of Palms"
   }
 ];

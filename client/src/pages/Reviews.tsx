@@ -45,7 +45,6 @@ export default function Reviews() {
                   <p className="font-bold text-primary">{review.name}</p>
                   <p className="text-sm text-gray-500">{review.location}, Mount Pleasant</p>
                 </div>
-                <p className="text-xs text-gray-400">{review.date}</p>
               </div>
             </div>
           ))}
@@ -65,7 +64,7 @@ export default function Reviews() {
                 data-testid="button-google-review"
                 className="bg-accent hover:bg-accent/90 text-white font-bold uppercase rounded-none"
               >
-                <a href="https://g.page/r/CanManCam/review" target="_blank" rel="noopener noreferrer">
+                <a href="https://g.page/r/CYM5xsjZAqS2EBM/review" target="_blank" rel="noopener noreferrer">
                   Leave a Google Review
                 </a>
               </Button>
@@ -80,25 +79,6 @@ export default function Reviews() {
           </div>
         </div>
 
-        <div className="bg-gray-50 p-8 mb-12">
-          <h2 className="text-2xl font-heading font-bold text-primary mb-4">
-            WHY CUSTOMERS CHOOSE CANMANCAM
-          </h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="text-center p-4">
-              <div className="text-3xl font-heading font-bold text-accent mb-2">100%</div>
-              <p className="text-gray-600">Satisfaction Guaranteed</p>
-            </div>
-            <div className="text-center p-4">
-              <div className="text-3xl font-heading font-bold text-accent mb-2">5%</div>
-              <p className="text-gray-600">Price Beat Guarantee</p>
-            </div>
-            <div className="text-center p-4">
-              <div className="text-3xl font-heading font-bold text-accent mb-2">12+</div>
-              <p className="text-gray-600">Neighborhoods Served</p>
-            </div>
-          </div>
-        </div>
 
         <div className="text-center">
           <h2 className="text-2xl font-heading font-bold text-primary mb-4">
