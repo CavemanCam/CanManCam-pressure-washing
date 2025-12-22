@@ -12,21 +12,21 @@ export function Footer() {
             CanManCam is Mount Pleasant's most trusted pressure washing company. We provide top-tier exterior cleaning services with a satisfaction guarantee.
           </p>
           <div className="flex gap-4 mt-2">
-            <a href="#" className="bg-secondary p-2 hover:bg-accent transition-colors text-white font-bold text-sm">FB</a>
-            <a href="#" className="bg-secondary p-2 hover:bg-accent transition-colors text-white font-bold text-sm">IG</a>
+            <span className="bg-secondary p-2 text-white font-bold text-sm cursor-pointer hover:bg-accent transition-colors">FB</span>
+            <span className="bg-secondary p-2 text-white font-bold text-sm cursor-pointer hover:bg-accent transition-colors">IG</span>
           </div>
         </div>
 
         <div>
           <h3 className="text-xl font-heading font-bold mb-6 text-accent">QUICK LINKS</h3>
           <ul className="space-y-3">
-            <li><Link href="/"><a className="hover:text-accent transition-colors">Home</a></Link></li>
-            <li><Link href="/about"><a className="hover:text-accent transition-colors">About Us</a></Link></li>
-            <li><Link href="/services"><a className="hover:text-accent transition-colors">Our Services</a></Link></li>
-            <li><Link href="/reviews"><a className="hover:text-accent transition-colors">Reviews</a></Link></li>
-            <li><Link href="/projects"><a className="hover:text-accent transition-colors">Recent Projects</a></Link></li>
-            <li><Link href="/contact"><a className="hover:text-accent transition-colors">Contact Us</a></Link></li>
-            <li><Link href="/price-beat-guarantee"><a className="hover:text-accent transition-colors">Price Beat Guarantee</a></Link></li>
+            <li><Link href="/" className="hover:text-accent transition-colors">Home</Link></li>
+            <li><Link href="/about" className="hover:text-accent transition-colors">About Us</Link></li>
+            <li><Link href="/services" className="hover:text-accent transition-colors">Our Services</Link></li>
+            <li><Link href="/reviews" className="hover:text-accent transition-colors">Reviews</Link></li>
+            <li><Link href="/projects" className="hover:text-accent transition-colors">Recent Projects</Link></li>
+            <li><Link href="/contact" className="hover:text-accent transition-colors">Contact Us</Link></li>
+            <li><Link href="/price-beat-guarantee" className="hover:text-accent transition-colors">Price Beat Guarantee</Link></li>
           </ul>
         </div>
 
@@ -35,8 +35,8 @@ export function Footer() {
           <ul className="space-y-3">
             {services.map((service) => (
               <li key={service.slug}>
-                <Link href={`/services/${service.slug}`}>
-                  <a className="hover:text-accent transition-colors">{service.name}</a>
+                <Link href={`/services/${service.slug}`} className="hover:text-accent transition-colors">
+                  {service.name}
                 </Link>
               </li>
             ))}
@@ -73,13 +73,13 @@ export function Footer() {
 
       <div className="container mx-auto px-4 border-t border-white/10 pt-8">
         <div className="flex flex-wrap justify-center gap-4 mb-6 text-sm">
-          <Link href="/sitemap"><a className="hover:text-accent transition-colors">Sitemap</a></Link>
+          <Link href="/sitemap" className="hover:text-accent transition-colors">Sitemap</Link>
           <span className="text-gray-500">|</span>
-          <Link href="/privacy"><a className="hover:text-accent transition-colors">Privacy Policy</a></Link>
+          <Link href="/privacy" className="hover:text-accent transition-colors">Privacy Policy</Link>
           <span className="text-gray-500">|</span>
-          <Link href="/terms"><a className="hover:text-accent transition-colors">Terms of Use</a></Link>
+          <Link href="/terms" className="hover:text-accent transition-colors">Terms of Use</Link>
           <span className="text-gray-500">|</span>
-          <Link href="/feedback"><a className="hover:text-accent transition-colors">Feedback</a></Link>
+          <Link href="/feedback" className="hover:text-accent transition-colors">Feedback</Link>
         </div>
         <p className="text-center text-sm text-gray-400">
           &copy; {new Date().getFullYear()} CanManCam Pressure Washing. All Rights Reserved. Serving Mount Pleasant, SC.

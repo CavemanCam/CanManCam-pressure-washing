@@ -32,10 +32,12 @@ export default function Terms() {
             <p className="text-gray-700 mb-4">CanManCam provides professional pressure washing and related exterior cleaning services in Mount Pleasant, SC and surrounding areas, including:</p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
               {services.map((service) => (
-                <Link key={service.slug} href={`/services/${service.slug}`}>
-                  <a className="p-2 bg-gray-50 text-center text-sm text-primary hover:bg-gray-100 transition-colors">
-                    {service.name}
-                  </a>
+                <Link 
+                  key={service.slug} 
+                  href={`/services/${service.slug}`}
+                  className="p-2 bg-gray-50 text-center text-sm text-primary hover:bg-gray-100 transition-colors"
+                >
+                  {service.name}
                 </Link>
               ))}
             </div>
@@ -44,7 +46,7 @@ export default function Terms() {
           <section>
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">ESTIMATES AND PRICING</h2>
             <p className="text-gray-700 leading-relaxed">
-              All estimates are provided in good faith based on information available at the time of assessment. Actual costs may vary based on site conditions, project scope, and unforeseen circumstances discovered during work. Final pricing will be confirmed before work begins. Our <Link href="/price-beat-guarantee"><a className="text-accent hover:underline">Price Beat Guarantee</a></Link> applies subject to its stated terms and conditions.
+              All estimates are provided in good faith based on information available at the time of assessment. Actual costs may vary based on site conditions, project scope, and unforeseen circumstances discovered during work. Final pricing will be confirmed before work begins. Our <Link href="/price-beat-guarantee" className="text-accent hover:underline">Price Beat Guarantee</Link> applies subject to its stated terms and conditions.
             </p>
           </section>
 
@@ -98,15 +100,9 @@ export default function Terms() {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <h3 className="font-bold text-primary mb-4">RELATED PAGES</h3>
           <div className="flex flex-wrap gap-4">
-            <Link href="/privacy">
-              <a className="text-accent hover:underline">Privacy Policy</a>
-            </Link>
-            <Link href="/price-beat-guarantee">
-              <a className="text-accent hover:underline">Price Beat Guarantee</a>
-            </Link>
-            <Link href="/contact">
-              <a className="text-accent hover:underline">Contact Us</a>
-            </Link>
+            <Link href="/privacy" className="text-accent hover:underline">Privacy Policy</Link>
+            <Link href="/price-beat-guarantee" className="text-accent hover:underline">Price Beat Guarantee</Link>
+            <Link href="/contact" className="text-accent hover:underline">Contact Us</Link>
           </div>
         </div>
       </main>

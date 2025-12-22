@@ -15,10 +15,8 @@ export function Header() {
   const [location] = useLocation();
 
   const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
-    <Link href={href}>
-      <a className={`text-sm font-medium transition-colors hover:text-accent ${location === href ? "text-accent" : "text-primary"}`}>
-        {children}
-      </a>
+    <Link href={href} className={`text-sm font-medium transition-colors hover:text-accent ${location === href ? "text-accent" : "text-primary"}`}>
+      {children}
     </Link>
   );
 
@@ -31,10 +29,8 @@ export function Header() {
       </div>
 
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/">
-          <a className="flex items-center gap-2">
-            <img src={logoImage} alt="CanManCam Pressure Washing" className="h-20 w-auto object-contain" />
-          </a>
+        <Link href="/" className="flex items-center gap-2">
+          <img src={logoImage} alt="CanManCam Pressure Washing" className="h-20 w-auto object-contain" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6">
@@ -45,16 +41,16 @@ export function Header() {
               ABOUT ▾
             </DropdownMenuTrigger>
             <DropdownMenuContent className="rounded-none">
-              <DropdownMenuItem className="rounded-none">
+              <DropdownMenuItem className="rounded-none" asChild>
                 <Link href="/about">About Us</Link>
               </DropdownMenuItem>
-              <DropdownMenuItem className="rounded-none">
+              <DropdownMenuItem className="rounded-none" asChild>
                 <Link href="/pressure-washing-faq">FAQ</Link>
               </DropdownMenuItem>
-              <DropdownMenuItem className="rounded-none">
+              <DropdownMenuItem className="rounded-none" asChild>
                 <Link href="/service-areas">Service Areas</Link>
               </DropdownMenuItem>
-              <DropdownMenuItem className="rounded-none">
+              <DropdownMenuItem className="rounded-none" asChild>
                 <Link href="/feedback">Submit Feedback</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
@@ -65,11 +61,11 @@ export function Header() {
               SERVICES ▾
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56 rounded-none">
-              <DropdownMenuItem className="rounded-none">
+              <DropdownMenuItem className="rounded-none" asChild>
                 <Link href="/services">All Services</Link>
               </DropdownMenuItem>
               {services.map((service) => (
-                <DropdownMenuItem key={service.slug} className="rounded-none">
+                <DropdownMenuItem key={service.slug} className="rounded-none" asChild>
                   <Link href={`/services/${service.slug}`}>{service.name}</Link>
                 </DropdownMenuItem>
               ))}
@@ -82,7 +78,7 @@ export function Header() {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56 max-h-96 overflow-y-auto rounded-none">
               {neighborhoods.map((neighborhood) => (
-                <DropdownMenuItem key={neighborhood.slug} className="rounded-none">
+                <DropdownMenuItem key={neighborhood.slug} className="rounded-none" asChild>
                   <Link href={`/sc/${neighborhood.slug}-pressure-washing`}>{neighborhood.name}</Link>
                 </DropdownMenuItem>
               ))}
@@ -112,14 +108,14 @@ export function Header() {
 
       {isOpen && (
         <div className="lg:hidden bg-white border-t border-gray-100 absolute w-full left-0 top-full shadow-lg flex flex-col p-4 gap-3 max-h-96 overflow-y-auto">
-          <Link href="/"><a className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>HOME</a></Link>
-          <Link href="/about"><a className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>ABOUT</a></Link>
-          <Link href="/services"><a className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>SERVICES</a></Link>
-          <Link href="/service-areas"><a className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>NEIGHBORHOODS</a></Link>
-          <Link href="/pressure-washing-tips"><a className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>BLOG</a></Link>
-          <Link href="/reviews"><a className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>REVIEWS</a></Link>
-          <Link href="/projects"><a className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>PROJECTS</a></Link>
-          <Link href="/contact"><a className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>CONTACT</a></Link>
+          <Link href="/" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>HOME</Link>
+          <Link href="/about" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>ABOUT</Link>
+          <Link href="/services" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>SERVICES</Link>
+          <Link href="/service-areas" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>NEIGHBORHOODS</Link>
+          <Link href="/pressure-washing-tips" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>BLOG</Link>
+          <Link href="/reviews" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>REVIEWS</Link>
+          <Link href="/projects" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>PROJECTS</Link>
+          <Link href="/contact" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>CONTACT</Link>
           <Button asChild className="bg-accent hover:bg-accent/90 w-full mt-2 rounded-none">
             <a href="https://clienthub.getjobber.com/hubs/bb7e70fa-ec16-417a-9059-46487bf60acb/public/requests/2107339/new" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
               Get Free Estimate

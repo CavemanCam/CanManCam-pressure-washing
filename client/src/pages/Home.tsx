@@ -88,23 +88,23 @@ export default function Home() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
             {services.map((service) => (
-              <Link key={service.slug} href={`/services/${service.slug}`}>
-                <a 
-                  data-testid={`card-service-${service.slug}`}
-                  className="group relative block h-64 overflow-hidden cursor-pointer"
-                >
-                  <div 
-                    className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-110"
-                    style={{ backgroundImage: `url(${serviceImages[service.slug]})` }}
-                  />
-                  <div className="absolute inset-0 bg-primary/40 group-hover:bg-primary/70 transition-all duration-300" />
-                  <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-white text-center">
-                    <h3 className="text-xl font-heading font-bold uppercase mb-2">{service.name}</h3>
-                    <p className="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 leading-relaxed">
-                      {service.shortDescription}
-                    </p>
-                  </div>
-                </a>
+              <Link 
+                key={service.slug} 
+                href={`/services/${service.slug}`}
+                data-testid={`card-service-${service.slug}`}
+                className="group relative block h-64 overflow-hidden cursor-pointer"
+              >
+                <div 
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-110"
+                  style={{ backgroundImage: `url(${serviceImages[service.slug]})` }}
+                />
+                <div className="absolute inset-0 bg-primary/40 group-hover:bg-primary/70 transition-all duration-300" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-white text-center">
+                  <h3 className="text-xl font-heading font-bold uppercase mb-2">{service.name}</h3>
+                  <p className="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 leading-relaxed">
+                    {service.shortDescription}
+                  </p>
+                </div>
               </Link>
             ))}
           </div>
@@ -215,15 +215,18 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {projects.slice(0, 3).map((project) => (
-              <Link key={project.slug} href={`/projects/${project.slug}`}>
-                <a data-testid={`card-project-${project.slug}`} className="block bg-white p-6 hover:shadow-lg transition-shadow">
-                  <div className="bg-gray-200 h-40 mb-4 flex items-center justify-center">
-                    <span className="text-gray-500 text-sm uppercase tracking-wider">Before / After</span>
-                  </div>
-                  <h3 className="font-heading font-bold text-primary text-lg mb-2">{project.title}</h3>
-                  <p className="text-sm text-gray-600 mb-2">{project.description}</p>
-                  <p className="text-xs text-accent font-bold uppercase">{project.date}</p>
-                </a>
+              <Link 
+                key={project.slug} 
+                href={`/projects/${project.slug}`}
+                data-testid={`card-project-${project.slug}`} 
+                className="block bg-white p-6 hover:shadow-lg transition-shadow"
+              >
+                <div className="bg-gray-200 h-40 mb-4 flex items-center justify-center">
+                  <span className="text-gray-500 text-sm uppercase tracking-wider">Before / After</span>
+                </div>
+                <h3 className="font-heading font-bold text-primary text-lg mb-2">{project.title}</h3>
+                <p className="text-sm text-gray-600 mb-2">{project.description}</p>
+                <p className="text-xs text-accent font-bold uppercase">{project.date}</p>
               </Link>
             ))}
           </div>
