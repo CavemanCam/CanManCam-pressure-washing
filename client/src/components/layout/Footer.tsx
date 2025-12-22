@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { services, neighborhoods } from "@/lib/data";
-import logoImage from "@assets/generated_images/canmancam_pressure_washing_logo.png";
+import logoImage from "@assets/ChatGPT_Image_Dec_22,_2025,_03_48_03_PM_1766436509771.png";
 
 export function Footer() {
   return (
