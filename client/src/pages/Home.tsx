@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { services, reviews } from "@/lib/data";
 import heroImage from "@assets/uploaded_images/mount-pleasant-lowcountry-home-exterior-hero.png";
 import houseWashingImage from "@assets/uploaded_images/house-washing-siding-exterior-cleaning.png";
@@ -51,6 +52,16 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col font-body text-gray-800">
+      <SEO
+        title="CanManCam Pressure Washing | Mount Pleasant, SC | House Washing & Driveway Cleaning"
+        description="Mount Pleasant's most trusted pressure washing company. Professional house washing, driveway cleaning, roof cleaning & more. Free estimates. Call 607-427-1175."
+        canonicalUrl="https://canmancam.replit.app/"
+        keywords="pressure washing Mount Pleasant SC, house washing, driveway cleaning, power washing, soft washing, exterior cleaning, Charleston area"
+        aggregateRating={{ ratingValue: 5.0, reviewCount: reviews.length }}
+        breadcrumbs={[
+          { name: "Home", url: "https://canmancam.replit.app/" }
+        ]}
+      />
       <Header />
 
       <section 

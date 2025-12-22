@@ -2,12 +2,23 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { services } from "@/lib/data";
 import { Link } from "wouter";
 
 export default function Services() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Pressure Washing Services Mount Pleasant, SC | CanManCam"
+        description="Professional pressure washing services in Mount Pleasant, SC. House washing, driveway cleaning, gutter cleaning, window washing & more. Free estimates."
+        canonicalUrl="https://canmancam.replit.app/services"
+        keywords="pressure washing services, house washing, driveway cleaning, gutter cleaning, window cleaning, Mount Pleasant SC, Charleston"
+        breadcrumbs={[
+          { name: "Home", url: "https://canmancam.replit.app/" },
+          { name: "Services", url: "https://canmancam.replit.app/services" }
+        ]}
+      />
       <Header />
       <Breadcrumb items={[{ label: "Services", href: "/services" }]} />
 

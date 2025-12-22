@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { services, blogPosts } from "@/lib/data";
 import { Link } from "wouter";
 
@@ -93,8 +94,23 @@ export default function FAQ() {
     }
   ];
 
+  const allFaqItems = faqs.flatMap(section => 
+    section.questions.map(q => ({ question: q.q, answer: q.a }))
+  );
+
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Pressure Washing FAQ | CanManCam Mount Pleasant, SC"
+        description="Find answers to common pressure washing questions. Learn about our services, pricing, techniques, and what to expect from professional pressure washing in Mount Pleasant."
+        canonicalUrl="https://canmancam.replit.app/pressure-washing-faq"
+        keywords="pressure washing FAQ, power washing questions, Mount Pleasant pressure washing, soft washing vs pressure washing"
+        faqItems={allFaqItems}
+        breadcrumbs={[
+          { name: "Home", url: "https://canmancam.replit.app/" },
+          { name: "FAQ", url: "https://canmancam.replit.app/pressure-washing-faq" }
+        ]}
+      />
       <Header />
       <Breadcrumb items={[{ label: "FAQ", href: "/pressure-washing-faq" }]} />
 

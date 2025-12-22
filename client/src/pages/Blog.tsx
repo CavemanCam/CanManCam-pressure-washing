@@ -2,12 +2,23 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { blogPosts } from "@/lib/data";
 import { Link } from "wouter";
 
 export default function Blog() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Pressure Washing Tips & Blog | CanManCam Mount Pleasant, SC"
+        description="Expert pressure washing tips and guides for Mount Pleasant homeowners. Learn about home maintenance, cleaning techniques, and how to protect your property."
+        canonicalUrl="https://canmancam.replit.app/pressure-washing-tips"
+        keywords="pressure washing tips, power washing guide, home maintenance Mount Pleasant, exterior cleaning advice, Charleston pressure washing blog"
+        breadcrumbs={[
+          { name: "Home", url: "https://canmancam.replit.app/" },
+          { name: "Blog", url: "https://canmancam.replit.app/pressure-washing-tips" }
+        ]}
+      />
       <Header />
       <Breadcrumb items={[{ label: "Pressure Washing Tips", href: "/pressure-washing-tips" }]} />
 

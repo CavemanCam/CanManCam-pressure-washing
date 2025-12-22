@@ -4,6 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { PriceBeatGuarantee } from "@/components/PriceBeatGuarantee";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { services, neighborhoods, blogPosts } from "@/lib/data";
 import { Link } from "wouter";
 import { LinkedParagraph } from "@/lib/contentLinks";
@@ -59,8 +60,29 @@ export default function ServiceDetail() {
   const otherServices = services.filter(s => s.slug !== service.slug).slice(0, 3);
   const images = serviceImages[service.slug];
 
+  const faqItems = service.faq?.map(f => ({ question: f.question, answer: f.answer })) || [];
+
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title={`${service.name} Mount Pleasant, SC | CanManCam Pressure Washing`}
+        description={service.shortDescription || service.description}
+        canonicalUrl={`https://canmancam.replit.app/services/${service.slug}`}
+        keywords={`${service.name.toLowerCase()}, ${service.name.toLowerCase()} Mount Pleasant SC, ${service.name.toLowerCase()} Charleston, pressure washing services`}
+        service={{
+          name: service.name,
+          description: service.description,
+          provider: "CanManCam Pressure Washing",
+          areaServed: "Mount Pleasant, SC",
+          serviceType: service.name
+        }}
+        faqItems={faqItems}
+        breadcrumbs={[
+          { name: "Home", url: "https://canmancam.replit.app/" },
+          { name: "Services", url: "https://canmancam.replit.app/services" },
+          { name: service.name, url: `https://canmancam.replit.app/services/${service.slug}` }
+        ]}
+      />
       <Header />
       
       {images && (

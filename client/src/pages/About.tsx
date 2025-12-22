@@ -2,11 +2,22 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { Link } from "wouter";
 
 export default function About() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="About CanManCam Pressure Washing | Mount Pleasant, SC"
+        description="Learn about CanManCam, Mount Pleasant's most trusted pressure washing company. Licensed, insured, and committed to quality. Free estimates available."
+        canonicalUrl="https://canmancam.replit.app/about"
+        keywords="about CanManCam, Mount Pleasant pressure washing company, Charleston pressure washing, local pressure washing business"
+        breadcrumbs={[
+          { name: "Home", url: "https://canmancam.replit.app/" },
+          { name: "About", url: "https://canmancam.replit.app/about" }
+        ]}
+      />
       <Header />
       <Breadcrumb items={[{ label: "About", href: "/about" }]} />
 

@@ -3,6 +3,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { reviews } from "@/lib/data";
 import { Link } from "wouter";
 
@@ -44,8 +45,27 @@ function ExpandableReview({ review, idx }: { review: typeof reviews[0], idx: num
 }
 
 export default function Reviews() {
+  const reviewSchemas = reviews.map(r => ({
+    author: r.name,
+    reviewBody: r.text,
+    reviewRating: r.rating,
+    datePublished: "2024-12-01"
+  }));
+
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Customer Reviews | CanManCam Pressure Washing Mount Pleasant, SC"
+        description="Read 5-star reviews from Mount Pleasant homeowners. See why CanManCam is the most trusted pressure washing company in the Charleston area."
+        canonicalUrl="https://canmancam.replit.app/reviews"
+        keywords="pressure washing reviews, Mount Pleasant pressure washing testimonials, CanManCam reviews, Charleston power washing reviews"
+        aggregateRating={{ ratingValue: 5.0, reviewCount: reviews.length }}
+        reviews={reviewSchemas}
+        breadcrumbs={[
+          { name: "Home", url: "https://canmancam.replit.app/" },
+          { name: "Reviews", url: "https://canmancam.replit.app/reviews" }
+        ]}
+      />
       <Header />
       <Breadcrumb items={[{ label: "Reviews", href: "/reviews" }]} />
 

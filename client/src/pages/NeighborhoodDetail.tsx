@@ -4,6 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { PriceBeatGuarantee } from "@/components/PriceBeatGuarantee";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { services, neighborhoods, blogPosts } from "@/lib/data";
 import { Link } from "wouter";
 import { LinkedParagraph } from "@/lib/contentLinks";
@@ -24,6 +25,17 @@ export default function NeighborhoodDetail() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title={`${neighborhood.name} Pressure Washing | Mount Pleasant, SC | CanManCam`}
+        description={`Professional pressure washing services in ${neighborhood.name}, Mount Pleasant, SC. House washing, driveway cleaning & more. Free estimates. Call 607-427-1175.`}
+        canonicalUrl={`https://canmancam.replit.app/sc/${neighborhood.slug}-pressure-washing`}
+        keywords={`${neighborhood.name} pressure washing, ${neighborhood.name} power washing, Mount Pleasant ${neighborhood.name}, Charleston area pressure washing`}
+        breadcrumbs={[
+          { name: "Home", url: "https://canmancam.replit.app/" },
+          { name: "Service Areas", url: "https://canmancam.replit.app/service-areas" },
+          { name: neighborhood.name, url: `https://canmancam.replit.app/sc/${neighborhood.slug}-pressure-washing` }
+        ]}
+      />
       <Header />
       <Breadcrumb items={[
         { label: "Service Areas", href: "/service-areas" },

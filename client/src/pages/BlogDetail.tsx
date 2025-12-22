@@ -3,6 +3,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { blogPosts, services, neighborhoods } from "@/lib/data";
 import { Link } from "wouter";
 import { LinkedParagraph } from "@/lib/contentLinks";
@@ -19,6 +20,18 @@ export default function BlogDetail() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title={`${post.title} | CanManCam Pressure Washing`}
+        description={post.metaDescription || post.answer}
+        canonicalUrl={`https://canmancam.replit.app/pressure-washing-tips/${post.slug}`}
+        keywords={`${post.title.toLowerCase()}, pressure washing tips, Mount Pleasant SC, home maintenance`}
+        ogType="article"
+        breadcrumbs={[
+          { name: "Home", url: "https://canmancam.replit.app/" },
+          { name: "Blog", url: "https://canmancam.replit.app/pressure-washing-tips" },
+          { name: post.title, url: `https://canmancam.replit.app/pressure-washing-tips/${post.slug}` }
+        ]}
+      />
       <Header />
       <Breadcrumb items={[
         { label: "Pressure Washing Tips", href: "/pressure-washing-tips" },
