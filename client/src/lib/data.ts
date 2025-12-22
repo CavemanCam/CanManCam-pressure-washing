@@ -42,13 +42,6 @@ export const neighborhoods = [
     content: "CanManCam provides comprehensive exterior cleaning services throughout Dunes West, helping residents maintain their properties' distinguished appearance. Our team understands the unique challenges of caring for homes in this beautiful, natural setting and uses techniques specifically designed for properties surrounded by mature landscaping and sensitive ecosystems. House washing services address the accelerated organic growth common in Dunes West's shaded environments. Our soft washing approach safely eliminates mold, mildew, and algae without harming nearby plants or contributing to environmental degradation. We're particularly careful around Dunes West's beautiful live oaks and other mature trees, protecting root systems and avoiding any damage to prized landscaping. Driveway cleaning removes stubborn stains, tire marks, and organic growth from concrete and pavers, while our gutter cleaning services clear debris from gutters and downspouts to ensure proper drainage. For Dunes West residents who enjoy entertaining, we also clean patios, outdoor kitchens, and pool areas to ensure these spaces are always ready for guests. Our commitment to quality and attention to detail makes CanManCam the preferred pressure washing service for Dunes West homeowners."
   },
   { 
-    name: "Crowfield", 
-    slug: "crowfield",
-    description: "Crowfield is a well-established neighborhood that offers a blend of golf course living and suburban convenience. The community features a mix of housing styles, from classic ranch homes to multi-story traditional designs, many with views of the Crowfield Golf Club's manicured fairways. Crowfield residents enjoy a quieter pace of life while still having easy access to Mount Pleasant's shops, restaurants, and amenities.",
-    characteristics: "Crowfield's mature development means many homes have original siding, roofing, and hardscapes that have weathered several decades of South Carolina seasons. The neighborhood's established trees and landscaping create shaded conditions that encourage organic growth on home exteriors. Golf course proximity can also mean exposure to irrigation overspray and fertilizer residue.",
-    content: "CanManCam is honored to serve Crowfield's established community with professional pressure washing services that help homeowners protect and maintain their properties. We understand that Crowfield homes represent years of investment and care, and we treat every property with the respect it deserves. Our experienced technicians assess each home's specific needs and use appropriate techniques for different materials and conditions. House washing services remove years of accumulated dirt, algae, and environmental staining, often revealing the home's original beauty beneath layers of grime. We're especially skilled at cleaning older siding materials that require gentle treatment to avoid damage. Driveway and sidewalk cleaning restore concrete surfaces that may have decades of oil stains, tire marks, and weathering. Our gutter cleaning services are essential for Crowfield homes surrounded by mature trees, ensuring gutters remain clear of leaves and debris throughout the year. We also offer window cleaning to brighten your home's interior and improve curb appeal. For Crowfield residents looking to refresh their home's exterior appearance without major renovations, professional pressure washing delivers dramatic results at a fraction of the cost."
-  },
-  { 
     name: "Planters Pointe", 
     slug: "planters-pointe",
     description: "Planters Pointe is a welcoming community that offers quality homes at attainable price points, making it popular with first-time homebuyers and growing families. The neighborhood features well-designed homes with attractive exteriors, community amenities, and convenient access to shopping and employment centers. Planters Pointe residents enjoy a strong sense of community and well-maintained common areas.",
@@ -413,7 +406,7 @@ When hiring a pressure washing company, ask about their experience, training, in
 
 Professional pressure washing is a safe, effective way to maintain your home's appearance and protect your investment. The key is choosing qualified professionals who understand the risks and have the training and equipment to avoid them.`,
     relatedServices: ["house-washing", "window-cleaning", "driveway-cleaning"],
-    relatedNeighborhoods: ["crowfield", "planters-pointe", "long-point"]
+    relatedNeighborhoods: ["hamlin-plantation", "planters-pointe", "long-point"]
   },
   {
     slug: "professional-pressure-washing-expectations",
@@ -477,7 +470,7 @@ Protect your driveway from damage. Avoid parking heavy vehicles that exceed your
 
 By following these maintenance practices, you'll extend the beauty of your freshly cleaned driveway and protect your concrete investment. CanManCam is here to help with professional cleaning when the time comes – and our Price Beat Guarantee ensures you'll get the best value in Mount Pleasant.`,
     relatedServices: ["driveway-cleaning", "sidewalk-cleaning", "house-washing"],
-    relatedNeighborhoods: ["carolina-park", "dunes-west", "crowfield"]
+    relatedNeighborhoods: ["carolina-park", "dunes-west", "park-west"]
   },
   {
     slug: "professional-vs-diy-pressure-washing",
@@ -537,7 +530,7 @@ Professional gutter cleaning offers advantages beyond safe cleaning technique. T
 
 CanManCam provides professional gutter cleaning services throughout Mount Pleasant. Our trained technicians safely remove debris, ensure proper drainage, and clean gutter exteriors to restore appearance. We work on homes of all sizes and configurations, from single-story ranches to multi-level estates. Contact us to schedule gutter cleaning that protects your home and keeps your gutters flowing freely.`,
     relatedServices: ["gutter-cleaning", "house-washing", "window-cleaning"],
-    relatedNeighborhoods: ["dunes-west", "crowfield", "isle-of-palms"]
+    relatedNeighborhoods: ["dunes-west", "hamlin-plantation", "isle-of-palms"]
   },
   {
     slug: "best-time-year-pressure-wash",
@@ -599,7 +592,7 @@ Professional concrete cleaning combines appropriate chemical treatments with com
 
 CanManCam specializes in concrete cleaning throughout Mount Pleasant. We assess each staining situation individually and apply treatments appropriate to the specific problems present. Our commercial equipment and professional techniques remove stubborn stains that homeowners struggle to address on their own. Contact us for a free estimate on restoring your concrete surfaces.`,
     relatedServices: ["driveway-cleaning", "sidewalk-cleaning", "house-washing"],
-    relatedNeighborhoods: ["carolina-park", "dunes-west", "crowfield"]
+    relatedNeighborhoods: ["carolina-park", "dunes-west", "park-west"]
   },
   {
     slug: "window-cleaning-professional-vs-diy",
@@ -813,11 +806,11 @@ export const projects = [
     image: "/assets/uploaded_images/house-washing-mount-pleasant-01.JPEG"
   },
   { 
-    slug: "driveway-cleaning-crowfield", 
-    title: "Driveway Cleaning in Crowfield",
+    slug: "driveway-cleaning-park-west", 
+    title: "Driveway Cleaning in Park West",
     service: "Driveway Cleaning",
-    location: "Crowfield",
-    description: "Driveway and garage floor cleaning for a Crowfield residence. Removed decades of staining and restored concrete to near-original condition.",
+    location: "Park West",
+    description: "Driveway and garage floor cleaning for a Park West residence. Removed years of staining and restored concrete to near-original condition.",
     image: "/assets/uploaded_images/paver-walkway-pressure-washing-01.JPEG"
   },
   { 
@@ -853,11 +846,11 @@ export const projects = [
     image: "/assets/uploaded_images/screened-porch-cleaning-mount-pleasant.JPEG"
   },
   { 
-    slug: "gutter-cleaning-crowfield", 
-    title: "Gutter Cleaning in Crowfield",
+    slug: "gutter-cleaning-carolina-park", 
+    title: "Gutter Cleaning in Carolina Park",
     service: "Gutter Cleaning",
-    location: "Crowfield",
-    description: "Fall gutter cleaning service for a Crowfield residence surrounded by mature trees. Cleared heavy debris accumulation and restored proper drainage.",
+    location: "Carolina Park",
+    description: "Fall gutter cleaning service for a Carolina Park residence surrounded by mature trees. Cleared heavy debris accumulation and restored proper drainage.",
     image: "/assets/uploaded_images/lowcountry-sunroom-cleaning.JPEG"
   }
 ];

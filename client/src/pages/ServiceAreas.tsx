@@ -106,7 +106,7 @@ export default function ServiceAreas() {
             </div>
           </div>
           <p className="text-gray-600 text-sm">
-            We serve Isle of Palms, Old Village, Park West, Hamlin Plantation, Carolina Park, Dunes West, Crowfield, Planters Pointe, Long Point, Shem Creek, and surrounding Mount Pleasant areas.
+            We serve Isle of Palms, Old Village, Park West, Hamlin Plantation, Carolina Park, Dunes West, Planters Pointe, Long Point, Shem Creek, and surrounding Mount Pleasant areas.
           </p>
         </div>
       </main>
