@@ -8,7 +8,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { services, neighborhoods } from "@/lib/data";
-import logoImage from "@assets/ChatGPT_Image_Dec_22,_2025,_03_48_03_PM-Picsart-BackgroundRemo_1766436716266.png";
+import logoImage from "@assets/canmancam-pressure-washing-mount-pleasant_1766437167448.png";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
