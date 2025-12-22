@@ -12,6 +12,7 @@ import NeighborhoodDetail from "@/pages/NeighborhoodDetail";
 import Contact from "@/pages/Contact";
 import Reviews from "@/pages/Reviews";
 import Projects from "@/pages/Projects";
+import ProjectDetail from "@/pages/ProjectDetail";
 import Blog from "@/pages/Blog";
 import BlogDetail from "@/pages/BlogDetail";
 import ServiceAreas from "@/pages/ServiceAreas";
@@ -35,6 +36,7 @@ function Router() {
       <Route path="/contact" component={Contact} />
       <Route path="/reviews" component={Reviews} />
       <Route path="/projects" component={Projects} />
+      <Route path="/projects/:slug" component={ProjectDetail} />
       <Route path="/pressure-washing-tips" component={Blog} />
       <Route path="/pressure-washing-tips/:slug" component={BlogDetail} />
       <Route path="/pressure-washing-faq" component={FAQ} />
