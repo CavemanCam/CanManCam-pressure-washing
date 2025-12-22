@@ -27,31 +27,31 @@ export default function Projects() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {projects.map((project) => (
-            <Link key={project.slug} href={`/projects/${project.slug}`}>
-              <a 
-                data-testid={`card-project-${project.slug}`}
-                className="block bg-white border-2 border-gray-200 hover:border-primary transition-colors"
-              >
-                <div className="bg-gray-200 h-48 flex items-center justify-center">
-                  <div className="text-center p-4">
-                    <span className="text-gray-500 text-sm uppercase tracking-wider">Before / After</span>
-                    <p className="text-xs text-gray-400 mt-1">{project.service}</p>
-                  </div>
+            <Link 
+              key={project.slug} 
+              href={`/projects/${project.slug}`}
+              data-testid={`card-project-${project.slug}`}
+              className="block bg-white border-2 border-gray-200 hover:border-primary transition-colors"
+            >
+              <div className="bg-gray-200 h-48 flex items-center justify-center">
+                <div className="text-center p-4">
+                  <span className="text-gray-500 text-sm uppercase tracking-wider">Before / After</span>
+                  <p className="text-xs text-gray-400 mt-1">{project.service}</p>
                 </div>
-                <div className="p-6">
-                  <div className="flex justify-between items-start mb-2">
-                    <span className="bg-accent text-white text-xs font-bold px-3 py-1 uppercase">
-                      {project.service}
-                    </span>
-                    <span className="text-xs text-gray-500">{project.date}</span>
-                  </div>
-                  <h3 className="text-lg font-heading font-bold text-primary mt-3 mb-2">
-                    {project.title}
-                  </h3>
-                  <p className="text-sm text-gray-600 mb-3">{project.description}</p>
-                  <span className="text-accent font-bold text-sm uppercase">View Project →</span>
+              </div>
+              <div className="p-6">
+                <div className="flex justify-between items-start mb-2">
+                  <span className="bg-accent text-white text-xs font-bold px-3 py-1 uppercase">
+                    {project.service}
+                  </span>
+                  <span className="text-xs text-gray-500">{project.date}</span>
                 </div>
-              </a>
+                <h3 className="text-lg font-heading font-bold text-primary mt-3 mb-2">
+                  {project.title}
+                </h3>
+                <p className="text-sm text-gray-600 mb-3">{project.description}</p>
+                <span className="text-accent font-bold text-sm uppercase">View Project →</span>
+              </div>
             </Link>
           ))}
         </div>
@@ -62,10 +62,8 @@ export default function Projects() {
           </h2>
           <div className="flex flex-wrap gap-3">
             {services.map((service) => (
-              <Link key={service.slug} href={`/services/${service.slug}`}>
-                <a className="px-4 py-2 bg-primary text-white font-bold text-sm uppercase hover:bg-primary/90 transition-colors">
-                  {service.name}
-                </a>
+              <Link key={service.slug} href={`/services/${service.slug}`} className="px-4 py-2 bg-primary text-white font-bold text-sm uppercase hover:bg-primary/90 transition-colors">
+                {service.name}
               </Link>
             ))}
           </div>
@@ -77,10 +75,8 @@ export default function Projects() {
           </h2>
           <div className="flex flex-wrap gap-3">
             {neighborhoods.map((neighborhood) => (
-              <Link key={neighborhood.slug} href={`/sc/${neighborhood.slug}-pressure-washing`}>
-                <a className="px-4 py-2 bg-secondary text-white font-bold text-sm uppercase hover:bg-secondary/90 transition-colors">
-                  {neighborhood.name}
-                </a>
+              <Link key={neighborhood.slug} href={`/sc/${neighborhood.slug}-pressure-washing`} className="px-4 py-2 bg-secondary text-white font-bold text-sm uppercase hover:bg-secondary/90 transition-colors">
+                {neighborhood.name}
               </Link>
             ))}
           </div>

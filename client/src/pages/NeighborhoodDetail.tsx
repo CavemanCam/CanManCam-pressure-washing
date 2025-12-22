@@ -8,8 +8,10 @@ import { services, neighborhoods, blogPosts } from "@/lib/data";
 import { Link } from "wouter";
 
 export default function NeighborhoodDetail() {
-  const [match, params] = useRoute("/sc/:slug-pressure-washing");
-  const neighborhood = neighborhoods.find(n => n.slug === (params as any)?.slug);
+  const [match, params] = useRoute("/sc/:slug");
+  const rawSlug = (params as any)?.slug || "";
+  const cleanSlug = rawSlug.replace(/-pressure-washing$/, "");
+  const neighborhood = neighborhoods.find(n => n.slug === cleanSlug);
 
   if (!match || !neighborhood) return null;
 
@@ -59,14 +61,14 @@ export default function NeighborhoodDetail() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             {services.map((service) => (
-              <Link key={service.slug} href={`/services/${service.slug}`}>
-                <a 
-                  data-testid={`link-service-${service.slug}`}
-                  className="p-4 border-2 border-primary hover:bg-primary/5 transition-colors"
-                >
-                  <h3 className="text-lg font-heading font-bold text-primary">{service.name}</h3>
-                  <p className="text-sm text-gray-600 mt-2">{service.shortDescription}</p>
-                </a>
+              <Link 
+                key={service.slug} 
+                href={`/services/${service.slug}`}
+                data-testid={`link-service-${service.slug}`}
+                className="block p-4 border-2 border-primary hover:bg-primary/5 transition-colors"
+              >
+                <h3 className="text-lg font-heading font-bold text-primary">{service.name}</h3>
+                <p className="text-sm text-gray-600 mt-2">{service.shortDescription}</p>
               </Link>
             ))}
           </div>
@@ -117,11 +119,13 @@ export default function NeighborhoodDetail() {
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">HELPFUL ARTICLES</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {relatedPosts.map((post) => (
-                <Link key={post.slug} href={`/pressure-washing-tips/${post.slug}`}>
-                  <a className="p-4 border-2 border-gray-200 hover:border-primary transition-colors">
-                    <h3 className="font-heading font-bold text-primary text-sm mb-2">{post.title}</h3>
-                    <span className="text-accent text-xs font-bold uppercase">Read More →</span>
-                  </a>
+                <Link 
+                  key={post.slug} 
+                  href={`/pressure-washing-tips/${post.slug}`}
+                  className="block p-4 border-2 border-gray-200 hover:border-primary transition-colors"
+                >
+                  <h3 className="font-heading font-bold text-primary text-sm mb-2">{post.title}</h3>
+                  <span className="text-accent text-xs font-bold uppercase">Read More →</span>
                 </Link>
               ))}
             </div>
@@ -129,22 +133,25 @@ export default function NeighborhoodDetail() {
         )}
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
-          <Link href={`/sc/${prevNeighborhood.slug}-pressure-washing`}>
-            <a className="p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors">
-              <div className="text-sm font-bold text-gray-500 mb-1">Previous Area</div>
-              <div className="font-heading font-bold text-primary">{prevNeighborhood.name}</div>
-            </a>
+          <Link 
+            href={`/sc/${prevNeighborhood.slug}-pressure-washing`}
+            className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors"
+          >
+            <div className="text-sm font-bold text-gray-500 mb-1">Previous Area</div>
+            <div className="font-heading font-bold text-primary">{prevNeighborhood.name}</div>
           </Link>
-          <Link href="/service-areas">
-            <a className="p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors">
-              <div className="font-heading font-bold text-primary">View All Service Areas</div>
-            </a>
+          <Link 
+            href="/service-areas"
+            className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors"
+          >
+            <div className="font-heading font-bold text-primary">View All Service Areas</div>
           </Link>
-          <Link href={`/sc/${nextNeighborhood.slug}-pressure-washing`}>
-            <a className="p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors">
-              <div className="text-sm font-bold text-gray-500 mb-1">Next Area</div>
-              <div className="font-heading font-bold text-primary">{nextNeighborhood.name}</div>
-            </a>
+          <Link 
+            href={`/sc/${nextNeighborhood.slug}-pressure-washing`}
+            className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors"
+          >
+            <div className="text-sm font-bold text-gray-500 mb-1">Next Area</div>
+            <div className="font-heading font-bold text-primary">{nextNeighborhood.name}</div>
           </Link>
         </div>
       </main>

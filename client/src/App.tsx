@@ -1,8 +1,19 @@
-import { Switch, Route } from "wouter";
+import { Switch, Route, useLocation } from "wouter";
+import { useEffect } from "react";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
+
+function ScrollToTop() {
+  const [location] = useLocation();
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+  
+  return null;
+}
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
@@ -32,7 +43,7 @@ function Router() {
       <Route path="/services" component={Services} />
       <Route path="/services/:slug" component={ServiceDetail} />
       <Route path="/service-areas" component={ServiceAreas} />
-      <Route path="/sc/:slug-pressure-washing" component={NeighborhoodDetail} />
+      <Route path="/sc/:slug" component={NeighborhoodDetail} />
       <Route path="/contact" component={Contact} />
       <Route path="/reviews" component={Reviews} />
       <Route path="/projects" component={Projects} />
@@ -55,6 +66,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
+        <ScrollToTop />
         <Toaster />
         <Router />
       </TooltipProvider>

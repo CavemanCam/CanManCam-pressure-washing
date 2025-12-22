@@ -122,50 +122,45 @@ export default function Home() {
       </section>
 
       <section data-testid="price-beat-section" className="py-20 bg-primary text-white">
-        <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">PRICE BEAT GUARANTEE</h2>
-            <div className="space-y-6 text-lg text-gray-200">
-              <p>
-                We stand behind our pricing. If you find a lower quote for the same service from another reputable company, we'll beat it by 5%. Our goal is to provide the highest quality service at the best possible price.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-center gap-3">
-                  <span className="text-accent font-bold text-xl">✓</span>
-                  <span>Licensed & Fully Insured Professionals</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-accent font-bold text-xl">✓</span>
-                  <span>Safe "Soft Wash" Techniques for Siding</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-accent font-bold text-xl">✓</span>
-                  <span>100% Satisfaction Guarantee</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-accent font-bold text-xl">✓</span>
-                  <span>Free Estimates with No Obligation</span>
-                </li>
-              </ul>
-              <Button 
-                asChild 
-                size="lg" 
-                data-testid="button-price-beat-learn"
-                className="bg-accent hover:bg-accent/90 text-white font-bold mt-6 shadow-lg rounded-none uppercase tracking-wider"
-              >
-                <Link href="/price-beat-guarantee">Learn More</Link>
-              </Button>
+        <div className="container mx-auto px-4 max-w-4xl text-center">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">PRICE BEAT GUARANTEE</h2>
+          <p className="text-lg text-gray-200 mb-8">
+            We stand behind our pricing. If you find a lower quote for the same service from another reputable company, we'll beat it by 5%. Our goal is to provide the highest quality service at the best possible price.
+          </p>
+          <div className="grid md:grid-cols-2 gap-4 mb-8 text-left max-w-2xl mx-auto">
+            <div className="flex items-center gap-3">
+              <span className="text-accent font-bold text-xl">✓</span>
+              <span>Licensed & Fully Insured Professionals</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-accent font-bold text-xl">✓</span>
+              <span>Safe "Soft Wash" Techniques for Siding</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-accent font-bold text-xl">✓</span>
+              <span>100% Satisfaction Guarantee</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-accent font-bold text-xl">✓</span>
+              <span>Free Estimates with No Obligation</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-accent font-bold text-xl">✓</span>
+              <span>Open 24/7 for Your Convenience</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-accent font-bold text-xl">✓</span>
+              <span>Local Mount Pleasant Company</span>
             </div>
           </div>
-          <div className="bg-white/10 p-8 backdrop-blur-sm border border-white/20 text-center">
-            <h3 className="text-3xl font-heading font-bold mb-4">WHY SOFT WASH?</h3>
-            <p className="mb-6">
-              Algae, mold, and lichen buildup is corrosive to your roof and siding. High pressure can cause damage! We use specialized solutions to gently kill these organisms at the root without damaging your property.
-            </p>
-            <p className="text-sm text-gray-300">
-              Soft washing uses lower pressure combined with eco-friendly cleaning solutions that eliminate organic growth at its source, providing longer-lasting results than pressure-only methods.
-            </p>
-          </div>
+          <Button 
+            asChild 
+            size="lg" 
+            data-testid="button-price-beat-learn"
+            className="bg-accent hover:bg-accent/90 text-white font-bold shadow-lg rounded-none uppercase tracking-wider"
+          >
+            <Link href="/price-beat-guarantee">Learn More About Our Guarantee</Link>
+          </Button>
         </div>
       </section>
 

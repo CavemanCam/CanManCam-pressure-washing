@@ -132,10 +132,8 @@ export default function FAQ() {
           </p>
           <div className="flex flex-wrap gap-3">
             {services.map((service) => (
-              <Link key={service.slug} href={`/services/${service.slug}`}>
-                <a className="px-4 py-2 bg-primary text-white font-bold text-sm uppercase hover:bg-primary/90 transition-colors">
-                  {service.name} FAQ
-                </a>
+              <Link key={service.slug} href={`/services/${service.slug}`} className="px-4 py-2 bg-primary text-white font-bold text-sm uppercase hover:bg-primary/90 transition-colors">
+                {service.name} FAQ
               </Link>
             ))}
           </div>
@@ -148,11 +146,9 @@ export default function FAQ() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {blogPosts.slice(0, 6).map((post) => (
-              <Link key={post.slug} href={`/pressure-washing-tips/${post.slug}`}>
-                <a className="block p-4 bg-white border-2 border-gray-200 hover:border-primary transition-colors">
-                  <h3 className="font-bold text-primary text-sm mb-2">{post.title}</h3>
-                  <span className="text-accent text-xs font-bold uppercase">Read More →</span>
-                </a>
+              <Link key={post.slug} href={`/pressure-washing-tips/${post.slug}`} className="block p-4 bg-white border-2 border-gray-200 hover:border-primary transition-colors">
+                <h3 className="font-bold text-primary text-sm mb-2">{post.title}</h3>
+                <span className="text-accent text-xs font-bold uppercase">Read More →</span>
               </Link>
             ))}
           </div>

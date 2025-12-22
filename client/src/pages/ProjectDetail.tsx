@@ -71,8 +71,8 @@ export default function ProjectDetail() {
               <h3 className="font-bold text-primary mb-2">SERVICE TYPE</h3>
               <p className="text-gray-700">{project.service}</p>
               {relatedService && (
-                <Link href={`/services/${relatedService.slug}`}>
-                  <a className="text-accent text-sm hover:underline mt-2 inline-block">Learn more about {relatedService.name} →</a>
+                <Link href={`/services/${relatedService.slug}`} className="text-accent text-sm hover:underline mt-2 inline-block">
+                  Learn more about {relatedService.name} →
                 </Link>
               )}
             </div>
@@ -80,8 +80,8 @@ export default function ProjectDetail() {
               <h3 className="font-bold text-primary mb-2">LOCATION</h3>
               <p className="text-gray-700">{project.location}, Mount Pleasant, SC</p>
               {relatedNeighborhood && (
-                <Link href={`/sc/${relatedNeighborhood.slug}-pressure-washing`}>
-                  <a className="text-accent text-sm hover:underline mt-2 inline-block">View {relatedNeighborhood.name} services →</a>
+                <Link href={`/sc/${relatedNeighborhood.slug}-pressure-washing`} className="text-accent text-sm hover:underline mt-2 inline-block">
+                  View {relatedNeighborhood.name} services →
                 </Link>
               )}
             </div>
@@ -101,16 +101,14 @@ export default function ProjectDetail() {
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">SIMILAR PROJECTS</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {similarProjects.map((p) => (
-                <Link key={p.slug} href={`/projects/${p.slug}`}>
-                  <a className="block bg-white border-2 border-gray-200 hover:border-primary transition-colors">
-                    <div className="bg-gray-200 h-32 flex items-center justify-center">
-                      <span className="text-gray-500 text-sm">Before / After</span>
-                    </div>
-                    <div className="p-4">
-                      <h3 className="font-heading font-bold text-primary text-sm">{p.title}</h3>
-                      <p className="text-xs text-gray-500 mt-1">{p.location}</p>
-                    </div>
-                  </a>
+                <Link key={p.slug} href={`/projects/${p.slug}`} className="block bg-white border-2 border-gray-200 hover:border-primary transition-colors">
+                  <div className="bg-gray-200 h-32 flex items-center justify-center">
+                    <span className="text-gray-500 text-sm">Before / After</span>
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-heading font-bold text-primary text-sm">{p.title}</h3>
+                    <p className="text-xs text-gray-500 mt-1">{p.location}</p>
+                  </div>
                 </Link>
               ))}
             </div>
@@ -118,22 +116,16 @@ export default function ProjectDetail() {
         )}
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
-          <Link href={`/projects/${prevProject.slug}`}>
-            <a className="p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors">
-              <div className="text-sm font-bold text-gray-500 mb-1">Previous Project</div>
-              <div className="font-heading font-bold text-primary text-sm">{prevProject.title}</div>
-            </a>
+          <Link href={`/projects/${prevProject.slug}`} className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors">
+            <div className="text-sm font-bold text-gray-500 mb-1">Previous Project</div>
+            <div className="font-heading font-bold text-primary text-sm">{prevProject.title}</div>
           </Link>
-          <Link href="/projects">
-            <a className="p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors">
-              <div className="font-heading font-bold text-primary">View All Projects</div>
-            </a>
+          <Link href="/projects" className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors">
+            <div className="font-heading font-bold text-primary">View All Projects</div>
           </Link>
-          <Link href={`/projects/${nextProject.slug}`}>
-            <a className="p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors">
-              <div className="text-sm font-bold text-gray-500 mb-1">Next Project</div>
-              <div className="font-heading font-bold text-primary text-sm">{nextProject.title}</div>
-            </a>
+          <Link href={`/projects/${nextProject.slug}`} className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors">
+            <div className="text-sm font-bold text-gray-500 mb-1">Next Project</div>
+            <div className="font-heading font-bold text-primary text-sm">{nextProject.title}</div>
           </Link>
         </div>
       </main>

@@ -79,24 +79,12 @@ export default function About() {
             We offer a comprehensive range of exterior cleaning services to keep your property looking its best:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
-            <Link href="/services/house-washing">
-              <a className="p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">House Washing</a>
-            </Link>
-            <Link href="/services/driveway-cleaning">
-              <a className="p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">Driveway Cleaning</a>
-            </Link>
-            <Link href="/services/sidewalk-cleaning">
-              <a className="p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">Sidewalk Cleaning</a>
-            </Link>
-            <Link href="/services/gutter-cleaning">
-              <a className="p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">Gutter Cleaning</a>
-            </Link>
-            <Link href="/services/window-cleaning">
-              <a className="p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">Window Cleaning</a>
-            </Link>
-            <Link href="/services/trash-can-cleaning">
-              <a className="p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">Trash Can Cleaning</a>
-            </Link>
+            <Link href="/services/house-washing" className="block p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">House Washing</Link>
+            <Link href="/services/driveway-cleaning" className="block p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">Driveway Cleaning</Link>
+            <Link href="/services/sidewalk-cleaning" className="block p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">Sidewalk Cleaning</Link>
+            <Link href="/services/gutter-cleaning" className="block p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">Gutter Cleaning</Link>
+            <Link href="/services/window-cleaning" className="block p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">Window Cleaning</Link>
+            <Link href="/services/trash-can-cleaning" className="block p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">Trash Can Cleaning</Link>
           </div>
         </div>
 
@@ -109,10 +97,8 @@ export default function About() {
               <p className="mb-4">
                 We're confident in our value. If you receive a lower quote from another reputable pressure washing company for the same service, we'll beat their price by 5%. Quality service at competitive prices – that's the CanManCam promise.
               </p>
-              <Link href="/price-beat-guarantee">
-                <a className="inline-block bg-white text-accent font-bold uppercase px-6 py-3 hover:bg-gray-100 transition-colors">
-                  Learn More
-                </a>
+              <Link href="/price-beat-guarantee" className="inline-block bg-white text-accent font-bold uppercase px-6 py-3 hover:bg-gray-100 transition-colors">
+                Learn More
               </Link>
             </div>
             <div className="text-center">

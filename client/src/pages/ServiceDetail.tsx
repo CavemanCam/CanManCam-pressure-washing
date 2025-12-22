@@ -60,10 +60,8 @@ export default function ServiceDetail() {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-8">
             {neighborhoods.map((neighborhood) => (
-              <Link key={neighborhood.slug} href={`/sc/${neighborhood.slug}-pressure-washing`}>
-                <a className="text-accent hover:text-accent/80 font-medium text-sm hover:underline">
-                  {neighborhood.name}
-                </a>
+              <Link key={neighborhood.slug} href={`/sc/${neighborhood.slug}-pressure-washing`} className="text-accent hover:text-accent/80 font-medium text-sm hover:underline">
+                {neighborhood.name}
               </Link>
             ))}
           </div>
@@ -119,11 +117,9 @@ export default function ServiceDetail() {
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">RELATED ARTICLES</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {relatedBlogPosts.slice(0, 4).map((post) => (
-                <Link key={post.slug} href={`/pressure-washing-tips/${post.slug}`}>
-                  <a className="p-4 border-2 border-gray-200 hover:border-primary transition-colors">
-                    <h3 className="font-heading font-bold text-primary mb-2">{post.title}</h3>
-                    <p className="text-sm text-gray-600 line-clamp-2">{post.answer}</p>
-                  </a>
+                <Link key={post.slug} href={`/pressure-washing-tips/${post.slug}`} className="block p-4 border-2 border-gray-200 hover:border-primary transition-colors">
+                  <h3 className="font-heading font-bold text-primary mb-2">{post.title}</h3>
+                  <p className="text-sm text-gray-600 line-clamp-2">{post.answer}</p>
                 </Link>
               ))}
             </div>
@@ -134,14 +130,14 @@ export default function ServiceDetail() {
           <h2 className="text-2xl font-heading font-bold text-primary mb-4">OTHER SERVICES</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {otherServices.map((relatedService) => (
-              <Link key={relatedService.slug} href={`/services/${relatedService.slug}`}>
-                <a 
-                  data-testid={`link-related-service-${relatedService.slug}`}
-                  className="p-4 border-2 border-primary hover:bg-primary/5 transition-colors"
-                >
-                  <h3 className="text-lg font-heading font-bold text-primary">{relatedService.name}</h3>
-                  <p className="text-sm text-gray-600 mt-2">{relatedService.shortDescription}</p>
-                </a>
+              <Link 
+                key={relatedService.slug} 
+                href={`/services/${relatedService.slug}`}
+                data-testid={`link-related-service-${relatedService.slug}`}
+                className="block p-4 border-2 border-primary hover:bg-primary/5 transition-colors"
+              >
+                <h3 className="text-lg font-heading font-bold text-primary">{relatedService.name}</h3>
+                <p className="text-sm text-gray-600 mt-2">{relatedService.shortDescription}</p>
               </Link>
             ))}
           </div>

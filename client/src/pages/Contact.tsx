@@ -30,58 +30,37 @@ export default function Contact() {
             </p>
             
             <div className="space-y-6">
-              <div className="flex items-start gap-4 p-4 bg-gray-50">
-                <div className="bg-primary p-3 text-white font-bold text-xl">
-                  P
-                </div>
-                <div>
-                  <h3 className="font-bold text-primary">Phone</h3>
-                  <a 
-                    href="tel:607-427-1175" 
-                    data-testid="link-phone"
-                    className="text-xl text-gray-700 hover:text-accent font-bold"
-                  >
-                    607-427-1175
-                  </a>
-                </div>
+              <div className="p-4 bg-gray-50">
+                <h3 className="font-bold text-primary">Phone</h3>
+                <a 
+                  href="tel:607-427-1175" 
+                  data-testid="link-phone"
+                  className="text-xl text-gray-700 hover:text-accent font-bold"
+                >
+                  607-427-1175
+                </a>
               </div>
               
-              <div className="flex items-start gap-4 p-4 bg-gray-50">
-                <div className="bg-primary p-3 text-white font-bold text-xl">
-                  E
-                </div>
-                <div>
-                  <h3 className="font-bold text-primary">Email</h3>
-                  <a 
-                    href="mailto:canmancam@yahoo.com" 
-                    data-testid="link-email"
-                    className="text-lg text-gray-700 hover:text-accent"
-                  >
-                    canmancam@yahoo.com
-                  </a>
-                </div>
+              <div className="p-4 bg-gray-50">
+                <h3 className="font-bold text-primary">Email</h3>
+                <a 
+                  href="mailto:canmancam@yahoo.com" 
+                  data-testid="link-email"
+                  className="text-lg text-gray-700 hover:text-accent"
+                >
+                  canmancam@yahoo.com
+                </a>
               </div>
 
-              <div className="flex items-start gap-4 p-4 bg-gray-50">
-                <div className="bg-primary p-3 text-white font-bold text-xl">
-                  H
-                </div>
-                <div>
-                  <h3 className="font-bold text-primary">Hours</h3>
-                  <p className="text-gray-700">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                  <p className="text-gray-700">Saturday: By Appointment</p>
-                  <p className="text-gray-700">Sunday: Closed</p>
-                </div>
+              <div className="p-4 bg-gray-50">
+                <h3 className="font-bold text-primary">Hours</h3>
+                <p className="text-gray-700 font-bold text-lg">Open 24/7</p>
+                <p className="text-sm text-gray-500">We're available around the clock for your convenience</p>
               </div>
 
-              <div className="flex items-start gap-4 p-4 bg-gray-50">
-                <div className="bg-primary p-3 text-white font-bold text-xl">
-                  S
-                </div>
-                <div>
-                  <h3 className="font-bold text-primary">Service Area</h3>
-                  <p className="text-gray-700">Mount Pleasant, SC & All Surrounding Neighborhoods</p>
-                </div>
+              <div className="p-4 bg-gray-50">
+                <h3 className="font-bold text-primary">Service Area</h3>
+                <p className="text-gray-700">Mount Pleasant, SC & All Surrounding Neighborhoods</p>
               </div>
             </div>
           </div>
@@ -117,7 +96,7 @@ export default function Contact() {
                 data-testid="button-google-review"
                 className="w-full border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold rounded-none"
               >
-                <a href="https://g.page/r/CanManCam/review" target="_blank" rel="noopener noreferrer">
+                <a href="https://g.page/r/CYM5xsjZAqS2EBM/review" target="_blank" rel="noopener noreferrer">
                   Leave a Google Review
                 </a>
               </Button>
@@ -129,19 +108,27 @@ export default function Contact() {
           <h2 className="text-2xl font-heading font-bold text-primary mb-6">
             SERVICE AREA MAP
           </h2>
-          <div className="bg-gray-200 h-64 flex items-center justify-center mb-6">
-            <div className="text-center">
-              <p className="text-gray-600 font-bold mb-2">Mount Pleasant, SC</p>
-              <p className="text-sm text-gray-500">Serving all neighborhoods within Mount Pleasant</p>
-            </div>
+          <div className="w-full mb-6">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107260.12761002278!2d-79.81088229999999!3d32.8484556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486774fb38b3d117%3A0xb6a402d9c8c63983!2sCanman%20Cam!5e0!3m2!1sen!2sus!4v1766426214312!5m2!1sen!2sus" 
+              width="100%" 
+              height="350" 
+              style={{ border: 0 }} 
+              allowFullScreen 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="CanManCam Service Area Map"
+            ></iframe>
           </div>
           <h3 className="font-bold text-primary mb-4">NEIGHBORHOODS WE SERVE</h3>
           <div className="flex flex-wrap gap-2">
             {neighborhoods.map((neighborhood) => (
-              <Link key={neighborhood.slug} href={`/sc/${neighborhood.slug}-pressure-washing`}>
-                <a className="px-3 py-1 bg-white border border-gray-300 text-sm text-primary hover:border-primary transition-colors">
-                  {neighborhood.name}
-                </a>
+              <Link 
+                key={neighborhood.slug} 
+                href={`/sc/${neighborhood.slug}-pressure-washing`}
+                className="px-3 py-1 bg-white border border-gray-300 text-sm text-primary hover:border-primary transition-colors"
+              >
+                {neighborhood.name}
               </Link>
             ))}
           </div>

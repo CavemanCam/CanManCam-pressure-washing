@@ -126,10 +126,8 @@ export default function Gallery() {
           </h2>
           <div className="flex flex-wrap gap-3 justify-center">
             {services.map((service) => (
-              <Link key={service.slug} href={`/services/${service.slug}`}>
-                <a className="px-4 py-2 bg-secondary text-white font-bold text-sm uppercase hover:bg-secondary/90 transition-colors">
-                  {service.name}
-                </a>
+              <Link key={service.slug} href={`/services/${service.slug}`} className="px-4 py-2 bg-secondary text-white font-bold text-sm uppercase hover:bg-secondary/90 transition-colors">
+                {service.name}
               </Link>
             ))}
           </div>

@@ -56,14 +56,14 @@ export default function BlogDetail() {
                 <h3 className="text-xl font-heading font-bold text-primary mb-4">RELATED SERVICES</h3>
                 <div className="space-y-3">
                   {relatedServices.map((service) => (
-                    <Link key={service.slug} href={`/services/${service.slug}`}>
-                      <a 
-                        data-testid={`link-service-${service.slug}`}
-                        className="block p-3 border-l-4 border-accent hover:bg-gray-50 transition-colors"
-                      >
-                        <h4 className="font-bold text-primary">{service.name}</h4>
-                        <p className="text-sm text-gray-600">{service.shortDescription}</p>
-                      </a>
+                    <Link 
+                      key={service.slug} 
+                      href={`/services/${service.slug}`}
+                      data-testid={`link-service-${service.slug}`}
+                      className="block p-3 border-l-4 border-accent hover:bg-gray-50 transition-colors"
+                    >
+                      <h4 className="font-bold text-primary">{service.name}</h4>
+                      <p className="text-sm text-gray-600">{service.shortDescription}</p>
                     </Link>
                   ))}
                 </div>
@@ -75,14 +75,14 @@ export default function BlogDetail() {
                 <h3 className="text-xl font-heading font-bold text-primary mb-4">SERVICE AREAS</h3>
                 <div className="space-y-3">
                   {relatedNeighborhoods.map((neighborhood) => (
-                    <Link key={neighborhood.slug} href={`/sc/${neighborhood.slug}-pressure-washing`}>
-                      <a 
-                        data-testid={`link-neighborhood-${neighborhood.slug}`}
-                        className="block p-3 border-l-4 border-accent hover:bg-gray-50 transition-colors"
-                      >
-                        <h4 className="font-bold text-primary">{neighborhood.name}</h4>
-                        <p className="text-sm text-gray-600">Pressure Washing Services in Mount Pleasant</p>
-                      </a>
+                    <Link 
+                      key={neighborhood.slug} 
+                      href={`/sc/${neighborhood.slug}-pressure-washing`}
+                      data-testid={`link-neighborhood-${neighborhood.slug}`}
+                      className="block p-3 border-l-4 border-accent hover:bg-gray-50 transition-colors"
+                    >
+                      <h4 className="font-bold text-primary">{neighborhood.name}</h4>
+                      <p className="text-sm text-gray-600">Pressure Washing Services in Mount Pleasant</p>
                     </Link>
                   ))}
                 </div>
@@ -94,26 +94,22 @@ export default function BlogDetail() {
             <h3 className="text-xl font-heading font-bold text-primary mb-4">RELATED ARTICLES</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {relatedPosts.map((relPost) => (
-                <Link key={relPost.slug} href={`/pressure-washing-tips/${relPost.slug}`}>
-                  <a className="block p-4 border-2 border-gray-200 hover:border-primary transition-colors">
-                    <h4 className="font-heading font-bold text-primary text-sm mb-2">{relPost.title}</h4>
-                    <span className="text-accent text-xs font-bold uppercase">Read More →</span>
-                  </a>
+                <Link 
+                  key={relPost.slug} 
+                  href={`/pressure-washing-tips/${relPost.slug}`}
+                  className="block p-4 border-2 border-gray-200 hover:border-primary transition-colors"
+                >
+                  <h4 className="font-heading font-bold text-primary text-sm mb-2">{relPost.title}</h4>
+                  <span className="text-accent text-xs font-bold uppercase">Read More →</span>
                 </Link>
               ))}
             </div>
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <Link href="/price-beat-guarantee">
-              <a className="text-accent font-bold hover:underline">Price Beat Guarantee</a>
-            </Link>
-            <Link href="/contact">
-              <a className="text-accent font-bold hover:underline">Contact Us</a>
-            </Link>
-            <Link href="/services">
-              <a className="text-accent font-bold hover:underline">All Services</a>
-            </Link>
+            <Link href="/price-beat-guarantee" className="text-accent font-bold hover:underline">Price Beat Guarantee</Link>
+            <Link href="/contact" className="text-accent font-bold hover:underline">Contact Us</Link>
+            <Link href="/services" className="text-accent font-bold hover:underline">All Services</Link>
           </div>
         </article>
       </main>

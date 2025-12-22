@@ -27,21 +27,21 @@ export default function ServiceAreas() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-12">
           {neighborhoods.map((neighborhood) => (
-            <Link key={neighborhood.slug} href={`/sc/${neighborhood.slug}-pressure-washing`}>
-              <a 
-                data-testid={`card-neighborhood-${neighborhood.slug}`}
-                className="block p-6 border-2 border-primary hover:bg-primary hover:text-white transition-colors group"
-              >
-                <h3 className="text-xl font-heading font-bold text-primary group-hover:text-white mb-2">
-                  {neighborhood.name.toUpperCase()}
-                </h3>
-                <p className="text-sm text-gray-600 group-hover:text-gray-200 mb-4">
-                  Professional pressure washing services
-                </p>
-                <span className="text-accent font-bold text-sm group-hover:text-white">
-                  View Services →
-                </span>
-              </a>
+            <Link 
+              key={neighborhood.slug} 
+              href={`/sc/${neighborhood.slug}-pressure-washing`}
+              data-testid={`card-neighborhood-${neighborhood.slug}`}
+              className="block p-6 border-2 border-primary hover:bg-primary hover:text-white transition-colors group"
+            >
+              <h3 className="text-xl font-heading font-bold text-primary group-hover:text-white mb-2">
+                {neighborhood.name.toUpperCase()}
+              </h3>
+              <p className="text-sm text-gray-600 group-hover:text-gray-200 mb-4">
+                Professional pressure washing services
+              </p>
+              <span className="text-accent font-bold text-sm group-hover:text-white">
+                View Services →
+              </span>
             </Link>
           ))}
         </div>
@@ -52,10 +52,8 @@ export default function ServiceAreas() {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {services.map((service) => (
-              <Link key={service.slug} href={`/services/${service.slug}`}>
-                <a className="block p-4 bg-white border-2 border-gray-200 hover:border-primary transition-colors text-center">
-                  <span className="font-bold text-primary text-sm">{service.name}</span>
-                </a>
+              <Link key={service.slug} href={`/services/${service.slug}`} className="block p-4 bg-white border-2 border-gray-200 hover:border-primary transition-colors text-center">
+                <span className="font-bold text-primary text-sm">{service.name}</span>
               </Link>
             ))}
           </div>

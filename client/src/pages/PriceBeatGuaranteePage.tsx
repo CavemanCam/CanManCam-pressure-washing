@@ -123,10 +123,8 @@ export default function PriceBeatGuaranteePage() {
           <h2 className="text-2xl font-heading font-bold text-primary mb-4">SERVICES COVERED BY OUR GUARANTEE</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {services.map((service) => (
-              <Link key={service.slug} href={`/services/${service.slug}`}>
-                <a className="p-4 bg-white border-2 border-gray-200 hover:border-primary text-center transition-colors">
-                  <span className="font-bold text-primary">{service.name}</span>
-                </a>
+              <Link key={service.slug} href={`/services/${service.slug}`} className="block p-4 bg-white border-2 border-gray-200 hover:border-primary text-center transition-colors">
+                <span className="font-bold text-primary">{service.name}</span>
               </Link>
             ))}
           </div>

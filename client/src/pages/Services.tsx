@@ -45,10 +45,8 @@ export default function Services() {
                     </li>
                   ))}
                 </ul>
-                <Link href={`/services/${service.slug}`}>
-                  <a className="inline-block bg-accent hover:bg-accent/90 text-white font-bold uppercase text-sm px-6 py-3 transition-colors">
-                    Learn More
-                  </a>
+                <Link href={`/services/${service.slug}`} className="inline-block bg-accent hover:bg-accent/90 text-white font-bold uppercase text-sm px-6 py-3 transition-colors">
+                  Learn More
                 </Link>
               </div>
             </div>
@@ -62,10 +60,8 @@ export default function Services() {
               <p className="text-gray-200 mb-4">
                 We're confident in our pricing and quality. If you find a lower quote for the same service from another reputable company, we'll beat it by 5%. Quality service at competitive prices – that's the CanManCam promise.
               </p>
-              <Link href="/price-beat-guarantee">
-                <a className="inline-block bg-accent hover:bg-accent/90 text-white font-bold uppercase px-6 py-3 transition-colors">
-                  Learn More
-                </a>
+              <Link href="/price-beat-guarantee" className="inline-block bg-accent hover:bg-accent/90 text-white font-bold uppercase px-6 py-3 transition-colors">
+                Learn More
               </Link>
             </div>
             <div className="text-center">

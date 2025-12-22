@@ -46,28 +46,38 @@ export function Footer() {
         <div>
           <h3 className="text-xl font-heading font-bold mb-6 text-accent">CONTACT US</h3>
           <ul className="space-y-4">
-            <li className="flex items-start gap-3">
-              <span className="text-accent font-bold">P</span>
-              <div>
-                <span className="block text-xs text-gray-400">Phone</span>
-                <a href="tel:607-427-1175" className="font-bold text-lg hover:text-accent transition-colors">607-427-1175</a>
-              </div>
+            <li>
+              <span className="block text-xs text-gray-400">Phone</span>
+              <a href="tel:607-427-1175" className="font-bold text-lg hover:text-accent transition-colors">607-427-1175</a>
             </li>
-            <li className="flex items-start gap-3">
-              <span className="text-accent font-bold">E</span>
-              <div>
-                <span className="block text-xs text-gray-400">Email</span>
-                <a href="mailto:canmancam@yahoo.com" className="hover:text-accent transition-colors">canmancam@yahoo.com</a>
-              </div>
+            <li>
+              <span className="block text-xs text-gray-400">Email</span>
+              <a href="mailto:canmancam@yahoo.com" className="hover:text-accent transition-colors">canmancam@yahoo.com</a>
             </li>
-            <li className="flex items-start gap-3">
-              <span className="text-accent font-bold">A</span>
-              <div>
-                <span className="block text-xs text-gray-400">Service Area</span>
-                <span className="block">Mount Pleasant, SC & Surrounding Areas</span>
-              </div>
+            <li>
+              <span className="block text-xs text-gray-400">Hours</span>
+              <span className="block font-bold">Open 24/7</span>
+            </li>
+            <li>
+              <span className="block text-xs text-gray-400">Service Area</span>
+              <span className="block">Mount Pleasant, SC & Surrounding Areas</span>
             </li>
           </ul>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 pb-8">
+        <div className="w-full h-64 mb-8">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107260.12761002278!2d-79.81088229999999!3d32.8484556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486774fb38b3d117%3A0xb6a402d9c8c63983!2sCanman%20Cam!5e0!3m2!1sen!2sus!4v1766426214312!5m2!1sen!2sus" 
+            width="100%" 
+            height="100%" 
+            style={{ border: 0 }} 
+            allowFullScreen 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade"
+            title="CanManCam Service Area"
+          ></iframe>
         </div>
       </div>
 

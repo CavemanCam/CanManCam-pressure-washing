@@ -24,15 +24,15 @@ export default function Blog() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {blogPosts.map((post) => (
-            <Link key={post.slug} href={`/pressure-washing-tips/${post.slug}`}>
-              <a 
-                data-testid={`card-blog-${post.slug}`}
-                className="block p-6 border-2 border-primary hover:bg-primary/5 transition-colors h-full"
-              >
-                <h3 className="text-xl font-heading font-bold text-primary mb-3">{post.title}</h3>
-                <p className="text-gray-600 mb-4 text-sm leading-relaxed line-clamp-3">{post.answer}</p>
-                <span className="text-accent font-bold text-sm uppercase tracking-wider">Read More →</span>
-              </a>
+            <Link 
+              key={post.slug} 
+              href={`/pressure-washing-tips/${post.slug}`}
+              data-testid={`card-blog-${post.slug}`}
+              className="block p-6 border-2 border-primary hover:bg-primary/5 transition-colors h-full"
+            >
+              <h3 className="text-xl font-heading font-bold text-primary mb-3">{post.title}</h3>
+              <p className="text-gray-600 mb-4 text-sm leading-relaxed line-clamp-3">{post.answer}</p>
+              <span className="text-accent font-bold text-sm uppercase tracking-wider">Read More →</span>
             </Link>
           ))}
         </div>
@@ -66,18 +66,10 @@ export default function Blog() {
         <div className="border-t-2 border-gray-200 pt-8">
           <h2 className="text-2xl font-heading font-bold text-primary mb-4">POPULAR TOPICS</h2>
           <div className="flex flex-wrap gap-3">
-            <Link href="/services/house-washing">
-              <a className="px-4 py-2 bg-primary text-white font-bold text-sm uppercase hover:bg-primary/90 transition-colors">House Washing</a>
-            </Link>
-            <Link href="/services/driveway-cleaning">
-              <a className="px-4 py-2 bg-primary text-white font-bold text-sm uppercase hover:bg-primary/90 transition-colors">Driveway Cleaning</a>
-            </Link>
-            <Link href="/price-beat-guarantee">
-              <a className="px-4 py-2 bg-accent text-white font-bold text-sm uppercase hover:bg-accent/90 transition-colors">Price Beat Guarantee</a>
-            </Link>
-            <Link href="/service-areas">
-              <a className="px-4 py-2 bg-secondary text-white font-bold text-sm uppercase hover:bg-secondary/90 transition-colors">Service Areas</a>
-            </Link>
+            <Link href="/services/house-washing" className="px-4 py-2 bg-primary text-white font-bold text-sm uppercase hover:bg-primary/90 transition-colors">House Washing</Link>
+            <Link href="/services/driveway-cleaning" className="px-4 py-2 bg-primary text-white font-bold text-sm uppercase hover:bg-primary/90 transition-colors">Driveway Cleaning</Link>
+            <Link href="/price-beat-guarantee" className="px-4 py-2 bg-accent text-white font-bold text-sm uppercase hover:bg-accent/90 transition-colors">Price Beat Guarantee</Link>
+            <Link href="/service-areas" className="px-4 py-2 bg-secondary text-white font-bold text-sm uppercase hover:bg-secondary/90 transition-colors">Service Areas</Link>
           </div>
         </div>
       </main>

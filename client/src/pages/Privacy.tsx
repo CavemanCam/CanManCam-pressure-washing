@@ -93,15 +93,9 @@ export default function Privacy() {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <h3 className="font-bold text-primary mb-4">RELATED PAGES</h3>
           <div className="flex flex-wrap gap-4">
-            <Link href="/terms">
-              <a className="text-accent hover:underline">Terms of Use</a>
-            </Link>
-            <Link href="/contact">
-              <a className="text-accent hover:underline">Contact Us</a>
-            </Link>
-            <Link href="/about">
-              <a className="text-accent hover:underline">About Us</a>
-            </Link>
+            <Link href="/terms" className="text-accent hover:underline">Terms of Use</Link>
+            <Link href="/contact" className="text-accent hover:underline">Contact Us</Link>
+            <Link href="/about" className="text-accent hover:underline">About Us</Link>
           </div>
         </div>
       </main>

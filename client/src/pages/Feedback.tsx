@@ -33,7 +33,7 @@ export default function Feedback() {
                 data-testid="button-google-review"
                 className="bg-accent hover:bg-accent/90 text-white font-bold uppercase rounded-none"
               >
-                <a href="https://g.page/r/CanManCam/review" target="_blank" rel="noopener noreferrer">
+                <a href="https://g.page/r/CYM5xsjZAqS2EBM/review" target="_blank" rel="noopener noreferrer">
                   Leave a Google Review
                 </a>
               </Button>
@@ -43,7 +43,7 @@ export default function Feedback() {
                 data-testid="button-contact-feedback"
                 className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold uppercase rounded-none"
               >
-                <a href="https://clienthub.getjobber.com/hubs/bb7e70fa-ec16-417a-9059-46487bf60acb/public/requests/2107339/new" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:canmancam@yahoo.com?subject=Feedback%20for%20CanManCam">
                   Send Direct Feedback
                 </a>
               </Button>
@@ -112,15 +112,9 @@ export default function Feedback() {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <h3 className="font-bold text-primary mb-4">EXPLORE MORE</h3>
           <div className="flex flex-wrap gap-4">
-            <Link href="/reviews">
-              <a className="text-accent hover:underline">Read Customer Reviews</a>
-            </Link>
-            <Link href="/services">
-              <a className="text-accent hover:underline">Our Services</a>
-            </Link>
-            <Link href="/about">
-              <a className="text-accent hover:underline">About CanManCam</a>
-            </Link>
+            <Link href="/reviews" className="text-accent hover:underline">Read Customer Reviews</Link>
+            <Link href="/services" className="text-accent hover:underline">Our Services</Link>
+            <Link href="/about" className="text-accent hover:underline">About CanManCam</Link>
           </div>
         </div>
       </main>
