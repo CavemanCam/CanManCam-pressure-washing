@@ -69,20 +69,6 @@ export const neighborhoods = [
     characteristics: "Shem Creek properties face environmental challenges from their proximity to the tidal creek and active waterfront. Humidity, salt air, and organic matter from the marine environment can accelerate algae, mold, and mildew growth on home exteriors. The neighborhood's mix of building ages and styles means different properties require different cleaning approaches.",
     content: "CanManCam proudly serves the Shem Creek area with pressure washing services tailored to this unique neighborhood's needs. We understand that Shem Creek properties face special environmental challenges and require cleaning approaches that address marine-influenced conditions effectively. Our team has extensive experience with the variety of building types found in Shem Creek, from historic wood-sided homes to modern construction. House washing removes the organic growth and environmental staining that accumulate quickly in Shem Creek's humid, waterfront conditions. We use soft washing techniques that safely clean delicate surfaces while effectively eliminating mold, mildew, and algae. For Shem Creek's historic properties, we take extra care to protect original materials and architectural details while still achieving excellent cleaning results. Driveway and walkway cleaning restores hardscapes affected by tidal flooding, salt, and environmental exposure. Our window cleaning services help Shem Creek residents enjoy clear views of the beautiful creek and surrounding area. For condominium communities and multi-family properties, we offer efficient service that minimizes disruption to residents while maintaining common areas and individual units. Shem Creek's unique character deserves professional care, and CanManCam is honored to serve this iconic Mount Pleasant neighborhood."
   },
-  { 
-    name: "Lexington Park", 
-    slug: "lexington-park",
-    description: "Lexington Park is a well-established residential neighborhood offering quality homes in a convenient location. The community features mature trees, well-maintained properties, and easy access to schools, shopping, and major roadways. Lexington Park residents appreciate the neighborhood's quiet streets, friendly atmosphere, and strong sense of community.",
-    characteristics: "Lexington Park's established development features mature landscaping and older homes that have adapted to decades of South Carolina weather. Many properties have original siding, roofing, and hardscapes that require regular maintenance to remain in good condition. The neighborhood's tree canopy provides welcome shade but also creates conditions favorable for organic growth on home exteriors.",
-    content: "CanManCam provides reliable, affordable pressure washing services for Lexington Park homeowners. We understand that maintaining an established home requires attention to detail and appropriate techniques for materials that may have decades of service. Our experienced team assesses each property's specific needs and delivers cleaning solutions that restore appearance without causing damage. House washing removes the accumulated dirt, algae, and mildew that can make older homes look tired and neglected. Our soft washing approach is gentle on aged materials while effectively eliminating organic growth that can deteriorate siding and trim over time. We help Lexington Park homeowners reveal the beauty beneath years of environmental exposure, often achieving results that make properties look years younger. Driveway and sidewalk cleaning addresses the staining and weathering that affect concrete surfaces over decades of use. Our techniques remove stubborn oil stains, tire marks, and algae growth to restore brightness and improve safety. Gutter cleaning is essential for Lexington Park homes surrounded by mature trees, preventing overflow and protecting foundations from water damage. For Lexington Park residents, professional pressure washing is an investment in property preservation that pays dividends in improved appearance, protected surfaces, and maintained property values."
-  },
-  { 
-    name: "Pin Oak", 
-    slug: "pin-oak",
-    description: "Pin Oak is a quality residential community offering well-built homes in a peaceful, family-friendly setting. The neighborhood features a mix of housing styles with attractive exteriors, tree-lined streets, and community amenities. Pin Oak residents enjoy a suburban lifestyle with convenient access to Mount Pleasant's schools, shopping, and recreational opportunities.",
-    characteristics: "Pin Oak properties feature quality construction with a variety of exterior materials including vinyl siding, brick, and fiber cement. The neighborhood's maturing landscape includes shade trees and established plantings that create organic debris and conditions favorable for algae and mildew growth. Regular maintenance helps preserve the neighborhood's attractive appearance and property values.",
-    content: "CanManCam serves the Pin Oak community with professional pressure washing services that help homeowners maintain their properties in excellent condition. We understand that Pin Oak residents take pride in their homes and neighborhood, and our services help preserve the community's attractive appearance. Our team works efficiently and professionally to deliver results that exceed expectations. House washing refreshes your home's exterior, removing the dirt, algae, and environmental staining that accumulate over time. Clean siding improves curb appeal and protects your investment by eliminating organisms that can deteriorate exterior surfaces. We use soft washing techniques that are safe for all siding types while effectively cleaning away years of buildup. Driveway and walkway cleaning restores concrete surfaces to their original brightness, removing oil stains, tire marks, and organic growth. Clean driveways improve your property's overall appearance and eliminate slippery conditions caused by algae growth. Our gutter cleaning services ensure proper drainage, protecting your home's foundation and landscaping from water damage. For Pin Oak families, we offer convenient scheduling and reliable service that fits busy lifestyles. Our Price Beat Guarantee ensures you're getting the best value for professional pressure washing in Mount Pleasant. Let CanManCam help you maintain your Pin Oak home's beautiful appearance."
-  },
 ];
 
 export const services = [
@@ -459,7 +445,7 @@ After service, you should receive a receipt or invoice documenting the work perf
 
 CanManCam provides this level of professional service on every job. We believe that how we treat customers is as important as the quality of our cleaning work. From first contact through final walkthrough, our goal is to exceed your expectations and earn your recommendation to friends and neighbors.`,
     relatedServices: ["house-washing", "driveway-cleaning", "sidewalk-cleaning"],
-    relatedNeighborhoods: ["shem-creek", "lexington-park", "pin-oak"]
+    relatedNeighborhoods: ["shem-creek", "old-village", "park-west"]
   },
   {
     slug: "driveway-maintenance-after-washing",
@@ -551,7 +537,7 @@ Professional gutter cleaning offers advantages beyond safe cleaning technique. T
 
 CanManCam provides professional gutter cleaning services throughout Mount Pleasant. Our trained technicians safely remove debris, ensure proper drainage, and clean gutter exteriors to restore appearance. We work on homes of all sizes and configurations, from single-story ranches to multi-level estates. Contact us to schedule gutter cleaning that protects your home and keeps your gutters flowing freely.`,
     relatedServices: ["gutter-cleaning", "house-washing", "window-cleaning"],
-    relatedNeighborhoods: ["lexington-park", "pin-oak", "isle-of-palms"]
+    relatedNeighborhoods: ["dunes-west", "crowfield", "isle-of-palms"]
   },
   {
     slug: "best-time-year-pressure-wash",
@@ -773,7 +759,7 @@ Choosing the right contractor for mold and mildew removal is important. Look for
 
 CanManCam specializes in mold and mildew removal using professional soft washing techniques. We understand Mount Pleasant's specific environmental challenges and have the experience to address even heavy fungal growth safely and effectively. Contact us to discuss your home's mold and mildew concerns and learn how we can help restore and protect your exterior surfaces.`,
     relatedServices: ["house-washing", "gutter-cleaning", "window-cleaning"],
-    relatedNeighborhoods: ["shem-creek", "lexington-park", "planters-pointe"]
+    relatedNeighborhoods: ["shem-creek", "long-point", "planters-pointe"]
   }
 ];
 
@@ -859,19 +845,19 @@ export const projects = [
     image: "/assets/uploaded_images/paver-patio-cleaning-mount-pleasant-01.JPEG"
   },
   { 
-    slug: "window-cleaning-lexington-park", 
-    title: "Window Cleaning in Lexington Park",
+    slug: "window-cleaning-dunes-west", 
+    title: "Window Cleaning in Dunes West",
     service: "Window Cleaning",
-    location: "Lexington Park",
-    description: "Complete window cleaning for a two-story Lexington Park home. Cleaned all windows inside and out, including screen cleaning and track detailing.",
+    location: "Dunes West",
+    description: "Complete window cleaning for a two-story Dunes West home. Cleaned all windows inside and out, including screen cleaning and track detailing.",
     image: "/assets/uploaded_images/screened-porch-cleaning-mount-pleasant.JPEG"
   },
   { 
-    slug: "gutter-cleaning-pin-oak", 
-    title: "Gutter Cleaning in Pin Oak",
+    slug: "gutter-cleaning-crowfield", 
+    title: "Gutter Cleaning in Crowfield",
     service: "Gutter Cleaning",
-    location: "Pin Oak",
-    description: "Fall gutter cleaning service for a Pin Oak residence surrounded by mature trees. Cleared heavy debris accumulation and restored proper drainage.",
+    location: "Crowfield",
+    description: "Fall gutter cleaning service for a Crowfield residence surrounded by mature trees. Cleared heavy debris accumulation and restored proper drainage.",
     image: "/assets/uploaded_images/lowcountry-sunroom-cleaning.JPEG"
   }
 ];

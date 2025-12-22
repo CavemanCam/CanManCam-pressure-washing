@@ -12,7 +12,7 @@ export default function FAQ() {
       questions: [
         {
           q: "What areas do you serve?",
-          a: "We serve all of Mount Pleasant, SC including Isle of Palms, Old Village, Park West, Hamlin Plantation, Carolina Park, Dunes West, Crowfield, Planters Pointe, Long Point, Shem Creek, Lexington Park, and Pin Oak."
+          a: "We serve all of Mount Pleasant, SC including Isle of Palms, Old Village, Park West, Hamlin Plantation, Carolina Park, Dunes West, Crowfield, Planters Pointe, Long Point, and Shem Creek."
         },
         {
           q: "Do you offer free estimates?",

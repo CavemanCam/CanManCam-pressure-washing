@@ -44,7 +44,7 @@ export default function Home() {
     "driveway-cleaning": drivewayImage,
     "sidewalk-cleaning": sidewalkImage,
     "gutter-cleaning": gutterCleaningImage,
-    "window-cleaning": houseWashingImage,
+    "window-cleaning": drivewayImage,
     "trash-can-cleaning": trashCanImage
   };
 
