@@ -7,6 +7,47 @@ import { Button } from "@/components/ui/button";
 import { services, neighborhoods, blogPosts } from "@/lib/data";
 import { Link } from "wouter";
 
+import houseWashing1 from "@assets/uploaded_images/house-washing-siding-exterior-cleaning.png";
+import houseWashing2 from "@assets/uploaded_images/soft-washing-house-siding-after.JPEG";
+import houseWashing3 from "@assets/uploaded_images/lowcountry-home-soft-washing-front.JPEG";
+import driveway1 from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
+import driveway2 from "@assets/uploaded_images/concrete-driveway-cleaning-after.JPEG";
+import sidewalk1 from "@assets/uploaded_images/pressure-washing-sidewalk-mount-pleasant.JPEG";
+import sidewalk2 from "@assets/uploaded_images/residential-sidewalk-cleaning-01.JPEG";
+import sidewalk3 from "@assets/uploaded_images/front-walkway-pressure-washing-01.JPEG";
+import gutter1 from "@assets/uploaded_images/gutter-cleaning-service-mount-pleasant.png";
+import window1 from "@assets/uploaded_images/window-cleaning-sunroom-porch.JPEG";
+import window2 from "@assets/uploaded_images/bay-window-exterior-cleaning.JPEG";
+import trashcan1 from "@assets/uploaded_images/trash-can-cleaning-after.JPEG";
+import trashcan2 from "@assets/uploaded_images/recycling-bin-clean-after.JPEG";
+
+const serviceImages: Record<string, { hero: string; gallery: string[] }> = {
+  "house-washing": {
+    hero: houseWashing1,
+    gallery: [houseWashing2, houseWashing3]
+  },
+  "driveway-cleaning": {
+    hero: driveway1,
+    gallery: [driveway2]
+  },
+  "sidewalk-cleaning": {
+    hero: sidewalk1,
+    gallery: [sidewalk2, sidewalk3]
+  },
+  "gutter-cleaning": {
+    hero: gutter1,
+    gallery: []
+  },
+  "window-cleaning": {
+    hero: window1,
+    gallery: [window2]
+  },
+  "trash-can-cleaning": {
+    hero: trashcan1,
+    gallery: [trashcan2]
+  }
+};
+
 export default function ServiceDetail() {
   const [match, params] = useRoute("/services/:slug");
   const service = services.find(s => s.slug === params?.slug);
@@ -15,22 +56,42 @@ export default function ServiceDetail() {
 
   const relatedBlogPosts = blogPosts.filter(p => service.relatedBlogPosts?.includes(p.slug));
   const otherServices = services.filter(s => s.slug !== service.slug).slice(0, 3);
+  const images = serviceImages[service.slug];
 
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
+      
+      {images && (
+        <div className="relative h-64 md:h-80 overflow-hidden">
+          <img 
+            src={images.hero} 
+            alt={`${service.name} service in Mount Pleasant, SC`}
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-primary/60" />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white text-center drop-shadow-lg px-4">
+              {service.name.toUpperCase()} IN MOUNT PLEASANT, SC
+            </h1>
+          </div>
+        </div>
+      )}
+      
       <Breadcrumb items={[
         { label: "Services", href: "/services" },
         { label: service.name, href: `/services/${service.slug}` }
       ]} />
 
       <main className="flex-grow container mx-auto px-4 py-12">
-        <h1 
-          data-testid="text-service-title"
-          className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
-        >
-          {service.name.toUpperCase()} IN MOUNT PLEASANT, SC
-        </h1>
+        {!images && (
+          <h1 
+            data-testid="text-service-title"
+            className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
+          >
+            {service.name.toUpperCase()} IN MOUNT PLEASANT, SC
+          </h1>
+        )}
         <p className="text-lg text-gray-600 mb-8">{service.description}</p>
 
         <div className="prose prose-lg max-w-4xl mb-12">
@@ -94,6 +155,25 @@ export default function ServiceDetail() {
               Our Price Beat Guarantee
             </li>
           </ul>
+
+          {images && images.gallery.length > 0 && (
+            <>
+              <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">
+                OUR {service.name.toUpperCase()} WORK
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                {images.gallery.map((img, idx) => (
+                  <div key={idx} className="overflow-hidden">
+                    <img 
+                      src={img} 
+                      alt={`${service.name} example ${idx + 1} in Mount Pleasant`}
+                      className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
 
           {service.faq && service.faq.length > 0 && (
             <>

@@ -8,6 +8,7 @@ import houseWashingImage from "@assets/uploaded_images/house-washing-siding-exte
 import drivewayImage from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
 import sidewalkImage from "@assets/uploaded_images/pressure-washing-sidewalk-mount-pleasant.JPEG";
 import gutterCleaningImage from "@assets/uploaded_images/gutter-cleaning-service-mount-pleasant.png";
+import windowCleaningImage from "@assets/uploaded_images/window-cleaning-sunroom-porch.JPEG";
 import trashCanImage from "@assets/uploaded_images/trash-can-cleaning-after.JPEG";
 import { Link } from "wouter";
 
@@ -44,7 +45,7 @@ export default function Home() {
     "driveway-cleaning": drivewayImage,
     "sidewalk-cleaning": sidewalkImage,
     "gutter-cleaning": gutterCleaningImage,
-    "window-cleaning": drivewayImage,
+    "window-cleaning": windowCleaningImage,
     "trash-can-cleaning": trashCanImage
   };
 
