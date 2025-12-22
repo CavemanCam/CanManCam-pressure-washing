@@ -1,0 +1,26 @@
+None of the Locatiom pages currently work. You click on one of the neighborhoods and it just brings you to a white screen.
+
+The reviews section on the home page asre not the real reviews from the google profile I gave you. Here is that link again: 
+
+The review page itself is also not updated with this as well.https://share.google/XCgU4IvpDNVdyXm1v
+
+The logo in the header is also extremely small. You need to enlarge it much more as it's not even really legible.
+
+The Leave a Google Review CTA in the feedback page does not bring you to the actual leave a sreview pasge, that can be found: https://g.page/r/CYM5xsjZAqS2EBM/review
+The send direct feedback also takes you to a unusable link. LEt's link them to emailing us instead.
+
+In the footer, in the contact us column, there is a random P, E and A next to phone, email and service area that needs to be removed.
+
+When you are scrolled down on a page for example, and you click on a CTA to another page, it does not bring you to the top of the new page. if a customer clicks on a new link, it shoudl automatically bring them to the top of the new page.
+
+MOST pages have basically NO photos at all leaving it just a big wall of text on each and every page. We need to fix this. Create a plan for this while creating placeholders for now and then taking note what photos I need to uplaod to put in these sections. All pages need to be researched and looked at to see if images would be beneficial or not.
+
+We need to make it known where appliciable, the our hours are open 24/7.
+
+In the Price beast guarantee section in the home page, there is a Why Soft Wash? to the right which doesn't make sense to be in the same section. We need to move this somewhre else or remove it completely.
+
+In the Contact Page, next to easch contact method there is a letter, P,E,H,S. Not sure why you did that but it doesn't make sense. Please remove.
+
+Also in the contact, here is the link to embed the service map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107260.12761002278!2d-79.81088229999999!3d32.8484556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486774fb38b3d117%3A0xb6a402d9c8c63983!2sCanman%20Cam!5e0!3m2!1sen!2sus!4v1766426214312!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+We need to also implement this map into the footer of our pages for help with seo optimization
