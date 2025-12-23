@@ -77,11 +77,11 @@ export default function Home() {
         </div>
         
         <div className="container mx-auto px-4 relative z-10 max-w-4xl">
-          <h2 className="text-xl md:text-2xl font-bold uppercase tracking-widest mb-4 text-accent drop-shadow-md">
-            Trusted by Your Neighbors
+          <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-widest mb-4 text-accent drop-shadow-md">
+            Most Trusted
           </h2>
           <h1 className="text-5xl md:text-7xl font-heading font-bold mb-8 leading-tight drop-shadow-lg">
-            BEST HOUSE WASH SERVICE IN MOUNT PLEASANT
+            HOUSE WASH SERVICE IN MOUNT PLEASANT
           </h1>
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             <Button 
