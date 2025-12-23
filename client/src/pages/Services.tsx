@@ -67,9 +67,9 @@ export default function Services() {
         <div className="bg-primary text-white p-8 mb-12">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h2 className="text-3xl font-heading font-bold mb-4">OUR PRICE BEAT GUARANTEE</h2>
+              <h2 className="text-3xl font-heading font-bold mb-4">MY PRICE BEAT GUARANTEE</h2>
               <p className="text-gray-200 mb-4">
-                We're confident in our pricing and quality. If you find a lower quote for the same service from another reputable company, we'll beat it by 5%. Quality service at competitive prices – that's the CanManCam promise.
+                I'm confident in my pricing and quality. If you find a lower quote for the same service from another reputable company, I'll beat it by 5%. Quality service at competitive prices – that's my promise.
               </p>
               <Link href="/price-beat-guarantee" className="inline-block bg-accent hover:bg-accent/90 text-white font-bold uppercase px-6 py-3 transition-colors">
                 Learn More
@@ -100,7 +100,7 @@ export default function Services() {
         <div className="text-center">
           <h2 className="text-2xl font-heading font-bold text-primary mb-4">NEED HELP CHOOSING A SERVICE?</h2>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Not sure which services your property needs? Contact us for a free consultation. We'll assess your property and recommend the right services to keep your home looking its best.
+            Not sure which services your property needs? Contact me for a free consultation. I'll assess your property and recommend the right services to keep your home looking its best.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

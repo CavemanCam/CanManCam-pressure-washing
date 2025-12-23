@@ -33,31 +33,31 @@ export default function About() {
         </p>
 
         <div className="max-w-4xl mb-12">
-          <h2 className="text-2xl font-heading font-bold text-primary mb-4">OUR MISSION</h2>
+          <h2 className="text-2xl font-heading font-bold text-primary mb-4">MY MISSION</h2>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            CanManCam Pressure Washing is dedicated to providing the highest quality exterior cleaning services to homeowners and businesses throughout Mount Pleasant, SC. We believe that every property deserves to look its best, and we're committed to delivering exceptional results that exceed our customers' expectations.
+            I'm dedicated to providing the highest quality exterior cleaning services to homeowners and businesses throughout Mount Pleasant, SC. I believe that every property deserves to look its best, and I'm committed to delivering exceptional results that exceed my customers' expectations.
           </p>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            Our mission is simple: to make professional pressure washing accessible, affordable, and hassle-free for our community. We combine industry-leading techniques with old-fashioned customer service to create an experience that's as pleasant as the results we deliver.
+            My mission is simple: to make professional pressure washing accessible, affordable, and hassle-free for the community. I combine industry-leading techniques with old-fashioned customer service to create an experience that's as pleasant as the results I deliver.
           </p>
 
-          <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">OUR VALUES</h2>
+          <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">MY VALUES</h2>
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="p-6 bg-gray-50">
               <h3 className="font-bold text-primary mb-2">Quality First</h3>
-              <p className="text-gray-600">We never cut corners. Every job receives our full attention and expertise, regardless of size or scope.</p>
+              <p className="text-gray-600">I never cut corners. Every job receives my full attention and expertise, regardless of size or scope.</p>
             </div>
             <div className="p-6 bg-gray-50">
               <h3 className="font-bold text-primary mb-2">Honest Pricing</h3>
-              <p className="text-gray-600">Our Price Beat Guarantee ensures you always get fair, competitive pricing with no hidden fees or surprises.</p>
+              <p className="text-gray-600">My Price Beat Guarantee ensures you always get fair, competitive pricing with no hidden fees or surprises.</p>
             </div>
             <div className="p-6 bg-gray-50">
               <h3 className="font-bold text-primary mb-2">Customer Focus</h3>
-              <p className="text-gray-600">Your satisfaction is our priority. We listen to your needs and work to exceed your expectations every time.</p>
+              <p className="text-gray-600">Your satisfaction is my priority. I listen to your needs and work to exceed your expectations every time.</p>
             </div>
             <div className="p-6 bg-gray-50">
               <h3 className="font-bold text-primary mb-2">Community Connection</h3>
-              <p className="text-gray-600">As a local business, we're invested in Mount Pleasant. We take pride in serving our neighbors and community.</p>
+              <p className="text-gray-600">As a local business, I'm invested in Mount Pleasant. I take pride in serving my neighbors and community.</p>
             </div>
           </div>
 
@@ -65,29 +65,29 @@ export default function About() {
           <ul className="space-y-3 mb-8">
             <li className="flex gap-3">
               <span className="text-accent font-bold text-lg">✓</span>
-              <span className="text-gray-700"><strong>Licensed & Insured:</strong> We carry full liability insurance to protect your property and give you peace of mind.</span>
+              <span className="text-gray-700"><strong>Licensed & Insured:</strong> I carry full liability insurance to protect your property and give you peace of mind.</span>
             </li>
             <li className="flex gap-3">
               <span className="text-accent font-bold text-lg">✓</span>
-              <span className="text-gray-700"><strong>Professional Equipment:</strong> We use commercial-grade pressure washing and soft washing equipment for superior results.</span>
+              <span className="text-gray-700"><strong>Professional Equipment:</strong> I use commercial-grade pressure washing and soft washing equipment for superior results.</span>
             </li>
             <li className="flex gap-3">
               <span className="text-accent font-bold text-lg">✓</span>
-              <span className="text-gray-700"><strong>Eco-Friendly Solutions:</strong> Our cleaning products are biodegradable and safe for your family, pets, and landscaping.</span>
+              <span className="text-gray-700"><strong>Eco-Friendly Solutions:</strong> My cleaning products are biodegradable and safe for your family, pets, and landscaping.</span>
             </li>
             <li className="flex gap-3">
               <span className="text-accent font-bold text-lg">✓</span>
-              <span className="text-gray-700"><strong>Local Expertise:</strong> We know Mount Pleasant neighborhoods and understand the specific challenges of Lowcountry properties.</span>
+              <span className="text-gray-700"><strong>Local Expertise:</strong> I know Mount Pleasant neighborhoods and understand the specific challenges of Lowcountry properties.</span>
             </li>
             <li className="flex gap-3">
               <span className="text-accent font-bold text-lg">✓</span>
-              <span className="text-gray-700"><strong>Satisfaction Guarantee:</strong> We stand behind our work. If you're not happy, we'll make it right.</span>
+              <span className="text-gray-700"><strong>Satisfaction Guarantee:</strong> I stand behind my work. If you're not happy, I'll make it right.</span>
             </li>
           </ul>
 
-          <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">OUR SERVICES</h2>
+          <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">MY SERVICES</h2>
           <p className="text-gray-700 mb-6">
-            We offer a comprehensive range of exterior cleaning services to keep your property looking its best:
+            I offer a comprehensive range of exterior cleaning services to keep your property looking its best:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
             <Link href="/services/house-washing" className="block p-4 bg-primary text-white text-center font-bold hover:bg-primary/90 transition-colors">House Washing</Link>
@@ -103,10 +103,10 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h2 className="text-2xl font-heading font-bold mb-4">
-                OUR PRICE BEAT GUARANTEE
+                MY PRICE BEAT GUARANTEE
               </h2>
               <p className="mb-4">
-                We're confident in our value. If you receive a lower quote from another reputable pressure washing company for the same service, we'll beat their price by 5%. Quality service at competitive prices – that's the CanManCam promise.
+                I'm confident in the value I provide. If you receive a lower quote from another reputable pressure washing company for the same service, I'll beat their price by 5%. Quality service at competitive prices – that's my promise.
               </p>
               <Link href="/price-beat-guarantee" className="inline-block bg-white text-accent font-bold uppercase px-6 py-3 hover:bg-gray-100 transition-colors">
                 Learn More

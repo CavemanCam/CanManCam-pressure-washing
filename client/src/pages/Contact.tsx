@@ -30,14 +30,14 @@ export default function Contact() {
           CONTACT CANMANCAM PRESSURE WASHING
         </h1>
         <p className="text-lg text-gray-600 mb-12">
-          Ready to schedule your service or have a question? We're here to help!
+          Ready to schedule your service or have a question? I'm here to help!
         </p>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mb-12">
           <div>
             <h2 className="text-2xl font-heading font-bold text-primary mb-6">GET IN TOUCH</h2>
             <p className="text-gray-700 mb-8">
-              Contact us today for a free estimate. We're happy to discuss your specific needs and answer any questions about our pressure washing services in Mount Pleasant.
+              Contact me today for a free estimate. I'm happy to discuss your specific needs and answer any questions about my pressure washing services in Mount Pleasant.
             </p>
             
             <div className="space-y-6">
@@ -66,7 +66,7 @@ export default function Contact() {
               <div className="p-4 bg-gray-50">
                 <h3 className="font-bold text-primary">Hours</h3>
                 <p className="text-gray-700 font-bold text-lg">Open 24/7</p>
-                <p className="text-sm text-gray-500">We're available around the clock for your convenience</p>
+                <p className="text-sm text-gray-500">I'm available around the clock for your convenience</p>
               </div>
 
               <div className="p-4 bg-gray-50">
@@ -80,7 +80,7 @@ export default function Contact() {
             <div className="bg-primary text-white p-8 mb-6">
               <h2 className="text-2xl font-heading font-bold mb-4">REQUEST A FREE QUOTE</h2>
               <p className="mb-6 text-gray-200">
-                The fastest way to get a quote is to use our online request form. Fill out your information and we'll get back to you promptly with a free estimate.
+                The fastest way to get a quote is to use the online request form. Fill out your information and I'll get back to you promptly with a free estimate.
               </p>
               <Button 
                 asChild 
@@ -96,10 +96,10 @@ export default function Contact() {
 
             <div className="bg-gray-50 p-8">
               <h3 className="text-xl font-heading font-bold text-primary mb-4">
-                LEAVE US A REVIEW
+                LEAVE A REVIEW
               </h3>
               <p className="text-gray-700 mb-4">
-                Had a great experience? We'd love to hear from you! Leave us a review on Google.
+                Had a great experience? I'd love to hear from you! Leave a review on Google.
               </p>
               <Button 
                 asChild 
@@ -131,7 +131,7 @@ export default function Contact() {
               title="CanManCam Service Area Map"
             ></iframe>
           </div>
-          <h3 className="font-bold text-primary mb-4">NEIGHBORHOODS WE SERVE</h3>
+          <h3 className="font-bold text-primary mb-4">NEIGHBORHOODS I SERVE</h3>
           <div className="flex flex-wrap gap-2">
             {neighborhoods.map((neighborhood) => (
               <Link 
@@ -147,7 +147,7 @@ export default function Contact() {
 
         <div className="text-center">
           <h2 className="text-2xl font-heading font-bold text-primary mb-4">
-            MULTIPLE WAYS TO REACH US
+            MULTIPLE WAYS TO REACH ME
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

@@ -76,7 +76,7 @@ export default function NeighborhoodDetail() {
             SERVICES AVAILABLE IN {neighborhood.name.toUpperCase()}
           </h2>
           <p className="text-base text-gray-700 mb-4">
-            We proudly offer all our pressure washing services throughout {neighborhood.name}:
+            I proudly offer all my pressure washing services throughout {neighborhood.name}:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             {services.map((service) => (
@@ -118,7 +118,7 @@ export default function NeighborhoodDetail() {
             </li>
             <li className="text-base text-gray-700 flex gap-3">
               <span className="text-accent font-bold text-lg">✓</span>
-              Our Price Beat Guarantee ensures the best value
+              My Price Beat Guarantee ensures the best value
             </li>
           </ul>
 
@@ -129,7 +129,7 @@ export default function NeighborhoodDetail() {
             I'm Camrin, and I'm proud to serve the {neighborhood.name} community with professional pressure washing services. Whether you need house washing, driveway cleaning, window cleaning, or any of my other services, I have the expertise and equipment to get the job done right. I'm familiar with the unique characteristics of {neighborhood.name} properties and know exactly how to care for them.
           </p>
           <p className="text-base text-gray-700">
-            Contact us today for a free estimate and discover why {neighborhood.name} homeowners trust CanManCam for their exterior cleaning needs.
+            Contact me today for a free estimate and discover why {neighborhood.name} homeowners trust CanManCam for their exterior cleaning needs.
           </p>
         </div>
 
@@ -183,7 +183,7 @@ export default function NeighborhoodDetail() {
             READY TO TRANSFORM YOUR {neighborhood.name.toUpperCase()} PROPERTY?
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Get a free, no-obligation estimate for pressure washing in {neighborhood.name}. Our price beat guarantee ensures you get the best value.
+            Get a free, no-obligation estimate for pressure washing in {neighborhood.name}. My price beat guarantee ensures you get the best value.
           </p>
           <Button 
             asChild 

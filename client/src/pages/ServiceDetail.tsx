@@ -128,7 +128,7 @@ export default function ServiceDetail() {
           ))}
 
           <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">
-            BENEFITS OF OUR {service.name.toUpperCase()} SERVICE
+            BENEFITS OF MY {service.name.toUpperCase()} SERVICE
           </h2>
           <ul className="space-y-3 mb-8">
             {service.benefits.map((benefit, idx) => (
@@ -143,7 +143,7 @@ export default function ServiceDetail() {
             SERVING ALL MOUNT PLEASANT NEIGHBORHOODS
           </h2>
           <p className="text-base text-gray-700 mb-4">
-            We proudly offer {service.name.toLowerCase()} services in all Mount Pleasant neighborhoods:
+            I proudly offer {service.name.toLowerCase()} services in all Mount Pleasant neighborhoods:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-8">
             {neighborhoods.map((neighborhood) => (
@@ -178,14 +178,14 @@ export default function ServiceDetail() {
             </li>
             <li className="text-base text-gray-700 flex gap-3">
               <span className="text-accent font-bold text-lg">✓</span>
-              Our Price Beat Guarantee
+              My Price Beat Guarantee
             </li>
           </ul>
 
           {images && images.gallery.length > 0 && (
             <>
               <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">
-                OUR {service.name.toUpperCase()} WORK
+                MY {service.name.toUpperCase()} WORK
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 {images.gallery.map((img, idx) => (
@@ -258,7 +258,7 @@ export default function ServiceDetail() {
             READY TO TRANSFORM YOUR PROPERTY?
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Get a free, no-obligation estimate for {service.name.toLowerCase()} in Mount Pleasant, SC. Our price beat guarantee ensures you get the best value.
+            Get a free, no-obligation estimate for {service.name.toLowerCase()} in Mount Pleasant, SC. My price beat guarantee ensures you get the best value.
           </p>
           <Button 
             asChild 

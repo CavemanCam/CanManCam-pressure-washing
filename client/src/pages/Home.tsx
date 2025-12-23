@@ -101,7 +101,7 @@ export default function Home() {
               data-testid="button-hero-services"
               className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary font-bold text-lg px-8 py-6 uppercase tracking-wider h-auto w-full md:w-auto backdrop-blur-sm rounded-none"
             >
-              <Link href="/services">Our Services</Link>
+              <Link href="/services">My Services</Link>
             </Button>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function Home() {
             When you need any part of your home pressure washed in or around Mount Pleasant, the one to call is Camrin at CanManCam! I offer a complete line of pressure washing services, including all types of power washing and soft wash house cleaning. I'm highly trained, fully insured, and ready to serve you.
           </p>
           <div className="p-6 bg-gray-50 inline-block">
-            <p className="font-bold text-xl text-primary mb-2">We make pressure washing simple, affordable, and thorough!</p>
+            <p className="font-bold text-xl text-primary mb-2">I make pressure washing simple, affordable, and thorough!</p>
             <p className="text-gray-600">Serving Isle of Palms, Old Village, Park West, Hamlin Plantation, and all Mount Pleasant neighborhoods.</p>
           </div>
         </div>
@@ -127,7 +127,7 @@ export default function Home() {
       <section data-testid="services-section" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-heading font-bold text-primary mb-4">OUR PREMIUM SERVICES</h2>
+            <h2 className="text-4xl font-heading font-bold text-primary mb-4">MY PREMIUM SERVICES</h2>
             <div className="h-1 w-24 bg-accent mx-auto"></div>
           </div>
           
@@ -170,7 +170,7 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">PRICE BEAT GUARANTEE</h2>
           <p className="text-lg text-gray-200 mb-8">
-            We stand behind our pricing. If you find a lower quote for the same service from another reputable company, we'll beat it by 5%. Our goal is to provide the highest quality service at the best possible price.
+            I stand behind my pricing. If you find a lower quote for the same service from another reputable company, I'll beat it by 5%. My goal is to provide the highest quality service at the best possible price.
           </p>
           <div className="grid md:grid-cols-2 gap-4 mb-8 text-left max-w-2xl mx-auto">
             <div className="flex items-center gap-3">
@@ -204,7 +204,7 @@ export default function Home() {
             data-testid="button-price-beat-learn"
             className="bg-accent hover:bg-accent/90 text-white font-bold shadow-lg rounded-none uppercase tracking-wider"
           >
-            <Link href="/price-beat-guarantee">Learn More About Our Guarantee</Link>
+            <Link href="/price-beat-guarantee">Learn More About My Guarantee</Link>
           </Button>
         </div>
       </section>

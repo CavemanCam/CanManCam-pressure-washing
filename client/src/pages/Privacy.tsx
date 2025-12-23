@@ -22,13 +22,13 @@ export default function Privacy() {
           <section>
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">YOUR PRIVACY MATTERS</h2>
             <p className="text-gray-700 leading-relaxed">
-              CanManCam Pressure Washing ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website or use our services in Mount Pleasant, SC and surrounding areas.
+              CanManCam Pressure Washing ("I", "me", or "my") is committed to protecting your privacy. This Privacy Policy explains how I collect, use, and safeguard your information when you visit my website or use my services in Mount Pleasant, SC and surrounding areas.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-heading font-bold text-primary mb-4">INFORMATION WE COLLECT</h2>
-            <p className="text-gray-700 mb-4">We may collect information you provide directly, including:</p>
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4">INFORMATION I COLLECT</h2>
+            <p className="text-gray-700 mb-4">I may collect information you provide directly, including:</p>
             <ul className="space-y-2">
               <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Name and contact information</span></li>
               <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Email address and phone number</span></li>
@@ -39,10 +39,10 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-heading font-bold text-primary mb-4">HOW WE USE YOUR INFORMATION</h2>
-            <p className="text-gray-700 mb-4">We use the information we collect to:</p>
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4">HOW I USE YOUR INFORMATION</h2>
+            <p className="text-gray-700 mb-4">I use the information I collect to:</p>
             <ul className="space-y-2">
-              <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Provide and improve our pressure washing services</span></li>
+              <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Provide and improve my pressure washing services</span></li>
               <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Respond to your requests and inquiries</span></li>
               <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Send service updates and appointment confirmations</span></li>
               <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Communicate about promotions (if you opt-in)</span></li>
@@ -53,14 +53,14 @@ export default function Privacy() {
           <section>
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">DATA SECURITY</h2>
             <p className="text-gray-700 leading-relaxed">
-              We implement appropriate security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. We use industry-standard practices to safeguard the information you provide to us.
+              I implement appropriate security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. I use industry-standard practices to safeguard the information you provide to me.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">THIRD-PARTY SERVICES</h2>
             <p className="text-gray-700 leading-relaxed">
-              We may use third-party services for scheduling, payment processing, and communication. These services have their own privacy policies, and we encourage you to review them. We do not sell your personal information to third parties.
+              I may use third-party services for scheduling, payment processing, and communication. These services have their own privacy policies, and I encourage you to review them. I do not sell your personal information to third parties.
             </p>
           </section>
 
@@ -70,7 +70,7 @@ export default function Privacy() {
               You have the right to:
             </p>
             <ul className="space-y-2">
-              <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Access the personal information we hold about you</span></li>
+              <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Access the personal information I hold about you</span></li>
               <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Request correction of inaccurate information</span></li>
               <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Request deletion of your information</span></li>
               <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Opt out of marketing communications</span></li>
@@ -78,9 +78,9 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-heading font-bold text-primary mb-4">CONTACT US</h2>
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4">CONTACT ME</h2>
             <p className="text-gray-700 leading-relaxed">
-              If you have questions about this Privacy Policy or our practices, please contact us:
+              If you have questions about this Privacy Policy or my practices, please contact me:
             </p>
             <div className="bg-gray-50 p-6 mt-4">
               <p className="text-gray-700"><strong>Phone:</strong> 607-427-1175</p>

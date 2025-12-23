@@ -19,16 +19,16 @@ export function Footer() {
           <h3 className="text-xl font-heading font-bold mb-6 text-accent">QUICK LINKS</h3>
           <ul className="space-y-3">
             <li><Link href="/" className="hover:text-accent transition-colors">Home</Link></li>
-            <li><Link href="/about" className="hover:text-accent transition-colors">About Us</Link></li>
-            <li><Link href="/services" className="hover:text-accent transition-colors">Our Services</Link></li>
+            <li><Link href="/about" className="hover:text-accent transition-colors">About</Link></li>
+            <li><Link href="/services" className="hover:text-accent transition-colors">Services</Link></li>
             <li><Link href="/reviews" className="hover:text-accent transition-colors">Reviews</Link></li>
-            <li><Link href="/contact" className="hover:text-accent transition-colors">Contact Us</Link></li>
+            <li><Link href="/contact" className="hover:text-accent transition-colors">Contact</Link></li>
             <li><Link href="/price-beat-guarantee" className="hover:text-accent transition-colors">Price Beat Guarantee</Link></li>
           </ul>
         </div>
 
         <div>
-          <h3 className="text-xl font-heading font-bold mb-6 text-accent">OUR SERVICES</h3>
+          <h3 className="text-xl font-heading font-bold mb-6 text-accent">SERVICES</h3>
           <ul className="space-y-3">
             {services.map((service) => (
               <li key={service.slug}>
@@ -41,7 +41,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h3 className="text-xl font-heading font-bold mb-6 text-accent">CONTACT US</h3>
+          <h3 className="text-xl font-heading font-bold mb-6 text-accent">CONTACT</h3>
           <ul className="space-y-4">
             <li>
               <span className="block text-xs text-gray-400">Phone</span>

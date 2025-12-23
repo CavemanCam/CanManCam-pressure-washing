@@ -26,7 +26,7 @@ export default function Gallery() {
           PRESSURE WASHING BEFORE & AFTER GALLERY
         </h1>
         <p className="text-lg text-gray-600 mb-8">
-          See the transformations CanManCam achieves with professional pressure washing. Browse our gallery of completed projects throughout Mount Pleasant, SC.
+          See the transformations CanManCam achieves with professional pressure washing. Browse this gallery of completed projects throughout Mount Pleasant, SC.
         </p>
 
         <div className="mb-8">
@@ -100,7 +100,7 @@ export default function Gallery() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h2 className="text-2xl font-heading font-bold mb-4">
-                WANT TO SEE YOUR HOME IN OUR GALLERY?
+                WANT TO SEE YOUR HOME IN MY GALLERY?
               </h2>
               <p className="text-gray-200 mb-4">
                 Get a free estimate for professional pressure washing services. I'll transform your property and you could be my next featured project!
@@ -122,7 +122,7 @@ export default function Gallery() {
 
         <div className="text-center">
           <h2 className="text-2xl font-heading font-bold text-primary mb-4">
-            EXPLORE OUR SERVICES
+            EXPLORE MY SERVICES
           </h2>
           <div className="flex flex-wrap gap-3 justify-center">
             {services.map((service) => (

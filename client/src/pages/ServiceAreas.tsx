@@ -30,10 +30,10 @@ export default function ServiceAreas() {
           MOUNT PLEASANT SERVICE AREAS
         </h1>
         <p className="text-lg text-gray-600 mb-4">
-          CanManCam provides professional pressure washing services throughout Mount Pleasant, SC and all surrounding neighborhoods. We're proud to serve the entire Mount Pleasant community with high-quality exterior cleaning services.
+          CanManCam provides professional pressure washing services throughout Mount Pleasant, SC and all surrounding neighborhoods. I'm proud to serve the entire Mount Pleasant community with high-quality exterior cleaning services.
         </p>
         <p className="text-base text-gray-500 mb-12">
-          Click on any neighborhood below to learn more about our services in that area. Each neighborhood page includes detailed information about the services we offer and why professional pressure washing is important for properties in that community.
+          Click on any neighborhood below to learn more about my services in that area. Each neighborhood page includes detailed information about the services I offer and why professional pressure washing is important for properties in that community.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-12">
@@ -92,7 +92,7 @@ export default function ServiceAreas() {
             <ul className="space-y-3">
               <li className="flex gap-3">
                 <span className="text-accent font-bold text-lg">✓</span>
-                <span>Our Price Beat Guarantee ensures best value</span>
+                <span>My Price Beat Guarantee ensures best value</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-accent font-bold text-lg">✓</span>
@@ -117,7 +117,7 @@ export default function ServiceAreas() {
             </div>
           </div>
           <p className="text-gray-600 text-sm">
-            We serve Isle of Palms, Old Village, Park West, Hamlin Plantation, Carolina Park, Dunes West, Planters Pointe, Long Point, Shem Creek, and surrounding Mount Pleasant areas.
+            I serve Isle of Palms, Old Village, Park West, Hamlin Plantation, Carolina Park, Dunes West, Planters Pointe, Long Point, Shem Creek, and surrounding Mount Pleasant areas.
           </p>
         </div>
       </main>

@@ -19,10 +19,10 @@ export default function Projects() {
           CANMANCAM PRESSURE WASHING PROJECTS IN MOUNT PLEASANT, SC
         </h1>
         <p className="text-lg text-gray-600 mb-4">
-          See the difference professional pressure washing makes. Browse our recent projects throughout Mount Pleasant neighborhoods and discover how CanManCam transforms properties with expert exterior cleaning.
+          See the difference professional pressure washing makes. Browse my recent projects throughout Mount Pleasant neighborhoods and discover how CanManCam transforms properties with expert exterior cleaning.
         </p>
         <p className="text-base text-gray-500 mb-12">
-          Each project showcases our commitment to quality, attention to detail, and the dramatic results we achieve for our clients.
+          Each project showcases my commitment to quality, attention to detail, and the dramatic results I achieve for my clients.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -87,7 +87,7 @@ export default function Projects() {
             WANT YOUR PROPERTY TO LOOK THIS GOOD?
           </h2>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Get a free estimate for professional pressure washing services. Our Price Beat Guarantee ensures you get the best value in Mount Pleasant.
+            Get a free estimate for professional pressure washing services. My Price Beat Guarantee ensures you get the best value in Mount Pleasant.
           </p>
           <Button 
             asChild 

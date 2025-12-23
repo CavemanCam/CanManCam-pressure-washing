@@ -18,7 +18,7 @@ export default function Sitemap() {
           SITEMAP
         </h1>
         <p className="text-gray-600 mb-8">
-          Browse all pages on the CanManCam Pressure Washing website. Find information about our services, service areas, and helpful resources.
+          Browse all pages on the CanManCam Pressure Washing website. Find information about my services, service areas, and helpful resources.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -26,7 +26,7 @@ export default function Sitemap() {
             <h2 className="text-xl font-heading font-bold text-primary mb-4 pb-2 border-b-2 border-accent">MAIN PAGES</h2>
             <ul className="space-y-2">
               <li><Link href="/" className="text-accent hover:text-accent/80 hover:underline">Home</Link></li>
-              <li><Link href="/about" className="text-accent hover:text-accent/80 hover:underline">About Us</Link></li>
+              <li><Link href="/about" className="text-accent hover:text-accent/80 hover:underline">About</Link></li>
               <li><Link href="/services" className="text-accent hover:text-accent/80 hover:underline">Services</Link></li>
               <li><Link href="/service-areas" className="text-accent hover:text-accent/80 hover:underline">Service Areas</Link></li>
               <li><Link href="/reviews" className="text-accent hover:text-accent/80 hover:underline">Reviews</Link></li>

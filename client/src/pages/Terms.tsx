@@ -23,7 +23,7 @@ export default function Terms() {
           <section>
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">ACCEPTANCE OF TERMS</h2>
             <p className="text-gray-700 leading-relaxed">
-              By using CanManCam Pressure Washing's website and services, you agree to comply with these Terms of Use. If you do not agree with any part of these terms, please do not use our website or services.
+              By using CanManCam Pressure Washing's website and services, you agree to comply with these Terms of Use. If you do not agree with any part of these terms, please do not use my website or services.
             </p>
           </section>
 
@@ -46,14 +46,14 @@ export default function Terms() {
           <section>
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">ESTIMATES AND PRICING</h2>
             <p className="text-gray-700 leading-relaxed">
-              All estimates are provided in good faith based on information available at the time of assessment. Actual costs may vary based on site conditions, project scope, and unforeseen circumstances discovered during work. Final pricing will be confirmed before work begins. Our <Link href="/price-beat-guarantee" className="text-accent hover:underline">Price Beat Guarantee</Link> applies subject to its stated terms and conditions.
+              All estimates are provided in good faith based on information available at the time of assessment. Actual costs may vary based on site conditions, project scope, and unforeseen circumstances discovered during work. Final pricing will be confirmed before work begins. My <Link href="/price-beat-guarantee" className="text-accent hover:underline">Price Beat Guarantee</Link> applies subject to its stated terms and conditions.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">SERVICE AGREEMENT</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              By accepting our estimate and scheduling service, you agree to:
+              By accepting my estimate and scheduling service, you agree to:
             </p>
             <ul className="space-y-2">
               <li className="flex gap-2"><span className="text-accent font-bold">•</span> <span className="text-gray-700">Provide accurate information about your property and service needs</span></li>
@@ -66,28 +66,28 @@ export default function Terms() {
           <section>
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">LIMITATION OF LIABILITY</h2>
             <p className="text-gray-700 leading-relaxed">
-              CanManCam is fully insured and takes all reasonable precautions to protect your property. We are not responsible for any damage caused by pre-existing conditions, including but not limited to: loose siding, damaged caulking, deteriorated mortar, or other conditions that may be revealed or exacerbated by cleaning. We will inform you of any pre-existing damage observed before beginning work.
+              CanManCam is fully insured and takes all reasonable precautions to protect your property. I am not responsible for any damage caused by pre-existing conditions, including but not limited to: loose siding, damaged caulking, deteriorated mortar, or other conditions that may be revealed or exacerbated by cleaning. I will inform you of any pre-existing damage observed before beginning work.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">CANCELLATION POLICY</h2>
             <p className="text-gray-700 leading-relaxed">
-              Please provide at least 24 hours notice if you need to reschedule or cancel an appointment. We understand that circumstances change and will work with you to find a convenient alternative time whenever possible.
+              Please provide at least 24 hours notice if you need to reschedule or cancel an appointment. I understand that circumstances change and will work with you to find a convenient alternative time whenever possible.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">INTELLECTUAL PROPERTY</h2>
             <p className="text-gray-700 leading-relaxed">
-              All content on this website, including text, images, logos, and design elements, is the property of CanManCam Pressure Washing and is protected by copyright laws. You may not reproduce, distribute, or use any content without our written permission.
+              All content on this website, including text, images, logos, and design elements, is the property of CanManCam Pressure Washing and is protected by copyright laws. You may not reproduce, distribute, or use any content without my written permission.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">CONTACT INFORMATION</h2>
             <p className="text-gray-700 leading-relaxed">
-              For questions about these terms, please contact us:
+              For questions about these terms, please contact me:
             </p>
             <div className="bg-gray-50 p-6 mt-4">
               <p className="text-gray-700"><strong>Phone:</strong> 607-427-1175</p>

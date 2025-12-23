@@ -15,17 +15,17 @@ export default function Feedback() {
           data-testid="text-feedback-title"
           className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
         >
-          WE'D LOVE YOUR FEEDBACK
+          I'D LOVE YOUR FEEDBACK
         </h1>
         <p className="text-lg text-gray-600 mb-8">
-          Your feedback helps us improve our services and better serve the Mount Pleasant community. Whether you have a suggestion, compliment, or concern, we want to hear from you.
+          Your feedback helps me improve my services and better serve the Mount Pleasant community. Whether you have a suggestion, compliment, or concern, I want to hear from you.
         </p>
 
         <div className="space-y-8">
           <div className="bg-gray-50 p-8">
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">SHARE YOUR EXPERIENCE</h2>
             <p className="text-gray-700 mb-6">
-              Had a great experience with CanManCam? We'd love to hear about it! Your feedback helps us continue providing excellent pressure washing service to Mount Pleasant homeowners. Positive reviews also help other homeowners find quality service.
+              Had a great experience with CanManCam? I'd love to hear about it! Your feedback helps me continue providing excellent pressure washing service to Mount Pleasant homeowners. Positive reviews also help other homeowners find quality service.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
@@ -65,13 +65,13 @@ export default function Feedback() {
                 <p className="mb-4">
                   <a href="mailto:canmancam@yahoo.com" className="hover:text-accent transition-colors">canmancam@yahoo.com</a>
                 </p>
-                <p className="text-sm text-gray-300">We typically respond within 24 hours</p>
+                <p className="text-sm text-gray-300">I typically respond within 24 hours</p>
               </div>
             </div>
           </div>
 
           <div className="bg-gray-50 p-8">
-            <h2 className="text-2xl font-heading font-bold text-primary mb-4">WHAT WE DO WITH YOUR FEEDBACK</h2>
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4">WHAT I DO WITH YOUR FEEDBACK</h2>
             <ul className="space-y-3">
               <li className="flex gap-3">
                 <span className="text-accent font-bold text-lg">✓</span>
@@ -113,7 +113,7 @@ export default function Feedback() {
           <h3 className="font-bold text-primary mb-4">EXPLORE MORE</h3>
           <div className="flex flex-wrap gap-4">
             <Link href="/reviews" className="text-accent hover:underline">Read Customer Reviews</Link>
-            <Link href="/services" className="text-accent hover:underline">Our Services</Link>
+            <Link href="/services" className="text-accent hover:underline">Services</Link>
             <Link href="/about" className="text-accent hover:underline">About CanManCam</Link>
           </div>
         </div>

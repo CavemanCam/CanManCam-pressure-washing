@@ -19,16 +19,16 @@ export default function PriceBeatGuaranteePage() {
           CANMANCAM PRICE BEAT GUARANTEE
         </h1>
         <p className="text-lg text-gray-600 mb-12">
-          We guarantee the most competitive pricing in Mount Pleasant, SC. If you find a lower quote, we'll beat it by 5%.
+          I guarantee the most competitive pricing in Mount Pleasant, SC. If you find a lower quote, I'll beat it by 5%.
         </p>
 
         <div className="max-w-4xl mb-12">
           <div className="bg-accent text-white p-8 mb-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h2 className="text-3xl font-heading font-bold mb-4">WE'LL BEAT ANY COMPETITOR'S PRICE BY 5%</h2>
+                <h2 className="text-3xl font-heading font-bold mb-4">I'LL BEAT ANY COMPETITOR'S PRICE BY 5%</h2>
                 <p className="text-lg">
-                  If you receive a lower quote from another reputable pressure washing company for the same service, we'll beat their price by 5%. That's our promise to you.
+                  If you receive a lower quote from another reputable pressure washing company for the same service, I'll beat their price by 5%. That's my promise to you.
                 </p>
               </div>
               <div className="text-center">
@@ -51,19 +51,19 @@ export default function PriceBeatGuaranteePage() {
               <div className="bg-primary text-white font-bold text-xl h-10 w-10 flex items-center justify-center shrink-0">2</div>
               <div>
                 <h3 className="font-bold text-primary">Compare Prices</h3>
-                <p className="text-gray-700">If you receive a lower written quote from another reputable pressure washing company for the same service, share it with us.</p>
+                <p className="text-gray-700">If you receive a lower written quote from another reputable pressure washing company for the same service, share it with me.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start p-4 bg-gray-50">
               <div className="bg-primary text-white font-bold text-xl h-10 w-10 flex items-center justify-center shrink-0">3</div>
               <div>
-                <h3 className="font-bold text-primary">We Beat It</h3>
-                <p className="text-gray-700">We'll verify the competitor's quote and beat it by 5%. You get the best price with the best service.</p>
+                <h3 className="font-bold text-primary">I Beat It</h3>
+                <p className="text-gray-700">I'll verify the competitor's quote and beat it by 5%. You get the best price with the best service.</p>
               </div>
             </div>
           </div>
 
-          <h2 className="text-2xl font-heading font-bold text-primary mb-4">OUR PROMISE TO YOU</h2>
+          <h2 className="text-2xl font-heading font-bold text-primary mb-4">MY PROMISE TO YOU</h2>
           <div className="space-y-3 mb-8">
             <div className="flex gap-3 p-3 bg-gray-50">
               <span className="text-accent font-bold text-lg">✓</span>
@@ -76,7 +76,7 @@ export default function PriceBeatGuaranteePage() {
               <span className="text-accent font-bold text-lg">✓</span>
               <div>
                 <h3 className="font-bold text-primary">Free Estimates</h3>
-                <p className="text-sm text-gray-600">Get a detailed quote with no obligation to hire us.</p>
+                <p className="text-sm text-gray-600">Get a detailed quote with no obligation to hire me.</p>
               </div>
             </div>
             <div className="flex gap-3 p-3 bg-gray-50">
@@ -100,27 +100,27 @@ export default function PriceBeatGuaranteePage() {
             <li className="flex gap-2"><span className="text-accent font-bold">•</span> The Price Beat Guarantee applies to identical services for the same project scope</li>
             <li className="flex gap-2"><span className="text-accent font-bold">•</span> Quote must be from a licensed, insured Mount Pleasant pressure washing company</li>
             <li className="flex gap-2"><span className="text-accent font-bold">•</span> The competing quote must be provided in writing</li>
-            <li className="flex gap-2"><span className="text-accent font-bold">•</span> Our estimate must be based on the same project specifications</li>
+            <li className="flex gap-2"><span className="text-accent font-bold">•</span> My estimate must be based on the same project specifications</li>
             <li className="flex gap-2"><span className="text-accent font-bold">•</span> The guarantee applies to CanManCam's published rates and quoted prices</li>
-            <li className="flex gap-2"><span className="text-accent font-bold">•</span> We'll provide a matching quote minus 5% on the total service cost</li>
+            <li className="flex gap-2"><span className="text-accent font-bold">•</span> I'll provide a matching quote minus 5% on the total service cost</li>
           </ul>
 
-          <h2 className="text-2xl font-heading font-bold text-primary mb-4">WHY OUR PRICING IS COMPETITIVE</h2>
+          <h2 className="text-2xl font-heading font-bold text-primary mb-4">WHY MY PRICING IS COMPETITIVE</h2>
           <p className="text-gray-700 mb-4">
-            We've built our business on fair pricing and quality service. Here's why CanManCam offers great value:
+            I've built my business on fair pricing and quality service. Here's why CanManCam offers great value:
           </p>
           <ul className="space-y-2 text-gray-700 mb-8">
-            <li className="flex gap-2"><span className="text-accent font-bold">✓</span> Experienced team reduces job time and costs</li>
+            <li className="flex gap-2"><span className="text-accent font-bold">✓</span> Experience reduces job time and costs</li>
             <li className="flex gap-2"><span className="text-accent font-bold">✓</span> Efficient operations mean lower overhead</li>
             <li className="flex gap-2"><span className="text-accent font-bold">✓</span> Professional-grade equipment ensures quality results</li>
-            <li className="flex gap-2"><span className="text-accent font-bold">✓</span> Volume allows us to offer competitive pricing</li>
-            <li className="flex gap-2"><span className="text-accent font-bold">✓</span> Direct communication with owners, no middlemen</li>
+            <li className="flex gap-2"><span className="text-accent font-bold">✓</span> Volume allows me to offer competitive pricing</li>
+            <li className="flex gap-2"><span className="text-accent font-bold">✓</span> Direct communication with me, no middlemen</li>
             <li className="flex gap-2"><span className="text-accent font-bold">✓</span> Long-term customer relationships built on trust</li>
           </ul>
         </div>
 
         <div className="bg-gray-50 p-8 mb-12">
-          <h2 className="text-2xl font-heading font-bold text-primary mb-4">SERVICES COVERED BY OUR GUARANTEE</h2>
+          <h2 className="text-2xl font-heading font-bold text-primary mb-4">SERVICES COVERED BY MY GUARANTEE</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {services.map((service) => (
               <Link key={service.slug} href={`/services/${service.slug}`} className="block p-4 bg-white border-2 border-gray-200 hover:border-primary text-center transition-colors">
@@ -135,7 +135,7 @@ export default function PriceBeatGuaranteePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-heading font-bold mb-4">GET YOUR COMPETITIVE ESTIMATE TODAY</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Experience the CanManCam difference. Get a free estimate and discover why so many Mount Pleasant homeowners trust us.
+            Experience the CanManCam difference. Get a free estimate and discover why so many Mount Pleasant homeowners trust me.
           </p>
           <Button 
             asChild 

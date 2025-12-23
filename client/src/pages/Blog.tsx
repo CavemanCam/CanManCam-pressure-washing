@@ -27,7 +27,7 @@ export default function Blog() {
           PRESSURE WASHING TIPS & FAQ
         </h1>
         <p className="text-lg text-gray-600 mb-4" data-testid="text-blog-intro">
-          Learn about pressure washing, property maintenance, and how to care for your Mount Pleasant home. Our expert guides answer your most common questions about exterior cleaning services.
+          Learn about pressure washing, property maintenance, and how to care for your Mount Pleasant home. These expert guides answer your most common questions about exterior cleaning services.
         </p>
         <p className="text-base text-gray-500 mb-12">
           Each article is written by Camrin, with years of hands-on pressure washing experience serving the Mount Pleasant, SC area. Find answers to your questions and learn how to protect your property.

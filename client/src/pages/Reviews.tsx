@@ -77,10 +77,10 @@ export default function Reviews() {
           WHAT MOUNT PLEASANT CUSTOMERS SAY ABOUT CANMANCAM
         </h1>
         <p className="text-lg text-gray-600 mb-4">
-          Don't just take our word for it. Read what our customers have to say about their experience with CanManCam Pressure Washing.
+          Don't just take my word for it. Read what my customers have to say about their experience with CanManCam Pressure Washing.
         </p>
         <p className="text-base text-gray-500 mb-12">
-          We're proud to serve the Mount Pleasant community with professional pressure washing services. Our 5-star reviews reflect our commitment to quality, customer service, and outstanding results.
+          I'm proud to serve the Mount Pleasant community with professional pressure washing services. These 5-star reviews reflect my commitment to quality, customer service, and outstanding results.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mb-12">
@@ -96,7 +96,7 @@ export default function Reviews() {
                 LEAVE YOUR REVIEW ON GOOGLE
               </h2>
               <p className="text-gray-200 mb-4">
-                Had a great experience with CanManCam? We'd love to hear about it! Leave us a review on Google to help other Mount Pleasant homeowners find quality pressure washing services.
+                Had a great experience with CanManCam? I'd love to hear about it! Leave a review on Google to help other Mount Pleasant homeowners find quality pressure washing services.
               </p>
               <Button 
                 asChild 
@@ -123,7 +123,7 @@ export default function Reviews() {
             READY TO EXPERIENCE THE CANMANCAM DIFFERENCE?
           </h2>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Join our satisfied customers throughout Mount Pleasant. Get a free estimate today and see why homeowners trust CanManCam for their pressure washing needs.
+            Join my satisfied customers throughout Mount Pleasant. Get a free estimate today and see why homeowners trust CanManCam for their pressure washing needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -141,7 +141,7 @@ export default function Reviews() {
               data-testid="button-reviews-services"
               className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold uppercase px-8 py-6 h-auto rounded-none"
             >
-              <Link href="/services">View Our Services</Link>
+              <Link href="/services">View My Services</Link>
             </Button>
           </div>
         </div>
