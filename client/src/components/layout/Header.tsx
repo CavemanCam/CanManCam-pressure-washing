@@ -37,7 +37,7 @@ export function Header() {
           <NavLink href="/">HOME</NavLink>
           
           <DropdownMenu>
-            <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none">
+            <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
               ABOUT ▾
             </DropdownMenuTrigger>
             <DropdownMenuContent className="rounded-none">
@@ -57,7 +57,7 @@ export function Header() {
           </DropdownMenu>
 
           <DropdownMenu>
-            <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none">
+            <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
               SERVICES ▾
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56 rounded-none">
@@ -73,7 +73,7 @@ export function Header() {
           </DropdownMenu>
 
           <DropdownMenu>
-            <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none">
+            <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
               NEIGHBORHOODS ▾
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56 rounded-none">

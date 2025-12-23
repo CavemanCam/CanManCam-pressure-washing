@@ -6,6 +6,22 @@ import { SEO } from "@/components/SEO";
 import { services } from "@/lib/data";
 import { Link } from "wouter";
 
+import houseWashingImg from "@assets/uploaded_images/house-washing-mount-pleasant-01.JPEG";
+import drivewayImg from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
+import sidewalkImg from "@assets/uploaded_images/concrete-sidewalk-cleaning-mount-pleasant.JPEG";
+import gutterImg from "@assets/uploaded_images/gutter-cleaning-service-mount-pleasant.png";
+import windowImg from "@assets/uploaded_images/window-cleaning-sunroom-porch.JPEG";
+import trashcanImg from "@assets/uploaded_images/trash-can-cleaning-after.JPEG";
+
+const serviceImages: Record<string, string> = {
+  "house-washing": houseWashingImg,
+  "driveway-cleaning": drivewayImg,
+  "sidewalk-cleaning": sidewalkImg,
+  "gutter-cleaning": gutterImg,
+  "window-cleaning": windowImg,
+  "trash-can-cleaning": trashcanImg
+};
+
 export default function Services() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -41,15 +57,24 @@ export default function Services() {
             <div 
               key={service.slug}
               data-testid={`card-service-${service.slug}`}
-              className="bg-white border-2 border-gray-200 hover:border-primary transition-colors"
+              className="bg-white border-2 border-gray-200 hover:border-primary transition-colors overflow-hidden"
             >
+              {serviceImages[service.slug] && (
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={serviceImages[service.slug]} 
+                    alt={`${service.name} in Mount Pleasant, SC`}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              )}
               <div className="bg-primary p-4">
                 <h2 className="text-xl font-heading font-bold text-white">{service.name.toUpperCase()}</h2>
               </div>
               <div className="p-6">
                 <p className="text-gray-700 mb-4">{service.description}</p>
                 <ul className="space-y-2 mb-6">
-                  {service.benefits.slice(0, 4).map((benefit, idx) => (
+                  {service.benefits.slice(0, 3).map((benefit, idx) => (
                     <li key={idx} className="text-sm text-gray-600 flex gap-2">
                       <span className="text-accent font-bold">✓</span>
                       {benefit}

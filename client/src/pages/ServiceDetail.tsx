@@ -10,33 +10,22 @@ import { Link } from "wouter";
 import { LinkedParagraph } from "@/lib/contentLinks";
 
 import houseWashing1 from "@assets/uploaded_images/house-washing-siding-exterior-cleaning.png";
-import houseWashing2 from "@assets/uploaded_images/soft-washing-house-siding-after.JPEG";
-import houseWashing3 from "@assets/uploaded_images/lowcountry-home-soft-washing-front.JPEG";
-import houseWashing4 from "@assets/uploaded_images/house-washing-mount-pleasant-01.JPEG";
-import houseWashing5 from "@assets/uploaded_images/house-washing-mount-pleasant-02.JPEG";
-import houseWashingBefore from "@assets/uploaded_images/soft-washing-house-siding-before.JPEG";
-import houseWashingAfter from "@assets/uploaded_images/vinyl-siding-soft-wash-after.JPEG";
+import houseWashing2 from "@assets/uploaded_images/house-washing-mount-pleasant-01.JPEG";
+import houseWashingBefore from "@assets/soft-washing-vinyl-siding-before_1766458949973.JPEG";
+import houseWashingAfter from "@assets/soft-wash-vinyl-siding-after_1766458955254.JPEG";
 
 import driveway1 from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
 import driveway2 from "@assets/uploaded_images/concrete-driveway-cleaning-after.JPEG";
 import drivewayBefore from "@assets/uploaded_images/pressure-washing-driveway-before.JPEG";
 import drivewayAfter from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
 
-import sidewalk1 from "@assets/uploaded_images/pressure-washing-sidewalk-mount-pleasant.JPEG";
-import sidewalk2 from "@assets/uploaded_images/residential-sidewalk-cleaning-01.JPEG";
-import sidewalk3 from "@assets/uploaded_images/front-walkway-pressure-washing-01.JPEG";
-import sidewalk4 from "@assets/uploaded_images/front-walkway-pressure-washing-02.JPEG";
-import sidewalk5 from "@assets/uploaded_images/paver-walkway-cleaning-after-01.JPEG";
-import sidewalk6 from "@assets/uploaded_images/concrete-patio-cleaning-mount-pleasant-01.JPEG";
+import sidewalk1 from "@assets/uploaded_images/concrete-sidewalk-cleaning-mount-pleasant.JPEG";
+import sidewalk2 from "@assets/uploaded_images/paver-walkway-cleaning-after-01.JPEG";
 
 import gutter1 from "@assets/uploaded_images/gutter-cleaning-service-mount-pleasant.png";
-import gutterStock1 from "@assets/stock_images/gutter_cleaning_pres_e74fc539.jpg";
-import gutterStock2 from "@assets/stock_images/house_gutters_roof_e_56085430.jpg";
 
 import window1 from "@assets/uploaded_images/window-cleaning-sunroom-porch.JPEG";
 import window2 from "@assets/uploaded_images/bay-window-exterior-cleaning.JPEG";
-import window3 from "@assets/uploaded_images/lowcountry-sunroom-cleaning.JPEG";
-import window4 from "@assets/uploaded_images/screened-porch-cleaning-mount-pleasant.JPEG";
 
 import trashcan1 from "@assets/uploaded_images/trash-can-cleaning-after.JPEG";
 import trashcan2 from "@assets/uploaded_images/recycling-bin-clean-after.JPEG";
@@ -47,16 +36,14 @@ import recyclingAfter from "@assets/uploaded_images/recycling-bin-cleaning-blue-
 
 interface ServiceImageSet {
   hero: string;
-  sectionImage: string;
-  gallery: string[];
+  sectionImage: string | null;
   beforeAfter?: { before: string; after: string }[];
 }
 
 const serviceImages: Record<string, ServiceImageSet> = {
   "house-washing": {
     hero: houseWashing1,
-    sectionImage: houseWashing4,
-    gallery: [houseWashing2, houseWashing3, houseWashing5],
+    sectionImage: houseWashing2,
     beforeAfter: [
       { before: houseWashingBefore, after: houseWashingAfter }
     ]
@@ -64,30 +51,25 @@ const serviceImages: Record<string, ServiceImageSet> = {
   "driveway-cleaning": {
     hero: driveway1,
     sectionImage: driveway2,
-    gallery: [driveway2],
     beforeAfter: [
       { before: drivewayBefore, after: drivewayAfter }
     ]
   },
   "sidewalk-cleaning": {
     hero: sidewalk1,
-    sectionImage: sidewalk5,
-    gallery: [sidewalk2, sidewalk3, sidewalk4, sidewalk6]
+    sectionImage: sidewalk2
   },
   "gutter-cleaning": {
     hero: gutter1,
-    sectionImage: gutterStock1,
-    gallery: [gutterStock2]
+    sectionImage: null
   },
   "window-cleaning": {
     hero: window1,
-    sectionImage: window3,
-    gallery: [window2, window4]
+    sectionImage: window2
   },
   "trash-can-cleaning": {
     hero: trashcan1,
     sectionImage: trashcan2,
-    gallery: [],
     beforeAfter: [
       { before: trashcanBefore, after: trashcanAfter },
       { before: recyclingBefore, after: recyclingAfter }
@@ -169,7 +151,7 @@ export default function ServiceDetail() {
 
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className={`grid ${images?.sectionImage ? 'lg:grid-cols-2' : 'lg:grid-cols-1 max-w-4xl mx-auto'} gap-12 items-center`}>
               <div>
                 <h2 className="text-3xl font-heading font-bold text-primary mb-6">
                   PROFESSIONAL {service.name.toUpperCase()}
@@ -195,12 +177,12 @@ export default function ServiceDetail() {
                   </a>
                 </Button>
               </div>
-              {images && (
+              {images?.sectionImage && (
                 <div className="relative">
                   <img 
                     src={images.sectionImage} 
                     alt={`${service.name} example`}
-                    className="w-full h-96 object-cover shadow-xl"
+                    className="w-full h-[450px] object-cover shadow-xl"
                   />
                   <div className="absolute -bottom-4 -left-4 bg-accent text-white p-4 font-heading font-bold text-xl">
                     MOUNT PLEASANT, SC
@@ -217,9 +199,9 @@ export default function ServiceDetail() {
               <h2 className="text-3xl font-heading font-bold text-primary text-center mb-12">
                 BEFORE & AFTER RESULTS
               </h2>
-              <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              <div className={`flex flex-wrap justify-center gap-8 max-w-5xl mx-auto`}>
                 {images.beforeAfter.map((pair, idx) => (
-                  <div key={idx} className="bg-white shadow-lg overflow-hidden">
+                  <div key={idx} className="bg-white shadow-lg overflow-hidden w-full md:w-[calc(50%-1rem)]">
                     <div className="grid grid-cols-2">
                       <div className="relative">
                         <img 
@@ -251,33 +233,17 @@ export default function ServiceDetail() {
 
         <section className="py-16 bg-primary text-white">
           <div className="container mx-auto px-4">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1 grid grid-cols-2 gap-4">
-                {images?.gallery.slice(0, 4).map((img, idx) => (
-                  <img 
-                    key={idx}
-                    src={img} 
-                    alt={`${service.name} work example ${idx + 1}`}
-                    className="w-full h-48 object-cover"
-                  />
-                )) || (
-                  <div className="col-span-2 h-48 bg-white/10 flex items-center justify-center">
-                    <span className="text-white/50">More photos coming soon</span>
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-heading font-bold mb-8 text-center">
+                BENEFITS OF MY {service.name.toUpperCase()} SERVICE
+              </h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                {service.benefits.map((benefit, idx) => (
+                  <div key={idx} className="flex gap-4 items-start bg-white/10 p-4">
+                    <span className="text-accent font-bold text-2xl flex-shrink-0">✓</span>
+                    <span className="text-lg">{benefit}</span>
                   </div>
-                )}
-              </div>
-              <div className="order-1 lg:order-2">
-                <h2 className="text-3xl font-heading font-bold mb-6">
-                  BENEFITS OF MY {service.name.toUpperCase()} SERVICE
-                </h2>
-                <ul className="space-y-4">
-                  {service.benefits.map((benefit, idx) => (
-                    <li key={idx} className="flex gap-4 items-start">
-                      <span className="text-accent font-bold text-2xl flex-shrink-0">✓</span>
-                      <span className="text-lg">{benefit}</span>
-                    </li>
-                  ))}
-                </ul>
+                ))}
               </div>
             </div>
           </div>
