@@ -78,7 +78,7 @@ export default function Home() {
         
         <div className="container mx-auto px-4 relative z-10 max-w-4xl">
           <h2 className="text-xl md:text-2xl font-bold uppercase tracking-widest mb-4 text-accent drop-shadow-md">
-            Mount Pleasant's Most Trusted
+            Trusted by Your Neighbors
           </h2>
           <h1 className="text-5xl md:text-7xl font-heading font-bold mb-8 leading-tight drop-shadow-lg">
             BEST HOUSE WASH SERVICE IN MOUNT PLEASANT
