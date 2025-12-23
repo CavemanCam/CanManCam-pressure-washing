@@ -57,13 +57,13 @@ export default function Reviews() {
       <SEO
         title="Customer Reviews | CanManCam Pressure Washing Mount Pleasant, SC"
         description="Read 5-star reviews from Mount Pleasant homeowners. See why CanManCam is the most trusted pressure washing company in the Charleston area."
-        canonicalUrl="https://canmancam.replit.app/reviews"
+        canonicalUrl="https://canmancam.com/reviews"
         keywords="pressure washing reviews, Mount Pleasant pressure washing testimonials, CanManCam reviews, Charleston power washing reviews"
         aggregateRating={{ ratingValue: 5.0, reviewCount: reviews.length }}
         reviews={reviewSchemas}
         breadcrumbs={[
-          { name: "Home", url: "https://canmancam.replit.app/" },
-          { name: "Reviews", url: "https://canmancam.replit.app/reviews" }
+          { name: "Home", url: "https://canmancam.com/" },
+          { name: "Reviews", url: "https://canmancam.com/reviews" }
         ]}
       />
       <Header />

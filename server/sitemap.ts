@@ -1,6 +1,6 @@
 import type { Express } from "express";
 
-const baseUrl = "https://canmancam.replit.app";
+const baseUrl = "https://canmancam.com";
 
 const neighborhoods = [
   "isle-of-palms", "old-village", "park-west", "hamlin-plantation",

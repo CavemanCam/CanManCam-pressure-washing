@@ -11,11 +11,11 @@ export default function About() {
       <SEO
         title="About CanManCam Pressure Washing | Mount Pleasant, SC"
         description="Learn about CanManCam, Mount Pleasant's most trusted pressure washing company. Licensed, insured, and committed to quality. Free estimates available."
-        canonicalUrl="https://canmancam.replit.app/about"
+        canonicalUrl="https://canmancam.com/about"
         keywords="about CanManCam, Mount Pleasant pressure washing company, Charleston pressure washing, local pressure washing business"
         breadcrumbs={[
-          { name: "Home", url: "https://canmancam.replit.app/" },
-          { name: "About", url: "https://canmancam.replit.app/about" }
+          { name: "Home", url: "https://canmancam.com/" },
+          { name: "About", url: "https://canmancam.com/about" }
         ]}
       />
       <Header />

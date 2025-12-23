@@ -71,9 +71,9 @@ const businessInfo: LocalBusinessSchema = {
   name: "CanManCam Pressure Washing",
   phone: "607-427-1175",
   email: "canmancam@yahoo.com",
-  url: "https://canmancam.replit.app",
-  logo: "https://canmancam.replit.app/attached_assets/canmancam-pressure-washing-mount-pleasant_1766437167448.png",
-  image: "https://canmancam.replit.app/attached_assets/canmancam-pressure-washing-mount-pleasant_1766437167448.png",
+  url: "https://canmancam.com",
+  logo: "https://canmancam.com/attached_assets/canmancam-pressure-washing-mount-pleasant_1766437167448.png",
+  image: "https://canmancam.com/attached_assets/canmancam-pressure-washing-mount-pleasant_1766437167448.png",
   address: {
     streetAddress: "",
     addressLocality: "Mount Pleasant",

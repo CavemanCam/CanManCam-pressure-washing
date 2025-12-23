@@ -103,12 +103,12 @@ export default function FAQ() {
       <SEO
         title="Pressure Washing FAQ | CanManCam Mount Pleasant, SC"
         description="Find answers to common pressure washing questions. Learn about our services, pricing, techniques, and what to expect from professional pressure washing in Mount Pleasant."
-        canonicalUrl="https://canmancam.replit.app/pressure-washing-faq"
+        canonicalUrl="https://canmancam.com/pressure-washing-faq"
         keywords="pressure washing FAQ, power washing questions, Mount Pleasant pressure washing, soft washing vs pressure washing"
         faqItems={allFaqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://canmancam.replit.app/" },
-          { name: "FAQ", url: "https://canmancam.replit.app/pressure-washing-faq" }
+          { name: "Home", url: "https://canmancam.com/" },
+          { name: "FAQ", url: "https://canmancam.com/pressure-washing-faq" }
         ]}
       />
       <Header />

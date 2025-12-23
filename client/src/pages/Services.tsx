@@ -12,11 +12,11 @@ export default function Services() {
       <SEO
         title="Pressure Washing Services Mount Pleasant, SC | CanManCam"
         description="Professional pressure washing services in Mount Pleasant, SC. House washing, driveway cleaning, gutter cleaning, window washing & more. Free estimates."
-        canonicalUrl="https://canmancam.replit.app/services"
+        canonicalUrl="https://canmancam.com/services"
         keywords="pressure washing services, house washing, driveway cleaning, gutter cleaning, window cleaning, Mount Pleasant SC, Charleston"
         breadcrumbs={[
-          { name: "Home", url: "https://canmancam.replit.app/" },
-          { name: "Services", url: "https://canmancam.replit.app/services" }
+          { name: "Home", url: "https://canmancam.com/" },
+          { name: "Services", url: "https://canmancam.com/services" }
         ]}
       />
       <Header />

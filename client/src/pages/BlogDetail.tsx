@@ -23,13 +23,13 @@ export default function BlogDetail() {
       <SEO
         title={`${post.title} | CanManCam Pressure Washing`}
         description={post.metaDescription || post.answer}
-        canonicalUrl={`https://canmancam.replit.app/pressure-washing-tips/${post.slug}`}
+        canonicalUrl={`https://canmancam.com/pressure-washing-tips/${post.slug}`}
         keywords={`${post.title.toLowerCase()}, pressure washing tips, Mount Pleasant SC, home maintenance`}
         ogType="article"
         breadcrumbs={[
-          { name: "Home", url: "https://canmancam.replit.app/" },
-          { name: "Blog", url: "https://canmancam.replit.app/pressure-washing-tips" },
-          { name: post.title, url: `https://canmancam.replit.app/pressure-washing-tips/${post.slug}` }
+          { name: "Home", url: "https://canmancam.com/" },
+          { name: "Blog", url: "https://canmancam.com/pressure-washing-tips" },
+          { name: post.title, url: `https://canmancam.com/pressure-washing-tips/${post.slug}` }
         ]}
       />
       <Header />

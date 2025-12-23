@@ -67,7 +67,7 @@ export default function ServiceDetail() {
       <SEO
         title={`${service.name} Mount Pleasant, SC | CanManCam Pressure Washing`}
         description={service.shortDescription || service.description}
-        canonicalUrl={`https://canmancam.replit.app/services/${service.slug}`}
+        canonicalUrl={`https://canmancam.com/services/${service.slug}`}
         keywords={`${service.name.toLowerCase()}, ${service.name.toLowerCase()} Mount Pleasant SC, ${service.name.toLowerCase()} Charleston, pressure washing services`}
         service={{
           name: service.name,
@@ -78,9 +78,9 @@ export default function ServiceDetail() {
         }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://canmancam.replit.app/" },
-          { name: "Services", url: "https://canmancam.replit.app/services" },
-          { name: service.name, url: `https://canmancam.replit.app/services/${service.slug}` }
+          { name: "Home", url: "https://canmancam.com/" },
+          { name: "Services", url: "https://canmancam.com/services" },
+          { name: service.name, url: `https://canmancam.com/services/${service.slug}` }
         ]}
       />
       <Header />

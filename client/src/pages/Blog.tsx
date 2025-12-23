@@ -12,11 +12,11 @@ export default function Blog() {
       <SEO
         title="Pressure Washing Tips & Blog | CanManCam Mount Pleasant, SC"
         description="Expert pressure washing tips and guides for Mount Pleasant homeowners. Learn about home maintenance, cleaning techniques, and how to protect your property."
-        canonicalUrl="https://canmancam.replit.app/pressure-washing-tips"
+        canonicalUrl="https://canmancam.com/pressure-washing-tips"
         keywords="pressure washing tips, power washing guide, home maintenance Mount Pleasant, exterior cleaning advice, Charleston pressure washing blog"
         breadcrumbs={[
-          { name: "Home", url: "https://canmancam.replit.app/" },
-          { name: "Blog", url: "https://canmancam.replit.app/pressure-washing-tips" }
+          { name: "Home", url: "https://canmancam.com/" },
+          { name: "Blog", url: "https://canmancam.com/pressure-washing-tips" }
         ]}
       />
       <Header />

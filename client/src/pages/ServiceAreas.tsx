@@ -12,11 +12,11 @@ export default function ServiceAreas() {
       <SEO
         title="Service Areas | Mount Pleasant Pressure Washing | CanManCam"
         description="CanManCam serves all Mount Pleasant, SC neighborhoods. Isle of Palms, Old Village, Park West, Hamlin Plantation, Carolina Park, Dunes West & more."
-        canonicalUrl="https://canmancam.replit.app/service-areas"
+        canonicalUrl="https://canmancam.com/service-areas"
         keywords="Mount Pleasant pressure washing, Charleston area service, Isle of Palms, Old Village, Park West, Hamlin Plantation, Carolina Park, Dunes West"
         breadcrumbs={[
-          { name: "Home", url: "https://canmancam.replit.app/" },
-          { name: "Service Areas", url: "https://canmancam.replit.app/service-areas" }
+          { name: "Home", url: "https://canmancam.com/" },
+          { name: "Service Areas", url: "https://canmancam.com/service-areas" }
         ]}
       />
       <Header />
