@@ -98,12 +98,12 @@ export default function NeighborhoodDetail() {
             </div>
           </div>
 
-          <div className="mb-12">
+          <div className="mb-12 max-w-3xl">
             <LinkedParagraph 
               text={neighborhood.content}
               excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
               maxLinks={4}
-              className="text-gray-700 leading-relaxed text-center max-w-3xl mx-auto"
+              className="text-gray-700 leading-relaxed text-left"
             />
           </div>
 
