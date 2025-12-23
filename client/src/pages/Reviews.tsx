@@ -70,79 +70,83 @@ export default function Reviews() {
       <Breadcrumb items={[{ label: "Reviews", href: "/reviews" }]} />
 
       <main className="flex-grow container mx-auto px-4 py-12">
-        <h1 
-          data-testid="text-reviews-title"
-          className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
-        >
-          WHAT MOUNT PLEASANT CUSTOMERS SAY ABOUT CANMANCAM
-        </h1>
-        <p className="text-lg text-gray-600 mb-4">
-          Don't just take my word for it. Read what my customers have to say about their experience with CanManCam Pressure Washing.
-        </p>
-        <p className="text-base text-gray-500 mb-12">
-          I'm proud to serve the Mount Pleasant community with professional pressure washing services. These 5-star reviews reflect my commitment to quality, customer service, and outstanding results.
-        </p>
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h1 
+              data-testid="text-reviews-title"
+              className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
+            >
+              WHAT MOUNT PLEASANT CUSTOMERS SAY ABOUT CANMANCAM
+            </h1>
+            <p className="text-lg text-gray-600 mb-4 max-w-3xl mx-auto">
+              Don't just take my word for it. Read what my customers have to say about their experience with CanManCam Pressure Washing.
+            </p>
+            <p className="text-base text-gray-500 max-w-2xl mx-auto">
+              I'm proud to serve the Mount Pleasant community with professional pressure washing services. These 5-star reviews reflect my commitment to quality, customer service, and outstanding results.
+            </p>
+          </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mb-12">
-          {reviews.map((review, idx) => (
-            <ExpandableReview key={idx} review={review} idx={idx} />
-          ))}
-        </div>
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            {reviews.map((review, idx) => (
+              <ExpandableReview key={idx} review={review} idx={idx} />
+            ))}
+          </div>
 
-        <div className="bg-primary text-white p-8 mb-12">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h2 className="text-2xl font-heading font-bold mb-4">
-                LEAVE YOUR REVIEW ON GOOGLE
-              </h2>
-              <p className="text-gray-200 mb-4">
-                Had a great experience with CanManCam? I'd love to hear about it! Leave a review on Google to help other Mount Pleasant homeowners find quality pressure washing services.
-              </p>
-              <Button 
-                asChild 
-                data-testid="button-google-review"
-                className="bg-accent hover:bg-accent/90 text-white font-bold uppercase rounded-none"
-              >
-                <a href="https://g.page/r/CYM5xsjZAqS2EBM/review" target="_blank" rel="noopener noreferrer">
-                  Leave a Google Review
-                </a>
-              </Button>
-            </div>
-            <div className="text-center">
-              <div className="text-6xl font-heading font-bold text-accent mb-2">5.0</div>
-              <div className="flex justify-center text-accent mb-2">
-                {[...Array(5)].map((_, i) => <span key={i} className="text-2xl">★</span>)}
+          <div className="bg-primary text-white p-8 mb-12">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="text-center md:text-left">
+                <h2 className="text-2xl font-heading font-bold mb-4">
+                  LEAVE YOUR REVIEW ON GOOGLE
+                </h2>
+                <p className="text-gray-200 mb-4">
+                  Had a great experience with CanManCam? I'd love to hear about it! Leave a review on Google to help other Mount Pleasant homeowners find quality pressure washing services.
+                </p>
+                <Button 
+                  asChild 
+                  data-testid="button-google-review"
+                  className="bg-accent hover:bg-accent/90 text-white font-bold uppercase rounded-none"
+                >
+                  <a href="https://g.page/r/CYM5xsjZAqS2EBM/review" target="_blank" rel="noopener noreferrer">
+                    Leave a Google Review
+                  </a>
+                </Button>
               </div>
-              <p className="text-gray-200">Google Rating</p>
+              <div className="text-center">
+                <div className="text-6xl font-heading font-bold text-accent mb-2">5.0</div>
+                <div className="flex justify-center text-accent mb-2">
+                  {[...Array(5)].map((_, i) => <span key={i} className="text-2xl">★</span>)}
+                </div>
+                <p className="text-gray-200">Google Rating</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="text-center">
-          <h2 className="text-2xl font-heading font-bold text-primary mb-4">
-            READY TO EXPERIENCE THE CANMANCAM DIFFERENCE?
-          </h2>
-          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Join my satisfied customers throughout Mount Pleasant. Get a free estimate today and see why homeowners trust CanManCam for their pressure washing needs.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              asChild 
-              data-testid="button-reviews-estimate"
-              className="bg-accent hover:bg-accent/90 text-white font-bold uppercase px-8 py-6 h-auto rounded-none"
-            >
-              <a href="https://clienthub.getjobber.com/hubs/bb7e70fa-ec16-417a-9059-46487bf60acb/public/requests/2107339/new" target="_blank" rel="noopener noreferrer">
-                Get Free Estimate
-              </a>
-            </Button>
-            <Button 
-              asChild 
-              variant="outline"
-              data-testid="button-reviews-services"
-              className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold uppercase px-8 py-6 h-auto rounded-none"
-            >
-              <Link href="/services">View My Services</Link>
-            </Button>
+          <div className="text-center">
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4">
+              READY TO EXPERIENCE THE CANMANCAM DIFFERENCE?
+            </h2>
+            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+              Join my satisfied customers throughout Mount Pleasant. Get a free estimate today and see why homeowners trust CanManCam for their pressure washing needs.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button 
+                asChild 
+                data-testid="button-reviews-estimate"
+                className="bg-accent hover:bg-accent/90 text-white font-bold uppercase px-8 py-6 h-auto rounded-none"
+              >
+                <a href="https://clienthub.getjobber.com/hubs/bb7e70fa-ec16-417a-9059-46487bf60acb/public/requests/2107339/new" target="_blank" rel="noopener noreferrer">
+                  Get Free Estimate
+                </a>
+              </Button>
+              <Button 
+                asChild 
+                variant="outline"
+                data-testid="button-reviews-services"
+                className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold uppercase px-8 py-6 h-auto rounded-none"
+              >
+                <Link href="/services">View My Services</Link>
+              </Button>
+            </div>
           </div>
         </div>
       </main>

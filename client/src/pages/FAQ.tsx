@@ -59,7 +59,7 @@ export default function FAQ() {
         },
         {
           q: "What are your hours of operation?",
-          a: "I'm available Monday through Friday, 8:00 AM to 6:00 PM, with Saturday appointments available by request. Contact me at 607-427-1175 to schedule."
+          a: "I'm available 24/7 for your convenience. Contact me at 607-427-1175 to schedule."
         },
         {
           q: "How quickly can you schedule service?",
@@ -115,83 +115,87 @@ export default function FAQ() {
       <Breadcrumb items={[{ label: "FAQ", href: "/pressure-washing-faq" }]} />
 
       <main className="flex-grow container mx-auto px-4 py-12">
-        <h1 
-          data-testid="text-faq-title"
-          className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
-        >
-          PRESSURE WASHING FAQ
-        </h1>
-        <p className="text-lg text-gray-600 mb-12">
-          Have questions about my pressure washing services in Mount Pleasant? Find answers to common questions below, or contact me directly for personalized assistance.
-        </p>
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h1 
+              data-testid="text-faq-title"
+              className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
+            >
+              PRESSURE WASHING FAQ
+            </h1>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Have questions about my pressure washing services in Mount Pleasant? Find answers to common questions below, or contact me directly for personalized assistance.
+            </p>
+          </div>
 
-        <div className="max-w-4xl space-y-12 mb-12">
-          {faqs.map((section, idx) => (
-            <div key={idx}>
-              <h2 className="text-2xl font-heading font-bold text-primary mb-6">{section.category.toUpperCase()}</h2>
-              <div className="space-y-4">
-                {section.questions.map((item, qIdx) => (
-                  <div key={qIdx} className="border-l-4 border-accent pl-4 py-2">
-                    <h3 className="font-bold text-primary mb-2">{item.q}</h3>
-                    <p className="text-gray-700">{item.a}</p>
-                  </div>
-                ))}
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            {faqs.map((section, idx) => (
+              <div key={idx} className="bg-gray-50 p-6">
+                <h2 className="text-xl font-heading font-bold text-primary mb-4 text-center">{section.category.toUpperCase()}</h2>
+                <div className="space-y-4">
+                  {section.questions.map((item, qIdx) => (
+                    <div key={qIdx} className="border-l-4 border-accent pl-4 py-2 bg-white">
+                      <h3 className="font-bold text-primary mb-2 text-sm">{item.q}</h3>
+                      <p className="text-gray-700 text-sm">{item.a}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="bg-gray-50 p-8 mb-12">
-          <h2 className="text-2xl font-heading font-bold text-primary mb-4">SERVICE-SPECIFIC FAQS</h2>
-          <p className="text-gray-700 mb-6">
-            Each service page includes detailed FAQs specific to that service. Click below to learn more:
-          </p>
-          <div className="flex flex-wrap gap-3">
-            {services.map((service) => (
-              <Link key={service.slug} href={`/services/${service.slug}`} className="px-4 py-2 bg-primary text-white font-bold text-sm uppercase hover:bg-primary/90 transition-colors">
-                {service.name} FAQ
-              </Link>
             ))}
           </div>
-        </div>
 
-        <div className="bg-gray-50 p-8 mb-12">
-          <h2 className="text-2xl font-heading font-bold text-primary mb-4">HELPFUL ARTICLES</h2>
-          <p className="text-gray-700 mb-6">
-            Want more detailed information? Check out my blog for in-depth guides and tips:
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {blogPosts.slice(0, 6).map((post) => (
-              <Link key={post.slug} href={`/pressure-washing-tips/${post.slug}`} className="block p-4 bg-white border-2 border-gray-200 hover:border-primary transition-colors">
-                <h3 className="font-bold text-primary text-sm mb-2">{post.title}</h3>
-                <span className="text-accent text-xs font-bold uppercase">Read More →</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-
-        <div className="bg-primary text-white p-8">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h2 className="text-2xl font-heading font-bold mb-4">STILL HAVE QUESTIONS?</h2>
-              <p className="text-gray-200 mb-4">
-                Can't find the answer you're looking for? Contact me directly. I'm happy to answer any questions about my services and provide personalized recommendations.
-              </p>
-              <div className="space-y-2 mb-6">
-                <p><strong>Phone:</strong> 607-427-1175</p>
-                <p><strong>Email:</strong> canmancam@yahoo.com</p>
-              </div>
+          <div className="bg-white border-2 border-primary p-8 mb-12 text-center">
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4">SERVICE-SPECIFIC FAQS</h2>
+            <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
+              Each service page includes detailed FAQs specific to that service. Click below to learn more:
+            </p>
+            <div className="flex flex-wrap gap-3 justify-center">
+              {services.map((service) => (
+                <Link key={service.slug} href={`/services/${service.slug}`} className="px-4 py-2 bg-primary text-white font-bold text-sm uppercase hover:bg-primary/90 transition-colors">
+                  {service.name} FAQ
+                </Link>
+              ))}
             </div>
-            <div className="text-center">
-              <Button 
-                asChild 
-                data-testid="button-faq-estimate"
-                className="bg-accent hover:bg-accent/90 text-white font-bold uppercase px-8 py-6 h-auto rounded-none"
-              >
-                <a href="https://clienthub.getjobber.com/hubs/bb7e70fa-ec16-417a-9059-46487bf60acb/public/requests/2107339/new" target="_blank" rel="noopener noreferrer">
-                  Get Free Estimate
-                </a>
-              </Button>
+          </div>
+
+          <div className="bg-gray-50 p-8 mb-12 text-center">
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4">HELPFUL ARTICLES</h2>
+            <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
+              Want more detailed information? Check out my blog for in-depth guides and tips:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {blogPosts.slice(0, 6).map((post) => (
+                <Link key={post.slug} href={`/pressure-washing-tips/${post.slug}`} className="block p-4 bg-white border-2 border-gray-200 hover:border-primary transition-colors">
+                  <h3 className="font-bold text-primary text-sm mb-2">{post.title}</h3>
+                  <span className="text-accent text-xs font-bold uppercase">Read More →</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="bg-primary text-white p-8">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="text-center md:text-left">
+                <h2 className="text-2xl font-heading font-bold mb-4">STILL HAVE QUESTIONS?</h2>
+                <p className="text-gray-200 mb-4">
+                  Can't find the answer you're looking for? Contact me directly. I'm happy to answer any questions about my services and provide personalized recommendations.
+                </p>
+                <div className="space-y-2 mb-6">
+                  <p><strong>Phone:</strong> 607-427-1175</p>
+                  <p><strong>Email:</strong> canmancam@yahoo.com</p>
+                </div>
+              </div>
+              <div className="text-center">
+                <Button 
+                  asChild 
+                  data-testid="button-faq-estimate"
+                  className="bg-accent hover:bg-accent/90 text-white font-bold uppercase px-8 py-6 h-auto rounded-none"
+                >
+                  <a href="https://clienthub.getjobber.com/hubs/bb7e70fa-ec16-417a-9059-46487bf60acb/public/requests/2107339/new" target="_blank" rel="noopener noreferrer">
+                    Get Free Estimate
+                  </a>
+                </Button>
+              </div>
             </div>
           </div>
         </div>

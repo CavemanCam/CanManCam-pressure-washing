@@ -43,135 +43,180 @@ export default function NeighborhoodDetail() {
       ]} />
 
       <main className="flex-grow container mx-auto px-4 py-12">
-        <h1 
-          data-testid="text-neighborhood-title"
-          className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
-        >
-          {neighborhood.name.toUpperCase()} PRESSURE WASHING SERVICES
-        </h1>
-        <p className="text-lg text-gray-600 mb-8">
-          Professional pressure washing in {neighborhood.name}, Mount Pleasant, SC. Free estimates and price beat guarantee.
-        </p>
-
-        <div className="prose prose-lg max-w-4xl mb-12">
-          <LinkedParagraph 
-            text={neighborhood.description}
-            excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
-            maxLinks={3}
-          />
-          
-          <LinkedParagraph 
-            text={neighborhood.characteristics}
-            excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
-            maxLinks={3}
-          />
-
-          <LinkedParagraph 
-            text={neighborhood.content}
-            excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
-            maxLinks={4}
-          />
-
-          <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">
-            SERVICES AVAILABLE IN {neighborhood.name.toUpperCase()}
-          </h2>
-          <p className="text-base text-gray-700 mb-4">
-            I proudly offer all my pressure washing services throughout {neighborhood.name}:
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {services.map((service) => (
-              <Link 
-                key={service.slug} 
-                href={`/services/${service.slug}`}
-                data-testid={`link-service-${service.slug}`}
-                className="block p-4 border-2 border-primary hover:bg-primary/5 transition-colors"
-              >
-                <h3 className="text-lg font-heading font-bold text-primary">{service.name}</h3>
-                <p className="text-sm text-gray-600 mt-2">{service.shortDescription}</p>
-              </Link>
-            ))}
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h1 
+              data-testid="text-neighborhood-title"
+              className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
+            >
+              {neighborhood.name.toUpperCase()} PRESSURE WASHING SERVICES
+            </h1>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Professional pressure washing in {neighborhood.name}, Mount Pleasant, SC. Free estimates and price beat guarantee.
+            </p>
           </div>
 
-          <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">
-            WHY PROFESSIONAL PRESSURE WASHING FOR {neighborhood.name.toUpperCase()}?
-          </h2>
-          <ul className="space-y-3 mb-8">
-            <li className="text-base text-gray-700 flex gap-3">
-              <span className="text-accent font-bold text-lg">✓</span>
-              Maintains your property's value in this desirable community
-            </li>
-            <li className="text-base text-gray-700 flex gap-3">
-              <span className="text-accent font-bold text-lg">✓</span>
-              Protects exterior surfaces from weather and environmental damage
-            </li>
-            <li className="text-base text-gray-700 flex gap-3">
-              <span className="text-accent font-bold text-lg">✓</span>
-              Preserves the neighborhood's attractive appearance
-            </li>
-            <li className="text-base text-gray-700 flex gap-3">
-              <span className="text-accent font-bold text-lg">✓</span>
-              Removes harmful mold, mildew, and algae
-            </li>
-            <li className="text-base text-gray-700 flex gap-3">
-              <span className="text-accent font-bold text-lg">✓</span>
-              Improves curb appeal and first impressions
-            </li>
-            <li className="text-base text-gray-700 flex gap-3">
-              <span className="text-accent font-bold text-lg">✓</span>
-              My Price Beat Guarantee ensures the best value
-            </li>
-          </ul>
+          <div className="bg-gray-50 p-8 mb-12">
+            <LinkedParagraph 
+              text={neighborhood.description}
+              excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
+              maxLinks={3}
+              className="text-lg text-gray-700 leading-relaxed text-center"
+            />
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="bg-white border-l-4 border-accent p-6">
+              <h2 className="text-xl font-heading font-bold text-primary mb-4">NEIGHBORHOOD CHARACTERISTICS</h2>
+              <LinkedParagraph 
+                text={neighborhood.characteristics}
+                excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
+                maxLinks={2}
+                className="text-gray-700 leading-relaxed"
+              />
+            </div>
+            <div className="bg-primary text-white p-6">
+              <h2 className="text-xl font-heading font-bold mb-4">WHY CHOOSE CANMANCAM?</h2>
+              <ul className="space-y-2">
+                <li className="flex gap-2">
+                  <span className="text-accent font-bold">✓</span>
+                  <span>Local expertise in {neighborhood.name}</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-accent font-bold">✓</span>
+                  <span>Professional-grade equipment</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-accent font-bold">✓</span>
+                  <span>Eco-friendly cleaning solutions</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-accent font-bold">✓</span>
+                  <span>Price Beat Guarantee</span>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-          <h2 className="text-2xl font-heading font-bold text-primary mt-12 mb-4">
-            CANMANCAM IN {neighborhood.name.toUpperCase()}
-          </h2>
-          <p className="text-base text-gray-700 mb-6">
-            I'm Camrin, and I'm proud to serve the {neighborhood.name} community with professional pressure washing services. Whether you need house washing, driveway cleaning, window cleaning, or any of my other services, I have the expertise and equipment to get the job done right. I'm familiar with the unique characteristics of {neighborhood.name} properties and know exactly how to care for them.
-          </p>
-          <p className="text-base text-gray-700">
-            Contact me today for a free estimate and discover why {neighborhood.name} homeowners trust CanManCam for their exterior cleaning needs.
-          </p>
-        </div>
-
-        {relatedPosts.length > 0 && (
           <div className="mb-12">
-            <h2 className="text-2xl font-heading font-bold text-primary mb-4">HELPFUL ARTICLES</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {relatedPosts.map((post) => (
+            <LinkedParagraph 
+              text={neighborhood.content}
+              excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
+              maxLinks={4}
+              className="text-gray-700 leading-relaxed text-center max-w-3xl mx-auto"
+            />
+          </div>
+
+          <div className="mb-12">
+            <h2 className="text-2xl font-heading font-bold text-primary mb-6 text-center">
+              SERVICES AVAILABLE IN {neighborhood.name.toUpperCase()}
+            </h2>
+            <p className="text-base text-gray-700 mb-6 text-center max-w-2xl mx-auto">
+              I proudly offer all my pressure washing services throughout {neighborhood.name}:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {services.map((service) => (
                 <Link 
-                  key={post.slug} 
-                  href={`/pressure-washing-tips/${post.slug}`}
-                  className="block p-4 border-2 border-gray-200 hover:border-primary transition-colors"
+                  key={service.slug} 
+                  href={`/services/${service.slug}`}
+                  data-testid={`link-service-${service.slug}`}
+                  className="block p-4 border-2 border-primary hover:bg-primary hover:text-white transition-colors text-center group"
                 >
-                  <h3 className="font-heading font-bold text-primary text-sm mb-2">{post.title}</h3>
-                  <span className="text-accent text-xs font-bold uppercase">Read More →</span>
+                  <h3 className="text-lg font-heading font-bold text-primary group-hover:text-white">{service.name}</h3>
+                  <p className="text-sm text-gray-600 group-hover:text-gray-200 mt-2">{service.shortDescription}</p>
                 </Link>
               ))}
             </div>
           </div>
-        )}
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
-          <Link 
-            href={`/sc/${prevNeighborhood.slug}-pressure-washing`}
-            className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors"
-          >
-            <div className="text-sm font-bold text-gray-500 mb-1">Previous Area</div>
-            <div className="font-heading font-bold text-primary">{prevNeighborhood.name}</div>
-          </Link>
-          <Link 
-            href="/service-areas"
-            className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors"
-          >
-            <div className="font-heading font-bold text-primary">View All Service Areas</div>
-          </Link>
-          <Link 
-            href={`/sc/${nextNeighborhood.slug}-pressure-washing`}
-            className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors"
-          >
-            <div className="text-sm font-bold text-gray-500 mb-1">Next Area</div>
-            <div className="font-heading font-bold text-primary">{nextNeighborhood.name}</div>
-          </Link>
+          <div className="bg-accent text-white p-8 mb-12">
+            <h2 className="text-2xl font-heading font-bold mb-6 text-center">
+              WHY PROFESSIONAL PRESSURE WASHING FOR {neighborhood.name.toUpperCase()}?
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <span className="font-bold">✓</span>
+                  Maintains your property's value in this desirable community
+                </li>
+                <li className="flex gap-3">
+                  <span className="font-bold">✓</span>
+                  Protects exterior surfaces from weather and environmental damage
+                </li>
+                <li className="flex gap-3">
+                  <span className="font-bold">✓</span>
+                  Preserves the neighborhood's attractive appearance
+                </li>
+              </ul>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <span className="font-bold">✓</span>
+                  Removes harmful mold, mildew, and algae
+                </li>
+                <li className="flex gap-3">
+                  <span className="font-bold">✓</span>
+                  Improves curb appeal and first impressions
+                </li>
+                <li className="flex gap-3">
+                  <span className="font-bold">✓</span>
+                  My Price Beat Guarantee ensures the best value
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="text-center mb-12 bg-gray-50 p-8">
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4">
+              CANMANCAM IN {neighborhood.name.toUpperCase()}
+            </h2>
+            <p className="text-gray-700 max-w-3xl mx-auto mb-4">
+              I'm Camrin, and I'm proud to serve the {neighborhood.name} community with professional pressure washing services. Whether you need house washing, driveway cleaning, window cleaning, or any of my other services, I have the expertise and equipment to get the job done right.
+            </p>
+            <p className="text-gray-700 max-w-3xl mx-auto">
+              Contact me today for a free estimate and discover why {neighborhood.name} homeowners trust CanManCam for their exterior cleaning needs.
+            </p>
+          </div>
+
+          {relatedPosts.length > 0 && (
+            <div className="mb-12">
+              <h2 className="text-2xl font-heading font-bold text-primary mb-4 text-center">HELPFUL ARTICLES</h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {relatedPosts.map((post) => (
+                  <Link 
+                    key={post.slug} 
+                    href={`/pressure-washing-tips/${post.slug}`}
+                    className="block p-4 border-2 border-gray-200 hover:border-primary transition-colors text-center"
+                  >
+                    <h3 className="font-heading font-bold text-primary text-sm mb-2">{post.title}</h3>
+                    <span className="text-accent text-xs font-bold uppercase">Read More →</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
+            <Link 
+              href={`/sc/${prevNeighborhood.slug}-pressure-washing`}
+              className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors"
+            >
+              <div className="text-sm font-bold text-gray-500 mb-1">Previous Area</div>
+              <div className="font-heading font-bold text-primary">{prevNeighborhood.name}</div>
+            </Link>
+            <Link 
+              href="/service-areas"
+              className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors"
+            >
+              <div className="font-heading font-bold text-primary">View All Service Areas</div>
+            </Link>
+            <Link 
+              href={`/sc/${nextNeighborhood.slug}-pressure-washing`}
+              className="block p-4 border-2 border-gray-300 text-center hover:border-primary transition-colors"
+            >
+              <div className="text-sm font-bold text-gray-500 mb-1">Next Area</div>
+              <div className="font-heading font-bold text-primary">{nextNeighborhood.name}</div>
+            </Link>
+          </div>
         </div>
       </main>
 

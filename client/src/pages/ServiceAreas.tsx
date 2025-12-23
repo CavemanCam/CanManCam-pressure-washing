@@ -7,6 +7,9 @@ import { neighborhoods, services } from "@/lib/data";
 import { Link } from "wouter";
 
 export default function ServiceAreas() {
+  const featuredNeighborhoods = neighborhoods.slice(0, 4);
+  const remainingNeighborhoods = neighborhoods.slice(4);
+
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
@@ -23,102 +26,126 @@ export default function ServiceAreas() {
       <Breadcrumb items={[{ label: "Service Areas", href: "/service-areas" }]} />
 
       <main className="flex-grow container mx-auto px-4 py-12">
-        <h1 
-          data-testid="text-service-areas-title"
-          className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
-        >
-          MOUNT PLEASANT SERVICE AREAS
-        </h1>
-        <p className="text-lg text-gray-600 mb-4">
-          CanManCam provides professional pressure washing services throughout Mount Pleasant, SC and all surrounding neighborhoods. I'm proud to serve the entire Mount Pleasant community with high-quality exterior cleaning services.
-        </p>
-        <p className="text-base text-gray-500 mb-12">
-          Click on any neighborhood below to learn more about my services in that area. Each neighborhood page includes detailed information about the services I offer and why professional pressure washing is important for properties in that community.
-        </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-12">
-          {neighborhoods.map((neighborhood) => (
-            <Link 
-              key={neighborhood.slug} 
-              href={`/sc/${neighborhood.slug}-pressure-washing`}
-              data-testid={`card-neighborhood-${neighborhood.slug}`}
-              className="block p-6 border-2 border-primary hover:bg-primary hover:text-white transition-colors group"
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h1 
+              data-testid="text-service-areas-title"
+              className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
             >
-              <h3 className="text-xl font-heading font-bold text-primary group-hover:text-white mb-2">
-                {neighborhood.name.toUpperCase()}
-              </h3>
-              <p className="text-sm text-gray-600 group-hover:text-gray-200 mb-4">
-                Professional pressure washing services
-              </p>
-              <span className="text-accent font-bold text-sm group-hover:text-white">
-                View Services →
-              </span>
-            </Link>
-          ))}
-        </div>
+              MOUNT PLEASANT SERVICE AREAS
+            </h1>
+            <p className="text-lg text-gray-600 mb-4 max-w-3xl mx-auto">
+              CanManCam provides professional pressure washing services throughout Mount Pleasant, SC and all surrounding neighborhoods. I'm proud to serve the entire Mount Pleasant community with high-quality exterior cleaning services.
+            </p>
+            <p className="text-base text-gray-500 max-w-2xl mx-auto">
+              Click on any neighborhood below to learn more about my services in that area.
+            </p>
+          </div>
 
-        <div className="bg-gray-100 p-8 mb-12">
-          <h2 className="text-2xl font-heading font-bold text-primary mb-6">
-            ALL SERVICES AVAILABLE IN EVERY NEIGHBORHOOD
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            {services.map((service) => (
-              <Link key={service.slug} href={`/services/${service.slug}`} className="block p-4 bg-white border-2 border-gray-200 hover:border-primary transition-colors text-center">
-                <span className="font-bold text-primary text-sm">{service.name}</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            {featuredNeighborhoods.map((neighborhood) => (
+              <Link 
+                key={neighborhood.slug} 
+                href={`/sc/${neighborhood.slug}-pressure-washing`}
+                data-testid={`card-neighborhood-${neighborhood.slug}`}
+                className="block p-8 bg-primary text-white hover:bg-primary/90 transition-colors"
+              >
+                <h3 className="text-2xl font-heading font-bold mb-2">
+                  {neighborhood.name.toUpperCase()}
+                </h3>
+                <p className="text-gray-200 mb-4">
+                  Professional pressure washing services for {neighborhood.name} residents
+                </p>
+                <span className="text-accent font-bold">
+                  View Services →
+                </span>
               </Link>
             ))}
           </div>
-        </div>
 
-        <div className="bg-primary text-white p-8 mb-12">
-          <h2 className="text-2xl font-heading font-bold mb-6">
-            WHY CHOOSE CANMANCAM FOR YOUR NEIGHBORHOOD?
-          </h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <ul className="space-y-3">
-              <li className="flex gap-3">
-                <span className="text-accent font-bold text-lg">✓</span>
-                <span>Local expertise in Mount Pleasant neighborhoods</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent font-bold text-lg">✓</span>
-                <span>Professional-grade equipment and techniques</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent font-bold text-lg">✓</span>
-                <span>Fully insured and licensed</span>
-              </li>
-            </ul>
-            <ul className="space-y-3">
-              <li className="flex gap-3">
-                <span className="text-accent font-bold text-lg">✓</span>
-                <span>My Price Beat Guarantee ensures best value</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent font-bold text-lg">✓</span>
-                <span>Free estimates with no obligation</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent font-bold text-lg">✓</span>
-                <span>Responsive, friendly customer service</span>
-              </li>
-            </ul>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-12">
+            {remainingNeighborhoods.map((neighborhood, idx) => (
+              <Link 
+                key={neighborhood.slug} 
+                href={`/sc/${neighborhood.slug}-pressure-washing`}
+                data-testid={`card-neighborhood-${neighborhood.slug}`}
+                className={`block p-5 border-2 hover:border-primary hover:bg-primary/5 transition-colors text-center ${
+                  idx % 2 === 0 ? 'border-accent' : 'border-gray-200'
+                }`}
+              >
+                <h3 className="text-lg font-heading font-bold text-primary mb-1">
+                  {neighborhood.name.toUpperCase()}
+                </h3>
+                <span className="text-accent font-bold text-sm">
+                  View →
+                </span>
+              </Link>
+            ))}
           </div>
-        </div>
 
-        <div className="text-center mb-12">
-          <h2 className="text-2xl font-heading font-bold text-primary mb-4">
-            SERVICE AREA MAP
-          </h2>
-          <div className="bg-gray-200 h-64 flex items-center justify-center mb-4">
-            <div className="text-center">
-              <p className="text-gray-600 font-bold mb-2">Mount Pleasant, SC</p>
-              <p className="text-sm text-gray-500">Serving all neighborhoods within Mount Pleasant</p>
+          <div className="bg-gray-100 p-8 mb-12">
+            <h2 className="text-2xl font-heading font-bold text-primary mb-6 text-center">
+              ALL SERVICES AVAILABLE IN EVERY NEIGHBORHOOD
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+              {services.map((service) => (
+                <Link key={service.slug} href={`/services/${service.slug}`} className="block p-4 bg-white border-2 border-gray-200 hover:border-primary transition-colors text-center">
+                  <span className="font-bold text-primary text-sm">{service.name}</span>
+                </Link>
+              ))}
             </div>
           </div>
-          <p className="text-gray-600 text-sm">
-            I serve Isle of Palms, Old Village, Park West, Hamlin Plantation, Carolina Park, Dunes West, Planters Pointe, Long Point, Shem Creek, and surrounding Mount Pleasant areas.
-          </p>
+
+          <div className="bg-primary text-white p-8 mb-12">
+            <h2 className="text-2xl font-heading font-bold mb-6 text-center">
+              WHY CHOOSE CANMANCAM FOR YOUR NEIGHBORHOOD?
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <span className="text-accent font-bold text-lg">✓</span>
+                  <span>Local expertise in Mount Pleasant neighborhoods</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent font-bold text-lg">✓</span>
+                  <span>Professional-grade equipment and techniques</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent font-bold text-lg">✓</span>
+                  <span>Fully insured and licensed</span>
+                </li>
+              </ul>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <span className="text-accent font-bold text-lg">✓</span>
+                  <span>My Price Beat Guarantee ensures best value</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent font-bold text-lg">✓</span>
+                  <span>Free estimates with no obligation</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent font-bold text-lg">✓</span>
+                  <span>Responsive, friendly customer service</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="text-center mb-12">
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4">
+              SERVICE AREA MAP
+            </h2>
+            <div className="bg-gray-200 h-64 flex items-center justify-center mb-4 max-w-3xl mx-auto">
+              <div className="text-center">
+                <p className="text-gray-600 font-bold mb-2">Mount Pleasant, SC</p>
+                <p className="text-sm text-gray-500">Serving all neighborhoods within Mount Pleasant</p>
+              </div>
+            </div>
+            <p className="text-gray-600 text-sm max-w-2xl mx-auto">
+              I serve Isle of Palms, Old Village, Park West, Hamlin Plantation, Carolina Park, Dunes West, Planters Pointe, Long Point, Shem Creek, and surrounding Mount Pleasant areas.
+            </p>
+          </div>
         </div>
       </main>
 

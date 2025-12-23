@@ -18,6 +18,10 @@ export default function BlogDetail() {
   const relatedNeighborhoods = neighborhoods.filter(n => post.relatedNeighborhoods?.includes(n.slug));
   const relatedPosts = blogPosts.filter(p => p.slug !== post.slug).slice(0, 3);
 
+  const paragraphs = post.content.split('\n\n');
+  const firstHalf = paragraphs.slice(0, Math.ceil(paragraphs.length / 2));
+  const secondHalf = paragraphs.slice(Math.ceil(paragraphs.length / 2));
+
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
@@ -39,103 +43,123 @@ export default function BlogDetail() {
       ]} />
 
       <main className="flex-grow container mx-auto px-4 py-12">
-        <article className="max-w-4xl">
-          <h1 
-            data-testid="text-blog-title"
-            className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
-          >
-            {post.question}
-          </h1>
-          <p className="text-gray-500 text-sm mb-8">
-            CanManCam Pressure Washing | Mount Pleasant, SC
-          </p>
-
-          <div className="bg-secondary text-white p-6 mb-8">
-            <p data-testid="text-blog-answer" className="text-lg leading-relaxed">
-              {post.answer}
-            </p>
-          </div>
-
-          <div className="prose prose-lg max-w-none mb-12">
-            {post.content.split('\n\n').map((paragraph, idx) => (
-              <LinkedParagraph 
-                key={idx} 
-                text={paragraph}
-                excludeHrefs={[`/pressure-washing-tips/${post.slug}`]}
-                maxLinks={idx < 4 ? 2 : 1}
-              />
-            ))}
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            {relatedServices.length > 0 && (
-              <div>
-                <h3 className="text-xl font-heading font-bold text-primary mb-4">RELATED SERVICES</h3>
-                <div className="space-y-3">
-                  {relatedServices.map((service) => (
-                    <Link 
-                      key={service.slug} 
-                      href={`/services/${service.slug}`}
-                      data-testid={`link-service-${service.slug}`}
-                      className="block p-3 border-l-4 border-accent hover:bg-gray-50 transition-colors"
-                    >
-                      <h4 className="font-bold text-primary">{service.name}</h4>
-                      <p className="text-sm text-gray-600">{service.shortDescription}</p>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {relatedNeighborhoods.length > 0 && (
-              <div>
-                <h3 className="text-xl font-heading font-bold text-primary mb-4">SERVICE AREAS</h3>
-                <div className="space-y-3">
-                  {relatedNeighborhoods.map((neighborhood) => (
-                    <Link 
-                      key={neighborhood.slug} 
-                      href={`/sc/${neighborhood.slug}-pressure-washing`}
-                      data-testid={`link-neighborhood-${neighborhood.slug}`}
-                      className="block p-3 border-l-4 border-accent hover:bg-gray-50 transition-colors"
-                    >
-                      <h4 className="font-bold text-primary">{neighborhood.name}</h4>
-                      <p className="text-sm text-gray-600">Pressure Washing Services in Mount Pleasant</p>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
-
-          <div className="border-t-2 border-gray-200 pt-8 mb-12">
-            <h3 className="text-xl font-heading font-bold text-primary mb-4">RELATED ARTICLES</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {relatedPosts.map((relPost) => (
-                <Link 
-                  key={relPost.slug} 
-                  href={`/pressure-washing-tips/${relPost.slug}`}
-                  className="block p-4 border-2 border-gray-200 hover:border-primary transition-colors"
-                >
-                  <h4 className="font-heading font-bold text-primary text-sm mb-2">{relPost.title}</h4>
-                  <span className="text-accent text-xs font-bold uppercase">Read More →</span>
-                </Link>
-              ))}
+        <div className="max-w-4xl mx-auto">
+          <article>
+            <div className="text-center mb-8">
+              <h1 
+                data-testid="text-blog-title"
+                className="text-3xl md:text-4xl font-heading font-bold text-primary mb-4"
+              >
+                {post.question}
+              </h1>
+              <p className="text-gray-500 text-sm">
+                CanManCam Pressure Washing | Mount Pleasant, SC
+              </p>
             </div>
-          </div>
 
-          <div className="flex flex-wrap gap-4">
-            <Link href="/price-beat-guarantee" className="text-accent font-bold hover:underline">Price Beat Guarantee</Link>
-            <Link href="/contact" className="text-accent font-bold hover:underline">Contact Us</Link>
-            <Link href="/services" className="text-accent font-bold hover:underline">All Services</Link>
-          </div>
-        </article>
+            <div className="bg-secondary text-white p-8 mb-10 text-center">
+              <p data-testid="text-blog-answer" className="text-lg leading-relaxed max-w-3xl mx-auto">
+                {post.answer}
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-10">
+              <div className="space-y-4">
+                {firstHalf.map((paragraph, idx) => (
+                  <LinkedParagraph 
+                    key={idx} 
+                    text={paragraph}
+                    excludeHrefs={[`/pressure-washing-tips/${post.slug}`]}
+                    maxLinks={idx < 2 ? 2 : 1}
+                    className="text-gray-700 leading-relaxed"
+                  />
+                ))}
+              </div>
+              <div className="space-y-4">
+                {secondHalf.map((paragraph, idx) => (
+                  <LinkedParagraph 
+                    key={idx} 
+                    text={paragraph}
+                    excludeHrefs={[`/pressure-washing-tips/${post.slug}`]}
+                    maxLinks={1}
+                    className="text-gray-700 leading-relaxed"
+                  />
+                ))}
+              </div>
+            </div>
+
+            {(relatedServices.length > 0 || relatedNeighborhoods.length > 0) && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+                {relatedServices.length > 0 && (
+                  <div className="bg-gray-50 p-6">
+                    <h3 className="text-xl font-heading font-bold text-primary mb-4 text-center">RELATED SERVICES</h3>
+                    <div className="space-y-3">
+                      {relatedServices.map((service) => (
+                        <Link 
+                          key={service.slug} 
+                          href={`/services/${service.slug}`}
+                          data-testid={`link-service-${service.slug}`}
+                          className="block p-3 bg-white border-l-4 border-accent hover:bg-gray-100 transition-colors"
+                        >
+                          <h4 className="font-bold text-primary">{service.name}</h4>
+                          <p className="text-sm text-gray-600">{service.shortDescription}</p>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {relatedNeighborhoods.length > 0 && (
+                  <div className="bg-gray-50 p-6">
+                    <h3 className="text-xl font-heading font-bold text-primary mb-4 text-center">SERVICE AREAS</h3>
+                    <div className="space-y-3">
+                      {relatedNeighborhoods.map((neighborhood) => (
+                        <Link 
+                          key={neighborhood.slug} 
+                          href={`/sc/${neighborhood.slug}-pressure-washing`}
+                          data-testid={`link-neighborhood-${neighborhood.slug}`}
+                          className="block p-3 bg-white border-l-4 border-accent hover:bg-gray-100 transition-colors"
+                        >
+                          <h4 className="font-bold text-primary">{neighborhood.name}</h4>
+                          <p className="text-sm text-gray-600">Pressure Washing Services in Mount Pleasant</p>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            <div className="border-t-2 border-gray-200 pt-8 mb-10">
+              <h3 className="text-xl font-heading font-bold text-primary mb-4 text-center">RELATED ARTICLES</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {relatedPosts.map((relPost) => (
+                  <Link 
+                    key={relPost.slug} 
+                    href={`/pressure-washing-tips/${relPost.slug}`}
+                    className="block p-4 border-2 border-gray-200 hover:border-primary transition-colors text-center"
+                  >
+                    <h4 className="font-heading font-bold text-primary text-sm mb-2">{relPost.title}</h4>
+                    <span className="text-accent text-xs font-bold uppercase">Read More →</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <div className="flex flex-wrap gap-4 justify-center">
+              <Link href="/price-beat-guarantee" className="text-accent font-bold hover:underline">Price Beat Guarantee</Link>
+              <Link href="/contact" className="text-accent font-bold hover:underline">Contact Me</Link>
+              <Link href="/services" className="text-accent font-bold hover:underline">All Services</Link>
+            </div>
+          </article>
+        </div>
       </main>
 
       <section className="bg-secondary text-white py-12">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-heading font-bold mb-4">HAVE MORE QUESTIONS?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Contact CanManCam today for professional pressure washing services in Mount Pleasant. We're happy to discuss your specific needs.
+            Contact CanManCam today for professional pressure washing services in Mount Pleasant. I'm happy to discuss your specific needs.
           </p>
           <Button 
             asChild 
