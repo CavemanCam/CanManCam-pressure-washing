@@ -81,7 +81,7 @@ export default function Home() {
             Mount Pleasant's Most Trusted
           </h2>
           <h1 className="text-5xl md:text-7xl font-heading font-bold mb-8 leading-tight drop-shadow-lg">
-            PRESSURE WASHING COMPANY
+            BEST HOUSE WASH SERVICE IN MOUNT PLEASANT
           </h1>
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             <Button 
