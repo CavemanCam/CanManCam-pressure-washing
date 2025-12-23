@@ -8,7 +8,7 @@ import { Link } from "wouter";
 
 import houseWashingImg from "@assets/uploaded_images/house-washing-mount-pleasant-01.JPEG";
 import drivewayImg from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
-import sidewalkImg from "@assets/uploaded_images/concrete-sidewalk-cleaning-mount-pleasant.JPEG";
+import sidewalkImg from "@assets/sidewalk-cleaning-mount-pleasant_1766459917586.JPEG";
 import gutterImg from "@assets/uploaded_images/gutter-cleaning-service-mount-pleasant.png";
 import windowImg from "@assets/uploaded_images/window-cleaning-sunroom-porch.JPEG";
 import trashcanImg from "@assets/uploaded_images/trash-can-cleaning-after.JPEG";

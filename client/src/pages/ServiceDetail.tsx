@@ -19,8 +19,9 @@ import driveway2 from "@assets/uploaded_images/concrete-driveway-cleaning-after.
 import drivewayBefore from "@assets/uploaded_images/pressure-washing-driveway-before.JPEG";
 import drivewayAfter from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
 
-import sidewalk1 from "@assets/uploaded_images/concrete-sidewalk-cleaning-mount-pleasant.JPEG";
-import sidewalk2 from "@assets/uploaded_images/paver-walkway-cleaning-after-01.JPEG";
+import sidewalkHero from "@assets/sidewalk-cleaning-mount-pleasant_1766459917586.JPEG";
+import sidewalkSection1 from "@assets/sidewalk-clean-mount-pleasant_1766459941093.JPEG";
+import sidewalkSection2 from "@assets/side-walk-cleaning-mount-pleasant_1766459978190.JPEG";
 
 import gutter1 from "@assets/uploaded_images/gutter-cleaning-service-mount-pleasant.png";
 
@@ -37,6 +38,7 @@ import recyclingAfter from "@assets/uploaded_images/recycling-bin-cleaning-blue-
 interface ServiceImageSet {
   hero: string;
   sectionImage: string | null;
+  detailsImage: string | null;
   beforeAfter?: { before: string; after: string }[];
 }
 
@@ -44,6 +46,7 @@ const serviceImages: Record<string, ServiceImageSet> = {
   "house-washing": {
     hero: houseWashing1,
     sectionImage: houseWashing2,
+    detailsImage: houseWashing2,
     beforeAfter: [
       { before: houseWashingBefore, after: houseWashingAfter }
     ]
@@ -51,25 +54,30 @@ const serviceImages: Record<string, ServiceImageSet> = {
   "driveway-cleaning": {
     hero: driveway1,
     sectionImage: driveway2,
+    detailsImage: driveway2,
     beforeAfter: [
       { before: drivewayBefore, after: drivewayAfter }
     ]
   },
   "sidewalk-cleaning": {
-    hero: sidewalk1,
-    sectionImage: sidewalk2
+    hero: sidewalkHero,
+    sectionImage: sidewalkSection1,
+    detailsImage: sidewalkSection2
   },
   "gutter-cleaning": {
     hero: gutter1,
-    sectionImage: null
+    sectionImage: null,
+    detailsImage: null
   },
   "window-cleaning": {
     hero: window1,
-    sectionImage: window2
+    sectionImage: window2,
+    detailsImage: window2
   },
   "trash-can-cleaning": {
     hero: trashcan1,
     sectionImage: trashcan2,
+    detailsImage: trashcan2,
     beforeAfter: [
       { before: trashcanBefore, after: trashcanAfter },
       { before: recyclingBefore, after: recyclingAfter }
@@ -251,8 +259,8 @@ export default function ServiceDetail() {
 
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <div className="grid lg:grid-cols-5 gap-12">
-              <div className="lg:col-span-3">
+            <div className={`grid ${images?.detailsImage ? 'lg:grid-cols-2' : 'lg:grid-cols-1 max-w-4xl mx-auto'} gap-12 items-start`}>
+              <div>
                 <h2 className="text-3xl font-heading font-bold text-primary mb-6">
                   THE DETAILS
                 </h2>
@@ -267,8 +275,49 @@ export default function ServiceDetail() {
                   ))}
                 </div>
               </div>
-              <div className="lg:col-span-2">
-                <div className="bg-gray-50 p-8 sticky top-4">
+              {images?.detailsImage ? (
+                <div className="space-y-6">
+                  <img 
+                    src={images.detailsImage} 
+                    alt={`${service.name} work example`}
+                    className="w-full h-80 object-cover shadow-xl"
+                  />
+                  <div className="bg-gray-50 p-8">
+                    <h3 className="text-xl font-heading font-bold text-primary mb-4">
+                      WHY CHOOSE CANMANCAM?
+                    </h3>
+                    <ul className="space-y-3">
+                      <li className="flex gap-3 items-start">
+                        <span className="text-accent font-bold">✓</span>
+                        <span className="text-gray-700">Camrin brings years of hands-on experience</span>
+                      </li>
+                      <li className="flex gap-3 items-start">
+                        <span className="text-accent font-bold">✓</span>
+                        <span className="text-gray-700">Professional-grade equipment</span>
+                      </li>
+                      <li className="flex gap-3 items-start">
+                        <span className="text-accent font-bold">✓</span>
+                        <span className="text-gray-700">Eco-friendly cleaning solutions</span>
+                      </li>
+                      <li className="flex gap-3 items-start">
+                        <span className="text-accent font-bold">✓</span>
+                        <span className="text-gray-700">Fully insured and licensed</span>
+                      </li>
+                      <li className="flex gap-3 items-start">
+                        <span className="text-accent font-bold">✓</span>
+                        <span className="text-gray-700">My Price Beat Guarantee</span>
+                      </li>
+                    </ul>
+                    <Button 
+                      asChild 
+                      className="w-full mt-6 bg-accent hover:bg-accent/90 text-white font-bold uppercase py-4 rounded-none"
+                    >
+                      <a href="tel:607-427-1175">Call 607-427-1175</a>
+                    </Button>
+                  </div>
+                </div>
+              ) : (
+                <div className="bg-gray-50 p-8">
                   <h3 className="text-xl font-heading font-bold text-primary mb-4">
                     WHY CHOOSE CANMANCAM?
                   </h3>
@@ -301,7 +350,7 @@ export default function ServiceDetail() {
                     <a href="tel:607-427-1175">Call 607-427-1175</a>
                   </Button>
                 </div>
-              </div>
+              )}
             </div>
           </div>
         </section>
