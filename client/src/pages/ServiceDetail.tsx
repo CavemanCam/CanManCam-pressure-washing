@@ -16,6 +16,7 @@ import houseWashingAfter from "@assets/soft-wash-vinyl-siding-after_176645895525
 
 import driveway1 from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
 import driveway2 from "@assets/uploaded_images/concrete-driveway-cleaning-after.JPEG";
+import driveway3 from "@assets/driveway-cleaning-mount-pleasant_1766460337853.JPEG";
 import drivewayBefore from "@assets/uploaded_images/pressure-washing-driveway-before.JPEG";
 import drivewayAfter from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
 
@@ -27,11 +28,13 @@ import gutter1 from "@assets/uploaded_images/gutter-cleaning-service-mount-pleas
 
 import window1 from "@assets/uploaded_images/window-cleaning-sunroom-porch.JPEG";
 import window2 from "@assets/uploaded_images/bay-window-exterior-cleaning.JPEG";
+import window3 from "@assets/window-cleaning-mount-pleasant_1766460582203.JPEG";
 
 import trashcan1 from "@assets/uploaded_images/trash-can-cleaning-after.JPEG";
 import trashcan2 from "@assets/uploaded_images/recycling-bin-clean-after.JPEG";
 import trashcanBefore from "@assets/uploaded_images/trash-can-cleaning-before.JPEG";
 import trashcanAfter from "@assets/uploaded_images/trash-can-cleaning-after.JPEG";
+import trashcanDirty from "@assets/trash-can-cleaning-mount-pleasant_1766460405551.JPEG";
 import recyclingBefore from "@assets/uploaded_images/recycling-bin-cleaning-blue-before.JPEG";
 import recyclingAfter from "@assets/uploaded_images/recycling-bin-cleaning-blue-after.JPEG";
 
@@ -54,7 +57,7 @@ const serviceImages: Record<string, ServiceImageSet> = {
   "driveway-cleaning": {
     hero: driveway1,
     sectionImage: driveway2,
-    detailsImage: driveway2,
+    detailsImage: driveway3,
     beforeAfter: [
       { before: drivewayBefore, after: drivewayAfter }
     ]
@@ -72,7 +75,7 @@ const serviceImages: Record<string, ServiceImageSet> = {
   "window-cleaning": {
     hero: window1,
     sectionImage: window2,
-    detailsImage: window2
+    detailsImage: window3
   },
   "trash-can-cleaning": {
     hero: trashcan1,
@@ -80,7 +83,7 @@ const serviceImages: Record<string, ServiceImageSet> = {
     detailsImage: trashcan2,
     beforeAfter: [
       { before: trashcanBefore, after: trashcanAfter },
-      { before: recyclingBefore, after: recyclingAfter }
+      { before: trashcanDirty, after: trashcanAfter }
     ]
   }
 };

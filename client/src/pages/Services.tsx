@@ -6,7 +6,7 @@ import { SEO } from "@/components/SEO";
 import { services } from "@/lib/data";
 import { Link } from "wouter";
 
-import houseWashingImg from "@assets/uploaded_images/house-washing-mount-pleasant-01.JPEG";
+import houseWashingImg from "@assets/house-cleaning-mount-pleasant_1766460242552.JPEG";
 import drivewayImg from "@assets/uploaded_images/pressure-washing-driveway-after.JPEG";
 import sidewalkImg from "@assets/sidewalk-cleaning-mount-pleasant_1766459917586.JPEG";
 import gutterImg from "@assets/uploaded_images/gutter-cleaning-service-mount-pleasant.png";
