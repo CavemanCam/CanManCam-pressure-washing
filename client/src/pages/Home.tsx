@@ -115,7 +115,7 @@ export default function Home() {
             Complete Exterior Pressure Washing In The Mount Pleasant Area
           </h2>
           <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-            When you need any part of your home pressure washed in or around Mount Pleasant, the all-in-one pressure washing service to call is CanManCam! We offer a complete line of pressure washing services, including all types of power washing and soft wash house cleaning. Our experienced professionals are highly trained, insured, and ready to serve you.
+            When you need any part of your home pressure washed in or around Mount Pleasant, the one to call is Camrin at CanManCam! I offer a complete line of pressure washing services, including all types of power washing and soft wash house cleaning. I'm highly trained, fully insured, and ready to serve you.
           </p>
           <div className="p-6 bg-gray-50 inline-block">
             <p className="font-bold text-xl text-primary mb-2">We make pressure washing simple, affordable, and thorough!</p>
