@@ -103,7 +103,7 @@ export default function Gallery() {
                 WANT TO SEE YOUR HOME IN OUR GALLERY?
               </h2>
               <p className="text-gray-200 mb-4">
-                Get a free estimate for professional pressure washing services. Our team will transform your property and you could be our next featured project!
+                Get a free estimate for professional pressure washing services. I'll transform your property and you could be my next featured project!
               </p>
             </div>
             <div className="text-center">

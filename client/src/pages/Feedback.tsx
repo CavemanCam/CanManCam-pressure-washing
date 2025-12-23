@@ -87,7 +87,7 @@ export default function Feedback() {
               </li>
               <li className="flex gap-3">
                 <span className="text-accent font-bold text-lg">✓</span>
-                <span className="text-gray-700">Positive feedback is shared with our team for recognition</span>
+                <span className="text-gray-700">Positive feedback motivates me to keep delivering great results</span>
               </li>
             </ul>
           </div>

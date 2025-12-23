@@ -30,10 +30,10 @@ export default function Services() {
           PRESSURE WASHING SERVICES IN MOUNT PLEASANT, SC
         </h1>
         <p className="text-lg text-gray-600 mb-4">
-          CanManCam offers comprehensive exterior cleaning services throughout Mount Pleasant and surrounding areas. From house washing and driveway cleaning to window washing and gutter maintenance, we have the expertise and equipment to handle all your property's exterior cleaning needs.
+          I'm Camrin, and CanManCam offers comprehensive exterior cleaning services throughout Mount Pleasant and surrounding areas. From house washing and driveway cleaning to window washing and gutter maintenance, I have the expertise and equipment to handle all your property's exterior cleaning needs.
         </p>
         <p className="text-base text-gray-500 mb-12">
-          Our professional team uses the latest soft washing and pressure washing techniques to safely and effectively clean every surface. We're fully licensed, insured, and committed to your complete satisfaction.
+          I use the latest soft washing and pressure washing techniques to safely and effectively clean every surface. I'm fully licensed, insured, and committed to your complete satisfaction.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">

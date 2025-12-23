@@ -84,7 +84,7 @@ export default function ProjectDetail() {
             Professional {project.service.toLowerCase()} makes a significant difference in property appearance and value. This {project.location} project showcases the transformative power of expert pressure washing, demonstrating how years of accumulated dirt, algae, and weathering can be safely removed to reveal the surface beneath.
           </p>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            CanManCam uses professional-grade equipment and appropriate techniques for each surface type, ensuring safe, effective cleaning without damage. Our team takes pride in delivering results that exceed client expectations, as demonstrated by this {project.location} project.
+            I use professional-grade equipment and appropriate techniques for each surface type, ensuring safe, effective cleaning without damage. I take pride in delivering results that exceed client expectations, as demonstrated by this {project.location} project.
           </p>
         </div>
 

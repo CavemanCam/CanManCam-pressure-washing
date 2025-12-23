@@ -162,7 +162,7 @@ export default function ServiceDetail() {
           <ul className="space-y-3 mb-8">
             <li className="text-base text-gray-700 flex gap-3">
               <span className="text-accent font-bold text-lg">✓</span>
-              Expert technicians with years of experience
+              Camrin brings years of hands-on experience
             </li>
             <li className="text-base text-gray-700 flex gap-3">
               <span className="text-accent font-bold text-lg">✓</span>

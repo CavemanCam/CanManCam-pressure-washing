@@ -11,7 +11,7 @@ export function Footer() {
             <img src={logoImage} alt="CanManCam Pressure Washing" className="h-32 w-auto" />
           </Link>
           <p className="text-gray-300 leading-relaxed">
-            CanManCam is Mount Pleasant's most trusted pressure washing company. We provide top-tier exterior cleaning services with a satisfaction guarantee.
+            CanManCam is Mount Pleasant's most trusted pressure washing service. I'm Camrin, and I provide top-tier exterior cleaning with a satisfaction guarantee.
           </p>
         </div>
 

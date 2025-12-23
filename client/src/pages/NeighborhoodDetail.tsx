@@ -126,7 +126,7 @@ export default function NeighborhoodDetail() {
             CANMANCAM IN {neighborhood.name.toUpperCase()}
           </h2>
           <p className="text-base text-gray-700 mb-6">
-            CanManCam is proud to serve the {neighborhood.name} community with professional pressure washing services. Whether you need house washing, driveway cleaning, window cleaning, or any of our other services, we have the expertise and equipment to get the job done right. Our team is familiar with the unique characteristics of {neighborhood.name} properties and knows exactly how to care for them.
+            I'm Camrin, and I'm proud to serve the {neighborhood.name} community with professional pressure washing services. Whether you need house washing, driveway cleaning, window cleaning, or any of my other services, I have the expertise and equipment to get the job done right. I'm familiar with the unique characteristics of {neighborhood.name} properties and know exactly how to care for them.
           </p>
           <p className="text-base text-gray-700">
             Contact us today for a free estimate and discover why {neighborhood.name} homeowners trust CanManCam for their exterior cleaning needs.

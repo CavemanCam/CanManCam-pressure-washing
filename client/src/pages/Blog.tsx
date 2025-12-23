@@ -30,7 +30,7 @@ export default function Blog() {
           Learn about pressure washing, property maintenance, and how to care for your Mount Pleasant home. Our expert guides answer your most common questions about exterior cleaning services.
         </p>
         <p className="text-base text-gray-500 mb-12">
-          Each article is written by our team of pressure washing professionals with years of experience serving the Mount Pleasant, SC area. Find answers to your questions and learn how to protect your property.
+          Each article is written by Camrin, with years of hands-on pressure washing experience serving the Mount Pleasant, SC area. Find answers to your questions and learn how to protect your property.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -51,7 +51,7 @@ export default function Blog() {
         <div className="bg-gray-50 p-8 mb-12">
           <h2 className="text-2xl font-heading font-bold text-primary mb-4">DIDN'T FIND YOUR ANSWER?</h2>
           <p className="text-gray-700 mb-6">
-            Have a specific question about pressure washing or home maintenance? Contact CanManCam directly. Our team is happy to answer any questions about our services and provide personalized recommendations for your Mount Pleasant property.
+            Have a specific question about pressure washing or home maintenance? Contact me directly. I'm happy to answer any questions about my services and provide personalized recommendations for your Mount Pleasant property.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 
@@ -89,7 +89,7 @@ export default function Blog() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-heading font-bold mb-4">READY FOR PROFESSIONAL PRESSURE WASHING?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Get a free estimate for pressure washing services in Mount Pleasant, SC. Our team is ready to transform your property.
+            Get a free estimate for pressure washing services in Mount Pleasant, SC. I'm ready to transform your property.
           </p>
           <Button 
             asChild 
