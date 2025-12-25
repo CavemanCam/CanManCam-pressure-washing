@@ -54,19 +54,29 @@ export function Header() {
               <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
                 ABOUT ▾
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="rounded-none bg-white p-2 shadow-xl border-t-4 border-accent">
-                <DropdownMenuItem className="rounded-none cursor-pointer p-0 mb-1" asChild>
-                  <Link href="/about" className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">About Us</Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem className="rounded-none cursor-pointer p-0 mb-1" asChild>
-                  <Link href="/pressure-washing-faq" className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">FAQ</Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem className="rounded-none cursor-pointer p-0 mb-1" asChild>
-                  <Link href="/service-areas" className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">Service Areas</Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem className="rounded-none cursor-pointer p-0" asChild>
-                  <Link href="/feedback" className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">Submit Feedback</Link>
-                </DropdownMenuItem>
+              <DropdownMenuContent className="rounded-none bg-white p-3 shadow-2xl border-t-4 border-accent min-w-[200px]">
+                <div className="flex flex-col gap-2">
+                  <DropdownMenuItem className="p-0" asChild>
+                    <Link href="/about" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm">
+                      About Us
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="p-0" asChild>
+                    <Link href="/pressure-washing-faq" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm">
+                      FAQ
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="p-0" asChild>
+                    <Link href="/service-areas" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm">
+                      Service Areas
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem className="p-0" asChild>
+                    <Link href="/feedback" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm">
+                      Submit Feedback
+                    </Link>
+                  </DropdownMenuItem>
+                </div>
               </DropdownMenuContent>
             </DropdownMenu>
           </div>
@@ -76,16 +86,22 @@ export function Header() {
               <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
                 SERVICES ▾
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-64 rounded-none bg-white p-2 shadow-xl border-t-4 border-accent">
-                <DropdownMenuItem className="rounded-none cursor-pointer p-0 mb-1" asChild>
-                  <Link href="/services" className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">All Services</Link>
-                </DropdownMenuItem>
-                <div className="grid grid-cols-1 gap-1">
-                  {services.map((service) => (
-                    <DropdownMenuItem key={service.slug} className="rounded-none cursor-pointer p-0" asChild>
-                      <Link href={`/services/${service.slug}`} className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">{service.name}</Link>
-                    </DropdownMenuItem>
-                  ))}
+              <DropdownMenuContent className="w-72 rounded-none bg-white p-3 shadow-2xl border-t-4 border-accent">
+                <div className="flex flex-col gap-2">
+                  <DropdownMenuItem className="p-0" asChild>
+                    <Link href="/services" className="flex items-center w-full px-4 py-3 bg-primary text-white hover:bg-accent transition-all font-bold text-xs uppercase tracking-widest shadow-md">
+                      All Services
+                    </Link>
+                  </DropdownMenuItem>
+                  <div className="grid grid-cols-1 gap-2">
+                    {services.map((service) => (
+                      <DropdownMenuItem key={service.slug} className="p-0" asChild>
+                        <Link href={`/services/${service.slug}`} className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-[11px] uppercase tracking-wider border border-gray-100 shadow-sm">
+                          {service.name}
+                        </Link>
+                      </DropdownMenuItem>
+                    ))}
+                  </div>
                 </div>
               </DropdownMenuContent>
             </DropdownMenu>
@@ -96,11 +112,11 @@ export function Header() {
               <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
                 NEIGHBORHOODS ▾
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-[500px] rounded-none bg-white p-3 shadow-xl border-t-4 border-accent">
-                <div className="grid grid-cols-2 gap-2">
+              <DropdownMenuContent className="w-[600px] rounded-none bg-white p-4 shadow-2xl border-t-4 border-accent">
+                <div className="grid grid-cols-2 gap-3">
                   {neighborhoods.map((neighborhood) => (
-                    <DropdownMenuItem key={neighborhood.slug} className="rounded-none cursor-pointer p-0" asChild>
-                      <Link href={`/sc/${neighborhood.slug}-pressure-washing`} className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-[11px] uppercase border border-gray-100 shadow-sm text-center">
+                    <DropdownMenuItem key={neighborhood.slug} className="p-0" asChild>
+                      <Link href={`/sc/${neighborhood.slug}-pressure-washing`} className="flex items-center justify-center w-full px-3 py-4 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-[10px] uppercase tracking-tighter border border-gray-200 shadow-sm text-center leading-tight hover:shadow-md hover:-translate-y-0.5 transform">
                         {neighborhood.name}
                       </Link>
                     </DropdownMenuItem>

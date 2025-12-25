@@ -58,96 +58,98 @@ export default function PricingPage() {
                 <p className="text-gray-600 text-lg">Below we break down typical costs by surface type and material so you know what to expect.</p>
               </div>
               
-              <div className="overflow-x-auto">
-                <table className="w-full border-collapse border border-gray-200">
-                  <thead>
-                    <tr className="bg-primary text-white uppercase text-sm tracking-wider">
-                      <th className="p-4 border border-gray-200 text-left">Surface Type</th>
-                      <th className="p-4 border border-gray-200 text-left">Price Range</th>
-                      <th className="p-4 border border-gray-200 text-left">Notes</th>
-                    </tr>
-                  </thead>
-                  <tbody className="text-gray-700">
-                    <tr className="hover:bg-gray-50 transition-colors">
-                      <td className="p-4 border border-gray-200 font-bold">House Siding</td>
-                      <td className="p-4 border border-gray-200">$0.15 – $0.35 / sq ft</td>
-                      <td className="p-4 border border-gray-200 text-sm italic">Varies by height and build-up</td>
-                    </tr>
-                    <tr className="bg-gray-50/50 hover:bg-gray-50 transition-colors">
-                      <td className="p-4 border border-gray-200 font-bold">Roof (Shingle/Metal)</td>
-                      <td className="p-4 border border-gray-200">$0.25 – $0.45 / sq ft</td>
-                      <td className="p-4 border border-gray-200 text-sm italic">Soft wash only</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50 transition-colors">
-                      <td className="p-4 border border-gray-200 font-bold">Driveways</td>
-                      <td className="p-4 border border-gray-200">$0.15 – $0.30 / sq ft</td>
-                      <td className="p-4 border border-gray-200 text-sm italic">Concrete; includes pre and post-treatment</td>
-                    </tr>
-                    <tr className="bg-gray-50/50 hover:bg-gray-50 transition-colors">
-                      <td className="p-4 border border-gray-200 font-bold">Decks (Wood/Composite)</td>
-                      <td className="p-4 border border-gray-200">$0.25 – $0.50 / sq ft</td>
-                      <td className="p-4 border border-gray-200 text-sm italic">Priced higher due to time and care</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50 transition-colors">
-                      <td className="p-4 border border-gray-200 font-bold">Patios/Walkways</td>
-                      <td className="p-4 border border-gray-200">$0.15 – $0.25 / sq ft</td>
-                      <td className="p-4 border border-gray-200 text-sm italic">Easier access lowers the cost</td>
-                    </tr>
-                    <tr className="bg-gray-50/50 hover:bg-gray-50 transition-colors">
-                      <td className="p-4 border border-gray-200 font-bold">Fences</td>
-                      <td className="p-4 border border-gray-200">$0.20 – $0.40 / sq ft</td>
-                      <td className="p-4 border border-gray-200 text-sm italic">Priced per linear foot or sq. ft.</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50 transition-colors">
-                      <td className="p-4 border border-gray-200 font-bold">Gutters (Exterior only)</td>
-                      <td className="p-4 border border-gray-200">$1.00 – $3.00 / lin. ft</td>
-                      <td className="p-4 border border-gray-200 text-sm italic">Often bundled with other services</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <div className="mt-16 grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-2xl font-heading font-bold text-primary mb-6 uppercase border-b-2 border-accent inline-block">Cost by Project Type</h3>
+              <div className="grid md:grid-cols-2 gap-12">
+                <div className="space-y-6">
+                  <h3 className="text-2xl font-heading font-bold text-primary mb-6 uppercase border-b-2 border-accent inline-block">Surface Pricing</h3>
                   <div className="space-y-4">
-                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
+                    <div className="flex justify-between items-start border-b pb-2">
                       <div>
-                        <span className="block font-bold text-primary uppercase text-sm">One-Story House Wash</span>
-                        <span className="text-xs text-gray-500 italic">1.5 to 2.5 hours</span>
+                        <span className="block font-bold text-primary">House Siding</span>
+                        <span className="text-xs text-gray-500 italic">Varies by height and build-up</span>
                       </div>
-                      <span className="text-lg font-bold text-accent">$295 – $750</span>
+                      <span className="font-bold text-accent whitespace-nowrap">$0.15 – $0.35 / sq ft</span>
                     </div>
-                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
+                    <div className="flex justify-between items-start border-b pb-2">
                       <div>
-                        <span className="block font-bold text-primary uppercase text-sm">Two-Story House Wash</span>
-                        <span className="text-xs text-gray-500 italic">Includes ladder access</span>
+                        <span className="block font-bold text-primary">Roof (Shingle/Metal)</span>
+                        <span className="text-xs text-gray-500 italic">Soft wash only</span>
                       </div>
-                      <span className="text-lg font-bold text-accent">$400 – $2,400</span>
+                      <span className="font-bold text-accent whitespace-nowrap">$0.25 – $0.45 / sq ft</span>
                     </div>
-                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
+                    <div className="flex justify-between items-start border-b pb-2">
                       <div>
-                        <span className="block font-bold text-primary uppercase text-sm">Roof Cleaning</span>
-                        <span className="text-xs text-gray-500 italic">Height and walkability impact pricing</span>
+                        <span className="block font-bold text-primary">Driveways</span>
+                        <span className="text-xs text-gray-500 italic">Concrete; includes pre and post-treatment</span>
                       </div>
-                      <span className="text-lg font-bold text-accent">$500 – $1,500</span>
+                      <span className="font-bold text-accent whitespace-nowrap">$0.15 – $0.30 / sq ft</span>
+                    </div>
+                    <div className="flex justify-between items-start border-b pb-2">
+                      <div>
+                        <span className="block font-bold text-primary">Decks (Wood/Composite)</span>
+                        <span className="text-xs text-gray-500 italic">Priced higher due to time and care</span>
+                      </div>
+                      <span className="font-bold text-accent whitespace-nowrap">$0.25 – $0.50 / sq ft</span>
+                    </div>
+                    <div className="flex justify-between items-start border-b pb-2">
+                      <div>
+                        <span className="block font-bold text-primary">Patios/Walkways</span>
+                        <span className="text-xs text-gray-500 italic">Easier access lowers the cost</span>
+                      </div>
+                      <span className="font-bold text-accent whitespace-nowrap">$0.15 – $0.25 / sq ft</span>
+                    </div>
+                    <div className="flex justify-between items-start border-b pb-2">
+                      <div>
+                        <span className="block font-bold text-primary">Fences</span>
+                        <span className="text-xs text-gray-500 italic">Priced per linear foot or sq. ft.</span>
+                      </div>
+                      <span className="font-bold text-accent whitespace-nowrap">$0.20 – $0.40 / sq ft</span>
+                    </div>
+                    <div className="flex justify-between items-start border-b pb-2">
+                      <div>
+                        <span className="block font-bold text-primary">Gutters (Exterior only)</span>
+                        <span className="text-xs text-gray-500 italic">Often bundled with other services</span>
+                      </div>
+                      <span className="font-bold text-accent whitespace-nowrap">$1.00 – $3.00 / lin. ft</span>
                     </div>
                   </div>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-heading font-bold text-primary mb-6 uppercase border-b-2 border-accent inline-block">Cost by Material</h3>
-                  <div className="space-y-4">
-                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
-                      <span className="font-bold text-primary uppercase text-sm">Vinyl Siding</span>
-                      <span className="text-sm font-semibold text-gray-600">Soft Washing Required</span>
+
+                <div className="space-y-12">
+                  <div>
+                    <h3 className="text-2xl font-heading font-bold text-primary mb-6 uppercase border-b-2 border-accent inline-block">Common Bundles</h3>
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-accent">
+                        <div>
+                          <span className="block font-bold text-primary uppercase text-sm">Bundle (House + Windows)</span>
+                          <span className="text-xs text-gray-500 italic">Most Popular - Lowcountry Soft Wash</span>
+                        </div>
+                        <span className="text-lg font-bold text-accent">5% OFF</span>
+                      </div>
+                      <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-accent">
+                        <div>
+                          <span className="block font-bold text-primary uppercase text-sm">Driveway + Sidewalk Bundle</span>
+                          <span className="text-xs text-gray-500 italic">Added at a reduced price</span>
+                        </div>
+                        <span className="text-lg font-bold text-accent">SAVE $$$</span>
+                      </div>
                     </div>
-                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
-                      <span className="font-bold text-primary uppercase text-sm">Brick Surfaces</span>
-                      <span className="text-sm font-semibold text-gray-600">Soft Wash + Pressure</span>
-                    </div>
-                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
-                      <span className="font-bold text-primary uppercase text-sm">Wood Decks</span>
-                      <span className="text-sm font-semibold text-gray-600">Higher Care Sensitivity</span>
+                  </div>
+
+                  <div>
+                    <h3 className="text-2xl font-heading font-bold text-primary mb-6 uppercase border-b-2 border-accent inline-block">Material Techniques</h3>
+                    <div className="space-y-3">
+                      <div className="flex justify-between border-b pb-2">
+                        <span className="font-bold text-primary">Vinyl & Hardie Board</span>
+                        <span className="text-sm text-gray-600 italic">Soft Wash Only</span>
+                      </div>
+                      <div className="flex justify-between border-b pb-2">
+                        <span className="font-bold text-primary">Brick & Stone</span>
+                        <span className="text-sm text-gray-600 italic">Soft Wash + Pressure</span>
+                      </div>
+                      <div className="flex justify-between border-b pb-2">
+                        <span className="font-bold text-primary">Concrete</span>
+                        <span className="text-sm text-gray-600 italic">High Pressure + Treatment</span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -167,30 +169,53 @@ export default function PricingPage() {
           </div>
 
           <div className="grid lg:grid-cols-3 gap-10">
-            {/* House Washing Card */}
-            <div className="bg-white border-t-8 border-accent p-10 shadow-xl hover:shadow-2xl transition-all">
-              <h3 className="text-3xl font-heading font-bold text-primary mb-2 uppercase">House Washing</h3>
-              <p className="text-gray-500 mb-6 font-semibold uppercase tracking-wider text-xs">Safe Soft Wash Technology</p>
+            {/* Driveway Cleaning Card */}
+            <div className="bg-white border-t-8 border-primary p-10 shadow-xl hover:shadow-2xl transition-all">
+              <h3 className="text-3xl font-heading font-bold text-primary mb-2 uppercase">Driveway Cleaning</h3>
+              <p className="text-gray-500 mb-6 font-semibold uppercase tracking-wider text-xs">Deep Surface Restoration</p>
               <div className="flex items-baseline gap-1 mb-8">
-                <span className="text-5xl font-heading font-bold text-primary">$295</span>
+                <span className="text-5xl font-heading font-bold text-primary">$150</span>
                 <span className="text-gray-400 font-bold">STARTING RATE</span>
               </div>
               <div className="space-y-4 mb-10">
                 <h4 className="font-bold text-primary uppercase text-sm border-b pb-2">What's Included:</h4>
                 <ul className="space-y-3 text-gray-700">
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Full exterior siding sanitization</li>
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Algae, mold & mildew removal</li>
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Eaves, soffits & gutters exterior</li>
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Plant protection protocol</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Industrial surface cleaner tech</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Pre-treatment for organic growth</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Post-treatment for lasting shine</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Sidewalk Add-on Available</li>
                 </ul>
               </div>
               <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white font-bold rounded-none py-8 text-lg">
+                <Link href="/services/driveway-cleaning">DRIVEWAY DETAILS</Link>
+              </Button>
+            </div>
+
+            {/* House Washing Card (MOST POPULAR) */}
+            <div className="bg-accent text-white p-10 shadow-2xl hover:shadow-3xl transition-all relative transform scale-105 z-10">
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 bg-primary text-white text-[10px] font-bold px-4 py-1 uppercase tracking-widest">Most Popular</div>
+              <h3 className="text-3xl font-heading font-bold mb-2 uppercase">House Washing</h3>
+              <p className="text-white/80 mb-6 font-semibold uppercase tracking-wider text-xs">Safe Soft Wash Technology</p>
+              <div className="flex items-baseline gap-1 mb-8">
+                <span className="text-5xl font-heading font-bold">$295</span>
+                <span className="text-white/70 font-bold">STARTING RATE</span>
+              </div>
+              <div className="space-y-4 mb-10">
+                <h4 className="font-bold text-white uppercase text-sm border-b border-white/20 pb-2">What's Included:</h4>
+                <ul className="space-y-3">
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-white" /> Full exterior siding sanitization</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-white" /> Algae, mold & mildew removal</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-white" /> Eaves, soffits & gutters exterior</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-white" /> Plant protection protocol</li>
+                </ul>
+              </div>
+              <Button asChild className="w-full bg-white text-accent hover:bg-gray-100 font-bold rounded-none py-8 text-lg">
                 <Link href="/services/house-washing">HOUSE WASH DETAILS</Link>
               </Button>
             </div>
 
             {/* Trash Can Cleaning Card */}
-            <div className="bg-primary text-white p-10 shadow-xl hover:shadow-2xl transition-all relative overflow-hidden">
+            <div className="bg-primary text-white p-10 shadow-xl hover:shadow-2xl transition-all">
               <h3 className="text-3xl font-heading font-bold mb-2 uppercase">Trash Can Cleaning</h3>
               <p className="text-white/70 mb-6 font-semibold uppercase tracking-wider text-xs">Deodorize & Sanitize</p>
               
@@ -220,34 +245,12 @@ export default function PricingPage() {
               </div>
 
               <div className="space-y-3 mb-10 text-sm opacity-90">
-                <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-accent" /> Kills 99.9% of germs & viruses</li>
-                <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-accent" /> Professional grade deodorizers</li>
-                <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-accent" /> Zero wastewater runoff</li>
+                <li className="flex gap-2 items-center"><CheckCircle2 className="w-4 h-4 text-accent" /> Kills 99.9% of germs & viruses</li>
+                <li className="flex gap-2 items-center"><CheckCircle2 className="w-4 h-4 text-accent" /> Professional grade deodorizers</li>
+                <li className="flex gap-2 items-center"><CheckCircle2 className="w-4 h-4 text-accent" /> Zero wastewater runoff</li>
               </div>
               <Button asChild className="w-full bg-accent hover:bg-accent/90 text-white font-bold rounded-none py-8 text-lg">
                 <Link href="/services/trash-can-cleaning">STOP THE SMELL</Link>
-              </Button>
-            </div>
-
-            {/* Driveway Cleaning Card */}
-            <div className="bg-white border-t-8 border-accent p-10 shadow-xl hover:shadow-2xl transition-all">
-              <h3 className="text-3xl font-heading font-bold text-primary mb-2 uppercase">Driveway Cleaning</h3>
-              <p className="text-gray-500 mb-6 font-semibold uppercase tracking-wider text-xs">Deep Surface Restoration</p>
-              <div className="flex items-baseline gap-1 mb-8">
-                <span className="text-5xl font-heading font-bold text-primary">$150</span>
-                <span className="text-gray-400 font-bold">STARTING RATE</span>
-              </div>
-              <div className="space-y-4 mb-10">
-                <h4 className="font-bold text-primary uppercase text-sm border-b pb-2">What's Included:</h4>
-                <ul className="space-y-3 text-gray-700">
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Industrial surface cleaner tech</li>
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Pre-treatment for organic growth</li>
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Post-treatment for lasting shine</li>
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Sidewalk cleaning (optional)</li>
-                </ul>
-              </div>
-              <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white font-bold rounded-none py-8 text-lg">
-                <Link href="/services/driveway-cleaning">DRIVEWAY DETAILS</Link>
               </Button>
             </div>
           </div>
@@ -264,17 +267,16 @@ export default function PricingPage() {
 
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-white p-8 border shadow-sm">
-                  <h3 className="text-xl font-bold text-primary mb-4">How to deodorize a trash can effectively?</h3>
-                  <p className="text-gray-700 mb-4 leading-relaxed">
-                    A <strong>smelly trash can</strong> is usually caused by bacteria build-up. While DIY rinsing helps, our professional service uses high-pressure water and industrial deodorizers to kill 99.9% of bacteria. This is the only way to truly stop the "smelly trash can" cycle in Mount Pleasant's heat.
+                  <h3 className="text-xl font-bold text-primary mb-4">How is the final price determined?</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    While our starting rates cover most standard Mount Pleasant homes, final pricing depends on <strong>actual square footage, surface material, and the level of organic growth</strong>. We use satellite imaging to provide firm, upfront quotes so there are never any surprises on service day.
                   </p>
-                  <Link href="/pressure-washing-tips/how-to-deodorize-trash-can" className="text-accent font-bold uppercase text-sm hover:underline">Read the guide &rarr;</Link>
                 </div>
 
                 <div className="bg-white p-8 border shadow-sm">
-                  <h3 className="text-xl font-bold text-primary mb-4">Where should garbage cans be cleaned?</h3>
+                  <h3 className="text-xl font-bold text-primary mb-4">Are there any hidden travel or setup fees?</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Cleaning garbage cans on your driveway or lawn can lead to harmful bacteria entering storm drains. At CanManCam, we use a self-contained cleaning system that recovers wastewater, making it the most eco-friendly way to clean your bins in Mount Pleasant.
+                    No. Our quotes are <strong>all-inclusive</strong>. They cover travel within Mount Pleasant, all specialized cleaning solutions, equipment setup, and the final walk-through. The price you see on your quote is exactly what you'll pay upon completion.
                   </p>
                 </div>
 
