@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import {
@@ -12,7 +12,20 @@ import logoImage from "@assets/canmancam-pressure-washing-mount-pleasant_1766437
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [location] = useLocation();
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const handleMouseEnter = (menu: string) => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    setOpenDropdown(menu);
+  };
+
+  const handleMouseLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setOpenDropdown(null);
+    }, 150);
+  };
 
   const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
     <Link href={href} className={`text-sm font-medium transition-colors hover:text-accent ${location === href ? "text-accent" : "text-primary"}`}>
@@ -36,54 +49,66 @@ export function Header() {
         <nav className="hidden lg:flex items-center gap-6">
           <NavLink href="/">HOME</NavLink>
           
-          <DropdownMenu>
-            <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
-              ABOUT ▾
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="rounded-none">
-              <DropdownMenuItem className="rounded-none cursor-pointer" asChild>
-                <Link href="/about">About Us</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem className="rounded-none cursor-pointer" asChild>
-                <Link href="/pressure-washing-faq">FAQ</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem className="rounded-none cursor-pointer" asChild>
-                <Link href="/service-areas">Service Areas</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem className="rounded-none cursor-pointer" asChild>
-                <Link href="/feedback">Submit Feedback</Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-
-          <DropdownMenu>
-            <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
-              SERVICES ▾
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-56 rounded-none">
-              <DropdownMenuItem className="rounded-none cursor-pointer" asChild>
-                <Link href="/services">All Services</Link>
-              </DropdownMenuItem>
-              {services.map((service) => (
-                <DropdownMenuItem key={service.slug} className="rounded-none cursor-pointer" asChild>
-                  <Link href={`/services/${service.slug}`}>{service.name}</Link>
+          <div onMouseEnter={() => handleMouseEnter('about')} onMouseLeave={handleMouseLeave}>
+            <DropdownMenu open={openDropdown === 'about'} onOpenChange={(open) => setOpenDropdown(open ? 'about' : null)}>
+              <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
+                ABOUT ▾
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="rounded-none bg-white p-2 shadow-xl border-t-4 border-accent">
+                <DropdownMenuItem className="rounded-none cursor-pointer p-0 mb-1" asChild>
+                  <Link href="/about" className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">About Us</Link>
                 </DropdownMenuItem>
-              ))}
-            </DropdownMenuContent>
-          </DropdownMenu>
-
-          <DropdownMenu>
-            <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
-              NEIGHBORHOODS ▾
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-56 rounded-none">
-              {neighborhoods.map((neighborhood) => (
-                <DropdownMenuItem key={neighborhood.slug} className="rounded-none cursor-pointer" asChild>
-                  <Link href={`/sc/${neighborhood.slug}-pressure-washing`}>{neighborhood.name}</Link>
+                <DropdownMenuItem className="rounded-none cursor-pointer p-0 mb-1" asChild>
+                  <Link href="/pressure-washing-faq" className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">FAQ</Link>
                 </DropdownMenuItem>
-              ))}
-            </DropdownMenuContent>
-          </DropdownMenu>
+                <DropdownMenuItem className="rounded-none cursor-pointer p-0 mb-1" asChild>
+                  <Link href="/service-areas" className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">Service Areas</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem className="rounded-none cursor-pointer p-0" asChild>
+                  <Link href="/feedback" className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">Submit Feedback</Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
+
+          <div onMouseEnter={() => handleMouseEnter('services')} onMouseLeave={handleMouseLeave}>
+            <DropdownMenu open={openDropdown === 'services'} onOpenChange={(open) => setOpenDropdown(open ? 'services' : null)}>
+              <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
+                SERVICES ▾
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="w-64 rounded-none bg-white p-2 shadow-xl border-t-4 border-accent">
+                <DropdownMenuItem className="rounded-none cursor-pointer p-0 mb-1" asChild>
+                  <Link href="/services" className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">All Services</Link>
+                </DropdownMenuItem>
+                <div className="grid grid-cols-1 gap-1">
+                  {services.map((service) => (
+                    <DropdownMenuItem key={service.slug} className="rounded-none cursor-pointer p-0" asChild>
+                      <Link href={`/services/${service.slug}`} className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-sm uppercase">{service.name}</Link>
+                    </DropdownMenuItem>
+                  ))}
+                </div>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
+
+          <div onMouseEnter={() => handleMouseEnter('neighborhoods')} onMouseLeave={handleMouseLeave}>
+            <DropdownMenu open={openDropdown === 'neighborhoods'} onOpenChange={(open) => setOpenDropdown(open ? 'neighborhoods' : null)}>
+              <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
+                NEIGHBORHOODS ▾
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="w-[500px] rounded-none bg-white p-3 shadow-xl border-t-4 border-accent">
+                <div className="grid grid-cols-2 gap-2">
+                  {neighborhoods.map((neighborhood) => (
+                    <DropdownMenuItem key={neighborhood.slug} className="rounded-none cursor-pointer p-0" asChild>
+                      <Link href={`/sc/${neighborhood.slug}-pressure-washing`} className="block w-full px-4 py-2 hover:bg-accent hover:text-white transition-colors font-bold text-[11px] uppercase border border-gray-100 shadow-sm text-center">
+                        {neighborhood.name}
+                      </Link>
+                    </DropdownMenuItem>
+                  ))}
+                </div>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
 
           <NavLink href="/pricing">PRICING</NavLink>
           <NavLink href="/pressure-washing-tips">BLOG</NavLink>

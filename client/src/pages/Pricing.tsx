@@ -22,7 +22,7 @@ export default function PricingPage() {
         <section className="bg-primary text-white py-20 relative overflow-hidden">
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
           <div className="container mx-auto px-4 text-center relative z-10">
-            <h1 className="text-4xl md:text-7xl font-heading font-bold mb-6 uppercase tracking-tight">
+            <h1 className="text-4xl md:text-7xl font-heading font-bold mb-6 uppercase tracking-normal leading-[1.1]">
               Mount Pleasant Pressure Washing Pricing
             </h1>
             <p className="text-xl md:text-2xl opacity-95 mb-10 max-w-4xl mx-auto leading-relaxed">
@@ -44,15 +44,122 @@ export default function PricingPage() {
               <Star className="fill-accent w-4 h-4" />
               <Star className="fill-accent w-4 h-4" />
               <Star className="fill-accent w-4 h-4" />
-              <span>500+ Local Projects Completed</span>
+              <span>Dozens of Local Projects Completed</span>
+            </div>
+          </div>
+        </section>
+
+        {/* Detailed Pricing Table */}
+        <section className="py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl md:text-5xl font-heading font-bold text-primary mb-4 uppercase">Detailed Pricing Guide</h2>
+                <p className="text-gray-600 text-lg">Below we break down typical costs by surface type and material so you know what to expect.</p>
+              </div>
+              
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse border border-gray-200">
+                  <thead>
+                    <tr className="bg-primary text-white uppercase text-sm tracking-wider">
+                      <th className="p-4 border border-gray-200 text-left">Surface Type</th>
+                      <th className="p-4 border border-gray-200 text-left">Price Range</th>
+                      <th className="p-4 border border-gray-200 text-left">Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-gray-700">
+                    <tr className="hover:bg-gray-50 transition-colors">
+                      <td className="p-4 border border-gray-200 font-bold">House Siding</td>
+                      <td className="p-4 border border-gray-200">$0.15 – $0.35 / sq ft</td>
+                      <td className="p-4 border border-gray-200 text-sm italic">Varies by height and build-up</td>
+                    </tr>
+                    <tr className="bg-gray-50/50 hover:bg-gray-50 transition-colors">
+                      <td className="p-4 border border-gray-200 font-bold">Roof (Shingle/Metal)</td>
+                      <td className="p-4 border border-gray-200">$0.25 – $0.45 / sq ft</td>
+                      <td className="p-4 border border-gray-200 text-sm italic">Soft wash only</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50 transition-colors">
+                      <td className="p-4 border border-gray-200 font-bold">Driveways</td>
+                      <td className="p-4 border border-gray-200">$0.15 – $0.30 / sq ft</td>
+                      <td className="p-4 border border-gray-200 text-sm italic">Concrete; includes pre and post-treatment</td>
+                    </tr>
+                    <tr className="bg-gray-50/50 hover:bg-gray-50 transition-colors">
+                      <td className="p-4 border border-gray-200 font-bold">Decks (Wood/Composite)</td>
+                      <td className="p-4 border border-gray-200">$0.25 – $0.50 / sq ft</td>
+                      <td className="p-4 border border-gray-200 text-sm italic">Priced higher due to time and care</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50 transition-colors">
+                      <td className="p-4 border border-gray-200 font-bold">Patios/Walkways</td>
+                      <td className="p-4 border border-gray-200">$0.15 – $0.25 / sq ft</td>
+                      <td className="p-4 border border-gray-200 text-sm italic">Easier access lowers the cost</td>
+                    </tr>
+                    <tr className="bg-gray-50/50 hover:bg-gray-50 transition-colors">
+                      <td className="p-4 border border-gray-200 font-bold">Fences</td>
+                      <td className="p-4 border border-gray-200">$0.20 – $0.40 / sq ft</td>
+                      <td className="p-4 border border-gray-200 text-sm italic">Priced per linear foot or sq. ft.</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50 transition-colors">
+                      <td className="p-4 border border-gray-200 font-bold">Gutters (Exterior only)</td>
+                      <td className="p-4 border border-gray-200">$1.00 – $3.00 / lin. ft</td>
+                      <td className="p-4 border border-gray-200 text-sm italic">Often bundled with other services</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div className="mt-16 grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-heading font-bold text-primary mb-6 uppercase border-b-2 border-accent inline-block">Cost by Project Type</h3>
+                  <div className="space-y-4">
+                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
+                      <div>
+                        <span className="block font-bold text-primary uppercase text-sm">One-Story House Wash</span>
+                        <span className="text-xs text-gray-500 italic">1.5 to 2.5 hours</span>
+                      </div>
+                      <span className="text-lg font-bold text-accent">$295 – $750</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
+                      <div>
+                        <span className="block font-bold text-primary uppercase text-sm">Two-Story House Wash</span>
+                        <span className="text-xs text-gray-500 italic">Includes ladder access</span>
+                      </div>
+                      <span className="text-lg font-bold text-accent">$400 – $2,400</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
+                      <div>
+                        <span className="block font-bold text-primary uppercase text-sm">Roof Cleaning</span>
+                        <span className="text-xs text-gray-500 italic">Height and walkability impact pricing</span>
+                      </div>
+                      <span className="text-lg font-bold text-accent">$500 – $1,500</span>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-heading font-bold text-primary mb-6 uppercase border-b-2 border-accent inline-block">Cost by Material</h3>
+                  <div className="space-y-4">
+                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
+                      <span className="font-bold text-primary uppercase text-sm">Vinyl Siding</span>
+                      <span className="text-sm font-semibold text-gray-600">Soft Washing Required</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
+                      <span className="font-bold text-primary uppercase text-sm">Brick Surfaces</span>
+                      <span className="text-sm font-semibold text-gray-600">Soft Wash + Pressure</span>
+                    </div>
+                    <div className="flex justify-between items-center p-4 bg-gray-50 border-l-4 border-primary">
+                      <span className="font-bold text-primary uppercase text-sm">Wood Decks</span>
+                      <span className="text-sm font-semibold text-gray-600">Higher Care Sensitivity</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
         {/* The Core Pricing Grid */}
-        <section className="py-20 container mx-auto px-4">
+        <section className="py-20 container mx-auto px-4 border-t">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-heading font-bold text-primary mb-4 uppercase">How Much Does It Cost?</h2>
+            <h2 className="text-3xl md:text-5xl font-heading font-bold text-primary mb-4 uppercase text-center">How Much Does It Cost?</h2>
             <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
             <p className="text-gray-600 max-w-2xl mx-auto text-lg">
               Every home in Mount Pleasant is different, but our commitment to fair pricing remains the same. Use these base rates to plan your next project.
@@ -84,9 +191,6 @@ export default function PricingPage() {
 
             {/* Trash Can Cleaning Card */}
             <div className="bg-primary text-white p-10 shadow-xl hover:shadow-2xl transition-all relative overflow-hidden">
-              <div className="absolute -right-10 -top-10 bg-accent w-32 h-32 rotate-45 flex items-end justify-center pb-4">
-                <Zap className="text-white w-8 h-8 -rotate-45" />
-              </div>
               <h3 className="text-3xl font-heading font-bold mb-2 uppercase">Trash Can Cleaning</h3>
               <p className="text-white/70 mb-6 font-semibold uppercase tracking-wider text-xs">Deodorize & Sanitize</p>
               
@@ -193,58 +297,64 @@ export default function PricingPage() {
         </section>
 
         {/* Factors Affecting Pricing */}
-        <section className="py-20 container mx-auto px-4 border-t">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-heading font-bold text-primary mb-10 uppercase">What Factors Affect My Price?</h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="p-6">
-                <div className="bg-accent/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Zap className="text-accent w-8 h-8" />
-                </div>
-                <h4 className="font-bold text-primary mb-2 uppercase">Square Footage</h4>
-                <p className="text-sm text-gray-600 leading-relaxed">Larger surfaces require more cleaning solution and time, impacting the base rate.</p>
+        <section className="py-24 container mx-auto px-4 border-t">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-16 uppercase text-center">What Factors Affect My Price?</h2>
+            
+            <div className="grid md:grid-cols-3 gap-12">
+              <div className="bg-gray-50 p-10 border-b-4 border-accent shadow-sm hover:shadow-md transition-shadow">
+                <span className="text-6xl font-heading font-bold text-accent/20 block mb-6">01</span>
+                <h4 className="text-2xl font-bold text-primary mb-4 uppercase tracking-tight">Square Footage</h4>
+                <div className="w-12 h-1 bg-accent mb-6"></div>
+                <p className="text-gray-700 leading-relaxed">
+                  Larger surfaces require more cleaning solution and specialized equipment time. We use satellite imaging to provide accurate quotes based on your property's actual footprint.
+                </p>
               </div>
-              <div className="p-6">
-                <div className="bg-accent/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Droplets className="text-accent w-8 h-8" />
-                </div>
-                <h4 className="font-bold text-primary mb-2 uppercase">Surface Condition</h4>
-                <p className="text-sm text-gray-600 leading-relaxed">Heavy organic growth or oil staining may require extra pre-treatment cycles.</p>
+
+              <div className="bg-gray-50 p-10 border-b-4 border-accent shadow-sm hover:shadow-md transition-shadow">
+                <span className="text-6xl font-heading font-bold text-accent/20 block mb-6">02</span>
+                <h4 className="text-2xl font-bold text-primary mb-4 uppercase tracking-tight">Surface Condition</h4>
+                <div className="w-12 h-1 bg-accent mb-6"></div>
+                <p className="text-gray-700 leading-relaxed">
+                  Heavy organic growth, rust staining, or oil deposits may require additional pre-treatment cycles and specialized surfactants to achieve a like-new finish.
+                </p>
               </div>
-              <div className="p-6">
-                <div className="bg-accent/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <ShieldCheck className="text-accent w-8 h-8" />
-                </div>
-                <h4 className="font-bold text-primary mb-2 uppercase">Accessibility</h4>
-                <p className="text-sm text-gray-600 leading-relaxed">Complex roof pitches or tight lot lines in neighborhoods like I'On can affect the duration of the job.</p>
+
+              <div className="bg-gray-50 p-10 border-b-4 border-accent shadow-sm hover:shadow-md transition-shadow">
+                <span className="text-6xl font-heading font-bold text-accent/20 block mb-6">03</span>
+                <h4 className="text-2xl font-bold text-primary mb-4 uppercase tracking-tight">Accessibility</h4>
+                <div className="w-12 h-1 bg-accent mb-6"></div>
+                <p className="text-gray-700 leading-relaxed">
+                  Complex roof pitches, tight lot lines in neighborhoods like I'On, or heights requiring specialized equipment can affect the setup time and safety protocols required for the job.
+                </p>
               </div>
             </div>
           </div>
         </section>
 
         {/* Final High-CTR CTA */}
-        <section className="bg-secondary text-white py-20">
+        <section className="bg-secondary text-white py-24">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-4xl md:text-6xl font-heading font-bold mb-6 uppercase tracking-tighter">Get Your Clean Property Today</h2>
-            <p className="text-xl mb-10 max-w-2xl mx-auto text-white/80">
-              Join hundreds of Mount Pleasant families who get elite results without the premium price tag.
+            <h2 className="text-4xl md:text-7xl font-heading font-bold mb-8 uppercase tracking-normal leading-[1.1]">Get Your Clean Property Today</h2>
+            <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto text-white/90 leading-relaxed">
+              Join dozens of Mount Pleasant families who get elite results without the premium price tag.
             </p>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-bold rounded-none px-12 py-10 text-2xl shadow-2xl">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-bold rounded-none px-12 py-10 text-2xl shadow-2xl transition-transform hover:scale-105">
                 <a href="https://clienthub.getjobber.com/hubs/bb7e70fa-ec16-417a-9059-46487bf60acb/public/requests/2107339/new">GET FREE QUOTE</a>
               </Button>
-              <div className="text-left bg-white/5 p-6 border border-white/10 backdrop-blur-md">
-                <div className="flex items-center gap-2 mb-2">
-                  <CheckCircle2 className="text-accent w-5 h-5" />
-                  <span className="font-bold text-sm">Fixed Quote &rarr; No Upcharges</span>
+              <div className="text-left bg-white/5 p-8 border border-white/10 backdrop-blur-md">
+                <div className="flex items-center gap-3 mb-4">
+                  <CheckCircle2 className="text-accent w-6 h-6" />
+                  <span className="font-bold text-lg uppercase tracking-wider">Fixed Quote &rarr; No Upcharges</span>
                 </div>
-                <div className="flex items-center gap-2 mb-2">
-                  <CheckCircle2 className="text-accent w-5 h-5" />
-                  <span className="font-bold text-sm">Same-Day Satellite Estimates</span>
+                <div className="flex items-center gap-3 mb-4">
+                  <CheckCircle2 className="text-accent w-6 h-6" />
+                  <span className="font-bold text-lg uppercase tracking-wider">Same-Day Satellite Estimates</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <CheckCircle2 className="text-accent w-5 h-5" />
-                  <span className="font-bold text-sm">Insured & Background Checked</span>
+                <div className="flex items-center gap-3">
+                  <CheckCircle2 className="text-accent w-6 h-6" />
+                  <span className="font-bold text-lg uppercase tracking-wider">Insured & Background Checked</span>
                 </div>
               </div>
             </div>
