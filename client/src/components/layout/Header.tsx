@@ -112,8 +112,8 @@ export function Header() {
               <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer uppercase">
                 Neighborhoods ▾
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-[600px] rounded-none bg-white p-4 shadow-2xl border-t-4 border-accent">
-                <div className="grid grid-cols-2 gap-3">
+              <DropdownMenuContent className="w-[800px] rounded-none bg-white p-4 shadow-2xl border-t-4 border-accent">
+                <div className="grid grid-cols-3 gap-3">
                   {neighborhoods.map((neighborhood) => (
                     <DropdownMenuItem key={neighborhood.slug} className="p-0 cursor-pointer" asChild>
                       <Link href={`/sc/${neighborhood.slug}-pressure-washing`} className="flex items-center justify-center w-full px-3 py-4 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-normal border border-gray-200 shadow-sm text-center leading-tight hover:shadow-md hover:-translate-y-0.5 transform cursor-pointer">
