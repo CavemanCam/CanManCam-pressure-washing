@@ -56,23 +56,23 @@ export function Header() {
               </DropdownMenuTrigger>
               <DropdownMenuContent className="rounded-none bg-white p-3 shadow-2xl border-t-4 border-accent min-w-[200px]">
                 <div className="flex flex-col gap-2">
-                  <DropdownMenuItem className="p-0" asChild>
-                    <Link href="/about" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm">
+                  <DropdownMenuItem className="p-0 cursor-pointer" asChild>
+                    <Link href="/about" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm cursor-pointer">
                       About Us
                     </Link>
                   </DropdownMenuItem>
-                  <DropdownMenuItem className="p-0" asChild>
-                    <Link href="/pressure-washing-faq" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm">
+                  <DropdownMenuItem className="p-0 cursor-pointer" asChild>
+                    <Link href="/pressure-washing-faq" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm cursor-pointer">
                       FAQ
                     </Link>
                   </DropdownMenuItem>
-                  <DropdownMenuItem className="p-0" asChild>
-                    <Link href="/service-areas" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm">
+                  <DropdownMenuItem className="p-0 cursor-pointer" asChild>
+                    <Link href="/service-areas" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm cursor-pointer">
                       Service Areas
                     </Link>
                   </DropdownMenuItem>
-                  <DropdownMenuItem className="p-0" asChild>
-                    <Link href="/feedback" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm">
+                  <DropdownMenuItem className="p-0 cursor-pointer" asChild>
+                    <Link href="/feedback" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm cursor-pointer">
                       Submit Feedback
                     </Link>
                   </DropdownMenuItem>
@@ -88,15 +88,15 @@ export function Header() {
               </DropdownMenuTrigger>
               <DropdownMenuContent className="w-72 rounded-none bg-white p-3 shadow-2xl border-t-4 border-accent">
                 <div className="flex flex-col gap-2">
-                  <DropdownMenuItem className="p-0" asChild>
-                    <Link href="/services" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm">
+                  <DropdownMenuItem className="p-0 cursor-pointer" asChild>
+                    <Link href="/services" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm cursor-pointer">
                       All Services
                     </Link>
                   </DropdownMenuItem>
                   <div className="grid grid-cols-1 gap-2">
                     {services.map((service) => (
-                      <DropdownMenuItem key={service.slug} className="p-0" asChild>
-                        <Link href={`/services/${service.slug}`} className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-[11px] uppercase tracking-wider border border-gray-100 shadow-sm">
+                      <DropdownMenuItem key={service.slug} className="p-0 cursor-pointer" asChild>
+                        <Link href={`/services/${service.slug}`} className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-[11px] uppercase tracking-wider border border-gray-100 shadow-sm cursor-pointer">
                           {service.name}
                         </Link>
                       </DropdownMenuItem>
@@ -115,8 +115,8 @@ export function Header() {
               <DropdownMenuContent className="w-[600px] rounded-none bg-white p-4 shadow-2xl border-t-4 border-accent">
                 <div className="grid grid-cols-2 gap-3">
                   {neighborhoods.map((neighborhood) => (
-                    <DropdownMenuItem key={neighborhood.slug} className="p-0" asChild>
-                      <Link href={`/sc/${neighborhood.slug}-pressure-washing`} className="flex items-center justify-center w-full px-3 py-4 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-normal border border-gray-200 shadow-sm text-center leading-tight hover:shadow-md hover:-translate-y-0.5 transform">
+                    <DropdownMenuItem key={neighborhood.slug} className="p-0 cursor-pointer" asChild>
+                      <Link href={`/sc/${neighborhood.slug}-pressure-washing`} className="flex items-center justify-center w-full px-3 py-4 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-normal border border-gray-200 shadow-sm text-center leading-tight hover:shadow-md hover:-translate-y-0.5 transform cursor-pointer">
                         {neighborhood.name}
                       </Link>
                     </DropdownMenuItem>
