@@ -4,28 +4,28 @@ export const neighborhoods = [
     slug: "belle-hall-plantation",
     description: "Belle Hall Plantation is a premier Mount Pleasant community located off Long Point Road, known for its diverse sub-neighborhoods like Hibben and Evian. This family-centric area features traditional Lowcountry architecture and extensive walking trails.",
     characteristics: "Homes in Belle Hall primarily feature vinyl siding and Hardie board, which are susceptible to the humid South Carolina climate. The proximity to Wando High School and local parks means high foot and bike traffic, often leading to dirty sidewalks and driveways.",
-    content: "In Belle Hall, I specialize in removing the green algae common on north-facing vinyl siding. My 2025 soft wash technique ensures your Hibben or Evian home stays pristine without high-pressure damage. Check my [Pricing](/pricing) for 2025 rates. I also highly recommend our [Driveway Cleaning Service](/services/driveway-cleaning) to keep your curb appeal high. Residents often pair this with [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to prepare for storm season."
+    content: "In Belle Hall, I specialize in removing the green algae common on north-facing vinyl siding. My soft wash technique ensures your Hibben or Evian home stays pristine without high-pressure damage. Check my [Pricing](/pricing) for current rates. I also highly recommend our [Driveway Cleaning Service](/services/driveway-cleaning) to keep your curb appeal high. Residents often pair this with [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to prepare for storm season."
   },
   {
     name: "Brickyard Plantation",
     slug: "brickyard-plantation",
     description: "Brickyard Plantation is an established community built on the site of a former working brickyard. It features a boat ramp, tennis courts, and homes that blend seamlessly with the natural landscape of Horlbeck Creek.",
     characteristics: "With many homes featuring brick accents (a nod to the neighborhood's history) and mature hardwoods, mold and mildew are common issues here. The creek-front humidity accelerates organic growth on roofs and siding.",
-    content: "Caring for Brickyard Plantation homes requires a delicate touch, especially for the namesake brickwork. I use specialized solutions to deodorize and clean exterior surfaces. View my [2025 Pricing](/pricing) for bundled services. My [Roof Cleaning](/services/roof-cleaning) is essential for homes under the heavy canopy of Brickyard. Don't forget to ask about my [Trash Can Cleaning Price](/pricing) to keep your garage smelling fresh."
+    content: "Caring for Brickyard Plantation homes requires a delicate touch, especially for the namesake brickwork. I use specialized solutions to deodorize and clean exterior surfaces. View my [Pricing](/pricing) for bundled services. My [Roof Cleaning](/services/roof-cleaning) is essential for homes under the heavy canopy of Brickyard. Don't forget to ask about my [Trash Can Cleaning Price](/pricing) to keep your garage smelling fresh."
   },
   {
     name: "Carolina Park",
     slug: "carolina-park",
     description: "Carolina Park is Mount Pleasant's premier master-planned community, offering a mix of custom estates and classic cottages near the Wando River.",
     characteristics: "As a newer community, construction dust and maturing landscaping are the primary challenges. HOA standards are strict, requiring homes to maintain a 'new' appearance year-round.",
-    content: "In Carolina Park, I help homeowners meet strict HOA standards with regular soft washing. My 2025 services are optimized for the modern materials found in Riverside and The Village. See our [Pricing Page](/pricing) for details. I recommend our [House Washing](/services/house-washing) for that crisp, clean look. Also, check out our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to protect your foundation."
+    content: "In Carolina Park, I help homeowners meet strict HOA standards with regular soft washing. My services are optimized for the modern materials found in Riverside and The Village. See our [Pricing Page](/pricing) for details. I recommend our [House Washing](/services/house-washing) for that crisp, clean look. Also, check out our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to protect your foundation."
   },
   {
     name: "Charleston National",
     slug: "charleston-national",
     description: "Charleston National is a prestigious golf course community offering stunning views of the Rees Jones-designed course and the surrounding wetlands.",
     characteristics: "The open fairways and proximity to the intracoastal waterway mean homes are exposed to significant wind-blown debris and salt air, which can dull siding and windows.",
-    content: "Charleston National residents trust me to maintain their golf-course views. My soft wash system removes salt film and environmental staining efficiently. Explore my [2025 Pricing](/pricing) for multi-service discounts. Our [Window Cleaning](/services/window-cleaning) is a favorite here to restore those marsh views. Combine it with a [Driveway Cleaning Service](/services/driveway-cleaning) for the ultimate refresh."
+    content: "Charleston National residents trust me to maintain their golf-course views. My soft wash system removes salt film and environmental staining efficiently. Explore my [Pricing](/pricing) for multi-service discounts. Our [Window Cleaning](/services/window-cleaning) is a favorite here to restore those marsh views. Combine it with a [Driveway Cleaning Service](/services/driveway-cleaning) for the ultimate refresh."
   },
   {
     name: "Darrell Creek",
@@ -39,7 +39,7 @@ export const neighborhoods = [
     slug: "dunes-west",
     description: "Dunes West is a world-class gated community featuring a signature golf course, riverbound views, and some of the most expansive estates in the Lowcountry.",
     characteristics: "Large roof footprints and extensive concrete driveways are standard. The high-end materials used in Dunes West estates require non-abrasive cleaning methods.",
-    content: "Dunes West requires a 'white-glove' approach. I specialize in large estate maintenance, ensuring every square inch of your property is spotless. Review my [2025 Pricing](/pricing) for custom estate packages. My [Roof Cleaning](/services/roof-cleaning) saves homeowners thousands in premature replacement costs. We also offer the best [Trash Can Cleaning Price](/pricing) in the neighborhood."
+    content: "Dunes West requires a 'white-glove' approach. I specialize in large estate maintenance, ensuring every square inch of your property is spotless. Review my [Pricing](/pricing) for custom estate packages. My [Roof Cleaning](/services/roof-cleaning) saves homeowners thousands in premature replacement costs. We also offer the best [Trash Can Cleaning Price](/pricing) in the neighborhood."
   },
   {
     name: "Grassy Creek",
@@ -60,14 +60,14 @@ export const neighborhoods = [
     slug: "hobcaw-point",
     description: "Hobcaw Point is one of Mount Pleasant's most established waterfront communities, offering unparalleled views of the Wando River and Charleston Harbor.",
     characteristics: "Older, established homes with mature oaks mean lots of shade and debris. Salt spray from the harbor is a constant factor for exterior maintenance.",
-    content: "Hobcaw Point homes are local treasures. I use low-pressure methods to protect older building materials while removing years of salt and shade-mold. View my [2025 Pricing](/pricing). My [Window Cleaning](/services/window-cleaning) is essential for those harbor views. I also specialize in [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) for these high-debris lots."
+    content: "Hobcaw Point homes are local treasures. I use low-pressure methods to protect older building materials while removing years of salt and shade-mold. View my [Pricing](/pricing). My [Window Cleaning](/services/window-cleaning) is essential for those harbor views. I also specialize in [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) for these high-debris lots."
   },
   {
     name: "Hobcaw Creek Plantation",
     slug: "hobcaw-creek-plantation",
     description: "A private, marsh-front community with a deep-water dock and boat landing, perfect for the active Lowcountry family.",
     characteristics: "Boating activity and proximity to the water lead to specialized cleaning needs for docks and marsh-side patios.",
-    content: "In Hobcaw Creek Plantation, I help you keep your outdoor living spaces ready for the boat. My patio and dock cleaning services are second to none. See our [Pricing Page](/pricing). I recommend pairing a [House Washing](/services/house-washing) with our [Driveway Cleaning Service](/services/driveway-cleaning) for a total property refresh. Ask about our [Trash Can Cleaning Price](/pricing) for 2025!"
+    content: "In Hobcaw Creek Plantation, I help you keep your outdoor living spaces ready for the boat. My patio and dock cleaning services are second to none. See our [Pricing Page](/pricing). I recommend pairing a [House Washing](/services/house-washing) with our [Driveway Cleaning Service](/services/driveway-cleaning) for a total property refresh. Ask about our [Trash Can Cleaning Price](/pricing)!"
   },
   {
     name: "I’On",
@@ -81,7 +81,7 @@ export const neighborhoods = [
     slug: "longpoint",
     description: "Longpoint is a popular community located near Palmetto Islands County Park, featuring family homes and excellent amenities.",
     characteristics: "Proximity to the county park means more pollen and organic debris. The neighborhood is very active, with kids and pets always on the go.",
-    content: "Longpoint is my home base. I provide fast, reliable service for my neighbors to keep their homes looking their best year-round. See our [2025 Pricing](/pricing). I highly recommend our [Trash Can Cleaning Service](/pricing) to stop the 'smelly trash can' problem once and for all. Our [Driveway Cleaning Service](/services/driveway-cleaning) is also a neighborhood favorite."
+    content: "Longpoint is my home base. I provide fast, reliable service for my neighbors to keep their homes looking their best year-round. See our [Pricing](/pricing). I highly recommend our [Trash Can Cleaning Service](/pricing) to stop the 'smelly trash can' problem once and for all. Our [Driveway Cleaning Service](/services/driveway-cleaning) is also a neighborhood favorite."
   },
   {
     name: "Old Village Historic District",
@@ -95,7 +95,7 @@ export const neighborhoods = [
     slug: "oyster-point",
     description: "Oyster Point is a newer luxury community with stunning amenities and views of the Intracoastal Waterway.",
     characteristics: "Modern Hardie-board siding is prevalent, which requires soft washing to maintain the manufacturer's warranty.",
-    content: "Oyster Point homes need modern solutions. I use warranty-safe soft washing to keep your new home looking brand new. Explore my [2025 Pricing](/pricing). Our [House Washing](/services/house-washing) is perfectly suited for Oyster Point's architectural styles. Don't forget our [Driveway Cleaning Service](/services/driveway-cleaning) for that pristine finish."
+    content: "Oyster Point homes need modern solutions. I use warranty-safe soft washing to keep your new home looking brand new. Explore my [Pricing](/pricing). Our [House Washing](/services/house-washing) is perfectly suited for Oyster Point's architectural styles. Don't forget our [Driveway Cleaning Service](/services/driveway-cleaning) for that pristine finish."
   },
   {
     name: "Park West",
@@ -109,7 +109,7 @@ export const neighborhoods = [
     slug: "planters-pointe",
     description: "Planters Pointe is an active family neighborhood off Highway 41, known for its community spirit and well-maintained homes.",
     characteristics: "The humid lowlands near Highway 41 often lead to green algae growth on the sides of homes that don't get much sun.",
-    content: "Planters Pointe homeowners trust me to keep their siding algae-free. My 2025 treatments prevent the green from coming back longer than standard washing. See our [Pricing Guide](/pricing). I recommend our [Driveway Cleaning Service](/services/driveway-cleaning) to keep your entry-way bright. Also, check out our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning)."
+    content: "Planters Pointe homeowners trust me to keep their siding algae-free. My treatments prevent the green from coming back longer than standard washing. See our [Pricing Guide](/pricing). I recommend our [Driveway Cleaning Service](/services/driveway-cleaning) to keep your entry-way bright. Also, check out our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning)."
   },
   {
     name: "Remley’s Point",
@@ -123,7 +123,7 @@ export const neighborhoods = [
     slug: "rivertowne",
     description: "Rivertowne is a premier community featuring both Rivertowne On The Wando and Rivertowne Country Club.",
     characteristics: "River-front properties deal with high humidity, while golf-course properties deal with high sun exposure—both require different cleaning strategies.",
-    content: "Whether you're on the Wando or the fairway, I have a cleaning strategy for your Rivertowne home. See our [2025 Pricing](/pricing). My [Roof Cleaning](/services/roof-cleaning) is essential for these large, high-exposure homes. We also offer a premium [Driveway Cleaning Service](/services/driveway-cleaning) for Rivertowne residents."
+    content: "Whether you're on the Wando or the fairway, I have a cleaning strategy for your Rivertowne home. See our [Pricing](/pricing). My [Roof Cleaning](/services/roof-cleaning) is essential for these large, high-exposure homes. We also offer a premium [Driveway Cleaning Service](/services/driveway-cleaning) for Rivertowne residents."
   },
   {
     name: "Rivertowne Country Club",
@@ -151,7 +151,7 @@ export const neighborhoods = [
     slug: "patriots-point",
     description: "Patriots Point is home to the Yorktown, golf courses, and high-end condominiums with harbor views.",
     characteristics: "Harbor-front exposure means extreme salt and wind-driven rain. Multi-unit complexes require efficient, high-volume cleaning.",
-    content: "Serving the Patriots Point area, I specialize in removing salt-crust from harbor-side properties. See our [2025 Pricing](/pricing). My [Window Cleaning](/services/window-cleaning) will let you see the harbor clearly again. We also offer [Trash Can Cleaning Price](/pricing) specials for local residents."
+    content: "Serving the Patriots Point area, I specialize in removing salt-crust from harbor-side properties. See our [Pricing](/pricing). My [Window Cleaning](/services/window-cleaning) will let you see the harbor clearly again. We also offer [Trash Can Cleaning Price](/pricing) specials for local residents."
   },
   {
     name: "Rifle Range",
@@ -195,7 +195,7 @@ Beyond aesthetics, professional house washing protects your investment. A clean,
       { question: "Is soft washing safe for my siding?", answer: "Yes, soft washing is safe for all siding types including vinyl, fiber cement, wood, stucco, and brick. I use lower pressure combined with cleaning solutions rather than relying on damaging high pressure." },
       { question: "Will the cleaning solutions harm my plants?", answer: "My cleaning solutions are biodegradable and environmentally friendly. I also take precautions to protect sensitive landscaping during the cleaning process." },
       { question: "How long does house washing take?", answer: "Most homes can be completed in 2-4 hours, depending on size and condition. Larger or more heavily soiled homes may take longer." },
-      { question: "How to deodorize trash can?", answer: "Professional high-heat sanitization is the most effective way to deodorize a trash can. Our 200° water kills 99.9% of the bacteria that cause the 'smelly trash can' problem." }
+      { question: "How to deodorize trash can?", answer: "Professional sanitization is the most effective way to deodorize a trash can. We use specialized cleaning solutions to kill 99.9% of the bacteria that cause the 'smelly trash can' problem." }
     ],
     relatedBlogPosts: ["how-often-pressure-wash-house", "pressure-vs-soft-washing", "pressure-washing-damage", "mold-mildew-removal", "how-to-deodorize-trash-can"]
   },
@@ -380,7 +380,8 @@ For neighborhoods with HOA regulations about trash can appearance, my cleaning s
       { question: "How often should trash cans be cleaned?", answer: "I recommend monthly cleaning during summer months and quarterly cleaning the rest of the year for optimal hygiene." },
       { question: "Do you clean recycling bins too?", answer: "Yes, I clean both garbage cans and recycling bins using the same thorough sanitization process." },
       { question: "Where does the wastewater go?", answer: "All wastewater is captured by my equipment and disposed of properly. Nothing washes into your yard, driveway, or storm drains." },
-      { question: "Can you get rid of the smell permanently?", answer: "My sanitization process eliminates odor-causing bacteria and applies deodorizing treatment. Regular cleaning maintains fresh-smelling cans." }
+      { question: "Can you get rid of the smell permanently?", answer: "My sanitization process eliminates odor-causing bacteria and applies deodorizing treatment. Regular cleaning maintains fresh-smelling cans." },
+      { question: "How to deodorize trash can?", answer: "Professional sanitization is the most effective way to deodorize a trash can. We use specialized cleaning solutions to kill 99.9% of the bacteria that cause the 'smelly trash can' problem." }
     ],
     relatedBlogPosts: ["trash-can-cleaning-importance", "prepare-property-pressure-washing", "professional-pressure-washing-expectations", "best-time-year-pressure-wash"]
   },
@@ -388,28 +389,28 @@ For neighborhoods with HOA regulations about trash can appearance, my cleaning s
 
 export const blogPosts = [
   {
-    title: "How to Deodorize a Trash Can in 2025: The Ultimate Guide",
+    title: "How to Deodorize a Trash Can: The Ultimate Guide",
     slug: "how-to-deodorize-trash-can",
-    date: "2025-05-20",
+    date: "2024-05-20",
     author: "Camrin",
-    excerpt: "Struggling with a smelly trash can? Learn how to deodorize your garbage bins effectively using 2025's best practices, from DIY tips to professional high-heat sanitization.",
+    excerpt: "Struggling with a smelly trash can? Learn how to deodorize your garbage bins effectively, from DIY tips to professional sanitization.",
     content: `Dealing with a **smelly trash can** is a common headache for Mount Pleasant homeowners, especially in our humid climate. If you've ever wondered **where should garbage cans be cleaned** or **how to deodorize a trash can** safely, you're not alone.
 
-In 2025, simple rinsing isn't enough to kill the bacteria and viruses that thrive in your bins. Here's how to handle it:
+Simple rinsing isn't enough to kill the bacteria and viruses that thrive in your bins. Here's how to handle it:
 
 ### Why Your Trash Can Smells
 The **trash can smell** is caused by the decomposition of organic waste, which attracts bacteria, mold, and even pests. These organisms release foul-smelling gases that can permeate your garage or curb area.
 
-### How to Deodorize a Trash Can (The 2025 Way)
+### How to Deodorize a Trash Can
 1. **Empty and Rinse:** Start by removing all visible debris.
-2. **Apply a Cleaning Agent:** While many use bleach, it can be harsh on the plastic and the environment. Consider a 2025 eco-friendly enzymatic cleaner.
+2. **Apply a Cleaning Agent:** While many use bleach, it can be harsh on the plastic and the environment. Consider an eco-friendly enzymatic cleaner.
 3. **Scrubbing:** You'll need to reach the very bottom to remove the 'sludge' that traps odors.
-4. **Professional High-Heat Sanitization:** This is the most effective method. At CanManCam, we use 200-degree water at high pressure to kill 99.9% of bacteria.
+4. **Professional Sanitization:** This is the most effective method. At CanManCam, we use specialized equipment to kill 99.9% of bacteria.
 
 ### Where Should Garbage Cans Be Cleaned?
 Never clean your bins over a storm drain. The wastewater contains harmful bacteria and chemicals that should be contained. Professional services like ours use a self-contained system to collect and properly dispose of the wastewater.
 
-For more details on keeping your home fresh, check our [Pricing Page](/pricing) for our 2025 trash can cleaning rates.`,
+For more details on keeping your home fresh, check our [Pricing Page](/pricing) for our trash can cleaning rates.`,
     category: "Maintenance",
     readTime: "5 min read",
     image: "/attached_assets/trash-can-cleaning-after.JPEG"
