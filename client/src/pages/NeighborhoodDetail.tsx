@@ -1,4 +1,4 @@
-import { useRoute } from "wouter";
+import { Link, useRoute } from "wouter";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -6,8 +6,22 @@ import { PriceBeatGuarantee } from "@/components/PriceBeatGuarantee";
 import { Button } from "@/components/ui/button";
 import { SEO } from "@/components/SEO";
 import { services, neighborhoods, blogPosts } from "@/lib/data";
-import { Link } from "wouter";
-import { LinkedParagraph } from "@/lib/contentLinks";
+
+// Helper to parse the custom markdown-like links [Text](/path)
+function formatContent(content: string) {
+  const parts = content.split(/(\[.*?\]\(.*?\))/g);
+  return parts.map((part, index) => {
+    const match = part.match(/\[(.*?)\]\((.*?)\)/);
+    if (match) {
+      return (
+        <Link key={index} href={match[2]} className="text-accent hover:underline font-semibold">
+          {match[1]}
+        </Link>
+      );
+    }
+    return part;
+  });
+}
 
 export default function NeighborhoodDetail() {
   const [match, params] = useRoute("/sc/:slug");
@@ -51,32 +65,26 @@ export default function NeighborhoodDetail() {
             >
               {neighborhood.name.toUpperCase()} PRESSURE WASHING SERVICES
             </h1>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-lg text-gray-600 max-w-2xl mx-auto">
               Professional pressure washing in {neighborhood.name}, Mount Pleasant, SC. Free estimates and price beat guarantee.
-            </p>
+            </h2>
           </div>
 
           <div className="bg-gray-50 p-8 mb-12">
-            <LinkedParagraph 
-              text={neighborhood.description}
-              excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
-              maxLinks={3}
-              className="text-lg text-gray-700 leading-relaxed text-center"
-            />
+            <div className="text-lg text-gray-700 leading-relaxed text-center">
+              {formatContent(neighborhood.description)}
+            </div>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-white border-l-4 border-accent p-6">
-              <h2 className="text-xl font-heading font-bold text-primary mb-4">NEIGHBORHOOD CHARACTERISTICS</h2>
-              <LinkedParagraph 
-                text={neighborhood.characteristics}
-                excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
-                maxLinks={2}
-                className="text-gray-700 leading-relaxed"
-              />
+              <h3 className="text-xl font-heading font-bold text-primary mb-4 text-center">NEIGHBORHOOD CHARACTERISTICS</h3>
+              <div className="text-gray-700 leading-relaxed text-center">
+                {formatContent(neighborhood.characteristics)}
+              </div>
             </div>
             <div className="bg-primary text-white p-6">
-              <h2 className="text-xl font-heading font-bold mb-4">WHY CHOOSE CANMANCAM?</h2>
+              <h3 className="text-xl font-heading font-bold mb-4 text-center">WHY CHOOSE CANMANCAM?</h3>
               <ul className="space-y-2">
                 <li className="flex gap-2">
                   <span className="text-accent font-bold">✓</span>
@@ -98,13 +106,10 @@ export default function NeighborhoodDetail() {
             </div>
           </div>
 
-          <div className="mb-12 max-w-3xl">
-            <LinkedParagraph 
-              text={neighborhood.content}
-              excludeHrefs={[`/sc/${neighborhood.slug}-pressure-washing`]}
-              maxLinks={4}
-              className="text-gray-700 leading-relaxed text-left"
-            />
+          <div className="mb-12 max-w-3xl mx-auto">
+            <div className="text-gray-700 leading-relaxed text-left">
+              {formatContent(neighborhood.content)}
+            </div>
           </div>
 
           <div className="mb-12">
