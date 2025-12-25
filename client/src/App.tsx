@@ -14,6 +14,7 @@ function ScrollToTop() {
   
   return null;
 }
+import Pricing from "@/pages/Pricing";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
@@ -40,6 +41,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/about" component={About} />
+      <Route path="/pricing" component={Pricing} />
       <Route path="/services" component={Services} />
       <Route path="/services/:slug" component={ServiceDetail} />
       <Route path="/service-areas" component={ServiceAreas} />
