@@ -83,13 +83,13 @@ export function Header() {
 
           <div onMouseEnter={() => handleMouseEnter('services')} onMouseLeave={handleMouseLeave}>
             <DropdownMenu open={openDropdown === 'services'} onOpenChange={(open) => setOpenDropdown(open ? 'services' : null)}>
-              <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
-                SERVICES ▾
+              <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer uppercase">
+                Services ▾
               </DropdownMenuTrigger>
               <DropdownMenuContent className="w-72 rounded-none bg-white p-3 shadow-2xl border-t-4 border-accent">
                 <div className="flex flex-col gap-2">
                   <DropdownMenuItem className="p-0" asChild>
-                    <Link href="/services" className="flex items-center w-full px-4 py-3 bg-primary text-white hover:bg-accent transition-all font-bold text-xs uppercase tracking-widest shadow-md">
+                    <Link href="/services" className="flex items-center w-full px-4 py-3 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-widest border border-gray-100 shadow-sm">
                       All Services
                     </Link>
                   </DropdownMenuItem>
@@ -109,14 +109,14 @@ export function Header() {
 
           <div onMouseEnter={() => handleMouseEnter('neighborhoods')} onMouseLeave={handleMouseLeave}>
             <DropdownMenu open={openDropdown === 'neighborhoods'} onOpenChange={(open) => setOpenDropdown(open ? 'neighborhoods' : null)}>
-              <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer">
-                NEIGHBORHOODS ▾
+              <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors outline-none cursor-pointer uppercase">
+                Neighborhoods ▾
               </DropdownMenuTrigger>
               <DropdownMenuContent className="w-[600px] rounded-none bg-white p-4 shadow-2xl border-t-4 border-accent">
                 <div className="grid grid-cols-2 gap-3">
                   {neighborhoods.map((neighborhood) => (
                     <DropdownMenuItem key={neighborhood.slug} className="p-0" asChild>
-                      <Link href={`/sc/${neighborhood.slug}-pressure-washing`} className="flex items-center justify-center w-full px-3 py-4 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-[10px] uppercase tracking-tighter border border-gray-200 shadow-sm text-center leading-tight hover:shadow-md hover:-translate-y-0.5 transform">
+                      <Link href={`/sc/${neighborhood.slug}-pressure-washing`} className="flex items-center justify-center w-full px-3 py-4 bg-gray-50 hover:bg-accent hover:text-white transition-all font-bold text-xs uppercase tracking-normal border border-gray-200 shadow-sm text-center leading-tight hover:shadow-md hover:-translate-y-0.5 transform">
                         {neighborhood.name}
                       </Link>
                     </DropdownMenuItem>
