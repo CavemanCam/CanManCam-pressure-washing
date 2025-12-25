@@ -27,6 +27,7 @@ export default function Sitemap() {
             <ul className="space-y-2">
               <li><Link href="/" className="text-accent hover:text-accent/80 hover:underline">Home</Link></li>
               <li><Link href="/about" className="text-accent hover:text-accent/80 hover:underline">About</Link></li>
+              <li><Link href="/pricing" className="text-accent hover:text-accent/80 hover:underline">Pricing</Link></li>
               <li><Link href="/services" className="text-accent hover:text-accent/80 hover:underline">Services</Link></li>
               <li><Link href="/service-areas" className="text-accent hover:text-accent/80 hover:underline">Service Areas</Link></li>
               <li><Link href="/reviews" className="text-accent hover:text-accent/80 hover:underline">Reviews</Link></li>

@@ -1,67 +1,165 @@
 export const neighborhoods = [
-  { 
-    name: "Isle of Palms", 
-    slug: "isle-of-palms",
-    description: "Isle of Palms is a stunning barrier island community located just east of Mount Pleasant, South Carolina. Known for its pristine beaches, oceanfront properties, and resort-style living, Isle of Palms attracts homeowners who appreciate coastal elegance and natural beauty. The island features a mix of vacation rentals, permanent residences, and luxury beach homes, many with direct ocean access or marsh views.",
-    characteristics: "Due to its coastal location, Isle of Palms properties face unique environmental challenges. Salt air, high humidity, and frequent storms create ideal conditions for mold, mildew, and algae growth on home exteriors. The salt spray can also accelerate the deterioration of siding, decks, and driveways if not properly maintained. Regular pressure washing is essential for protecting your investment and maintaining curb appeal in this prestigious community.",
-    content: "I'm Camrin, and I provide comprehensive pressure washing services throughout Isle of Palms, addressing the specific needs of coastal properties. My soft washing techniques safely remove salt deposits, algae, and organic growth without damaging delicate surfaces like stucco, vinyl siding, or painted wood. I understand that Isle of Palms homes represent significant investments, and I treat every property with the care it deserves. From beachfront mansions to cozy cottages, I have the expertise to restore your home's exterior to pristine condition. My services include house washing to remove years of salt buildup and environmental staining, driveway cleaning to eliminate oil stains and algae growth, and gutter cleaning to ensure proper drainage during coastal storms. I also offer window cleaning services that leave your ocean views crystal clear, and trash can sanitization to keep your property hygienic and odor-free. Isle of Palms residents appreciate my attention to detail and commitment to using environmentally responsible cleaning solutions that won't harm the sensitive coastal ecosystem."
+  {
+    name: "Belle Hall Plantation",
+    slug: "belle-hall-plantation",
+    description: "Belle Hall Plantation is a premier Mount Pleasant community located off Long Point Road, known for its diverse sub-neighborhoods like Hibben and Evian. This family-centric area features traditional Lowcountry architecture and extensive walking trails.",
+    characteristics: "Homes in Belle Hall primarily feature vinyl siding and Hardie board, which are susceptible to the humid South Carolina climate. The proximity to Wando High School and local parks means high foot and bike traffic, often leading to dirty sidewalks and driveways.",
+    content: "In Belle Hall, I specialize in removing the green algae common on north-facing vinyl siding. My 2025 soft wash technique ensures your Hibben or Evian home stays pristine without high-pressure damage. Check my [Pricing](/pricing) for 2025 rates. I also highly recommend our [Driveway Cleaning Service](/services/driveway-cleaning) to keep your curb appeal high. Residents often pair this with [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to prepare for storm season."
   },
-  { 
-    name: "Old Village", 
-    slug: "old-village",
-    description: "Old Village is Mount Pleasant's most charming and historic neighborhood, featuring tree-lined streets, antebellum architecture, and a quintessential Southern atmosphere. Established in the early 1800s, this neighborhood boasts some of the oldest homes in the Lowcountry, many dating back over 150 years. The area is characterized by historic homes with wraparound porches, mature live oaks draped with Spanish moss, and a close-knit community atmosphere.",
-    characteristics: "Old Village properties require special care due to their historic significance and unique architectural features. Many homes feature original wood siding, brick, and other materials that demand gentle cleaning techniques. The mature tree canopy provides beautiful shade but also creates conditions favorable for mold and mildew growth. Professional pressure washing must balance effective cleaning with preservation of these irreplaceable historic details.",
-    content: "I specialize in caring for Old Village's distinguished properties with the expertise they deserve. I'm trained in soft washing techniques specifically designed for historic homes, using appropriate pressure levels and cleaning solutions that clean effectively without causing damage to vintage materials. I understand that Old Village homeowners take pride in maintaining their properties' historic character, and I share that commitment to preservation. My house washing services gently remove decades of accumulated dirt, algae, and environmental staining while protecting original siding, trim, and architectural details. I clean historic brick walkways and driveways using methods that won't damage mortar or surface patina. Gutter cleaning services ensure your historic home's drainage systems work properly, protecting foundations and preventing water damage. For Old Village residents, I also offer specialized window cleaning that leaves antique glass sparkling without risk of damage. Whether your home is a registered historic property or simply reflects the neighborhood's distinguished character, I provide the careful, professional service Old Village homes deserve."
+  {
+    name: "Brickyard Plantation",
+    slug: "brickyard-plantation",
+    description: "Brickyard Plantation is an established community built on the site of a former working brickyard. It features a boat ramp, tennis courts, and homes that blend seamlessly with the natural landscape of Horlbeck Creek.",
+    characteristics: "With many homes featuring brick accents (a nod to the neighborhood's history) and mature hardwoods, mold and mildew are common issues here. The creek-front humidity accelerates organic growth on roofs and siding.",
+    content: "Caring for Brickyard Plantation homes requires a delicate touch, especially for the namesake brickwork. I use specialized solutions to deodorize and clean exterior surfaces. View my [2025 Pricing](/pricing) for bundled services. My [Roof Cleaning](/services/roof-cleaning) is essential for homes under the heavy canopy of Brickyard. Don't forget to ask about my [Trash Can Cleaning Price](/pricing) to keep your garage smelling fresh."
   },
-  { 
-    name: "Park West", 
-    slug: "park-west",
-    description: "Park West is one of Mount Pleasant's premier planned communities, featuring an impressive array of homes ranging from stylish townhouses to expansive estate properties. The community is known for its exceptional amenities, including multiple swimming pools, tennis courts, walking trails, and the acclaimed Park West Recreation Center. Park West residents enjoy a lifestyle that combines suburban convenience with resort-style living.",
-    characteristics: "Park West properties feature modern construction with a variety of exterior materials including vinyl siding, fiber cement, brick, and stone. The community's homeowner association maintains high standards for property appearance, making regular maintenance essential. The neighborhood's extensive landscaping and irrigation systems can contribute to moisture-related issues on home exteriors, driveways, and hardscapes.",
-    content: "I'm proud to serve the Park West community with professional pressure washing services that help residents maintain their properties to HOA standards and beyond. My comprehensive service offerings address every exterior cleaning need, from house washing and driveway cleaning to window washing and gutter maintenance. I work efficiently to minimize disruption to your daily routine while delivering exceptional results. Park West homeowners appreciate my attention to detail and my commitment to protecting landscaping and outdoor living spaces during the cleaning process. My driveway cleaning services are particularly popular in Park West, where beautiful driveways and walkways are a point of pride. I remove oil stains, tire marks, algae, and general weathering to restore concrete and pavers to like-new condition. For Park West homes with extensive outdoor living areas, my pressure washing services extend to patios, pool decks, and outdoor kitchens. I help Park West residents maintain the beautiful appearance that makes this community so desirable, protecting property values and ensuring homes always look their best."
-  },
-  { 
-    name: "Hamlin Plantation", 
-    slug: "hamlin-plantation",
-    description: "Hamlin Plantation represents the pinnacle of Lowcountry living, featuring expansive estate homes set on generous lots with stunning marsh and water views. This exclusive gated community offers residents a private country club lifestyle with world-class golf, tennis, and social amenities. Hamlin Plantation homes are architectural masterpieces, often featuring custom designs, premium materials, and exceptional craftsmanship.",
-    characteristics: "Hamlin Plantation properties are among the most valuable in Mount Pleasant, and their exteriors demand meticulous care. The community's proximity to the Wando River and surrounding marshlands creates environmental conditions that can accelerate the growth of mold, mildew, and algae. Large lot sizes mean more exterior surfaces to maintain, including extensive driveways, walkways, patios, and pool areas.",
-    content: "I provide white-glove pressure washing services for Hamlin Plantation's distinguished properties, understanding that these homes require exceptional care and attention to detail. I'm experienced in working with high-end materials and custom finishes, using appropriate techniques for each surface type. I coordinate with homeowners and property managers to ensure my services meet the exacting standards Hamlin Plantation residents expect. My house washing services address the unique challenges of Hamlin Plantation's waterfront and marsh-view properties, where humidity and organic growth are constant concerns. I use soft washing techniques that safely remove algae, mold, and environmental staining without risk to painted surfaces, stucco, or premium siding materials. Driveway cleaning restores expansive circular drives and parking areas to pristine condition, while my gutter services ensure proper drainage for these large-scale homes. Window cleaning provides crystal-clear views of Hamlin Plantation's stunning natural surroundings. For Hamlin Plantation residents, maintaining your property's appearance is about protecting your investment and preserving the community's distinguished reputation. I'm honored to serve this exceptional neighborhood."
-  },
-  { 
-    name: "Carolina Park", 
+  {
+    name: "Carolina Park",
     slug: "carolina-park",
-    description: "Carolina Park is Mount Pleasant's newest and fastest-growing master-planned community, offering a fresh approach to suburban living with modern amenities, excellent schools, and a family-friendly atmosphere. The community features homes in a variety of architectural styles, from traditional Charleston single-style homes to contemporary designs. Carolina Park residents enjoy walking trails, community parks, swimming pools, and convenient shopping and dining options.",
-    characteristics: "Carolina Park's newer construction means homes feature modern building materials and techniques. However, the community's rapid growth means landscaping is often still maturing, and construction dust and debris can accumulate on home exteriors. The area's natural environment, including nearby Francis Marion National Forest, contributes to pollen, organic debris, and moisture that can affect exterior surfaces.",
-    content: "I'm proud to serve Carolina Park's growing community of families and young professionals. I understand that Carolina Park homeowners lead busy lives and appreciate efficient, professional service that fits their schedules. My pressure washing services help Carolina Park residents maintain their newer homes in showroom condition, protecting their investment for years to come. House washing removes construction residue, pollen, and early signs of organic growth before they become significant problems. Regular cleaning prevents the buildup of contaminants that can stain and degrade siding materials over time. My driveway and sidewalk cleaning services keep Carolina Park's well-maintained streetscape looking its best, contributing to the community's attractive appearance and strong property values. For Carolina Park families with children and pets, I use environmentally responsible cleaning solutions that are safe for people, animals, and landscaping. I work quickly and professionally to minimize disruption to your household while delivering results that exceed expectations. Whether you've just moved to Carolina Park or have watched the community grow, I'm here to help you maintain your home's best appearance."
+    description: "Carolina Park is Mount Pleasant's premier master-planned community, offering a mix of custom estates and classic cottages near the Wando River.",
+    characteristics: "As a newer community, construction dust and maturing landscaping are the primary challenges. HOA standards are strict, requiring homes to maintain a 'new' appearance year-round.",
+    content: "In Carolina Park, I help homeowners meet strict HOA standards with regular soft washing. My 2025 services are optimized for the modern materials found in Riverside and The Village. See our [Pricing Page](/pricing) for details. I recommend our [House Washing](/services/house-washing) for that crisp, clean look. Also, check out our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to protect your foundation."
   },
-  { 
-    name: "Dunes West", 
+  {
+    name: "Charleston National",
+    slug: "charleston-national",
+    description: "Charleston National is a prestigious golf course community offering stunning views of the Rees Jones-designed course and the surrounding wetlands.",
+    characteristics: "The open fairways and proximity to the intracoastal waterway mean homes are exposed to significant wind-blown debris and salt air, which can dull siding and windows.",
+    content: "Charleston National residents trust me to maintain their golf-course views. My soft wash system removes salt film and environmental staining efficiently. Explore my [2025 Pricing](/pricing) for multi-service discounts. Our [Window Cleaning](/services/window-cleaning) is a favorite here to restore those marsh views. Combine it with a [Driveway Cleaning Service](/services/driveway-cleaning) for the ultimate refresh."
+  },
+  {
+    name: "Darrell Creek",
+    slug: "darrell-creek",
+    description: "Darrell Creek is known for its large lots and 'Old Mount Pleasant' feel, with many homes situated along the marsh and Darrell Creek itself.",
+    characteristics: "The heavy tree cover and marsh-front humidity create a 'jungle' effect, where mold and algae can take over a driveway or roof in just one season.",
+    content: "In Darrell Creek, the battle against marsh-mold is constant. I use eco-friendly treatments that are safe for the surrounding wetlands. Check my [Pricing](/pricing) for Darrell Creek specials. My [Driveway Cleaning Service](/services/driveway-cleaning) is particularly popular here due to the long, shaded drives. I also offer expert [Roof Cleaning](/services/roof-cleaning) to remove black streaks safely."
+  },
+  {
+    name: "Dunes West",
     slug: "dunes-west",
-    description: "Dunes West is an established luxury golf community featuring championship golf courses, a private club, and some of Mount Pleasant's most impressive homes. The community is known for its natural beauty, with homes nestled among ancient oaks, tidal marshes, and carefully preserved natural areas. Dunes West offers residents a serene, country-club lifestyle just minutes from downtown Charleston.",
-    characteristics: "Dunes West properties benefit from mature landscaping and established trees, but these features also create challenges for exterior maintenance. Heavy shade encourages mold and mildew growth, while fallen leaves and organic debris can accumulate on roofs, gutters, and hardscapes. The community's proximity to wetlands and marshes means higher humidity levels and increased potential for algae growth.",
-    content: "I provide comprehensive exterior cleaning services throughout Dunes West, helping residents maintain their properties' distinguished appearance. I understand the unique challenges of caring for homes in this beautiful, natural setting and use techniques specifically designed for properties surrounded by mature landscaping and sensitive ecosystems. House washing services address the accelerated organic growth common in Dunes West's shaded environments. My soft washing approach safely eliminates mold, mildew, and algae without harming nearby plants or contributing to environmental degradation. I'm particularly careful around Dunes West's beautiful live oaks and other mature trees, protecting root systems and avoiding any damage to prized landscaping. Driveway cleaning removes stubborn stains, tire marks, and organic growth from concrete and pavers, while my gutter cleaning services clear debris from gutters and downspouts to ensure proper drainage. For Dunes West residents who enjoy entertaining, I also clean patios, outdoor kitchens, and pool areas to ensure these spaces are always ready for guests. My commitment to quality and attention to detail makes CanManCam the preferred pressure washing service for Dunes West homeowners."
+    description: "Dunes West is a world-class gated community featuring a signature golf course, riverbound views, and some of the most expansive estates in the Lowcountry.",
+    characteristics: "Large roof footprints and extensive concrete driveways are standard. The high-end materials used in Dunes West estates require non-abrasive cleaning methods.",
+    content: "Dunes West requires a 'white-glove' approach. I specialize in large estate maintenance, ensuring every square inch of your property is spotless. Review my [2025 Pricing](/pricing) for custom estate packages. My [Roof Cleaning](/services/roof-cleaning) saves homeowners thousands in premature replacement costs. We also offer the best [Trash Can Cleaning Price](/pricing) in the neighborhood."
   },
-  { 
-    name: "Planters Pointe", 
+  {
+    name: "Grassy Creek",
+    slug: "grassy-creek",
+    description: "Grassy Creek is a quiet, upscale neighborhood known for its custom homes and community crabbing dock on the marsh.",
+    characteristics: "The humidity from the marsh and the dense foliage lead to significant organic build-up on fences and siding.",
+    content: "Grassy Creek homeowners appreciate my attention to detail. I ensure your custom siding is treated with the correct chemical balance to kill algae at the root. See our [Pricing Guide](/pricing). I recommend our [Fencing Cleaning](/services/fence-cleaning) to keep your marsh-side boundaries looking new. Also, consider our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) for peace of mind."
+  },
+  {
+    name: "Hamlin Plantation",
+    slug: "hamlin-plantation",
+    description: "Hamlin Plantation is a historic-inspired community with five distinct neighborhoods, including The Sound and Waverly.",
+    characteristics: "Architecture inspired by old Charleston means lots of porches and intricate trim work that can trap moisture and dirt.",
+    content: "In Hamlin Plantation, I focus on the details—porches, railings, and eaves. My soft wash method is perfect for the architectural nuances of your home. Check out my [Pricing](/pricing). Our [House Washing](/services/house-washing) is the gold standard for Hamlin residents. Don't forget to book your [Driveway Cleaning Service](/services/driveway-cleaning) before your next neighborhood social."
+  },
+  {
+    name: "Hobcaw Point",
+    slug: "hobcaw-point",
+    description: "Hobcaw Point is one of Mount Pleasant's most established waterfront communities, offering unparalleled views of the Wando River and Charleston Harbor.",
+    characteristics: "Older, established homes with mature oaks mean lots of shade and debris. Salt spray from the harbor is a constant factor for exterior maintenance.",
+    content: "Hobcaw Point homes are local treasures. I use low-pressure methods to protect older building materials while removing years of salt and shade-mold. View my [2025 Pricing](/pricing). My [Window Cleaning](/services/window-cleaning) is essential for those harbor views. I also specialize in [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) for these high-debris lots."
+  },
+  {
+    name: "Hobcaw Creek Plantation",
+    slug: "hobcaw-creek-plantation",
+    description: "A private, marsh-front community with a deep-water dock and boat landing, perfect for the active Lowcountry family.",
+    characteristics: "Boating activity and proximity to the water lead to specialized cleaning needs for docks and marsh-side patios.",
+    content: "In Hobcaw Creek Plantation, I help you keep your outdoor living spaces ready for the boat. My patio and dock cleaning services are second to none. See our [Pricing Page](/pricing). I recommend pairing a [House Washing](/services/house-washing) with our [Driveway Cleaning Service](/services/driveway-cleaning) for a total property refresh. Ask about our [Trash Can Cleaning Price](/pricing) for 2025!"
+  },
+  {
+    name: "I’On",
+    slug: "ion",
+    description: "I'On is an award-winning 'New Urbanism' community known for its narrow streets, canals, and stunning custom architecture inspired by historic Charleston.",
+    characteristics: "Very tight lot lines and diverse materials (brick, stucco, wood) require extreme precision during the cleaning process to protect neighboring properties.",
+    content: "Cleaning in I'On is an art. I use precision equipment to ensure your neighbors remain dry while your home becomes the cleanest on the block. Review my [Pricing](/pricing) for I'On specials. My soft wash is safe for the delicate stucco and woodwork common here. Check out our [Sitemap](/sitemap) for more I'On-specific cleaning tips."
+  },
+  {
+    name: "Longpoint",
+    slug: "longpoint",
+    description: "Longpoint is a popular community located near Palmetto Islands County Park, featuring family homes and excellent amenities.",
+    characteristics: "Proximity to the county park means more pollen and organic debris. The neighborhood is very active, with kids and pets always on the go.",
+    content: "Longpoint is my home base. I provide fast, reliable service for my neighbors to keep their homes looking their best year-round. See our [2025 Pricing](/pricing). I highly recommend our [Trash Can Cleaning Service](/pricing) to stop the 'smelly trash can' problem once and for all. Our [Driveway Cleaning Service](/services/driveway-cleaning) is also a neighborhood favorite."
+  },
+  {
+    name: "Old Village Historic District",
+    slug: "old-village",
+    description: "The Old Village is the heart of historic Mount Pleasant, featuring homes that date back to the 18th century.",
+    characteristics: "Historic preservation is the priority. Many homes have antique windows and original wood siding that cannot withstand standard pressure washing.",
+    content: "In the Old Village, I strictly use soft washing with a 'no-pressure' approach. We preserve the history while removing the grime. Check my [Pricing](/pricing). My [Window Cleaning](/services/window-cleaning) for historic glass is a specialty. Residents also trust my [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to protect their historic foundations."
+  },
+  {
+    name: "Oyster Point",
+    slug: "oyster-point",
+    description: "Oyster Point is a newer luxury community with stunning amenities and views of the Intracoastal Waterway.",
+    characteristics: "Modern Hardie-board siding is prevalent, which requires soft washing to maintain the manufacturer's warranty.",
+    content: "Oyster Point homes need modern solutions. I use warranty-safe soft washing to keep your new home looking brand new. Explore my [2025 Pricing](/pricing). Our [House Washing](/services/house-washing) is perfectly suited for Oyster Point's architectural styles. Don't forget our [Driveway Cleaning Service](/services/driveway-cleaning) for that pristine finish."
+  },
+  {
+    name: "Park West",
+    slug: "park-west",
+    description: "Park West is a massive, multi-neighborhood community with everything from townhomes to multi-million dollar estates.",
+    characteristics: "Due to the size of the community, I offer neighborhood-wide discounts when multiple neighbors book on the same day.",
+    content: "I serve every corner of Park West, from Masonborough to Tennyson. Ask about my 'Street Discount' for you and your neighbors! View my [Pricing](/pricing). My [Roof Cleaning](/services/roof-cleaning) is highly rated in Park West for removing those ugly black streaks. We also offer the best [Trash Can Cleaning Price](/pricing) in the area."
+  },
+  {
+    name: "Planters Pointe",
     slug: "planters-pointe",
-    description: "Planters Pointe is a welcoming community that offers quality homes at attainable price points, making it popular with first-time homebuyers and growing families. The neighborhood features well-designed homes with attractive exteriors, community amenities, and convenient access to shopping and employment centers. Planters Pointe residents enjoy a strong sense of community and well-maintained common areas.",
-    characteristics: "Planters Pointe properties feature traditional construction with vinyl siding, brick accents, and concrete driveways. The community's relatively open layout means homes receive good sun exposure, but South Carolina's humidity still creates conditions favorable for algae and mildew growth. Regular maintenance helps preserve property values and keeps the neighborhood looking attractive.",
-    content: "I provide affordable, professional pressure washing services for Planters Pointe homeowners. I believe that quality exterior cleaning shouldn't be a luxury, and I offer competitive pricing that fits family budgets while delivering professional results. I work efficiently to provide maximum value for Planters Pointe residents. House washing refreshes your home's exterior appearance, removing the dull film of dirt and algae that accumulates over time. Clean siding improves curb appeal and makes your entire property look well-cared-for. My driveway cleaning services remove oil stains, tire marks, and organic growth from concrete surfaces, restoring brightness and improving safety by eliminating slippery algae. I know that Planters Pointe families are busy with work, school, and activities. That's why I make scheduling easy and complete my work quickly without sacrificing quality. My Price Beat Guarantee ensures you're getting the best value in Mount Pleasant. For Planters Pointe homeowners looking to sell, professional pressure washing is one of the most cost-effective ways to improve curb appeal and make a great first impression on potential buyers."
+    description: "Planters Pointe is an active family neighborhood off Highway 41, known for its community spirit and well-maintained homes.",
+    characteristics: "The humid lowlands near Highway 41 often lead to green algae growth on the sides of homes that don't get much sun.",
+    content: "Planters Pointe homeowners trust me to keep their siding algae-free. My 2025 treatments prevent the green from coming back longer than standard washing. See our [Pricing Guide](/pricing). I recommend our [Driveway Cleaning Service](/services/driveway-cleaning) to keep your entry-way bright. Also, check out our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning)."
   },
-  { 
-    name: "Long Point", 
-    slug: "long-point",
-    description: "Long Point is a distinguished waterfront community offering residents stunning views of Charleston Harbor and the Cooper River. The neighborhood features a mix of traditional and contemporary homes, many with private docks and water access. Long Point's location provides easy access to boating, fishing, and water sports while remaining convenient to Mount Pleasant's amenities.",
-    characteristics: "Long Point's waterfront location presents unique maintenance challenges. Salt air, high humidity, and exposure to tidal conditions can accelerate the deterioration of home exteriors if not properly maintained. Docks, seawalls, and waterfront hardscapes require regular cleaning to prevent marine growth and maintain safe access. The neighborhood's premium property values make regular maintenance especially important.",
-    content: "I specialize in caring for Long Point's waterfront properties, understanding the specific challenges of maintaining homes in this marine environment. I'm experienced in cleaning surfaces affected by salt air, humidity, and proximity to water, using techniques that effectively remove marine growth, salt deposits, and environmental staining. House washing services address the accelerated wear that waterfront properties experience, removing salt residue, algae, and mold before they can cause permanent damage. I use soft washing techniques that are safe for all exterior materials while effectively eliminating harmful organisms. My cleaning solutions are environmentally responsible, an important consideration for properties adjacent to sensitive marine ecosystems. For Long Point homes with docks and waterfront access, I offer specialized cleaning services that remove barnacles, algae, and marine growth from decking and structures. Driveway cleaning restores concrete and pavers affected by salt, sand, and environmental exposure. Window cleaning provides crystal-clear views of Long Point's stunning waterscapes. I help Long Point residents protect their significant property investments while maintaining the beautiful appearance these waterfront homes deserve."
+  {
+    name: "Remley’s Point",
+    slug: "remleys-point",
+    description: "Remley’s Point is a historic waterfront area with a public boat ramp and a mix of historic homes and new construction.",
+    characteristics: "Proximity to the Wando River means homes are constantly exposed to moisture and salt-laden air.",
+    content: "In Remley’s Point, I combat the river-front grime with specialized marine-safe cleaning solutions. Check my [Pricing](/pricing). My [House Washing](/services/house-washing) removes river-salt efficiently. Combine it with our [Window Cleaning](/services/window-cleaning) for the best views of the Wando."
   },
-  { 
-    name: "Shem Creek", 
-    slug: "shem-creek",
-    description: "Shem Creek is one of Mount Pleasant's most vibrant and desirable areas, centered around the historic working waterfront that gives the neighborhood its name. The area features a mix of residential properties, from historic cottages to modern condominiums, all within walking distance of acclaimed restaurants, shops, and the scenic creek itself. Shem Creek residents enjoy a unique lifestyle that combines waterfront living with urban convenience.",
-    characteristics: "Shem Creek properties face environmental challenges from their proximity to the tidal creek and active waterfront. Humidity, salt air, and organic matter from the marine environment can accelerate algae, mold, and mildew growth on home exteriors. The neighborhood's mix of building ages and styles means different properties require different cleaning approaches.",
-    content: "I proudly serve the Shem Creek area with pressure washing services tailored to this unique neighborhood's needs. I understand that Shem Creek properties face special environmental challenges and require cleaning approaches that address marine-influenced conditions effectively. I have extensive experience with the variety of building types found in Shem Creek, from historic wood-sided homes to modern construction. House washing removes the organic growth and environmental staining that accumulate quickly in Shem Creek's humid, waterfront conditions. I use soft washing techniques that safely clean delicate surfaces while effectively eliminating mold, mildew, and algae. For Shem Creek's historic properties, I take extra care to protect original materials and architectural details while still achieving excellent cleaning results. Driveway and walkway cleaning restores hardscapes affected by tidal flooding, salt, and environmental exposure. My window cleaning services help Shem Creek residents enjoy clear views of the beautiful creek and surrounding area. For condominium communities and multi-family properties, I offer efficient service that minimizes disruption to residents while maintaining common areas and individual units. Shem Creek's unique character deserves professional care, and I'm honored to serve this iconic Mount Pleasant neighborhood."
+  {
+    name: "Rivertowne",
+    slug: "rivertowne",
+    description: "Rivertowne is a premier community featuring both Rivertowne On The Wando and Rivertowne Country Club.",
+    characteristics: "River-front properties deal with high humidity, while golf-course properties deal with high sun exposure—both require different cleaning strategies.",
+    content: "Whether you're on the Wando or the fairway, I have a cleaning strategy for your Rivertowne home. See our [2025 Pricing](/pricing). My [Roof Cleaning](/services/roof-cleaning) is essential for these large, high-exposure homes. We also offer a premium [Driveway Cleaning Service](/services/driveway-cleaning) for Rivertowne residents."
   },
+  {
+    name: "Rivertowne Country Club",
+    slug: "rivertowne-country-club",
+    description: "The Country Club side of Rivertowne features large estate homes along the Arnold Palmer Signature golf course.",
+    characteristics: "Immaculate landscaping means I take extra care to protect your gardens and lawns during the washing process.",
+    content: "In Rivertowne Country Club, your landscaping is as important as your home. I use plant-protection protocols on every job. Review my [Pricing](/pricing). I recommend our [House Washing](/services/house-washing) to maintain that club-level excellence. Ask about my [Trash Can Cleaning Price](/pricing) to keep your garage pristine."
+  },
+  {
+    name: "Seaside Farms",
+    slug: "seaside-farms",
+    description: "Seaside Farms is a centrally located community near the Isle of Palms connector, offering a mix of residential and commercial convenience.",
+    characteristics: "Being so close to the ocean means significant salt-air accumulation on all exterior surfaces.",
+    content: "Seaside Farms residents love our salt-neutralizing house washes. We restore the shine to your siding and windows. View my [Pricing](/pricing). Our [Window Cleaning](/services/window-cleaning) is a top-seller here due to the ocean breezes. Don't forget your [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning)!"
+  },
+  {
+    name: "Snee Farm",
+    slug: "snee-farm",
+    description: "Snee Farm is an established community built around the historic Snee Farm Country Club and the Charles Pinckney National Historic Site.",
+    characteristics: "Mature landscaping and large, older homes require a focus on debris removal and organic growth prevention.",
+    content: "Snee Farm is a Mount Pleasant classic. I help keep these beautiful, established homes looking their best with safe soft washing. Check my [Pricing](/pricing). My [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) is vital for homes under Snee Farm's massive oaks. I also offer a great [Driveway Cleaning Service](/services/driveway-cleaning)."
+  },
+  {
+    name: "Patriots Point",
+    slug: "patriots-point",
+    description: "Patriots Point is home to the Yorktown, golf courses, and high-end condominiums with harbor views.",
+    characteristics: "Harbor-front exposure means extreme salt and wind-driven rain. Multi-unit complexes require efficient, high-volume cleaning.",
+    content: "Serving the Patriots Point area, I specialize in removing salt-crust from harbor-side properties. See our [2025 Pricing](/pricing). My [Window Cleaning](/services/window-cleaning) will let you see the harbor clearly again. We also offer [Trash Can Cleaning Price](/pricing) specials for local residents."
+  },
+  {
+    name: "Rifle Range",
+    slug: "rifle-range",
+    description: "The Rifle Range Road corridor features several popular neighborhoods like Sweetgrass and Hidden Lakes.",
+    characteristics: "The lakes in these communities contribute to localized humidity and faster algae growth on siding and fences.",
+    content: "Along Rifle Range Road, I help homeowners combat lake-front humidity. My algae-prevention treatments keep your home cleaner, longer. Review my [Pricing](/pricing). Our [House Washing](/services/house-washing) is the best way to refresh your Hidden Lakes or Sweetgrass home. Also, check out our [Driveway Cleaning Service](/services/driveway-cleaning)."
+  }
 ];
 
 export const services = [
@@ -96,9 +194,10 @@ Beyond aesthetics, professional house washing protects your investment. A clean,
       { question: "How often should I have my house washed?", answer: "I recommend house washing every 1-2 years, depending on your property's conditions. Homes in shaded areas or near water may need more frequent cleaning." },
       { question: "Is soft washing safe for my siding?", answer: "Yes, soft washing is safe for all siding types including vinyl, fiber cement, wood, stucco, and brick. I use lower pressure combined with cleaning solutions rather than relying on damaging high pressure." },
       { question: "Will the cleaning solutions harm my plants?", answer: "My cleaning solutions are biodegradable and environmentally friendly. I also take precautions to protect sensitive landscaping during the cleaning process." },
-      { question: "How long does house washing take?", answer: "Most homes can be completed in 2-4 hours, depending on size and condition. Larger or more heavily soiled homes may take longer." }
+      { question: "How long does house washing take?", answer: "Most homes can be completed in 2-4 hours, depending on size and condition. Larger or more heavily soiled homes may take longer." },
+      { question: "How to deodorize trash can?", answer: "Professional high-heat sanitization is the most effective way to deodorize a trash can. Our 200° water kills 99.9% of the bacteria that cause the 'smelly trash can' problem." }
     ],
-    relatedBlogPosts: ["how-often-pressure-wash-house", "pressure-vs-soft-washing", "pressure-washing-damage", "mold-mildew-removal"]
+    relatedBlogPosts: ["how-often-pressure-wash-house", "pressure-vs-soft-washing", "pressure-washing-damage", "mold-mildew-removal", "how-to-deodorize-trash-can"]
   },
   {
     name: "Driveway Cleaning",
@@ -288,6 +387,33 @@ For neighborhoods with HOA regulations about trash can appearance, my cleaning s
 ];
 
 export const blogPosts = [
+  {
+    title: "How to Deodorize a Trash Can in 2025: The Ultimate Guide",
+    slug: "how-to-deodorize-trash-can",
+    date: "2025-05-20",
+    author: "Camrin",
+    excerpt: "Struggling with a smelly trash can? Learn how to deodorize your garbage bins effectively using 2025's best practices, from DIY tips to professional high-heat sanitization.",
+    content: `Dealing with a **smelly trash can** is a common headache for Mount Pleasant homeowners, especially in our humid climate. If you've ever wondered **where should garbage cans be cleaned** or **how to deodorize a trash can** safely, you're not alone.
+
+In 2025, simple rinsing isn't enough to kill the bacteria and viruses that thrive in your bins. Here's how to handle it:
+
+### Why Your Trash Can Smells
+The **trash can smell** is caused by the decomposition of organic waste, which attracts bacteria, mold, and even pests. These organisms release foul-smelling gases that can permeate your garage or curb area.
+
+### How to Deodorize a Trash Can (The 2025 Way)
+1. **Empty and Rinse:** Start by removing all visible debris.
+2. **Apply a Cleaning Agent:** While many use bleach, it can be harsh on the plastic and the environment. Consider a 2025 eco-friendly enzymatic cleaner.
+3. **Scrubbing:** You'll need to reach the very bottom to remove the 'sludge' that traps odors.
+4. **Professional High-Heat Sanitization:** This is the most effective method. At CanManCam, we use 200-degree water at high pressure to kill 99.9% of bacteria.
+
+### Where Should Garbage Cans Be Cleaned?
+Never clean your bins over a storm drain. The wastewater contains harmful bacteria and chemicals that should be contained. Professional services like ours use a self-contained system to collect and properly dispose of the wastewater.
+
+For more details on keeping your home fresh, check our [Pricing Page](/pricing) for our 2025 trash can cleaning rates.`,
+    category: "Maintenance",
+    readTime: "5 min read",
+    image: "/attached_assets/trash-can-cleaning-after.JPEG"
+  },
   {
     slug: "how-often-pressure-wash-house",
     title: "How Often Should You Pressure Wash Your House?",

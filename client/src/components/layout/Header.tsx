@@ -85,6 +85,7 @@ export function Header() {
             </DropdownMenuContent>
           </DropdownMenu>
 
+          <NavLink href="/pricing">PRICING</NavLink>
           <NavLink href="/pressure-washing-tips">BLOG</NavLink>
           <NavLink href="/reviews">REVIEWS</NavLink>
           <NavLink href="/contact">CONTACT</NavLink>
@@ -109,6 +110,7 @@ export function Header() {
         <div className="lg:hidden bg-white border-t border-gray-100 absolute w-full left-0 top-full shadow-lg flex flex-col p-4 gap-3 max-h-96 overflow-y-auto">
           <Link href="/" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>HOME</Link>
           <Link href="/about" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>ABOUT</Link>
+          <Link href="/pricing" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>PRICING</Link>
           <Link href="/services" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>SERVICES</Link>
           <Link href="/service-areas" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>NEIGHBORHOODS</Link>
           <Link href="/pressure-washing-tips" className="text-primary font-bold hover:text-accent py-2" onClick={() => setIsOpen(false)}>BLOG</Link>
