@@ -133,14 +133,20 @@ export default function ServiceAreas() {
           </div>
 
           <div className="text-center mb-12">
-            <h2 className="text-2xl font-heading font-bold text-primary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-primary mb-4">
               SERVICE AREA MAP
             </h2>
-            <div className="bg-gray-200 h-64 flex items-center justify-center mb-4 max-w-3xl mx-auto">
-              <div className="text-center">
-                <p className="text-gray-600 font-bold mb-2">Mount Pleasant, SC</p>
-                <p className="text-sm text-gray-500">Serving all neighborhoods within Mount Pleasant</p>
-              </div>
+            <div className="w-full h-96 mb-8 max-w-4xl mx-auto shadow-lg border-2 border-primary/10">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107260.12761002278!2d-79.81088229999999!3d32.8484556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486774fb38b3d117%3A0xb6a402d9c8c63983!2sCanman%20Cam!5e0!3m2!1sen!2sus!4v1766426214312!5m2!1sen!2sus" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="CanManCam Service Area"
+              ></iframe>
             </div>
             <p className="text-gray-600 text-sm max-w-2xl mx-auto">
               I serve Isle of Palms, Old Village, Park West, Hamlin Plantation, Carolina Park, Dunes West, Planters Pointe, Long Point, Shem Creek, and surrounding Mount Pleasant areas.
