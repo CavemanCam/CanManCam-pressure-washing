@@ -26,7 +26,7 @@ export default function Services() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
-        title="Pressure Washing Services Mount Pleasant, SC | CanManCam"
+        title="Pressure Washing Services | Mount Pleasant, SC | CanManCam"
         description="Professional pressure washing services in Mount Pleasant, SC. House washing, driveway cleaning, gutter cleaning, window washing & more. Free estimates."
         canonicalUrl="https://canmancam.com/services"
         keywords="pressure washing services, house washing, driveway cleaning, gutter cleaning, window cleaning, Mount Pleasant SC, Charleston"

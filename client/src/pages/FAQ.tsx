@@ -101,7 +101,7 @@ export default function FAQ() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
-        title="Pressure Washing FAQ | CanManCam Mount Pleasant, SC"
+        title="Pressure Washing FAQ | Mount Pleasant, SC | CanManCam"
         description="Find answers to common pressure washing questions. Learn about CanManCam's services, pricing, techniques, and what to expect from professional pressure washing in Mount Pleasant."
         canonicalUrl="https://canmancam.com/pressure-washing-faq"
         keywords="pressure washing FAQ, power washing questions, Mount Pleasant pressure washing, soft washing vs pressure washing"

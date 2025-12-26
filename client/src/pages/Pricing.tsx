@@ -10,7 +10,7 @@ export default function PricingPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Pressure Washing Prices Mount Pleasant SC | Free Quotes & Rates"
+        title="Pressure Washing Prices & Rates | Mount Pleasant, SC | CanManCam"
         description="Get transparent pricing for pressure washing in Mount Pleasant, SC. House washing from $295, driveways from $150, and trash can cleaning from $20. Free estimates!"
         keywords="pressure washing prices mount pleasant sc, driveway cleaning service cost, house washing cost, trash can cleaning price, how to deodorize trash can, gutter cleaning mount pleasant sc pricing"
       />

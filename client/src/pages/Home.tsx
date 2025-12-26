@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col font-body text-gray-800">
       <SEO
-        title="CanManCam Pressure Washing | Mount Pleasant, SC | House Washing & Driveway Cleaning"
+        title="Pressure Washing Mount Pleasant, SC | House Washing & Driveway Cleaning | CanManCam"
         description="Mount Pleasant's most trusted pressure washing company. Professional house washing, driveway cleaning, roof cleaning & more. Free estimates. Call 607-427-1175."
         canonicalUrl="https://canmancam.com/"
         keywords="pressure washing Mount Pleasant SC, house washing, driveway cleaning, power washing, soft washing, exterior cleaning, Charleston area"

@@ -55,7 +55,7 @@ export default function Reviews() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
-        title="Customer Reviews | CanManCam Pressure Washing Mount Pleasant, SC"
+        title="Pressure Washing Reviews & Testimonials | Mount Pleasant, SC | CanManCam"
         description="Read 5-star reviews from Mount Pleasant homeowners. See why CanManCam is the most trusted pressure washing company in the Charleston area."
         canonicalUrl="https://canmancam.com/reviews"
         keywords="pressure washing reviews, Mount Pleasant pressure washing testimonials, CanManCam reviews, Charleston power washing reviews"

@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
-        title="About CanManCam Pressure Washing | Mount Pleasant, SC"
+        title="About My Pressure Washing Company | Mount Pleasant, SC | CanManCam"
         description="Learn about CanManCam, Mount Pleasant's most trusted pressure washing company. Licensed, insured, and committed to quality. Free estimates available."
         canonicalUrl="https://canmancam.com/about"
         keywords="about CanManCam, Mount Pleasant pressure washing company, Charleston pressure washing, local pressure washing business"

@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
-        title="Contact CanManCam Pressure Washing | Mount Pleasant, SC | Free Estimates"
+        title="Contact For Pressure Washing Estimates | Mount Pleasant, SC | CanManCam"
         description="Contact CanManCam for free pressure washing estimates in Mount Pleasant, SC. Call 607-427-1175 or email canmancam@yahoo.com. Available 24/7."
         canonicalUrl="https://canmancam.com/contact"
         keywords="contact pressure washing, Mount Pleasant pressure washing quote, free estimate, Charleston power washing contact"
