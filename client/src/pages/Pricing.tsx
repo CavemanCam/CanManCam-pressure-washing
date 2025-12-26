@@ -168,9 +168,31 @@ export default function PricingPage() {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-3 gap-10">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+            {/* House Washing Card (Unique Design) */}
+            <div className="bg-primary text-white p-10 shadow-2xl hover:shadow-3xl transition-all relative border-b-8 border-accent">
+              <h3 className="text-3xl font-heading font-bold mb-2 uppercase">House Washing</h3>
+              <p className="text-white/80 mb-6 font-semibold uppercase tracking-wider text-xs">Safe Soft Wash Technology</p>
+              <div className="flex items-baseline gap-1 mb-8">
+                <span className="text-5xl font-heading font-bold">$295</span>
+                <span className="text-white/70 font-bold">STARTING RATE</span>
+              </div>
+              <div className="space-y-4 mb-10">
+                <h4 className="font-bold text-white uppercase text-sm border-b border-white/20 pb-2">What's Included:</h4>
+                <ul className="space-y-3">
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Full exterior siding sanitization</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Algae, mold & mildew removal</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Eaves, soffits & gutters exterior</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Plant protection protocol</li>
+                </ul>
+              </div>
+              <Button asChild className="w-full bg-accent hover:bg-accent/90 text-white font-bold rounded-none py-8 text-lg">
+                <Link href="/services/house-washing">HOUSE WASH DETAILS</Link>
+              </Button>
+            </div>
+
             {/* Driveway Cleaning Card */}
-            <div className="bg-white border-t-8 border-primary p-10 shadow-xl hover:shadow-2xl transition-all">
+            <div className="bg-white border border-gray-100 p-10 shadow-xl hover:shadow-2xl transition-all">
               <h3 className="text-3xl font-heading font-bold text-primary mb-2 uppercase">Driveway Cleaning</h3>
               <p className="text-gray-500 mb-6 font-semibold uppercase tracking-wider text-xs">Deep Surface Restoration</p>
               <div className="flex items-baseline gap-1 mb-8">
@@ -183,7 +205,6 @@ export default function PricingPage() {
                   <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Industrial surface cleaner tech</li>
                   <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Pre-treatment for organic growth</li>
                   <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Post-treatment for lasting shine</li>
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Sidewalk Add-on Available</li>
                 </ul>
               </div>
               <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white font-bold rounded-none py-8 text-lg">
@@ -191,66 +212,87 @@ export default function PricingPage() {
               </Button>
             </div>
 
-            {/* House Washing Card (MOST POPULAR) */}
-            <div className="bg-accent text-white p-10 shadow-2xl hover:shadow-3xl transition-all relative transform scale-105 z-10">
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 bg-primary text-white text-[10px] font-bold px-4 py-1 uppercase tracking-widest">Most Popular</div>
-              <h3 className="text-3xl font-heading font-bold mb-2 uppercase">House Washing</h3>
-              <p className="text-white/80 mb-6 font-semibold uppercase tracking-wider text-xs">Safe Soft Wash Technology</p>
+            {/* Gutter Cleaning Card */}
+            <div className="bg-white border border-gray-100 p-10 shadow-xl hover:shadow-2xl transition-all">
+              <h3 className="text-3xl font-heading font-bold text-primary mb-2 uppercase">Gutter Cleaning</h3>
+              <p className="text-gray-500 mb-6 font-semibold uppercase tracking-wider text-xs">Debris Removal & Flush</p>
               <div className="flex items-baseline gap-1 mb-8">
-                <span className="text-5xl font-heading font-bold">$295</span>
-                <span className="text-white/70 font-bold">STARTING RATE</span>
+                <span className="text-5xl font-heading font-bold text-primary">$150</span>
+                <span className="text-gray-400 font-bold">STARTING RATE</span>
               </div>
               <div className="space-y-4 mb-10">
-                <h4 className="font-bold text-white uppercase text-sm border-b border-white/20 pb-2">What's Included:</h4>
-                <ul className="space-y-3">
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-white" /> Full exterior siding sanitization</li>
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-white" /> Algae, mold & mildew removal</li>
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-white" /> Eaves, soffits & gutters exterior</li>
-                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-white" /> Plant protection protocol</li>
+                <h4 className="font-bold text-primary uppercase text-sm border-b pb-2">What's Included:</h4>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Full interior debris removal</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Downspout functionality test</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Bagging & disposal of debris</li>
                 </ul>
               </div>
-              <Button asChild className="w-full bg-white text-accent hover:bg-gray-100 font-bold rounded-none py-8 text-lg">
-                <Link href="/services/house-washing">HOUSE WASH DETAILS</Link>
+              <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white font-bold rounded-none py-8 text-lg">
+                <Link href="/services/gutter-cleaning">GUTTER DETAILS</Link>
+              </Button>
+            </div>
+
+            {/* Window Cleaning Card */}
+            <div className="bg-white border border-gray-100 p-10 shadow-xl hover:shadow-2xl transition-all">
+              <h3 className="text-3xl font-heading font-bold text-primary mb-2 uppercase">Window Cleaning</h3>
+              <p className="text-gray-500 mb-6 font-semibold uppercase tracking-wider text-xs">Exterior Glass Specialist</p>
+              <div className="flex items-baseline gap-1 mb-8">
+                <span className="text-5xl font-heading font-bold text-primary">$195</span>
+                <span className="text-gray-400 font-bold">STARTING RATE</span>
+              </div>
+              <div className="space-y-4 mb-10">
+                <h4 className="font-bold text-primary uppercase text-sm border-b pb-2">What's Included:</h4>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Deionized water filtration</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Frame & sill wiping</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Streak-free guarantee</li>
+                </ul>
+              </div>
+              <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white font-bold rounded-none py-8 text-lg">
+                <Link href="/services/window-cleaning">WINDOW DETAILS</Link>
+              </Button>
+            </div>
+
+            {/* Sidewalk Cleaning Card */}
+            <div className="bg-white border border-gray-100 p-10 shadow-xl hover:shadow-2xl transition-all">
+              <h3 className="text-3xl font-heading font-bold text-primary mb-2 uppercase">Sidewalk Cleaning</h3>
+              <p className="text-gray-500 mb-6 font-semibold uppercase tracking-wider text-xs">Curb Appeal Essential</p>
+              <div className="flex items-baseline gap-1 mb-8">
+                <span className="text-5xl font-heading font-bold text-primary">$95</span>
+                <span className="text-gray-400 font-bold">STARTING RATE</span>
+              </div>
+              <div className="space-y-4 mb-10">
+                <h4 className="font-bold text-primary uppercase text-sm border-b pb-2">What's Included:</h4>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> High-pressure surface cleaning</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Edge-to-edge organic removal</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Post-treatment for longevity</li>
+                </ul>
+              </div>
+              <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white font-bold rounded-none py-8 text-lg">
+                <Link href="/services/sidewalk-cleaning">SIDEWALK DETAILS</Link>
               </Button>
             </div>
 
             {/* Trash Can Cleaning Card */}
-            <div className="bg-primary text-white p-10 shadow-xl hover:shadow-2xl transition-all">
-              <h3 className="text-3xl font-heading font-bold mb-2 uppercase">Trash Can Cleaning</h3>
-              <p className="text-white/70 mb-6 font-semibold uppercase tracking-wider text-xs">Deodorize & Sanitize</p>
-              
-              <div className="space-y-4 mb-8">
-                <div className="bg-white/10 p-4 border border-white/20">
-                  <div className="flex justify-between items-center mb-1">
-                    <span className="font-bold uppercase text-sm">Monthly Plan</span>
-                    <span className="text-2xl font-heading font-bold text-accent">$20</span>
-                  </div>
-                  <p className="text-xs text-white/60 italic">Best for odor prevention (Up to 2 cans)</p>
-                </div>
-                <div className="bg-white/10 p-4 border border-white/20 relative">
-                  <div className="absolute -top-2 -right-2 bg-accent text-[8px] font-bold px-2 py-1 rounded">POPULAR</div>
-                  <div className="flex justify-between items-center mb-1">
-                    <span className="font-bold uppercase text-sm">Quarterly Plan</span>
-                    <span className="text-2xl font-heading font-bold text-accent">$35</span>
-                  </div>
-                  <p className="text-xs text-white/60 italic">Every 3 months (Up to 2 cans)</p>
-                </div>
-                <div className="bg-white/10 p-4 border border-white/20">
-                  <div className="flex justify-between items-center mb-1">
-                    <span className="font-bold uppercase text-sm">One-Time Clean</span>
-                    <span className="text-2xl font-heading font-bold text-accent">$50</span>
-                  </div>
-                  <p className="text-xs text-white/60 italic">Deep sanitization (Up to 2 cans)</p>
-                </div>
+            <div className="bg-white border border-gray-100 p-10 shadow-xl hover:shadow-2xl transition-all">
+              <h3 className="text-3xl font-heading font-bold text-primary mb-2 uppercase">Trash Can Cleaning</h3>
+              <p className="text-gray-500 mb-6 font-semibold uppercase tracking-wider text-xs">Deodorize & Sanitize</p>
+              <div className="flex items-baseline gap-1 mb-8">
+                <span className="text-5xl font-heading font-bold text-primary">$20</span>
+                <span className="text-gray-400 font-bold">STARTING RATE</span>
               </div>
-
-              <div className="space-y-3 mb-10 text-sm opacity-90">
-                <li className="flex gap-2 items-center"><CheckCircle2 className="w-4 h-4 text-accent" /> Kills 99.9% of germs & viruses</li>
-                <li className="flex gap-2 items-center"><CheckCircle2 className="w-4 h-4 text-accent" /> Professional grade deodorizers</li>
-                <li className="flex gap-2 items-center"><CheckCircle2 className="w-4 h-4 text-accent" /> Zero wastewater runoff</li>
+              <div className="space-y-4 mb-10">
+                <h4 className="font-bold text-primary uppercase text-sm border-b pb-2">What's Included:</h4>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> 200° Hot water sanitization</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Eco-friendly deodorizing</li>
+                  <li className="flex gap-2 items-center"><CheckCircle2 className="w-5 h-5 text-accent" /> Wastewater recovery & removal</li>
+                </ul>
               </div>
-              <Button asChild className="w-full bg-accent hover:bg-accent/90 text-white font-bold rounded-none py-8 text-lg">
-                <Link href="/services/trash-can-cleaning">STOP THE SMELL</Link>
+              <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white font-bold rounded-none py-8 text-lg">
+                <Link href="/services/trash-can-cleaning">BIN CLEANING DETAILS</Link>
               </Button>
             </div>
           </div>
