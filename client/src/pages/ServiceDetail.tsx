@@ -164,18 +164,18 @@ export default function ServiceDetail() {
           <div className="container mx-auto px-4">
             <div className={`grid ${images?.sectionImage ? 'lg:grid-cols-2' : 'lg:grid-cols-1 max-w-4xl mx-auto'} gap-12 items-center`}>
               <div>
-                <h2 className="text-3xl font-heading font-bold text-primary mb-6">
+                <h2 className="text-4xl font-heading font-bold text-primary mb-8 uppercase tracking-tight">
                   PROFESSIONAL {service.name.toUpperCase()}
                 </h2>
-                <p className="text-lg text-gray-600 mb-6 leading-relaxed">{service.description}</p>
-                <div className="space-y-4">
+                <p className="text-xl text-gray-600 mb-8 leading-relaxed">{service.description}</p>
+                <div className="space-y-6">
                   {firstHalf.slice(0, 2).map((paragraph, idx) => (
                     <LinkedParagraph 
                       key={idx} 
                       text={paragraph}
                       excludeHrefs={[`/services/${service.slug}`]}
                       maxLinks={1}
-                      className="text-gray-700 leading-relaxed"
+                      className="text-lg text-gray-700 leading-relaxed"
                     />
                   ))}
                 </div>
@@ -401,13 +401,13 @@ export default function ServiceDetail() {
         {relatedBlogPosts.length > 0 && (
           <section className="py-16 bg-gray-50">
             <div className="container mx-auto px-4">
-              <h2 className="text-3xl font-heading font-bold text-primary text-center mb-8">RELATED ARTICLES</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+              <h2 className="text-4xl font-heading font-bold text-primary text-center mb-10 uppercase tracking-tight">RELATED ARTICLES</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
                 {relatedBlogPosts.slice(0, 4).map((post) => (
-                  <Link key={post.slug} href={`/pressure-washing-tips/${post.slug}`} className="block bg-white p-6 border-2 border-gray-200 hover:border-primary transition-colors">
-                    <h3 className="font-heading font-bold text-primary mb-2">{post.title}</h3>
-                    <p className="text-sm text-gray-600 line-clamp-3">{post.answer}</p>
-                    <span className="text-accent font-bold text-sm mt-4 block">Read More →</span>
+                  <Link key={post.slug} href={`/pressure-washing-tips/${post.slug}`} className="block bg-white p-8 border-2 border-gray-200 hover:border-primary transition-colors shadow-sm">
+                    <h3 className="font-heading font-bold text-primary text-xl mb-3 leading-tight">{post.title}</h3>
+                    <p className="text-base text-gray-600 line-clamp-3 mb-4">{post.answer}</p>
+                    <span className="text-accent font-bold text-sm uppercase tracking-wider block">Read More →</span>
                   </Link>
                 ))}
               </div>

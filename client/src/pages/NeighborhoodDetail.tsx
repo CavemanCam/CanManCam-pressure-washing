@@ -61,11 +61,11 @@ export default function NeighborhoodDetail() {
           <div className="text-center mb-12">
             <h1 
               data-testid="text-neighborhood-title"
-              className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
+              className="text-5xl md:text-7xl font-heading font-bold text-primary mb-6"
             >
               {neighborhood.name.toUpperCase()} PRESSURE WASHING SERVICES
             </h1>
-            <h2 className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Professional pressure washing in {neighborhood.name}, Mount Pleasant, SC. Free estimates and price beat guarantee.
             </h2>
           </div>
@@ -184,16 +184,16 @@ export default function NeighborhoodDetail() {
 
           {relatedPosts.length > 0 && (
             <div className="mb-12">
-              <h2 className="text-2xl font-heading font-bold text-primary mb-4 text-center">HELPFUL ARTICLES</h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <h2 className="text-3xl font-heading font-bold text-primary mb-8 text-center uppercase tracking-tight">HELPFUL ARTICLES</h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {relatedPosts.map((post) => (
                   <Link 
                     key={post.slug} 
                     href={`/pressure-washing-tips/${post.slug}`}
-                    className="block p-4 border-2 border-gray-200 hover:border-primary transition-colors text-center"
+                    className="block p-6 border-2 border-gray-200 hover:border-primary transition-colors text-center shadow-sm"
                   >
-                    <h3 className="font-heading font-bold text-primary text-sm mb-2">{post.title}</h3>
-                    <span className="text-accent text-xs font-bold uppercase">Read More →</span>
+                    <h3 className="font-heading font-bold text-primary text-xl mb-3 leading-tight">{post.title}</h3>
+                    <span className="text-accent text-sm font-bold uppercase tracking-wider">Read More →</span>
                   </Link>
                 ))}
               </div>

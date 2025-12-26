@@ -145,8 +145,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-primary/40 group-hover:bg-primary/70 transition-all duration-300" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-white text-center">
-                  <h3 className="text-xl font-heading font-bold uppercase mb-2">{service.name}</h3>
-                  <p className="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 leading-relaxed">
+                  <h3 className="text-2xl font-heading font-bold uppercase mb-3">{service.name}</h3>
+                  <p className="text-base opacity-0 group-hover:opacity-100 transition-opacity duration-300 leading-relaxed px-4">
                     {service.shortDescription}
                   </p>
                 </div>

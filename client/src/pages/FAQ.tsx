@@ -166,8 +166,8 @@ export default function FAQ() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {blogPosts.slice(0, 6).map((post) => (
                 <Link key={post.slug} href={`/pressure-washing-tips/${post.slug}`} className="block p-4 bg-white border-2 border-gray-200 hover:border-primary transition-colors">
-                  <h3 className="font-bold text-primary text-sm mb-2">{post.title}</h3>
-                  <span className="text-accent text-xs font-bold uppercase">Read More →</span>
+                  <h3 className="font-bold text-primary text-xl mb-3 leading-tight">{post.title}</h3>
+                  <span className="text-accent text-sm font-bold uppercase tracking-wider">Read More →</span>
                 </Link>
               ))}
             </div>
