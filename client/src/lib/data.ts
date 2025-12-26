@@ -1,38 +1,38 @@
 export const neighborhoods = [
   {
-    name: "Belle Hall Plantation",
-    slug: "belle-hall-plantation",
-    description: "Belle Hall Plantation is a premier Mount Pleasant community located off Long Point Road, known for its diverse sub-neighborhoods like Hibben and Evian. This family-centric area features traditional Lowcountry architecture and extensive walking trails.",
-    characteristics: "Homes in Belle Hall primarily feature vinyl siding and Hardie board, which are susceptible to the humid South Carolina climate. The proximity to Wando High School and local parks means high foot and bike traffic, often leading to dirty sidewalks and driveways.",
-    content: "In Belle Hall, I specialize in removing the green algae common on north-facing vinyl siding. My soft wash technique ensures your Hibben or Evian home stays pristine without high-pressure damage. Check my [Pricing](/pricing) for current rates. I also highly recommend our [Driveway Cleaning Service](/services/driveway-cleaning) to keep your curb appeal high. Residents often pair this with [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to prepare for storm season."
+    name: "Old Village",
+    slug: "old-village",
+    description: "Old Village is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in Old Village consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.",
+    characteristics: "Homes in Old Village commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. Over time, these surfaces naturally accumulate organic growth that cannot be removed through rain alone. Dark streaks on roofs, green buildup on siding, slippery sidewalks, and stained driveways are among the most frequent issues homeowners experience.",
+    content: "For residents searching online for “pressure washing near me” or “house washing Old Village,” the goal is not just to clean their home — it’s to protect their investment. Mold and algae don’t just affect appearance; they actively degrade exterior surfaces and can shorten the lifespan of roofing materials, paint, and concrete if left untreated.\n\nCanManCam provides professional [House Washing](/services/house-washing) and soft washing services throughout Old Village, using proven methods that safely remove organic buildup without damaging your home. Our soft washing process relies on low-pressure application combined with professional cleaning solutions that eliminate mold, mildew, and algae at the root, delivering longer-lasting results compared to traditional high-pressure washing alone.\n\nDriveways and sidewalks in Old Village are especially prone to staining due to shade and moisture retention. CanManCam’s [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness, improves curb appeal, and reduce slip hazards — an important factor for families, guests, and HOA compliance. We also clean fences, decks, patios, and outdoor living spaces, helping homeowners fully enjoy their property year-round.\n\n[Roof Cleaning](/services/roof-cleaning) is another critical service for Old Village homeowners. Black streaks caused by algae are common across Mount Pleasant neighborhoods, and improper cleaning methods can cause serious damage. CanManCam uses a no-pressure roof cleaning approach that safely removes algae while preserving the integrity of shingles and extending roof lifespan. Check our [Pricing](/pricing) for the best rates in Mount Pleasant."
   },
   {
-    name: "Brickyard Plantation",
-    slug: "brickyard-plantation",
-    description: "Brickyard Plantation is an established community built on the site of a former working brickyard. It features a boat ramp, tennis courts, and homes that blend seamlessly with the natural landscape of Horlbeck Creek.",
-    characteristics: "With many homes featuring brick accents (a nod to the neighborhood's history) and mature hardwoods, mold and mildew are common issues here. The creek-front humidity accelerates organic growth on roofs and siding.",
-    content: "Caring for Brickyard Plantation homes requires a delicate touch, especially for the namesake brickwork. I use specialized solutions to deodorize and clean exterior surfaces. View my [Pricing](/pricing) for bundled services. My [Roof Cleaning](/services/roof-cleaning) is essential for homes under the heavy canopy of Brickyard. Don't forget to ask about my [Trash Can Cleaning Price](/pricing) to keep your garage smelling fresh."
+    name: "Shem Creek",
+    slug: "shem-creek",
+    description: "Shem Creek is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in Shem Creek consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.",
+    characteristics: "Homes in Shem Creek commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. These surfaces naturally accumulate organic growth, dark streaks on roofs, and stained driveways due to the coastal environment.",
+    content: "For residents searching for “pressure washing near me” or “house washing Shem Creek,” CanManCam provides professional [House Washing](/services/house-washing) and soft washing services. Our process eliminates mold, mildew, and algae at the root, delivering longer-lasting results.\n\nDriveways and sidewalks in Shem Creek are especially prone to staining. CanManCam’s [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness and improves curb appeal. We also offer expert [Window Cleaning](/services/window-cleaning) to ensure you don't miss any of those beautiful creek views. View our [Pricing](/pricing) to see how we provide the best value in Shem Creek."
+  },
+  {
+    name: "Snee Farm",
+    slug: "snee-farm",
+    description: "Snee Farm is an established community built around the historic Snee Farm Country Club. Homeowners here deal with the challenges of Lowcountry humidity, frequent rain, and significant tree coverage that impacts exterior maintenance.",
+    characteristics: "Mature landscaping and large, older homes require a focus on debris removal and organic growth prevention. Vinyl, brick, and stucco surfaces are common and prone to green buildup and dark roof streaks.",
+    content: "Searching for “house washing Snee Farm”? CanManCam offers professional [House Washing](/services/house-washing) using safe soft washing methods. We understand the specific environmental conditions of Snee Farm and tailor our services accordingly.\n\nOur [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) is vital for homes under Snee Farm's massive oaks. We also provide premium [Driveway Cleaning Service](/services/driveway-cleaning) to restore your concrete surfaces. Check out our [Pricing](/pricing) and see why your neighbors trust CanManCam."
+  },
+  {
+    name: "Park West",
+    slug: "park-west",
+    description: "Park West is a massive, multi-neighborhood community in Mount Pleasant. Homeowners consistently deal with the challenges of Lowcountry humidity and surface staining across a variety of housing styles.",
+    characteristics: "From townhomes to multi-million dollar estates, Park West features diverse materials including vinyl, brick, and stucco. Dark streaks on roofs and slippery sidewalks are frequent issues for residents.",
+    content: "If you're looking for “pressure washing near me in Park West,” CanManCam makes it easy. We provide professional [House Washing](/services/house-washing) and [Roof Cleaning](/services/roof-cleaning) that safely removes algae while preserving your home's integrity.\n\nDriveways and sidewalks in Park West are prone to staining due to moisture retention. Our [Driveway Cleaning Service](/services/driveway-cleaning) improves curb appeal and ensures HOA compliance. Ask about our multi-service discounts and view our [Pricing](/pricing) for the best rates in the neighborhood."
   },
   {
     name: "Carolina Park",
     slug: "carolina-park",
-    description: "Carolina Park is Mount Pleasant's premier master-planned community, offering a mix of custom estates and classic cottages near the Wando River.",
-    characteristics: "As a newer community, construction dust and maturing landscaping are the primary challenges. HOA standards are strict, requiring homes to maintain a 'new' appearance year-round.",
-    content: "In Carolina Park, I help homeowners meet strict HOA standards with regular soft washing. My services are optimized for the modern materials found in Riverside and The Village. See our [Pricing Page](/pricing) for details. I recommend our [House Washing](/services/house-washing) for that crisp, clean look. Also, check out our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to protect your foundation."
-  },
-  {
-    name: "Charleston National",
-    slug: "charleston-national",
-    description: "Charleston National is a prestigious golf course community offering stunning views of the Rees Jones-designed course and the surrounding wetlands.",
-    characteristics: "The open fairways and proximity to the intracoastal waterway mean homes are exposed to significant wind-blown debris and salt air, which can dull siding and windows.",
-    content: "Charleston National residents trust me to maintain their golf-course views. My soft wash system removes salt film and environmental staining efficiently. Explore my [Pricing](/pricing) for multi-service discounts. Our [Window Cleaning](/services/window-cleaning) is a favorite here to restore those marsh views. Combine it with a [Driveway Cleaning Service](/services/driveway-cleaning) for the ultimate refresh."
-  },
-  {
-    name: "Darrell Creek",
-    slug: "darrell-creek",
-    description: "Darrell Creek is known for its large lots and 'Old Mount Pleasant' feel, with many homes situated along the marsh and Darrell Creek itself.",
-    characteristics: "The heavy tree cover and marsh-front humidity create a 'jungle' effect, where mold and algae can take over a driveway or roof in just one season.",
-    content: "In Darrell Creek, the battle against marsh-mold is constant. I use eco-friendly treatments that are safe for the surrounding wetlands. Check my [Pricing](/pricing) for Darrell Creek specials. My [Driveway Cleaning Service](/services/driveway-cleaning) is particularly popular here due to the long, shaded drives. I also offer expert [Roof Cleaning](/services/roof-cleaning) to remove black streaks safely."
+    description: "Carolina Park is a premier Mount Pleasant community known for its distinct layout and housing styles. Homeowners here deal with humidity, frequent rain, and the need to maintain strict HOA standards.",
+    characteristics: "Homes commonly feature modern siding materials and concrete driveways. Over time, surfaces accumulate organic growth, dark roof streaks, and green buildup on siding that requires professional attention.",
+    content: "For “house washing Carolina Park” services, CanManCam relies on low-pressure soft washing to eliminate mold and algae. Our [House Washing](/services/house-washing) delivers longer-lasting results for your investment.\n\nMaintain your property's value with our [Driveway Cleaning Service](/services/driveway-cleaning) and professional [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning). We show up on time and deliver visible results for every Carolina Park resident. See our [Pricing](/pricing) for transparent, competitive rates."
   },
   {
     name: "Dunes West",
