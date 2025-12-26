@@ -70,39 +70,39 @@ export const neighborhoods = [
     content: "In Hobcaw Creek Plantation, I help you keep your outdoor living spaces ready for the boat. My patio and dock cleaning services are second to none. See our [Pricing Page](/pricing). I recommend pairing a [House Washing](/services/house-washing) with our [Driveway Cleaning Service](/services/driveway-cleaning) for a total property refresh. Ask about our [Trash Can Cleaning Price](/pricing)!"
   },
   {
-    name: "I’On",
+    name: "I'On",
     slug: "ion",
-    description: "I'On is an award-winning 'New Urbanism' community known for its narrow streets, canals, and stunning custom architecture inspired by historic Charleston.",
-    characteristics: "Very tight lot lines and diverse materials (brick, stucco, wood) require extreme precision during the cleaning process to protect neighboring properties.",
-    content: "Cleaning in I'On is an art. I use precision equipment to ensure your neighbors remain dry while your home becomes the cleanest on the block. Review my [Pricing](/pricing) for I'On specials. My soft wash is safe for the delicate stucco and woodwork common here. Check out our [Sitemap](/sitemap) for more I'On-specific cleaning tips."
+    description: "I'On is an award-winning 'New Urbanism' community in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in I'On consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.",
+    characteristics: "Homes in I'On commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. These surfaces naturally accumulate organic growth that cannot be removed through rain alone.",
+    content: "For residents searching for “pressure washing near me” or “house washing I'On,” the goal is to protect their investment. Mold and algae actively degrade exterior surfaces and can shorten the lifespan of roofing materials and paint if left untreated.\n\nCanManCam provides professional [House Washing](/services/house-washing) and soft washing services throughout I'On. Our soft washing process relies on low-pressure application combined with professional cleaning solutions that eliminate mold, mildew, and algae at the root.\n\nDriveways and sidewalks in I'On are especially prone to staining. CanManCam’s [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness and improves curb appeal. We also offer expert [Window Cleaning](/services/window-cleaning) to maintain the pristine look of your custom home. Check our [Pricing](/pricing) for transparent, professional service in I'On."
   },
   {
-    name: "Longpoint",
-    slug: "longpoint",
-    description: "Longpoint is a popular community located near Palmetto Islands County Park, featuring family homes and excellent amenities.",
-    characteristics: "Proximity to the county park means more pollen and organic debris. The neighborhood is very active, with kids and pets always on the go.",
-    content: "Longpoint is my home base. I provide fast, reliable service for my neighbors to keep their homes looking their best year-round. See our [Pricing](/pricing). I highly recommend our [Trash Can Cleaning Service](/pricing) to stop the 'smelly trash can' problem once and for all. Our [Driveway Cleaning Service](/services/driveway-cleaning) is also a neighborhood favorite."
+    name: "Belle Hall",
+    slug: "belle-hall",
+    description: "Belle Hall is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions that directly impact exterior home maintenance. Homeowners in Belle Hall consistently deal with the challenges created by Lowcountry humidity, frequent rain, and tree coverage.",
+    characteristics: "Homes in Belle Hall commonly feature siding materials such as vinyl, brick, and stucco, along with concrete driveways and walkways. Dark streaks on roofs and green buildup on siding are among the most frequent issues homeowners experience.",
+    content: "If you are searching for “pressure washing near me” or “house washing Belle Hall,” CanManCam is the trusted choice. Our professional [House Washing](/services/house-washing) safely removes organic buildup without damaging your home's exterior.\n\nDriveways and sidewalks in Belle Hall are prone to staining due to shade and moisture. Our [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness and reduces slip hazards. We also recommend our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to protect your property year-round. View our [Pricing](/pricing) for the best value in Belle Hall."
   },
   {
-    name: "Old Village Historic District",
-    slug: "old-village",
-    description: "The Old Village is the heart of historic Mount Pleasant, featuring homes that date back to the 18th century.",
-    characteristics: "Historic preservation is the priority. Many homes have antique windows and original wood siding that cannot withstand standard pressure washing.",
-    content: "In the Old Village, I strictly use soft washing with a 'no-pressure' approach. We preserve the history while removing the grime. Check my [Pricing](/pricing). My [Window Cleaning](/services/window-cleaning) for historic glass is a specialty. Residents also trust my [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to protect their historic foundations."
+    name: "Hamlin Plantation",
+    slug: "hamlin-plantation",
+    description: "Hamlin Plantation is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions. Homeowners deal with Lowcountry humidity, frequent rain, and proximity to marshland that impacts exterior maintenance.",
+    characteristics: "Homes in Hamlin Plantation commonly feature siding materials such as vinyl, brick, and painted wood. Over time, these surfaces accumulate organic growth, dark streaks on roofs, and green buildup on siding.",
+    content: "Searching for “pressure washing near me” in Hamlin Plantation? CanManCam provides professional [House Washing](/services/house-washing) and soft washing services. Our process eliminate mold, mildew, and algae at the root for longer-lasting results.\n\nMaintain your property's value with our [Driveway Cleaning Service](/services/driveway-cleaning) and professional [Roof Cleaning](/services/roof-cleaning). We also clean fences, decks, and patios to help you fully enjoy your outdoor spaces. Check our [Pricing](/pricing) for professional exterior cleaning in Hamlin Plantation."
   },
   {
-    name: "Oyster Point",
-    slug: "oyster-point",
-    description: "Oyster Point is a newer luxury community with stunning amenities and views of the Intracoastal Waterway.",
-    characteristics: "Modern Hardie-board siding is prevalent, which requires soft washing to maintain the manufacturer's warranty.",
-    content: "Oyster Point homes need modern solutions. I use warranty-safe soft washing to keep your new home looking brand new. Explore my [Pricing](/pricing). Our [House Washing](/services/house-washing) is perfectly suited for Oyster Point's architectural styles. Don't forget our [Driveway Cleaning Service](/services/driveway-cleaning) for that pristine finish."
+    name: "Rivertowne",
+    slug: "rivertowne",
+    description: "Rivertowne is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions that directly impact exterior home maintenance. Homeowners deal with humidity, frequent rain, and proximity to the Wando River.",
+    characteristics: "Homes in Rivertowne commonly feature siding materials such as vinyl, brick, and stucco. Over time, surfaces naturally accumulate organic growth, dark streaks on roofs, and green buildup on siding.",
+    content: "For “house washing Rivertowne” services, CanManCam relies on low-pressure soft washing to eliminate mold and algae safely. Our professional [House Washing](/services/house-washing) protects your investment and restores your home's beauty.\n\nRiver-front properties in Rivertowne are especially prone to moisture retention. Our [Driveway Cleaning Service](/services/driveway-cleaning) and [Window Cleaning](/services/window-cleaning) are popular choices for maintaining curb appeal. See our [Pricing](/pricing) for the most reliable pressure washing in Rivertowne."
   },
   {
-    name: "Park West",
-    slug: "park-west",
-    description: "Park West is a massive, multi-neighborhood community with everything from townhomes to multi-million dollar estates.",
-    characteristics: "Due to the size of the community, I offer neighborhood-wide discounts when multiple neighbors book on the same day.",
-    content: "I serve every corner of Park West, from Masonborough to Tennyson. Ask about my 'Street Discount' for you and your neighbors! View my [Pricing](/pricing). My [Roof Cleaning](/services/roof-cleaning) is highly rated in Park West for removing those ugly black streaks. We also offer the best [Trash Can Cleaning Price](/pricing) in the area."
+    name: "Rivertowne Country Club",
+    slug: "rivertowne-country-club",
+    description: "Rivertowne Country Club is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions that directly impact exterior home maintenance. Homeowners deal with humidity, frequent rain, and sun exposure on the golf course.",
+    characteristics: "Homes commonly feature siding materials such as vinyl, brick, and stucco. Dark streaks on roofs, green buildup on siding, and stained driveways are frequent issues for residents.",
+    content: "If you're looking for “pressure washing near me in Rivertowne Country Club,” CanManCam provides professional [House Washing](/services/house-washing) and [Roof Cleaning](/services/roof-cleaning) that safely removes algae while preserving your home's integrity.\n\nDriveways and sidewalks in Rivertowne Country Club are prone to staining. Our [Driveway Cleaning Service](/services/driveway-cleaning) improves curb appeal and ensures HOA compliance. View our [Pricing](/pricing) for multi-service discounts and the best rates in the neighborhood."
   },
   {
     name: "Planters Pointe",
