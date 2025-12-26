@@ -1,173 +1,173 @@
 export const neighborhoods = [
   {
-    name: "Old Village",
-    slug: "old-village",
-    description: "Old Village is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in Old Village consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.",
-    characteristics: "Homes in Old Village commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. Over time, these surfaces naturally accumulate organic growth that cannot be removed through rain alone. Dark streaks on roofs, green buildup on siding, slippery sidewalks, and stained driveways are among the most frequent issues homeowners experience.",
-    content: "For residents searching online for “pressure washing near me” or “house washing Old Village,” the goal is not just to clean their home — it’s to protect their investment. Mold and algae don’t just affect appearance; they actively degrade exterior surfaces and can shorten the lifespan of roofing materials, paint, and concrete if left untreated.\n\nCanManCam provides professional [House Washing](/services/house-washing) and soft washing services throughout Old Village, using proven methods that safely remove organic buildup without damaging your home. Our soft washing process relies on low-pressure application combined with professional cleaning solutions that eliminate mold, mildew, and algae at the root, delivering longer-lasting results compared to traditional high-pressure washing alone.\n\nDriveways and sidewalks in Old Village are especially prone to staining due to shade and moisture retention. CanManCam’s [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness, improves curb appeal, and reduce slip hazards — an important factor for families, guests, and HOA compliance. We also clean fences, decks, patios, and outdoor living spaces, helping homeowners fully enjoy their property year-round.\n\n[Roof Cleaning](/services/roof-cleaning) is another critical service for Old Village homeowners. Black streaks caused by algae are common across Mount Pleasant neighborhoods, and improper cleaning methods can cause serious damage. CanManCam uses a no-pressure roof cleaning approach that safely removes algae while preserving the integrity of shingles and extending roof lifespan. Check our [Pricing](/pricing) for the best rates in Mount Pleasant."
+    name: 'Old Village',
+    slug: 'old-village',
+    description: 'Old Village is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in Old Village consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.',
+    characteristics: 'Homes in Old Village commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. Over time, these surfaces naturally accumulate organic growth that cannot be removed through rain alone. Dark streaks on roofs, green buildup on siding, slippery sidewalks, and stained driveways are among the most frequent issues homeowners experience.',
+    content: 'For residents searching online for “pressure washing near me” or “house washing Old Village,” the goal is not just to clean their home — it’s to protect their investment. Mold and algae don’t just affect appearance; they actively degrade exterior surfaces and can shorten the lifespan of roofing materials, paint, and concrete if left untreated.\n\nCanManCam provides professional [House Washing](/services/house-washing) and soft washing services throughout Old Village, using proven methods that safely remove organic buildup without damaging your home. Our soft washing process relies on low-pressure application combined with professional cleaning solutions that eliminate mold, mildew, and algae at the root, delivering longer-lasting results compared to traditional high-pressure washing alone.\n\nDriveways and sidewalks in Old Village are especially prone to staining due to shade and moisture retention. CanManCam’s [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness, improves curb appeal, and reduce slip hazards — an important factor for families, guests, and HOA compliance. We also clean fences, decks, patios, and outdoor living spaces, helping homeowners fully enjoy their property year-round.\n\n[Roof Cleaning](/services/roof-cleaning) is another critical service for Old Village homeowners. Black streaks caused by algae are common across Mount Pleasant neighborhoods, and improper cleaning methods can cause serious damage. CanManCam uses a no-pressure roof cleaning approach that safely removes algae while preserving the integrity of shingles and extending roof lifespan. Check our [Pricing](/pricing) for the best rates in Mount Pleasant.'
   },
   {
-    name: "Shem Creek",
-    slug: "shem-creek",
-    description: "Shem Creek is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in Shem Creek consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.",
-    characteristics: "Homes in Shem Creek commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. These surfaces naturally accumulate organic growth, dark streaks on roofs, and stained driveways due to the coastal environment.",
-    content: "For residents searching for “pressure washing near me” or “house washing Shem Creek,” CanManCam provides professional [House Washing](/services/house-washing) and soft washing services. Our process eliminates mold, mildew, and algae at the root, delivering longer-lasting results.\n\nDriveways and sidewalks in Shem Creek are especially prone to staining. CanManCam’s [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness and improves curb appeal. We also offer expert [Window Cleaning](/services/window-cleaning) to ensure you don't miss any of those beautiful creek views. View our [Pricing](/pricing) to see how we provide the best value in Shem Creek."
+    name: 'Shem Creek',
+    slug: 'shem-creek',
+    description: 'Shem Creek is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in Shem Creek consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.',
+    characteristics: 'Homes in Shem Creek commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. These surfaces naturally accumulate organic growth, dark streaks on roofs, and stained driveways due to the coastal environment.',
+    content: 'For residents searching for “pressure washing near me” or “house washing Shem Creek,” CanManCam provides professional [House Washing](/services/house-washing) and soft washing services. Our process eliminates mold, mildew, and algae at the root, delivering longer-lasting results.\n\nDriveways and sidewalks in Shem Creek are especially prone to staining. CanManCam’s [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness and improves curb appeal. We also offer expert [Window Cleaning](/services/window-cleaning) to ensure you don't miss any of those beautiful creek views. View our [Pricing](/pricing) to see how we provide the best value in Shem Creek.'
   },
   {
-    name: "Snee Farm",
-    slug: "snee-farm",
-    description: "Snee Farm is an established community built around the historic Snee Farm Country Club. Homeowners here deal with the challenges of Lowcountry humidity, frequent rain, and significant tree coverage that impacts exterior maintenance.",
-    characteristics: "Mature landscaping and large, older homes require a focus on debris removal and organic growth prevention. Vinyl, brick, and stucco surfaces are common and prone to green buildup and dark roof streaks.",
-    content: "Searching for “house washing Snee Farm”? CanManCam offers professional [House Washing](/services/house-washing) using safe soft washing methods. We understand the specific environmental conditions of Snee Farm and tailor our services accordingly.\n\nOur [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) is vital for homes under Snee Farm's massive oaks. We also provide premium [Driveway Cleaning Service](/services/driveway-cleaning) to restore your concrete surfaces. Check out our [Pricing](/pricing) and see why your neighbors trust CanManCam."
+    name: 'Snee Farm',
+    slug: 'snee-farm',
+    description: 'Snee Farm is an established community built around the historic Snee Farm Country Club. Homeowners here deal with the challenges of Lowcountry humidity, frequent rain, and significant tree coverage that impacts exterior maintenance.',
+    characteristics: 'Mature landscaping and large, older homes require a focus on debris removal and organic growth prevention. Vinyl, brick, and stucco surfaces are common and prone to green buildup and dark roof streaks.',
+    content: 'Searching for “house washing Snee Farm”? CanManCam offers professional [House Washing](/services/house-washing) using safe soft washing methods. We understand the specific environmental conditions of Snee Farm and tailor our services accordingly.\n\nOur [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) is vital for homes under Snee Farm's massive oaks. We also provide premium [Driveway Cleaning Service](/services/driveway-cleaning) to restore your concrete surfaces. Check out our [Pricing](/pricing) and see why your neighbors trust CanManCam.'
   },
   {
-    name: "Park West",
-    slug: "park-west",
-    description: "Park West is a massive, multi-neighborhood community in Mount Pleasant. Homeowners consistently deal with the challenges of Lowcountry humidity and surface staining across a variety of housing styles.",
-    characteristics: "From townhomes to multi-million dollar estates, Park West features diverse materials including vinyl, brick, and stucco. Dark streaks on roofs and slippery sidewalks are frequent issues for residents.",
-    content: "If you're looking for “pressure washing near me in Park West,” CanManCam makes it easy. We provide professional [House Washing](/services/house-washing) and [Roof Cleaning](/services/roof-cleaning) that safely removes algae while preserving your home's integrity.\n\nDriveways and sidewalks in Park West are prone to staining due to moisture retention. Our [Driveway Cleaning Service](/services/driveway-cleaning) improves curb appeal and ensures HOA compliance. Ask about our multi-service discounts and view our [Pricing](/pricing) for the best rates in the neighborhood."
+    name: 'Park West',
+    slug: 'park-west',
+    description: 'Park West is a massive, multi-neighborhood community in Mount Pleasant. Homeowners consistently deal with the challenges of Lowcountry humidity and surface staining across a variety of housing styles.',
+    characteristics: 'From townhomes to multi-million dollar estates, Park West features diverse materials including vinyl, brick, and stucco. Dark streaks on roofs and slippery sidewalks are frequent issues for residents.',
+    content: 'If you're looking for “pressure washing near me in Park West,” CanManCam makes it easy. We provide professional [House Washing](/services/house-washing) and [Roof Cleaning](/services/roof-cleaning) that safely removes algae while preserving your home's integrity.\n\nDriveways and sidewalks in Park West are prone to staining due to moisture retention. Our [Driveway Cleaning Service](/services/driveway-cleaning) improves curb appeal and ensures HOA compliance. Ask about our multi-service discounts and view our [Pricing](/pricing) for the best rates in the neighborhood.'
   },
   {
-    name: "Carolina Park",
-    slug: "carolina-park",
-    description: "Carolina Park is a premier Mount Pleasant community known for its distinct layout and housing styles. Homeowners here deal with humidity, frequent rain, and the need to maintain strict HOA standards.",
-    characteristics: "Homes commonly feature modern siding materials and concrete driveways. Over time, surfaces accumulate organic growth, dark roof streaks, and green buildup on siding that requires professional attention.",
-    content: "For “house washing Carolina Park” services, CanManCam relies on low-pressure soft washing to eliminate mold and algae. Our [House Washing](/services/house-washing) delivers longer-lasting results for your investment.\n\nMaintain your property's value with our [Driveway Cleaning Service](/services/driveway-cleaning) and professional [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning). We show up on time and deliver visible results for every Carolina Park resident. See our [Pricing](/pricing) for transparent, competitive rates."
+    name: 'Carolina Park',
+    slug: 'carolina-park',
+    description: 'Carolina Park is a premier Mount Pleasant community known for its distinct layout and housing styles. Homeowners here deal with humidity, frequent rain, and the need to maintain strict HOA standards.',
+    characteristics: 'Homes commonly feature modern siding materials and concrete driveways. Over time, surfaces accumulate organic growth, dark roof streaks, and green buildup on siding that requires professional attention.',
+    content: 'For “house washing Carolina Park” services, CanManCam relies on low-pressure soft washing to eliminate mold and algae. Our [House Washing](/services/house-washing) delivers longer-lasting results for your investment.\n\nMaintain your property's value with our [Driveway Cleaning Service](/services/driveway-cleaning) and professional [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning). We show up on time and deliver visible results for every Carolina Park resident. See our [Pricing](/pricing) for transparent, competitive rates.'
   },
   {
-    name: "Dunes West",
-    slug: "dunes-west",
-    description: "Dunes West is a world-class gated community featuring a signature golf course, riverbound views, and some of the most expansive estates in the Lowcountry.",
-    characteristics: "Large roof footprints and extensive concrete driveways are standard. The high-end materials used in Dunes West estates require non-abrasive cleaning methods.",
-    content: "Dunes West requires a 'white-glove' approach. I specialize in large estate maintenance, ensuring every square inch of your property is spotless. Review my [Pricing](/pricing) for custom estate packages. My [Roof Cleaning](/services/roof-cleaning) saves homeowners thousands in premature replacement costs. We also offer the best [Trash Can Cleaning Price](/pricing) in the neighborhood."
+    name: 'Dunes West',
+    slug: 'dunes-west',
+    description: 'Dunes West is a world-class gated community featuring a signature golf course, riverbound views, and some of the most expansive estates in the Lowcountry.',
+    characteristics: 'Large roof footprints and extensive concrete driveways are standard. The high-end materials used in Dunes West estates require non-abrasive cleaning methods.',
+    content: 'Dunes West requires a 'white-glove' approach. I specialize in large estate maintenance, ensuring every square inch of your property is spotless. Review my [Pricing](/pricing) for custom estate packages. My [Roof Cleaning](/services/roof-cleaning) saves homeowners thousands in premature replacement costs. We also offer the best [Trash Can Cleaning Price](/pricing) in the neighborhood.'
   },
   {
-    name: "Grassy Creek",
-    slug: "grassy-creek",
-    description: "Grassy Creek is a quiet, upscale neighborhood known for its custom homes and community crabbing dock on the marsh.",
-    characteristics: "The humidity from the marsh and the dense foliage lead to significant organic build-up on fences and siding.",
-    content: "Grassy Creek homeowners appreciate my attention to detail. I ensure your custom siding is treated with the correct chemical balance to kill algae at the root. See our [Pricing Guide](/pricing). I recommend our [Fencing Cleaning](/services/fence-cleaning) to keep your marsh-side boundaries looking new. Also, consider our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) for peace of mind."
+    name: 'Grassy Creek',
+    slug: 'grassy-creek',
+    description: 'Grassy Creek is a quiet, upscale neighborhood known for its custom homes and community crabbing dock on the marsh.',
+    characteristics: 'The humidity from the marsh and the dense foliage lead to significant organic build-up on fences and siding.',
+    content: 'Grassy Creek homeowners appreciate my attention to detail. I ensure your custom siding is treated with the correct chemical balance to kill algae at the root. See our [Pricing Guide](/pricing). I recommend our [Fencing Cleaning](/services/fence-cleaning) to keep your marsh-side boundaries looking new. Also, consider our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) for peace of mind.'
   },
   {
-    name: "Hamlin Plantation",
-    slug: "hamlin-plantation",
-    description: "Hamlin Plantation is a historic-inspired community with five distinct neighborhoods, including The Sound and Waverly.",
-    characteristics: "Architecture inspired by old Charleston means lots of porches and intricate trim work that can trap moisture and dirt.",
-    content: "In Hamlin Plantation, I focus on the details—porches, railings, and eaves. My soft wash method is perfect for the architectural nuances of your home. Check out my [Pricing](/pricing). Our [House Washing](/services/house-washing) is the gold standard for Hamlin residents. Don't forget to book your [Driveway Cleaning Service](/services/driveway-cleaning) before your next neighborhood social."
+    name: 'Hamlin Plantation',
+    slug: 'hamlin-plantation',
+    description: 'Hamlin Plantation is a historic-inspired community with five distinct neighborhoods, including The Sound and Waverly.',
+    characteristics: 'Architecture inspired by old Charleston means lots of porches and intricate trim work that can trap moisture and dirt.',
+    content: 'In Hamlin Plantation, I focus on the details—porches, railings, and eaves. My soft wash method is perfect for the architectural nuances of your home. Check out my [Pricing](/pricing). Our [House Washing](/services/house-washing) is the gold standard for Hamlin residents. Don't forget to book your [Driveway Cleaning Service](/services/driveway-cleaning) before your next neighborhood social.'
   },
   {
-    name: "Hobcaw Point",
-    slug: "hobcaw-point",
-    description: "Hobcaw Point is one of Mount Pleasant's most established waterfront communities, offering unparalleled views of the Wando River and Charleston Harbor.",
-    characteristics: "Older, established homes with mature oaks mean lots of shade and debris. Salt spray from the harbor is a constant factor for exterior maintenance.",
-    content: "Hobcaw Point homes are local treasures. I use low-pressure methods to protect older building materials while removing years of salt and shade-mold. View my [Pricing](/pricing). My [Window Cleaning](/services/window-cleaning) is essential for those harbor views. I also specialize in [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) for these high-debris lots."
+    name: 'Hobcaw Point',
+    slug: 'hobcaw-point',
+    description: 'Hobcaw Point is one of Mount Pleasant's most established waterfront communities, offering unparalleled views of the Wando River and Charleston Harbor.',
+    characteristics: 'Older, established homes with mature oaks mean lots of shade and debris. Salt spray from the harbor is a constant factor for exterior maintenance.',
+    content: 'Hobcaw Point homes are local treasures. I use low-pressure methods to protect older building materials while removing years of salt and shade-mold. View my [Pricing](/pricing). My [Window Cleaning](/services/window-cleaning) is essential for those harbor views. I also specialize in [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) for these high-debris lots.'
   },
   {
-    name: "Hobcaw Creek Plantation",
-    slug: "hobcaw-creek-plantation",
-    description: "A private, marsh-front community with a deep-water dock and boat landing, perfect for the active Lowcountry family.",
-    characteristics: "Boating activity and proximity to the water lead to specialized cleaning needs for docks and marsh-side patios.",
-    content: "In Hobcaw Creek Plantation, I help you keep your outdoor living spaces ready for the boat. My patio and dock cleaning services are second to none. See our [Pricing Page](/pricing). I recommend pairing a [House Washing](/services/house-washing) with our [Driveway Cleaning Service](/services/driveway-cleaning) for a total property refresh. Ask about our [Trash Can Cleaning Price](/pricing)!"
+    name: 'Hobcaw Creek Plantation',
+    slug: 'hobcaw-creek-plantation',
+    description: 'A private, marsh-front community with a deep-water dock and boat landing, perfect for the active Lowcountry family.',
+    characteristics: 'Boating activity and proximity to the water lead to specialized cleaning needs for docks and marsh-side patios.',
+    content: 'In Hobcaw Creek Plantation, I help you keep your outdoor living spaces ready for the boat. My patio and dock cleaning services are second to none. See our [Pricing Page](/pricing). I recommend pairing a [House Washing](/services/house-washing) with our [Driveway Cleaning Service](/services/driveway-cleaning) for a total property refresh. Ask about our [Trash Can Cleaning Price](/pricing)!'
   },
   {
-    name: "I'On",
-    slug: "ion",
-    description: "I'On is an award-winning 'New Urbanism' community in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in I'On consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.",
-    characteristics: "Homes in I'On commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. These surfaces naturally accumulate organic growth that cannot be removed through rain alone.",
-    content: "For residents searching for “pressure washing near me” or “house washing I'On,” the goal is to protect their investment. Mold and algae actively degrade exterior surfaces and can shorten the lifespan of roofing materials and paint if left untreated.\n\nCanManCam provides professional [House Washing](/services/house-washing) and soft washing services throughout I'On. Our soft washing process relies on low-pressure application combined with professional cleaning solutions that eliminate mold, mildew, and algae at the root.\n\nDriveways and sidewalks in I'On are especially prone to staining. CanManCam’s [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness and improves curb appeal. We also offer expert [Window Cleaning](/services/window-cleaning) to maintain the pristine look of your custom home. Check our [Pricing](/pricing) for transparent, professional service in I'On."
+    name: 'I'On',
+    slug: 'ion',
+    description: 'I'On is an award-winning 'New Urbanism' community in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in I'On consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.',
+    characteristics: 'Homes in I'On commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. These surfaces naturally accumulate organic growth that cannot be removed through rain alone.',
+    content: 'For residents searching for “pressure washing near me” or “house washing I'On,” the goal is to protect their investment. Mold and algae actively degrade exterior surfaces and can shorten the lifespan of roofing materials and paint if left untreated.\n\nCanManCam provides professional [House Washing](/services/house-washing) and soft washing services throughout I'On. Our soft washing process relies on low-pressure application combined with professional cleaning solutions that eliminate mold, mildew, and algae at the root.\n\nDriveways and sidewalks in I'On are especially prone to staining. CanManCam’s [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness and improves curb appeal. We also offer expert [Window Cleaning](/services/window-cleaning) to maintain the pristine look of your custom home. Check our [Pricing](/pricing) for transparent, professional service in I'On.'
   },
   {
-    name: "Belle Hall",
-    slug: "belle-hall",
-    description: "Belle Hall is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions that directly impact exterior home maintenance. Homeowners in Belle Hall consistently deal with the challenges created by Lowcountry humidity, frequent rain, and tree coverage.",
-    characteristics: "Homes in Belle Hall commonly feature siding materials such as vinyl, brick, and stucco, along with concrete driveways and walkways. Dark streaks on roofs and green buildup on siding are among the most frequent issues homeowners experience.",
-    content: "If you are searching for “pressure washing near me” or “house washing Belle Hall,” CanManCam is the trusted choice. Our professional [House Washing](/services/house-washing) safely removes organic buildup without damaging your home's exterior.\n\nDriveways and sidewalks in Belle Hall are prone to staining due to shade and moisture. Our [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness and reduces slip hazards. We also recommend our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to protect your property year-round. View our [Pricing](/pricing) for the best value in Belle Hall."
+    name: 'Belle Hall',
+    slug: 'belle-hall',
+    description: 'Belle Hall is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions that directly impact exterior home maintenance. Homeowners in Belle Hall consistently deal with the challenges created by Lowcountry humidity, frequent rain, and tree coverage.',
+    characteristics: 'Homes in Belle Hall commonly feature siding materials such as vinyl, brick, and stucco, along with concrete driveways and walkways. Dark streaks on roofs and green buildup on siding are among the most frequent issues homeowners experience.',
+    content: 'If you are searching for “pressure washing near me” or “house washing Belle Hall,” CanManCam is the trusted choice. Our professional [House Washing](/services/house-washing) safely removes organic buildup without damaging your home's exterior.\n\nDriveways and sidewalks in Belle Hall are prone to staining due to shade and moisture. Our [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness and reduces slip hazards. We also recommend our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) to protect your property year-round. View our [Pricing](/pricing) for the best value in Belle Hall.'
   },
   {
-    name: "Hamlin Plantation",
-    slug: "hamlin-plantation",
-    description: "Hamlin Plantation is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions. Homeowners deal with Lowcountry humidity, frequent rain, and proximity to marshland that impacts exterior maintenance.",
-    characteristics: "Homes in Hamlin Plantation commonly feature siding materials such as vinyl, brick, and painted wood. Over time, these surfaces accumulate organic growth, dark streaks on roofs, and green buildup on siding.",
-    content: "Searching for “pressure washing near me” in Hamlin Plantation? CanManCam provides professional [House Washing](/services/house-washing) and soft washing services. Our process eliminate mold, mildew, and algae at the root for longer-lasting results.\n\nMaintain your property's value with our [Driveway Cleaning Service](/services/driveway-cleaning) and professional [Roof Cleaning](/services/roof-cleaning). We also clean fences, decks, and patios to help you fully enjoy your outdoor spaces. Check our [Pricing](/pricing) for professional exterior cleaning in Hamlin Plantation."
+    name: 'Hamlin Plantation',
+    slug: 'hamlin-plantation',
+    description: 'Hamlin Plantation is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions. Homeowners deal with Lowcountry humidity, frequent rain, and proximity to marshland that impacts exterior maintenance.',
+    characteristics: 'Homes in Hamlin Plantation commonly feature siding materials such as vinyl, brick, and painted wood. Over time, these surfaces accumulate organic growth, dark streaks on roofs, and green buildup on siding.',
+    content: 'Searching for “pressure washing near me” in Hamlin Plantation? CanManCam provides professional [House Washing](/services/house-washing) and soft washing services. Our process eliminate mold, mildew, and algae at the root for longer-lasting results.\n\nMaintain your property's value with our [Driveway Cleaning Service](/services/driveway-cleaning) and professional [Roof Cleaning](/services/roof-cleaning). We also clean fences, decks, and patios to help you fully enjoy your outdoor spaces. Check our [Pricing](/pricing) for professional exterior cleaning in Hamlin Plantation.'
   },
   {
-    name: "Rivertowne",
-    slug: "rivertowne",
-    description: "Rivertowne is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions that directly impact exterior home maintenance. Homeowners deal with humidity, frequent rain, and proximity to the Wando River.",
-    characteristics: "Homes in Rivertowne commonly feature siding materials such as vinyl, brick, and stucco. Over time, surfaces naturally accumulate organic growth, dark streaks on roofs, and green buildup on siding.",
-    content: "For “house washing Rivertowne” services, CanManCam relies on low-pressure soft washing to eliminate mold and algae safely. Our professional [House Washing](/services/house-washing) protects your investment and restores your home's beauty.\n\nRiver-front properties in Rivertowne are especially prone to moisture retention. Our [Driveway Cleaning Service](/services/driveway-cleaning) and [Window Cleaning](/services/window-cleaning) are popular choices for maintaining curb appeal. See our [Pricing](/pricing) for the most reliable pressure washing in Rivertowne."
+    name: 'Rivertowne',
+    slug: 'rivertowne',
+    description: 'Rivertowne is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions that directly impact exterior home maintenance. Homeowners deal with humidity, frequent rain, and proximity to the Wando River.',
+    characteristics: 'Homes in Rivertowne commonly feature siding materials such as vinyl, brick, and stucco. Over time, surfaces naturally accumulate organic growth, dark streaks on roofs, and green buildup on siding.',
+    content: 'For “house washing Rivertowne” services, CanManCam relies on low-pressure soft washing to eliminate mold and algae safely. Our professional [House Washing](/services/house-washing) protects your investment and restores your home's beauty.\n\nRiver-front properties in Rivertowne are especially prone to moisture retention. Our [Driveway Cleaning Service](/services/driveway-cleaning) and [Window Cleaning](/services/window-cleaning) are popular choices for maintaining curb appeal. See our [Pricing](/pricing) for the most reliable pressure washing in Rivertowne.'
   },
   {
-    name: "Rivertowne Country Club",
-    slug: "rivertowne-country-club",
-    description: "Rivertowne Country Club is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions that directly impact exterior home maintenance. Homeowners deal with humidity, frequent rain, and sun exposure on the golf course.",
-    characteristics: "Homes commonly feature siding materials such as vinyl, brick, and stucco. Dark streaks on roofs, green buildup on siding, and stained driveways are frequent issues for residents.",
-    content: "If you're looking for “pressure washing near me in Rivertowne Country Club,” CanManCam provides professional [House Washing](/services/house-washing) and [Roof Cleaning](/services/roof-cleaning) that safely removes algae while preserving your home's integrity.\n\nDriveways and sidewalks in Rivertowne Country Club are prone to staining. Our [Driveway Cleaning Service](/services/driveway-cleaning) improves curb appeal and ensures HOA compliance. View our [Pricing](/pricing) for multi-service discounts and the best rates in the neighborhood."
+    name: 'Rivertowne Country Club',
+    slug: 'rivertowne-country-club',
+    description: 'Rivertowne Country Club is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout and environmental conditions that directly impact exterior home maintenance. Homeowners deal with humidity, frequent rain, and sun exposure on the golf course.',
+    characteristics: 'Homes commonly feature siding materials such as vinyl, brick, and stucco. Dark streaks on roofs, green buildup on siding, and stained driveways are frequent issues for residents.',
+    content: 'If you're looking for “pressure washing near me in Rivertowne Country Club,” CanManCam provides professional [House Washing](/services/house-washing) and [Roof Cleaning](/services/roof-cleaning) that safely removes algae while preserving your home's integrity.\n\nDriveways and sidewalks in Rivertowne Country Club are prone to staining. Our [Driveway Cleaning Service](/services/driveway-cleaning) improves curb appeal and ensures HOA compliance. View our [Pricing](/pricing) for multi-service discounts and the best rates in the neighborhood.'
   },
   {
-    name: "Planters Pointe",
-    slug: "planters-pointe",
-    description: "Planters Pointe is an active family neighborhood off Highway 41, known for its community spirit and well-maintained homes.",
-    characteristics: "The humid lowlands near Highway 41 often lead to green algae growth on the sides of homes that don't get much sun.",
-    content: "Planters Pointe homeowners trust me to keep their siding algae-free. My treatments prevent the green from coming back longer than standard washing. See our [Pricing Guide](/pricing). I recommend our [Driveway Cleaning Service](/services/driveway-cleaning) to keep your entry-way bright. Also, check out our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning)."
+    name: 'Planters Pointe',
+    slug: 'planters-pointe',
+    description: 'Planters Pointe is an active family neighborhood off Highway 41, known for its community spirit and well-maintained homes.',
+    characteristics: 'The humid lowlands near Highway 41 often lead to green algae growth on the sides of homes that don't get much sun.',
+    content: 'Planters Pointe homeowners trust me to keep their siding algae-free. My treatments prevent the green from coming back longer than standard washing. See our [Pricing Guide](/pricing). I recommend our [Driveway Cleaning Service](/services/driveway-cleaning) to keep your entry-way bright. Also, check out our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning).'
   },
   {
-    name: "Remley’s Point",
-    slug: "remleys-point",
-    description: "Remley’s Point is a historic waterfront area with a public boat ramp and a mix of historic homes and new construction.",
-    characteristics: "Proximity to the Wando River means homes are constantly exposed to moisture and salt-laden air.",
-    content: "In Remley’s Point, I combat the river-front grime with specialized marine-safe cleaning solutions. Check my [Pricing](/pricing). My [House Washing](/services/house-washing) removes river-salt efficiently. Combine it with our [Window Cleaning](/services/window-cleaning) for the best views of the Wando."
+    name: 'Remley’s Point',
+    slug: 'remleys-point',
+    description: 'Remley’s Point is a historic waterfront area with a public boat ramp and a mix of historic homes and new construction.',
+    characteristics: 'Proximity to the Wando River means homes are constantly exposed to moisture and salt-laden air.',
+    content: 'In Remley’s Point, I combat the river-front grime with specialized marine-safe cleaning solutions. Check my [Pricing](/pricing). My [House Washing](/services/house-washing) removes river-salt efficiently. Combine it with our [Window Cleaning](/services/window-cleaning) for the best views of the Wando.'
   },
   {
-    name: "Rivertowne",
-    slug: "rivertowne",
-    description: "Rivertowne is a premier community featuring both Rivertowne On The Wando and Rivertowne Country Club.",
-    characteristics: "River-front properties deal with high humidity, while golf-course properties deal with high sun exposure—both require different cleaning strategies.",
-    content: "Whether you're on the Wando or the fairway, I have a cleaning strategy for your Rivertowne home. See our [Pricing](/pricing). My [Roof Cleaning](/services/roof-cleaning) is essential for these large, high-exposure homes. We also offer a premium [Driveway Cleaning Service](/services/driveway-cleaning) for Rivertowne residents."
+    name: 'Rivertowne',
+    slug: 'rivertowne',
+    description: 'Rivertowne is a premier community featuring both Rivertowne On The Wando and Rivertowne Country Club.',
+    characteristics: 'River-front properties deal with high humidity, while golf-course properties deal with high sun exposure—both require different cleaning strategies.',
+    content: 'Whether you're on the Wando or the fairway, I have a cleaning strategy for your Rivertowne home. See our [Pricing](/pricing). My [Roof Cleaning](/services/roof-cleaning) is essential for these large, high-exposure homes. We also offer a premium [Driveway Cleaning Service](/services/driveway-cleaning) for Rivertowne residents.'
   },
   {
-    name: "Rivertowne Country Club",
-    slug: "rivertowne-country-club",
-    description: "The Country Club side of Rivertowne features large estate homes along the Arnold Palmer Signature golf course.",
-    characteristics: "Immaculate landscaping means I take extra care to protect your gardens and lawns during the washing process.",
-    content: "In Rivertowne Country Club, your landscaping is as important as your home. I use plant-protection protocols on every job. Review my [Pricing](/pricing). I recommend our [House Washing](/services/house-washing) to maintain that club-level excellence. Ask about my [Trash Can Cleaning Price](/pricing) to keep your garage pristine."
+    name: 'Rivertowne Country Club',
+    slug: 'rivertowne-country-club',
+    description: 'Rivertowne Country Club is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in Rivertowne Country Club consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.',
+    characteristics: 'Homes in Rivertowne Country Club commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. Over time, these surfaces naturally accumulate organic growth that cannot be removed through rain alone. Dark streaks on roofs, green buildup on siding, slippery sidewalks, and stained driveways are among the most frequent issues homeowners experience.',
+    content: 'For residents searching online for 'pressure washing near me' or 'house washing Rivertowne Country Club,' the goal is not just to clean their home — it's to protect their investment. Mold and algae don't just affect appearance; they actively degrade exterior surfaces and can shorten the lifespan of roofing materials, paint, and concrete if left untreated.\n\nCanManCam provides professional [House Washing](/services/house-washing) and soft washing services throughout Rivertowne Country Club, using proven methods that safely remove organic buildup without damaging your home. Our soft washing process relies on low-pressure application combined with professional cleaning solutions that eliminate mold, mildew, and algae at the root, delivering longer-lasting results compared to traditional high-pressure washing alone.\n\nDriveways and sidewalks in Rivertowne Country Club are especially prone to staining due to shade and moisture retention. CanManCam's [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness, improves curb appeal, and reduces slip hazards — an important factor for families, guests, and HOA compliance. We also clean fences, decks, patios, and outdoor living spaces.\n\n[Roof Cleaning](/services/roof-cleaning) is another critical service for Rivertowne Country Club homeowners. Black streaks caused by algae are common across Mount Pleasant neighborhoods, and improper cleaning methods can cause serious damage. CanManCam uses a no-pressure roof cleaning approach that safely removes algae while preserving the integrity of shingles and extending roof lifespan.\n\nWhat sets CanManCam apart in Rivertowne Country Club is our local knowledge and reliability. We understand the specific environmental conditions of this neighborhood and tailor our services accordingly. Homeowners trust us because we show up on time, communicate clearly, and deliver visible results. Check our [Pricing](/pricing) for the best rates in the neighborhood.'
   },
   {
-    name: "Seaside Farms",
-    slug: "seaside-farms",
-    description: "Seaside Farms is a centrally located community near the Isle of Palms connector, offering a mix of residential and commercial convenience.",
-    characteristics: "Being so close to the ocean means significant salt-air accumulation on all exterior surfaces.",
-    content: "Seaside Farms residents love our salt-neutralizing house washes. We restore the shine to your siding and windows. View my [Pricing](/pricing). Our [Window Cleaning](/services/window-cleaning) is a top-seller here due to the ocean breezes. Don't forget your [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning)!"
+    name: 'Seaside Farms',
+    slug: 'seaside-farms',
+    description: 'Seaside Farms is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in Seaside Farms consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.',
+    characteristics: 'Homes in Seaside Farms commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. Over time, these surfaces naturally accumulate organic growth that cannot be removed through rain alone. Dark streaks on roofs, green buildup on siding, slippery sidewalks, and stained driveways are among the most frequent issues homeowners experience.',
+    content: 'For residents searching online for 'pressure washing near me' or 'house washing Seaside Farms,' the goal is not just to clean their home — it's to protect their investment. Mold and algae don't just affect appearance; they actively degrade exterior surfaces and can shorten the lifespan of roofing materials, paint, and concrete if left untreated.\n\nCanManCam provides professional [House Washing](/services/house-washing) and soft washing services throughout Seaside Farms, using proven methods that safely remove organic buildup without damaging your home. Our soft washing process relies on low-pressure application combined with professional cleaning solutions that eliminate mold, mildew, and algae at the root, delivering longer-lasting results compared to traditional high-pressure washing alone.\n\nDriveways and sidewalks in Seaside Farms are especially prone to staining due to shade and moisture retention. CanManCam's [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness, improves curb appeal, and reduces slip hazards — an important factor for families, guests, and HOA compliance. We also offer [Window Cleaning](/services/window-cleaning) and [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning).\n\n[Roof Cleaning](/services/roof-cleaning) is another critical service for Seaside Farms homeowners. Black streaks caused by algae are common across Mount Pleasant neighborhoods, and improper cleaning methods can cause serious damage. CanManCam uses a no-pressure roof cleaning approach that safely removes algae while preserving the integrity of shingles and extending roof lifespan.\n\nWhat sets CanManCam apart in Seaside Farms is our local knowledge and reliability. We understand the specific environmental conditions of this neighborhood and tailor our services accordingly. Homeowners trust us because we show up on time, communicate clearly, and deliver visible results. Check our [Pricing](/pricing) for transparent rates.'
   },
   {
-    name: "Snee Farm",
-    slug: "snee-farm",
-    description: "Snee Farm is an established community built around the historic Snee Farm Country Club and the Charles Pinckney National Historic Site.",
-    characteristics: "Mature landscaping and large, older homes require a focus on debris removal and organic growth prevention.",
-    content: "Snee Farm is a Mount Pleasant classic. I help keep these beautiful, established homes looking their best with safe soft washing. Check my [Pricing](/pricing). My [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) is vital for homes under Snee Farm's massive oaks. I also offer a great [Driveway Cleaning Service](/services/driveway-cleaning)."
+    name: 'Snee Farm',
+    slug: 'snee-farm',
+    description: 'Snee Farm is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in Snee Farm consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.',
+    characteristics: 'Homes in Snee Farm commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. Over time, these surfaces naturally accumulate organic growth that cannot be removed through rain alone. Dark streaks on roofs, green buildup on siding, slippery sidewalks, and stained driveways are among the most frequent issues homeowners experience.',
+    content: 'For residents searching online for 'pressure washing near me' or 'house washing Snee Farm,' the goal is not just to clean their home — it's to protect their investment. Mold and algae don't just affect appearance; they actively degrade exterior surfaces and can shorten the lifespan of roofing materials, paint, and concrete if left untreated.\n\nCanManCam provides professional [House Washing](/services/house-washing) and soft washing services throughout Snee Farm, using proven methods that safely remove organic buildup without damaging your home. Our soft washing process relies on low-pressure application combined with professional cleaning solutions that eliminate mold, mildew, and algae at the root, delivering longer-lasting results compared to traditional high-pressure washing alone.\n\nDriveways and sidewalks in Snee Farm are especially prone to staining due to shade and moisture retention. CanManCam's [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness, improves curb appeal, and reduces slip hazards — an important factor for families, guests, and HOA compliance. We also clean fences, decks, patios, and outdoor living spaces. Our [Gutter Cleaning Mount Pleasant SC](/services/gutter-cleaning) is vital for homes under Snee Farm's massive oaks.\n\n[Roof Cleaning](/services/roof-cleaning) is another critical service for Snee Farm homeowners. Black streaks caused by algae are common across Mount Pleasant neighborhoods, and improper cleaning methods can cause serious damage. CanManCam uses a no-pressure roof cleaning approach that safely removes algae while preserving the integrity of shingles and extending roof lifespan.\n\nWhat sets CanManCam apart in Snee Farm is our local knowledge and reliability. We understand the specific environmental conditions of this neighborhood and tailor our services accordingly. Homeowners trust us because we show up on time, communicate clearly, and deliver visible results. Check our [Pricing](/pricing) for the best value in Snee Farm.'
   },
   {
-    name: "Patriots Point",
-    slug: "patriots-point",
-    description: "Patriots Point is home to the Yorktown, golf courses, and high-end condominiums with harbor views.",
-    characteristics: "Harbor-front exposure means extreme salt and wind-driven rain. Multi-unit complexes require efficient, high-volume cleaning.",
-    content: "Serving the Patriots Point area, I specialize in removing salt-crust from harbor-side properties. See our [Pricing](/pricing). My [Window Cleaning](/services/window-cleaning) will let you see the harbor clearly again. We also offer [Trash Can Cleaning Price](/pricing) specials for local residents."
+    name: 'Patriots Point',
+    slug: 'patriots-point',
+    description: 'Patriots Point is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in Patriots Point consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.',
+    characteristics: 'Homes in Patriots Point commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. Over time, these surfaces naturally accumulate organic growth that cannot be removed through rain alone. Dark streaks on roofs, green buildup on siding, slippery sidewalks, and stained driveways are among the most frequent issues homeowners experience.',
+    content: 'For residents searching online for 'pressure washing near me' or 'house washing Patriots Point,' the goal is not just to clean their home — it's to protect their investment. Mold and algae don't just affect appearance; they actively degrade exterior surfaces and can shorten the lifespan of roofing materials, paint, and concrete if left untreated.\n\nCanManCam provides professional [House Washing](/services/house-washing) and soft washing services throughout Patriots Point, using proven methods that safely remove organic buildup without damaging your home. Our soft washing process relies on low-pressure application combined with professional cleaning solutions that eliminate mold, mildew, and algae at the root, delivering longer-lasting results compared to traditional high-pressure washing alone.\n\nDriveways and sidewalks in Patriots Point are especially prone to staining due to shade and moisture retention. CanManCam's [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness, improves curb appeal, and reduces slip hazards — an important factor for families, guests, and HOA compliance. We also offer expert [Window Cleaning](/services/window-cleaning) to ensure you enjoy those beautiful harbor views.\n\n[Roof Cleaning](/services/roof-cleaning) is another critical service for Patriots Point homeowners. Black streaks caused by algae are common across Mount Pleasant neighborhoods, and improper cleaning methods can cause serious damage. CanManCam uses a no-pressure roof cleaning approach that safely removes algae while preserving the integrity of shingles and extending roof lifespan.\n\nWhat sets CanManCam apart in Patriots Point is our local knowledge and reliability. We understand the specific environmental conditions of this neighborhood and tailor our services accordingly. Homeowners trust us because we show up on time, communicate clearly, and deliver visible results. Check our [Pricing](/pricing) for transparent pricing.'
   },
   {
-    name: "Rifle Range",
-    slug: "rifle-range",
-    description: "The Rifle Range Road corridor features several popular neighborhoods like Sweetgrass and Hidden Lakes.",
-    characteristics: "The lakes in these communities contribute to localized humidity and faster algae growth on siding and fences.",
-    content: "Along Rifle Range Road, I help homeowners combat lake-front humidity. My algae-prevention treatments keep your home cleaner, longer. Review my [Pricing](/pricing). Our [House Washing](/services/house-washing) is the best way to refresh your Hidden Lakes or Sweetgrass home. Also, check out our [Driveway Cleaning Service](/services/driveway-cleaning)."
+    name: 'Rifle Range',
+    slug: 'rifle-range',
+    description: 'Rifle Range is a well-established neighborhood in Mount Pleasant, South Carolina, known for its distinct layout, housing styles, and environmental conditions that directly impact exterior home maintenance. Homeowners in Rifle Range consistently deal with the challenges created by Lowcountry humidity, frequent rain, tree coverage, and in many cases proximity to marshland or tidal water.',
+    characteristics: 'Homes in Rifle Range commonly feature siding materials such as vinyl, brick, stucco, and painted wood, along with concrete driveways, walkways, patios, and fences. Over time, these surfaces naturally accumulate organic growth that cannot be removed through rain alone. Dark streaks on roofs, green buildup on siding, slippery sidewalks, and stained driveways are among the most frequent issues homeowners experience.',
+    content: 'For residents searching online for 'pressure washing near me' or 'house washing Rifle Range,' the goal is not just to clean their home — it's to protect their investment. Mold and algae don't just affect appearance; they actively degrade exterior surfaces and can shorten the lifespan of roofing materials, paint, and concrete if left untreated.\n\nCanManCam provides professional [House Washing](/services/house-washing) and soft washing services throughout Rifle Range, using proven methods that safely remove organic buildup without damaging your home. Our soft washing process relies on low-pressure application combined with professional cleaning solutions that eliminate mold, mildew, and algae at the root, delivering longer-lasting results compared to traditional high-pressure washing alone.\n\nDriveways and sidewalks in Rifle Range are especially prone to staining due to shade and moisture retention. CanManCam's [Driveway Cleaning Service](/services/driveway-cleaning) restores brightness, improves curb appeal, and reduces slip hazards — an important factor for families, guests, and HOA compliance. We also clean fences, decks, patios, and outdoor living spaces.\n\n[Roof Cleaning](/services/roof-cleaning) is another critical service for Rifle Range homeowners. Black streaks caused by algae are common across Mount Pleasant neighborhoods, and improper cleaning methods can cause serious damage. CanManCam uses a no-pressure roof cleaning approach that safely removes algae while preserving the integrity of shingles and extending roof lifespan.\n\nWhat sets CanManCam apart in Rifle Range is our local knowledge and reliability. We understand the specific environmental conditions of this neighborhood and tailor our services accordingly. Homeowners trust us because we show up on time, communicate clearly, and deliver visible results. Check our [Pricing](/pricing) for the best rates in the neighborhood.'
   }
 ];
 
 export const services = [
   {
-    name: "House Washing",
-    slug: "house-washing",
-    shortDescription: "Professional soft washing to remove dirt, algae, mold, and mildew from your home's exterior.",
-    description: "Professional house washing is the most effective way to restore your home's exterior to like-new condition. I use specialized equipment and eco-friendly cleaning solutions to remove dirt, algae, mold, and mildew from your siding, trim, and other exterior surfaces.",
+    name: 'House Washing',
+    slug: 'house-washing',
+    shortDescription: 'Professional soft washing to remove dirt, algae, mold, and mildew from your home's exterior.',
+    description: 'Professional house washing is the most effective way to restore your home's exterior to like-new condition. I use specialized equipment and eco-friendly cleaning solutions to remove dirt, algae, mold, and mildew from your siding, trim, and other exterior surfaces.',
     fullDescription: `Your home's exterior is constantly exposed to the elements. Over time, dirt, dust, pollen, algae, mold, mildew, and other contaminants accumulate on your siding, making your home look dingy, aged, and poorly maintained. In Mount Pleasant's humid subtropical climate, organic growth is particularly aggressive, with algae and mildew thriving in the warm, moist conditions. Left unchecked, these organisms can actually damage your siding, leading to premature deterioration and costly repairs or replacement.
 
 Professional house washing from CanManCam removes these harmful contaminants safely and effectively. I use a technique called soft washing, which combines lower water pressure with specialized cleaning solutions to eliminate organic growth at its source without damaging your home's exterior surfaces. Unlike high-pressure washing, which can force water behind siding, damage paint, and even crack or chip materials, soft washing is safe for all types of siding including vinyl, fiber cement (HardiePlank), aluminum, wood, stucco, and brick.
@@ -182,28 +182,28 @@ Regular house washing is an essential part of home maintenance in Mount Pleasant
 
 Beyond aesthetics, professional house washing protects your investment. A clean, well-maintained exterior extends the life of your siding, protects paint, and preserves your home's value. If you're planning to sell your home, pressure washing is one of the most cost-effective improvements you can make, dramatically improving curb appeal and first impressions for potential buyers.`,
     benefits: [
-      "Removes harmful mold, mildew, and algae that can damage siding",
-      "Extends the life of your home's exterior surfaces",
-      "Dramatically improves curb appeal and property value",
-      "Safe soft washing technique protects all siding types",
-      "Eco-friendly, biodegradable cleaning solutions",
-      "Professional results that last longer than DIY methods",
-      "Fully insured service with satisfaction guarantee"
+      'Removes harmful mold, mildew, and algae that can damage siding',
+      'Extends the life of your home's exterior surfaces',
+      'Dramatically improves curb appeal and property value',
+      'Safe soft washing technique protects all siding types',
+      'Eco-friendly, biodegradable cleaning solutions',
+      'Professional results that last longer than DIY methods',
+      'Fully insured service with satisfaction guarantee'
     ],
     faq: [
-      { question: "How often should I have my house washed?", answer: "I recommend house washing every 1-2 years, depending on your property's conditions. Homes in shaded areas or near water may need more frequent cleaning." },
-      { question: "Is soft washing safe for my siding?", answer: "Yes, soft washing is safe for all siding types including vinyl, fiber cement, wood, stucco, and brick. I use lower pressure combined with cleaning solutions rather than relying on damaging high pressure." },
-      { question: "Will the cleaning solutions harm my plants?", answer: "My cleaning solutions are biodegradable and environmentally friendly. I also take precautions to protect sensitive landscaping during the cleaning process." },
-      { question: "How long does house washing take?", answer: "Most homes can be completed in 2-4 hours, depending on size and condition. Larger or more heavily soiled homes may take longer." },
-      { question: "How to deodorize trash can?", answer: "Professional sanitization is the most effective way to deodorize a trash can. We use specialized cleaning solutions to kill 99.9% of the bacteria that cause the 'smelly trash can' problem." }
+      { question: 'How often should I have my house washed?', answer: 'I recommend house washing every 1-2 years, depending on your property's conditions. Homes in shaded areas or near water may need more frequent cleaning.' },
+      { question: 'Is soft washing safe for my siding?', answer: 'Yes, soft washing is safe for all siding types including vinyl, fiber cement, wood, stucco, and brick. I use lower pressure combined with cleaning solutions rather than relying on damaging high pressure.' },
+      { question: 'Will the cleaning solutions harm my plants?', answer: 'My cleaning solutions are biodegradable and environmentally friendly. I also take precautions to protect sensitive landscaping during the cleaning process.' },
+      { question: 'How long does house washing take?', answer: 'Most homes can be completed in 2-4 hours, depending on size and condition. Larger or more heavily soiled homes may take longer.' },
+      { question: 'How to deodorize trash can?', answer: 'Professional sanitization is the most effective way to deodorize a trash can. We use specialized cleaning solutions to kill 99.9% of the bacteria that cause the 'smelly trash can' problem.' }
     ],
-    relatedBlogPosts: ["how-often-pressure-wash-house", "pressure-vs-soft-washing", "pressure-washing-damage", "mold-mildew-removal", "how-to-deodorize-trash-can"]
+    relatedBlogPosts: ['how-often-pressure-wash-house', 'pressure-vs-soft-washing', 'pressure-washing-damage', 'mold-mildew-removal', 'how-to-deodorize-trash-can']
   },
   {
-    name: "Driveway Cleaning",
-    slug: "driveway-cleaning",
-    shortDescription: "Restore your driveway's appearance with professional pressure washing that removes stains and weathering.",
-    description: "Your driveway is one of the first things people notice about your property. Over time, dirt, oil stains, algae, and weathering can make it look dingy and neglected. My professional driveway cleaning removes years of buildup, revealing the beautiful concrete or pavement underneath.",
+    name: 'Driveway Cleaning',
+    slug: 'driveway-cleaning',
+    shortDescription: 'Restore your driveway's appearance with professional pressure washing that removes stains and weathering.',
+    description: 'Your driveway is one of the first things people notice about your property. Over time, dirt, oil stains, algae, and weathering can make it look dingy and neglected. My professional driveway cleaning removes years of buildup, revealing the beautiful concrete or pavement underneath.',
     fullDescription: `Your driveway is more than just a place to park your car – it's a prominent feature of your property that significantly impacts curb appeal and overall home value. A clean, well-maintained driveway creates an immediate positive impression, while a stained, weathered driveway can make even the most beautiful home look neglected. In Mount Pleasant's climate, driveways face constant assault from vehicle fluids, organic growth, rust, and environmental staining.
 
 Oil and automotive fluid stains are among the most common driveway problems. Leaking vehicles deposit oil, transmission fluid, brake fluid, and other substances that quickly penetrate porous concrete surfaces, creating dark, unsightly stains that worsen over time. These stains not only look bad but can actually deteriorate concrete, breaking down the surface and leading to pitting and cracking.
@@ -220,27 +220,27 @@ Beyond aesthetics, regular driveway cleaning extends the life of your concrete. 
 
 My driveway cleaning services extend to all types of hardscapes, including brick and paver driveways, stamped concrete, aggregate surfaces, and asphalt. Each material requires specific techniques to clean effectively without causing damage, and I know how to handle every type of driveway surface.`,
     benefits: [
-      "Removes stubborn oil, grease, and automotive fluid stains",
-      "Eliminates dangerous slippery algae and organic growth",
-      "Restores original concrete color and brightness",
-      "Extends driveway lifespan by removing harmful contaminants",
-      "Improves property value and curb appeal",
-      "Safe for all driveway materials including concrete, pavers, and asphalt",
-      "Professional surface cleaners ensure even, streak-free results"
+      'Removes stubborn oil, grease, and automotive fluid stains',
+      'Eliminates dangerous slippery algae and organic growth',
+      'Restores original concrete color and brightness',
+      'Extends driveway lifespan by removing harmful contaminants',
+      'Improves property value and curb appeal',
+      'Safe for all driveway materials including concrete, pavers, and asphalt',
+      'Professional surface cleaners ensure even, streak-free results'
     ],
     faq: [
-      { question: "Can you remove oil stains from my driveway?", answer: "Yes, I use specialized degreasing treatments that effectively remove most oil and automotive fluid stains. Very old or deeply penetrated stains may be lightened significantly rather than completely removed." },
-      { question: "How long before I can drive on the driveway after cleaning?", answer: "You can typically drive on your driveway within an hour after I complete the cleaning, once the surface has dried." },
-      { question: "Do you clean paver driveways?", answer: "Yes, I clean all types of driveways including brick pavers, concrete pavers, stamped concrete, and aggregate surfaces. Each material receives appropriate treatment." },
-      { question: "Will pressure washing damage my driveway?", answer: "When performed by professionals using appropriate pressure levels and techniques, pressure washing is safe for driveways and actually helps protect them by removing harmful substances." }
+      { question: 'Can you remove oil stains from my driveway?', answer: 'Yes, I use specialized degreasing treatments that effectively remove most oil and automotive fluid stains. Very old or deeply penetrated stains may be lightened significantly rather than completely removed.' },
+      { question: 'How long before I can drive on the driveway after cleaning?', answer: 'You can typically drive on your driveway within an hour after I complete the cleaning, once the surface has dried.' },
+      { question: 'Do you clean paver driveways?', answer: 'Yes, I clean all types of driveways including brick pavers, concrete pavers, stamped concrete, and aggregate surfaces. Each material receives appropriate treatment.' },
+      { question: 'Will pressure washing damage my driveway?', answer: 'When performed by professionals using appropriate pressure levels and techniques, pressure washing is safe for driveways and actually helps protect them by removing harmful substances.' }
     ],
-    relatedBlogPosts: ["driveway-maintenance-after-washing", "remove-concrete-stains", "professional-vs-diy-pressure-washing", "pressure-washing-cost-mount-pleasant"]
+    relatedBlogPosts: ['driveway-maintenance-after-washing', 'remove-concrete-stains', 'professional-vs-diy-pressure-washing', 'pressure-washing-cost-mount-pleasant']
   },
   {
-    name: "Sidewalk Cleaning",
-    slug: "sidewalk-cleaning",
-    shortDescription: "Clean sidewalks and walkways for improved safety, curb appeal, and property appearance.",
-    description: "Clean sidewalks make a big difference in how your property looks. Whether it's residential sidewalks, commercial walkways, or concrete patios, professional sidewalk cleaning removes dirt, slime, algae, and other surface contaminants safely and effectively.",
+    name: 'Sidewalk Cleaning',
+    slug: 'sidewalk-cleaning',
+    shortDescription: 'Clean sidewalks and walkways for improved safety, curb appeal, and property appearance.',
+    description: 'Clean sidewalks make a big difference in how your property looks. Whether it's residential sidewalks, commercial walkways, or concrete patios, professional sidewalk cleaning removes dirt, slime, algae, and other surface contaminants safely and effectively.',
     fullDescription: `Sidewalks and walkways are the paths that guide visitors to your home or business, and their condition creates an immediate impression. Clean, bright walkways suggest attention to detail and proper maintenance, while dirty, stained paths can make even well-maintained properties look neglected. In Mount Pleasant's humid climate, sidewalks are particularly prone to algae growth, creating both appearance problems and safety hazards.
 
 Algae-covered sidewalks become dangerously slippery when wet, creating a liability risk for homeowners and businesses alike. Falls on slippery walkways result in serious injuries every year, and property owners can be held responsible. Professional sidewalk cleaning eliminates this hazard by removing organic growth and restoring the concrete's natural texture and traction.
@@ -257,27 +257,27 @@ I also serve commercial clients with sidewalk and walkway cleaning services. Ret
 
 Regular sidewalk cleaning extends the life of your hardscapes by removing substances that can deteriorate concrete over time. Algae and mildew can break down concrete surfaces, while acids from tree droppings and environmental sources can etch and stain. By cleaning regularly, you protect your investment and avoid costly repairs or replacement.`,
     benefits: [
-      "Eliminates slippery algae that creates fall hazards",
-      "Removes unsightly stains and discoloration",
-      "Improves safety for family, visitors, and customers",
-      "Enhances curb appeal and property appearance",
-      "Extends sidewalk and walkway lifespan",
-      "Professional equipment ensures even, streak-free results",
-      "Safe for concrete, brick, pavers, and stone surfaces"
+      'Eliminates slippery algae that creates fall hazards',
+      'Removes unsightly stains and discoloration',
+      'Improves safety for family, visitors, and customers',
+      'Enhances curb appeal and property appearance',
+      'Extends sidewalk and walkway lifespan',
+      'Professional equipment ensures even, streak-free results',
+      'Safe for concrete, brick, pavers, and stone surfaces'
     ],
     faq: [
-      { question: "How often should sidewalks be cleaned?", answer: "I recommend sidewalk cleaning annually for most properties, with more frequent cleaning for shaded areas prone to algae growth or high-traffic commercial walkways." },
-      { question: "Can you remove gum and other stuck-on debris?", answer: "Yes, my high-pressure equipment and cleaning solutions effectively remove gum, tar, and most stuck-on debris from sidewalk surfaces." },
-      { question: "Do you clean pool decks?", answer: "Absolutely. Pool decks, patios, and other outdoor living surfaces are included in my sidewalk and hardscape cleaning services." },
-      { question: "How long does sidewalk cleaning take?", answer: "Cleaning time depends on the area size and condition. Most residential sidewalks and walkways can be completed in 1-2 hours." }
+      { question: 'How often should sidewalks be cleaned?', answer: 'I recommend sidewalk cleaning annually for most properties, with more frequent cleaning for shaded areas prone to algae growth or high-traffic commercial walkways.' },
+      { question: 'Can you remove gum and other stuck-on debris?', answer: 'Yes, my high-pressure equipment and cleaning solutions effectively remove gum, tar, and most stuck-on debris from sidewalk surfaces.' },
+      { question: 'Do you clean pool decks?', answer: 'Absolutely. Pool decks, patios, and other outdoor living surfaces are included in my sidewalk and hardscape cleaning services.' },
+      { question: 'How long does sidewalk cleaning take?', answer: 'Cleaning time depends on the area size and condition. Most residential sidewalks and walkways can be completed in 1-2 hours.' }
     ],
-    relatedBlogPosts: ["remove-concrete-stains", "professional-vs-diy-pressure-washing", "prepare-property-pressure-washing", "pressure-washing-cost-mount-pleasant"]
+    relatedBlogPosts: ['remove-concrete-stains', 'professional-vs-diy-pressure-washing', 'prepare-property-pressure-washing', 'pressure-washing-cost-mount-pleasant']
   },
   {
-    name: "Gutter Cleaning",
-    slug: "gutter-cleaning",
-    shortDescription: "Keep your gutters flowing freely to prevent water damage and protect your home's foundation.",
-    description: "Clean gutters are essential for proper water drainage and preventing costly damage to your home. Debris-filled gutters can cause water to overflow, damaging your foundation, landscaping, and roof. Our professional gutter cleaning ensures proper water flow and protects your investment.",
+    name: 'Gutter Cleaning',
+    slug: 'gutter-cleaning',
+    shortDescription: 'Keep your gutters flowing freely to prevent water damage and protect your home's foundation.',
+    description: 'Clean gutters are essential for proper water drainage and preventing costly damage to your home. Debris-filled gutters can cause water to overflow, damaging your foundation, landscaping, and roof. Our professional gutter cleaning ensures proper water flow and protects your investment.',
     fullDescription: `Gutters play a critical role in protecting your home from water damage, directing rainwater safely away from your foundation, siding, and landscaping. When gutters become clogged with leaves, pine needles, twigs, and other debris, they can't perform this essential function. Water overflows the gutters and pours down the side of your home, causing damage to siding, fascia boards, and exterior trim. Even worse, water pooling around your foundation can lead to basement flooding, foundation damage, and costly structural repairs.
 
 In Mount Pleasant's frequent rainstorms, properly functioning gutters are essential. The Lowcountry's mature trees, particularly live oaks, pines, and palmettos, produce enormous amounts of organic debris that quickly fills gutters. During fall and spring, leaves, seeds, and pollen can clog even the best gutter systems in a matter of weeks. Pine needles are particularly problematic, as their small size allows them to pass through most gutter guards and create dense blockages.
@@ -294,27 +294,27 @@ I recommend gutter cleaning at least twice per year for most Mount Pleasant home
 
 Proper gutter maintenance is one of the most important things you can do to protect your home from water damage. The cost of regular cleaning is minimal compared to the expense of repairing foundation damage, rotted fascia, or flooded basements caused by neglected gutters.`,
     benefits: [
-      "Prevents water damage to foundation, siding, and landscaping",
-      "Eliminates mosquito breeding grounds in standing water",
-      "Protects fascia boards and roof edges from water damage",
-      "Extends gutter system lifespan",
-      "Removes unsightly gutter streaking and staining",
-      "Includes downspout clearing for complete drainage",
-      "Professional safety equipment for secure access"
+      'Prevents water damage to foundation, siding, and landscaping',
+      'Eliminates mosquito breeding grounds in standing water',
+      'Protects fascia boards and roof edges from water damage',
+      'Extends gutter system lifespan',
+      'Removes unsightly gutter streaking and staining',
+      'Includes downspout clearing for complete drainage',
+      'Professional safety equipment for secure access'
     ],
     faq: [
-      { question: "How often should gutters be cleaned?", answer: "I recommend gutter cleaning at least twice per year – late fall and late spring. Homes with many trees may need quarterly cleaning." },
-      { question: "Do you clean gutter guards?", answer: "Yes, I can remove, clean beneath, and reinstall most types of gutter guards. Even guarded gutters need periodic maintenance." },
-      { question: "Will you tell me if my gutters need repair?", answer: "Absolutely. During cleaning, I inspect your gutter system and will inform you of any damage, loose sections, or problems that need attention." },
-      { question: "Do you clean the outside of gutters too?", answer: "Yes, my service includes cleaning gutter exteriors to remove streaking and staining, restoring their appearance." }
+      { question: 'How often should gutters be cleaned?', answer: 'I recommend gutter cleaning at least twice per year – late fall and late spring. Homes with many trees may need quarterly cleaning.' },
+      { question: 'Do you clean gutter guards?', answer: 'Yes, I can remove, clean beneath, and reinstall most types of gutter guards. Even guarded gutters need periodic maintenance.' },
+      { question: 'Will you tell me if my gutters need repair?', answer: 'Absolutely. During cleaning, I inspect your gutter system and will inform you of any damage, loose sections, or problems that need attention.' },
+      { question: 'Do you clean the outside of gutters too?', answer: 'Yes, my service includes cleaning gutter exteriors to remove streaking and staining, restoring their appearance.' }
     ],
-    relatedBlogPosts: ["safe-pressure-washing-gutters", "prepare-property-pressure-washing", "best-time-year-pressure-wash", "professional-pressure-washing-expectations"]
+    relatedBlogPosts: ['safe-pressure-washing-gutters', 'prepare-property-pressure-washing', 'best-time-year-pressure-wash', 'professional-pressure-washing-expectations']
   },
   {
-    name: "Window Cleaning",
-    slug: "window-cleaning",
-    shortDescription: "Crystal clear windows that let natural light shine through and enhance your home's appearance.",
-    description: "Crystal clear windows enhance the appearance of your home and allow natural light to shine through. Professional window cleaning removes dirt, water spots, and buildup that DIY methods can't effectively tackle. Our trained technicians clean all windows safely and thoroughly.",
+    name: 'Window Cleaning',
+    slug: 'window-cleaning',
+    shortDescription: 'Crystal clear windows that let natural light shine through and enhance your home's appearance.',
+    description: 'Crystal clear windows enhance the appearance of your home and allow natural light to shine through. Professional window cleaning removes dirt, water spots, and buildup that DIY methods can't effectively tackle. Our trained technicians clean all windows safely and thoroughly.',
     fullDescription: `Windows are your home's eyes to the world, providing natural light, beautiful views, and a connection to the outdoors. When windows are dirty, everything about your home suffers – interiors feel darker and smaller, views are obscured, and the overall appearance is diminished. In Mount Pleasant's humid climate with its salt air, pollen, and frequent storms, windows get dirty quickly and can be difficult to clean effectively.
 
 Many homeowners attempt to clean their own windows, but DIY window cleaning rarely achieves professional results. Store-bought glass cleaners often leave streaks, especially in direct sunlight. Paper towels and newspapers leave lint and residue. And for second-story or hard-to-reach windows, the safety risks of climbing ladders with spray bottles and squeegees simply aren't worth it. Professional window cleaning delivers the crystal-clear results you want, safely and efficiently.
@@ -331,27 +331,27 @@ Window screens collect dust, pollen, and debris that can transfer to newly clean
 
 Regular professional window cleaning maintains your windows in optimal condition and can extend their lifespan. Dirt and environmental contaminants can actually etch and damage glass over time if not removed regularly. For most Mount Pleasant homes, I recommend window cleaning 2-4 times per year, depending on exposure to pollen, salt air, and other environmental factors.`,
     benefits: [
-      "Crystal clear, streak-free results",
-      "Removes hard water spots and mineral deposits",
-      "Increases natural light in your home",
-      "Improves curb appeal and home appearance",
-      "Safe cleaning of high and hard-to-reach windows",
-      "Extends window lifespan by removing damaging contaminants",
-      "Interior and exterior cleaning available"
+      'Crystal clear, streak-free results',
+      'Removes hard water spots and mineral deposits',
+      'Increases natural light in your home',
+      'Improves curb appeal and home appearance',
+      'Safe cleaning of high and hard-to-reach windows',
+      'Extends window lifespan by removing damaging contaminants',
+      'Interior and exterior cleaning available'
     ],
     faq: [
-      { question: "Do you clean both sides of the windows?", answer: "Yes, I offer interior and exterior window cleaning. Many clients prefer to have both sides cleaned for maximum impact." },
-      { question: "Can you remove hard water spots?", answer: "Yes, I offer specialized treatment for hard water stains and mineral deposits that regular cleaning can't remove." },
-      { question: "Do you clean screens?", answer: "Screen cleaning is available as an add-on service. Clean screens keep windows cleaner and improve airflow." },
-      { question: "How often should windows be professionally cleaned?", answer: "I recommend window cleaning 2-4 times per year for most homes, depending on environmental exposure." }
+      { question: 'Do you clean both sides of the windows?', answer: 'Yes, I offer interior and exterior window cleaning. Many clients prefer to have both sides cleaned for maximum impact.' },
+      { question: 'Can you remove hard water spots?', answer: 'Yes, I offer specialized treatment for hard water stains and mineral deposits that regular cleaning can't remove.' },
+      { question: 'Do you clean screens?', answer: 'Screen cleaning is available as an add-on service. Clean screens keep windows cleaner and improve airflow.' },
+      { question: 'How often should windows be professionally cleaned?', answer: 'I recommend window cleaning 2-4 times per year for most homes, depending on environmental exposure.' }
     ],
-    relatedBlogPosts: ["window-cleaning-professional-vs-diy", "prepare-property-pressure-washing", "pressure-washing-selling-home", "professional-pressure-washing-expectations"]
+    relatedBlogPosts: ['window-cleaning-professional-vs-diy', 'prepare-property-pressure-washing', 'pressure-washing-selling-home', 'professional-pressure-washing-expectations']
   },
   {
-    name: "Trash Can Cleaning",
-    slug: "trash-can-cleaning",
-    shortDescription: "Sanitize and deodorize your trash cans to eliminate odors and prevent pest attraction.",
-    description: "Trash cans accumulate bacteria, odors, and contaminants that can affect your property and health. Our professional trash can cleaning sanitizes and deodorizes your cans, eliminating odors and bacteria. It's an often-overlooked service that makes a noticeable difference.",
+    name: 'Trash Can Cleaning',
+    slug: 'trash-can-cleaning',
+    shortDescription: 'Sanitize and deodorize your trash cans to eliminate odors and prevent pest attraction.',
+    description: 'Trash cans accumulate bacteria, odors, and contaminants that can affect your property and health. Our professional trash can cleaning sanitizes and deodorizes your cans, eliminating odors and bacteria. It's an often-overlooked service that makes a noticeable difference.',
     fullDescription: `It's the cleaning service most people don't think about, but once you experience clean, sanitized trash cans, you'll wonder how you lived without it. Trash cans are breeding grounds for bacteria, mold, and unpleasant odors. Every time you open the lid, you're exposed to the accumulated residue of weeks or months of garbage. In Mount Pleasant's heat and humidity, these conditions are magnified, with trash cans often becoming unbearable by mid-summer.
 
 The problem isn't just unpleasant smells. Dirty trash cans attract pests including flies, ants, cockroaches, rats, and raccoons. These pests can spread disease and create additional problems around your property. The bacteria growing in trash cans can include harmful pathogens like Salmonella, E. coli, and Listeria. Every time you handle your trash cans or bring them in from the curb, you're potentially exposing yourself to these contaminants.
@@ -368,32 +368,32 @@ I offer trash can cleaning as a standalone service or as part of a regular maint
 
 For neighborhoods with HOA regulations about trash can appearance, my cleaning service helps you maintain compliance while protecting your family from the health hazards of dirty cans. It's an affordable service that delivers significant benefits for your health, comfort, and property value.`,
     benefits: [
-      "Kills 99.9% of bacteria and pathogens",
-      "Completely eliminates odors at their source",
-      "Reduces pest attraction around your property",
-      "Environmentally responsible wastewater capture",
-      "Interior and exterior cleaning for complete sanitation",
-      "Convenient scheduling around your pickup days",
-      "Affordable monthly or quarterly service plans"
+      'Kills 99.9% of bacteria and pathogens',
+      'Completely eliminates odors at their source',
+      'Reduces pest attraction around your property',
+      'Environmentally responsible wastewater capture',
+      'Interior and exterior cleaning for complete sanitation',
+      'Convenient scheduling around your pickup days',
+      'Affordable monthly or quarterly service plans'
     ],
     faq: [
-      { question: "How often should trash cans be cleaned?", answer: "I recommend monthly cleaning during summer months and quarterly cleaning the rest of the year for optimal hygiene." },
-      { question: "Do you clean recycling bins too?", answer: "Yes, I clean both garbage cans and recycling bins using the same thorough sanitization process." },
-      { question: "Where does the wastewater go?", answer: "All wastewater is captured by my equipment and disposed of properly. Nothing washes into your yard, driveway, or storm drains." },
-      { question: "Can you get rid of the smell permanently?", answer: "My sanitization process eliminates odor-causing bacteria and applies deodorizing treatment. Regular cleaning maintains fresh-smelling cans." },
-      { question: "How to deodorize trash can?", answer: "Professional sanitization is the most effective way to deodorize a trash can. We use specialized cleaning solutions to kill 99.9% of the bacteria that cause the 'smelly trash can' problem." }
+      { question: 'How often should trash cans be cleaned?', answer: 'I recommend monthly cleaning during summer months and quarterly cleaning the rest of the year for optimal hygiene.' },
+      { question: 'Do you clean recycling bins too?', answer: 'Yes, I clean both garbage cans and recycling bins using the same thorough sanitization process.' },
+      { question: 'Where does the wastewater go?', answer: 'All wastewater is captured by my equipment and disposed of properly. Nothing washes into your yard, driveway, or storm drains.' },
+      { question: 'Can you get rid of the smell permanently?', answer: 'My sanitization process eliminates odor-causing bacteria and applies deodorizing treatment. Regular cleaning maintains fresh-smelling cans.' },
+      { question: 'How to deodorize trash can?', answer: 'Professional sanitization is the most effective way to deodorize a trash can. We use specialized cleaning solutions to kill 99.9% of the bacteria that cause the 'smelly trash can' problem.' }
     ],
-    relatedBlogPosts: ["trash-can-cleaning-importance", "prepare-property-pressure-washing", "professional-pressure-washing-expectations", "best-time-year-pressure-wash"]
+    relatedBlogPosts: ['trash-can-cleaning-importance', 'prepare-property-pressure-washing', 'professional-pressure-washing-expectations', 'best-time-year-pressure-wash']
   },
 ];
 
 export const blogPosts = [
   {
-    title: "How to Deodorize a Trash Can: The Ultimate Guide",
-    slug: "how-to-deodorize-trash-can",
-    date: "2024-05-20",
-    author: "Camrin",
-    excerpt: "Struggling with a smelly trash can? Learn how to deodorize your garbage bins effectively, from DIY tips to professional sanitization.",
+    title: 'How to Deodorize a Trash Can: The Ultimate Guide',
+    slug: 'how-to-deodorize-trash-can',
+    date: '2024-05-20',
+    author: 'Camrin',
+    excerpt: 'Struggling with a smelly trash can? Learn how to deodorize your garbage bins effectively, from DIY tips to professional sanitization.',
     content: `Dealing with a **smelly trash can** is a common headache for Mount Pleasant homeowners, especially in our humid climate. If you've ever wondered **where should garbage cans be cleaned** or **how to deodorize a trash can** safely, you're not alone.
 
 Simple rinsing isn't enough to kill the bacteria and viruses that thrive in your bins. Here's how to handle it:
@@ -411,16 +411,16 @@ The **trash can smell** is caused by the decomposition of organic waste, which a
 Never clean your bins over a storm drain. The wastewater contains harmful bacteria and chemicals that should be contained. Professional services like ours use a self-contained system to collect and properly dispose of the wastewater.
 
 For more details on keeping your home fresh, check our [Pricing Page](/pricing) for our trash can cleaning rates.`,
-    category: "Maintenance",
-    readTime: "5 min read",
-    image: "/attached_assets/trash-can-cleaning-after.JPEG"
+    category: 'Maintenance',
+    readTime: '5 min read',
+    image: '/attached_assets/trash-can-cleaning-after.JPEG'
   },
   {
-    slug: "how-often-pressure-wash-house",
-    title: "How Often Should You Pressure Wash Your House?",
-    question: "How Often Should You Pressure Wash Your House?",
-    answer: "Most homes in Mount Pleasant, SC should be pressure washed every 1-2 years depending on climate conditions, sun exposure, and dirt accumulation. Properties in coastal areas like Isle of Palms or near marshes may need more frequent cleaning due to salt air and moisture that accelerates organic growth.",
-    metaDescription: "Learn how often you should pressure wash your Mount Pleasant, SC home. Expert advice on maintenance schedules, climate factors, and protecting your investment.",
+    slug: 'how-often-pressure-wash-house',
+    title: 'How Often Should You Pressure Wash Your House?',
+    question: 'How Often Should You Pressure Wash Your House?',
+    answer: 'Most homes in Mount Pleasant, SC should be pressure washed every 1-2 years depending on climate conditions, sun exposure, and dirt accumulation. Properties in coastal areas like Isle of Palms or near marshes may need more frequent cleaning due to salt air and moisture that accelerates organic growth.',
+    metaDescription: 'Learn how often you should pressure wash your Mount Pleasant, SC home. Expert advice on maintenance schedules, climate factors, and protecting your investment.',
     content: `Maintaining your home's exterior appearance is essential for protecting your investment and preserving curb appeal. In Mount Pleasant's humid subtropical climate, knowing how often to pressure wash your house can mean the difference between a property that looks fresh and well-maintained and one that appears aged and neglected.
 
 The general recommendation for pressure washing your house in Mount Pleasant is every 1-2 years. However, this is a baseline that should be adjusted based on your property's specific conditions. Several factors influence how quickly your home's exterior becomes dirty and how often cleaning is needed.
@@ -442,15 +442,15 @@ For most Mount Pleasant homeowners, scheduling annual inspections of your home's
 The best times to pressure wash in Mount Pleasant are spring and fall. Spring cleaning removes the pollen, winter grime, and early organic growth that accumulates during cooler months, preparing your home for summer entertaining. Fall cleaning removes summer dust, pollen, and organic debris before winter, ensuring your home looks its best for the holiday season and protecting surfaces from moisture damage during wetter winter months.
 
 Professional pressure washing is an investment that pays dividends in preserved property value, improved curb appeal, and extended life for your home's exterior surfaces. By understanding the factors that affect your specific property and maintaining an appropriate cleaning schedule, you can keep your Mount Pleasant home looking beautiful for years to come.`,
-    relatedServices: ["house-washing", "gutter-cleaning", "window-cleaning"],
-    relatedNeighborhoods: ["isle-of-palms", "old-village", "park-west"]
+    relatedServices: ['house-washing', 'gutter-cleaning', 'window-cleaning'],
+    relatedNeighborhoods: ['isle-of-palms', 'old-village', 'park-west']
   },
   {
-    slug: "pressure-vs-soft-washing",
-    title: "Pressure Washing vs. Soft Washing: What's the Difference?",
-    question: "Pressure Washing vs. Soft Washing: What's the Difference?",
-    answer: "Pressure washing uses high-pressure water (1500-4000 PSI) to clean hard surfaces like concrete and brick, while soft washing uses low pressure (under 500 PSI) with specialized cleaning solutions to safely clean delicate surfaces like vinyl siding, roofs, and painted surfaces without causing damage.",
-    metaDescription: "Understand the difference between pressure washing and soft washing in Mount Pleasant, SC. Learn which method is right for your home's surfaces and why it matters.",
+    slug: 'pressure-vs-soft-washing',
+    title: 'Pressure Washing vs. Soft Washing: What's the Difference?',
+    question: 'Pressure Washing vs. Soft Washing: What's the Difference?',
+    answer: 'Pressure washing uses high-pressure water (1500-4000 PSI) to clean hard surfaces like concrete and brick, while soft washing uses low pressure (under 500 PSI) with specialized cleaning solutions to safely clean delicate surfaces like vinyl siding, roofs, and painted surfaces without causing damage.',
+    metaDescription: 'Understand the difference between pressure washing and soft washing in Mount Pleasant, SC. Learn which method is right for your home's surfaces and why it matters.',
     content: `When it comes to exterior cleaning, not all methods are created equal. Understanding the difference between pressure washing and soft washing is crucial for protecting your property while achieving excellent cleaning results. Professional exterior cleaners like CanManCam use both techniques, selecting the appropriate method based on the surface being cleaned and the type of contamination present.
 
 Pressure washing, also known as power washing, uses high-pressure water jets to blast away dirt, grime, and stains from hard surfaces. Typical pressure levels range from 1500 to 4000 PSI (pounds per square inch), delivering powerful cleaning action that can remove stubborn stains, strip paint, and even etch concrete. This method is ideal for durable surfaces that can withstand intense water pressure without damage.
@@ -470,15 +470,15 @@ For most residential homes, soft washing is the appropriate method for siding, t
 Professional exterior cleaning companies like CanManCam assess each project individually, selecting the appropriate technique for each surface. This might mean soft washing the house siding, pressure washing the driveway, and using specialized techniques for unique features like brick chimneys or stone walls. The goal is always to achieve the best possible cleaning results while protecting your property from damage.
 
 Understanding these differences helps homeowners make informed decisions about their exterior cleaning needs. When getting quotes for pressure washing services, ask specifically what methods will be used on different surfaces. A reputable company will explain their approach and why specific techniques are appropriate for your property's unique characteristics.`,
-    relatedServices: ["house-washing", "driveway-cleaning", "sidewalk-cleaning"],
-    relatedNeighborhoods: ["hamlin-plantation", "carolina-park", "dunes-west"]
+    relatedServices: ['house-washing', 'driveway-cleaning', 'sidewalk-cleaning'],
+    relatedNeighborhoods: ['hamlin-plantation', 'carolina-park', 'dunes-west']
   },
   {
-    slug: "pressure-washing-cost-mount-pleasant",
-    title: "How Much Does Pressure Washing Cost in Mount Pleasant?",
-    question: "How Much Does Pressure Washing Cost in Mount Pleasant?",
-    answer: "Pressure washing costs in Mount Pleasant vary based on property size, services needed, and condition. House washing typically ranges from $200-$500 for average homes, driveway cleaning from $100-$250, and full property cleaning packages provide the best value. I offer free estimates and my Price Beat Guarantee ensures competitive pricing.",
-    metaDescription: "Get accurate pressure washing pricing for Mount Pleasant, SC. Learn what affects costs and how to get the best value for house washing, driveway cleaning, and more.",
+    slug: 'pressure-washing-cost-mount-pleasant',
+    title: 'How Much Does Pressure Washing Cost in Mount Pleasant?',
+    question: 'How Much Does Pressure Washing Cost in Mount Pleasant?',
+    answer: 'Pressure washing costs in Mount Pleasant vary based on property size, services needed, and condition. House washing typically ranges from $200-$500 for average homes, driveway cleaning from $100-$250, and full property cleaning packages provide the best value. I offer free estimates and my Price Beat Guarantee ensures competitive pricing.',
+    metaDescription: 'Get accurate pressure washing pricing for Mount Pleasant, SC. Learn what affects costs and how to get the best value for house washing, driveway cleaning, and more.',
     content: `Understanding pressure washing costs in Mount Pleasant helps homeowners budget appropriately and recognize fair pricing when getting quotes. While every property is different, several factors consistently influence pricing, and knowing these can help you make informed decisions about your exterior cleaning investment.
 
 The size of your property is the primary factor affecting pressure washing costs. Larger homes have more square footage to clean, requiring more time, labor, and cleaning solution. A 1,500 square foot ranch-style home will cost significantly less than a 4,000 square foot two-story colonial. Similarly, longer driveways and extensive hardscaping add to the total cleaning area and overall cost.
@@ -504,22 +504,22 @@ When comparing quotes from different companies, be sure you're comparing equival
 I offer free, no-obligation estimates for all my services. I assess your specific property and provide detailed pricing that reflects your home's actual needs. My Price Beat Guarantee means if you find a lower price for equivalent services, I'll beat it. This commitment ensures Mount Pleasant homeowners always receive competitive pricing without sacrificing quality or professionalism.
 
 Investing in professional pressure washing provides excellent value when considering the alternative. DIY cleaning requires equipment rental or purchase, time, physical effort, and carries risks of property damage and personal injury. Professional cleaning delivers better results, takes less of your time, and comes with insurance protection and satisfaction guarantees. For most homeowners, professional service is the smart choice.`,
-    relatedServices: ["house-washing", "driveway-cleaning", "gutter-cleaning"],
-    relatedNeighborhoods: ["old-village", "park-west", "hamlin-plantation"]
+    relatedServices: ['house-washing', 'driveway-cleaning', 'gutter-cleaning'],
+    relatedNeighborhoods: ['old-village', 'park-west', 'hamlin-plantation']
   },
   {
-    slug: "pressure-washing-damage",
-    title: "Can Pressure Washing Damage My Home?",
-    question: "Can Pressure Washing Damage My Home?",
-    answer: "Yes, improper pressure washing can damage your home by forcing water behind siding, stripping paint, etching surfaces, or cracking delicate materials. However, professional pressure washing by trained technicians using appropriate pressure levels and techniques is safe and effective. This is why choosing experienced professionals matters.",
-    metaDescription: "Learn how improper pressure washing can damage your Mount Pleasant home and why professional service is essential. Protect your property with proper techniques.",
+    slug: 'pressure-washing-damage',
+    title: 'Can Pressure Washing Damage My Home?',
+    question: 'Can Pressure Washing Damage My Home?',
+    answer: 'Yes, improper pressure washing can damage your home by forcing water behind siding, stripping paint, etching surfaces, or cracking delicate materials. However, professional pressure washing by trained technicians using appropriate pressure levels and techniques is safe and effective. This is why choosing experienced professionals matters.',
+    metaDescription: 'Learn how improper pressure washing can damage your Mount Pleasant home and why professional service is essential. Protect your property with proper techniques.',
     content: `The power of pressure washing equipment is both its greatest strength and its most significant risk. In the hands of trained professionals using appropriate techniques, pressure washing safely and effectively cleans virtually any exterior surface. However, improper use can cause serious, sometimes irreversible damage to your home. Understanding these risks helps homeowners appreciate the value of professional service and ask the right questions when hiring a pressure washing company.
 
 Water intrusion is one of the most serious risks of improper pressure washing. High-pressure water can be forced behind siding, especially if the spray is directed upward at lap joints or around window and door frames. Once water gets behind siding, it can damage insulation, promote mold growth, and cause rot in structural framing. This damage may not be visible immediately but can lead to serious problems over time. Professional pressure washers are trained to spray at appropriate angles and never direct high pressure at gaps or seams in siding.
 
 Surface damage from excessive pressure is another common problem with DIY or inexperienced pressure washing. Different materials tolerate different pressure levels. While concrete can handle 3000+ PSI, vinyl siding may be damaged by anything over 1500 PSI. Wood surfaces can be etched, splintered, or have their grain raised by excessive pressure. Stucco can be pitted or completely destroyed. Brick mortar can be eroded. Paint can be stripped. Even surfaces that appear undamaged may have their protective coatings compromised, leading to accelerated weathering.
 
-Improper spray technique can create visible damage patterns. Using a narrow spray tip at high pressure can create "tiger striping" – visible lines where the concentrated spray has cleaned more aggressively than surrounding areas. These marks can be impossible to remove and may require refinishing affected surfaces. Professional pressure washers use appropriate spray patterns and distances to ensure even, consistent cleaning without marking.
+Improper spray technique can create visible damage patterns. Using a narrow spray tip at high pressure can create 'tiger striping' – visible lines where the concentrated spray has cleaned more aggressively than surrounding areas. These marks can be impossible to remove and may require refinishing affected surfaces. Professional pressure washers use appropriate spray patterns and distances to ensure even, consistent cleaning without marking.
 
 Window damage is a specific risk that homeowners may not consider. High-pressure water directed at windows can crack glass, especially older or thermally stressed panes. Pressure washing can also force water past window seals, causing interior water damage. And the force of water can strip glazing compounds, leading to long-term weatherization problems. Professionals protect windows during pressure washing and clean them separately using appropriate low-pressure techniques.
 
@@ -532,15 +532,15 @@ Choosing a professional pressure washing service mitigates these risks significa
 When hiring a pressure washing company, ask about their experience, training, insurance coverage, and techniques. A reputable company will happily explain their approach and why specific methods are appropriate for your property. Be wary of companies offering significantly lower prices – they may be cutting corners on training, insurance, or technique in ways that could cost you much more in the long run.
 
 Professional pressure washing is a safe, effective way to maintain your home's appearance and protect your investment. The key is choosing qualified professionals who understand the risks and have the training and equipment to avoid them.`,
-    relatedServices: ["house-washing", "window-cleaning", "driveway-cleaning"],
-    relatedNeighborhoods: ["hamlin-plantation", "planters-pointe", "long-point"]
+    relatedServices: ['house-washing', 'window-cleaning', 'driveway-cleaning'],
+    relatedNeighborhoods: ['hamlin-plantation', 'planters-pointe', 'long-point']
   },
   {
-    slug: "professional-pressure-washing-expectations",
-    title: "What Should I Expect From Professional Pressure Washing?",
-    question: "What Should I Expect From Professional Pressure Washing?",
-    answer: "Professional pressure washing includes pre-service communication, property inspection, surface protection, expert cleaning using appropriate techniques, thorough rinsing, and final walkthrough. You should expect trained technicians, commercial-grade equipment, insurance protection, and guaranteed satisfaction from a reputable company.",
-    metaDescription: "Know what to expect from professional pressure washing in Mount Pleasant. From scheduling to completion, understand the process and what makes quality service.",
+    slug: 'professional-pressure-washing-expectations',
+    title: 'What Should I Expect From Professional Pressure Washing?',
+    question: 'What Should I Expect From Professional Pressure Washing?',
+    answer: 'Professional pressure washing includes pre-service communication, property inspection, surface protection, expert cleaning using appropriate techniques, thorough rinsing, and final walkthrough. You should expect trained technicians, commercial-grade equipment, insurance protection, and guaranteed satisfaction from a reputable company.',
+    metaDescription: 'Know what to expect from professional pressure washing in Mount Pleasant. From scheduling to completion, understand the process and what makes quality service.',
     content: `Hiring a professional pressure washing company should be a straightforward, positive experience from first contact through job completion. Understanding what to expect helps homeowners evaluate potential contractors and ensures satisfaction with the service received. Here's a comprehensive look at what professional pressure washing service should include.
 
 The process begins with initial contact and scheduling. A reputable company will respond promptly to inquiries, whether by phone, email, or online form. They should be able to provide general pricing information and schedule a time for a detailed estimate or the service itself. Companies that are difficult to reach or slow to respond may provide similarly frustrating service on-site.
@@ -564,15 +564,15 @@ Before departing, the crew should clean up their equipment, ensure all water sou
 After service, you should receive a receipt or invoice documenting the work performed and payment. A follow-up call or email to ensure satisfaction is a sign of a customer-focused company. Any concerns that arise after the crew has departed should be addressed promptly and professionally.
 
 I provide this level of professional service on every job. I believe that how I treat customers is as important as the quality of my cleaning work. From first contact through final walkthrough, my goal is to exceed your expectations and earn your recommendation to friends and neighbors.`,
-    relatedServices: ["house-washing", "driveway-cleaning", "sidewalk-cleaning"],
-    relatedNeighborhoods: ["shem-creek", "old-village", "park-west"]
+    relatedServices: ['house-washing', 'driveway-cleaning', 'sidewalk-cleaning'],
+    relatedNeighborhoods: ['shem-creek', 'old-village', 'park-west']
   },
   {
-    slug: "driveway-maintenance-after-washing",
-    title: "How to Maintain Your Driveway After Pressure Washing",
-    question: "How to Maintain Your Driveway After Pressure Washing",
-    answer: "After pressure washing, maintain your driveway by sealing cracks promptly, ensuring proper drainage, cleaning up spills immediately, sweeping regularly, and scheduling annual professional cleaning. Consider applying a concrete sealer every 2-3 years for added protection against stains and weathering.",
-    metaDescription: "Learn how to maintain your Mount Pleasant driveway after pressure washing. Expert tips on sealing, cleaning, and protecting your concrete investment.",
+    slug: 'driveway-maintenance-after-washing',
+    title: 'How to Maintain Your Driveway After Pressure Washing',
+    question: 'How to Maintain Your Driveway After Pressure Washing',
+    answer: 'After pressure washing, maintain your driveway by sealing cracks promptly, ensuring proper drainage, cleaning up spills immediately, sweeping regularly, and scheduling annual professional cleaning. Consider applying a concrete sealer every 2-3 years for added protection against stains and weathering.',
+    metaDescription: 'Learn how to maintain your Mount Pleasant driveway after pressure washing. Expert tips on sealing, cleaning, and protecting your concrete investment.',
     content: `A freshly pressure-washed driveway is a thing of beauty – bright, clean, and dramatically improved from its pre-cleaning condition. But that pristine appearance won't last forever without proper maintenance. By following these maintenance practices, Mount Pleasant homeowners can extend the time between professional cleanings and protect their driveway investment for years to come.
 
 Address cracks and damage promptly. Inspect your driveway regularly for cracks, chips, and other damage. Small cracks may seem insignificant, but they allow water to penetrate the concrete, where it can cause erosion underneath the surface or freeze and expand during rare cold snaps. Use appropriate concrete crack filler for small repairs, and consider professional repair for larger damage. Addressing problems when they're small prevents them from becoming major, expensive issues.
@@ -596,15 +596,15 @@ Schedule regular professional cleaning. Even with excellent maintenance, drivewa
 Protect your driveway from damage. Avoid parking heavy vehicles that exceed your driveway's weight capacity. Don't use metal shovels or sharp tools on the concrete surface. Be cautious about dragging heavy objects that could scratch or gouge the surface. These precautions prevent the physical damage that can mar your driveway's appearance.
 
 By following these maintenance practices, you'll extend the beauty of your freshly cleaned driveway and protect your concrete investment. I'm here to help with professional cleaning when the time comes – and my Price Beat Guarantee ensures you'll get the best value in Mount Pleasant.`,
-    relatedServices: ["driveway-cleaning", "sidewalk-cleaning", "house-washing"],
-    relatedNeighborhoods: ["carolina-park", "dunes-west", "park-west"]
+    relatedServices: ['driveway-cleaning', 'sidewalk-cleaning', 'house-washing'],
+    relatedNeighborhoods: ['carolina-park', 'dunes-west', 'park-west']
   },
   {
-    slug: "professional-vs-diy-pressure-washing",
-    title: "Why Choose Professional Pressure Washing Over DIY?",
-    question: "Why Choose Professional Pressure Washing Over DIY?",
-    answer: "Professional pressure washing provides better results, saves time, reduces injury risk, protects your property from damage, and often costs less when considering equipment rental, supplies, and potential repair costs. Professionals have training, commercial equipment, and insurance that DIY cannot match.",
-    metaDescription: "Compare professional vs DIY pressure washing in Mount Pleasant. Learn why hiring experts delivers better value, results, and protection for your home.",
+    slug: 'professional-vs-diy-pressure-washing',
+    title: 'Why Choose Professional Pressure Washing Over DIY?',
+    question: 'Why Choose Professional Pressure Washing Over DIY?',
+    answer: 'Professional pressure washing provides better results, saves time, reduces injury risk, protects your property from damage, and often costs less when considering equipment rental, supplies, and potential repair costs. Professionals have training, commercial equipment, and insurance that DIY cannot match.',
+    metaDescription: 'Compare professional vs DIY pressure washing in Mount Pleasant. Learn why hiring experts delivers better value, results, and protection for your home.',
     content: `The availability of rental pressure washers at home improvement stores makes DIY pressure washing seem like an attractive option for budget-conscious homeowners. However, when you consider the full picture – including results quality, time investment, safety risks, and potential for property damage – professional pressure washing often proves to be the smarter choice. Here's a comprehensive comparison to help Mount Pleasant homeowners make an informed decision.
 
 Results quality is perhaps the most significant difference between professional and DIY pressure washing. Professional technicians have training, experience, and commercial-grade equipment that delivers dramatically better results than consumer-grade rental equipment. They know the proper techniques for different surfaces, the right pressure levels for each material, and how to address specific types of staining. DIY attempts often leave streaking, uneven cleaning, or missed areas that detract from the final appearance.
@@ -626,15 +626,15 @@ Professional service includes benefits beyond the cleaning itself. Technicians c
 The convenience factor shouldn't be underestimated. Professional pressure washing requires no effort from you – just schedule the service and go about your day while the work is completed. No rental pickup, no equipment learning curve, no physical labor, no cleanup. For busy homeowners, this convenience alone may justify the professional service cost.
 
 CanManCam provides professional pressure washing services that deliver superior results, protect your property, and provide excellent value. Our trained technicians, commercial equipment, and satisfaction guarantee ensure you'll be delighted with the results. Contact us for a free estimate and experience the difference professional service makes.`,
-    relatedServices: ["house-washing", "window-cleaning", "gutter-cleaning"],
-    relatedNeighborhoods: ["planters-pointe", "long-point", "shem-creek"]
+    relatedServices: ['house-washing', 'window-cleaning', 'gutter-cleaning'],
+    relatedNeighborhoods: ['planters-pointe', 'long-point', 'shem-creek']
   },
   {
-    slug: "safe-pressure-washing-gutters",
-    title: "Is Pressure Washing Safe for My Gutters?",
-    question: "Is Pressure Washing Safe for My Gutters?",
-    answer: "Yes, when performed by professionals using appropriate techniques, pressure washing is safe for gutters. Professionals use lower pressure, proper angles, and careful technique to clean gutters and downspouts without causing damage. Improper high-pressure washing can bend gutters, damage seams, and force water into unwanted areas.",
-    metaDescription: "Learn about safe gutter cleaning methods in Mount Pleasant. Understand how professionals clean gutters without damage and why technique matters.",
+    slug: 'safe-pressure-washing-gutters',
+    title: 'Is Pressure Washing Safe for My Gutters?',
+    question: 'Is Pressure Washing Safe for My Gutters?',
+    answer: 'Yes, when performed by professionals using appropriate techniques, pressure washing is safe for gutters. Professionals use lower pressure, proper angles, and careful technique to clean gutters and downspouts without causing damage. Improper high-pressure washing can bend gutters, damage seams, and force water into unwanted areas.',
+    metaDescription: 'Learn about safe gutter cleaning methods in Mount Pleasant. Understand how professionals clean gutters without damage and why technique matters.',
     content: `Gutters are essential components of your home's water management system, but they're also relatively delicate compared to other exterior surfaces. Understanding how to safely clean gutters – and why professional service is often the best choice – helps Mount Pleasant homeowners protect these important but often overlooked components.
 
 Gutters serve a critical function: directing rainwater away from your home's foundation, siding, and landscaping. When gutters become clogged with leaves, pine needles, and debris, they can't perform this essential task. Water overflows, running down the side of your home and pooling around the foundation. This can lead to basement flooding, foundation damage, siding deterioration, and landscaping erosion. Regular gutter cleaning is essential preventive maintenance.
@@ -656,15 +656,15 @@ Signs that your gutters need cleaning include visible debris accumulation, plant
 Professional gutter cleaning offers advantages beyond safe cleaning technique. Trained technicians can spot problems like loose gutters, damaged sections, or inadequate slope that affects drainage. They can identify areas where improvements might prevent future problems. And they have the equipment and training to work safely at any height your home requires.
 
 I provide professional gutter cleaning services throughout Mount Pleasant. I safely remove debris, ensure proper drainage, and clean gutter exteriors to restore appearance. I work on homes of all sizes and configurations, from single-story ranches to multi-level estates. Contact me to schedule gutter cleaning that protects your home and keeps your gutters flowing freely.`,
-    relatedServices: ["gutter-cleaning", "house-washing", "window-cleaning"],
-    relatedNeighborhoods: ["dunes-west", "hamlin-plantation", "isle-of-palms"]
+    relatedServices: ['gutter-cleaning', 'house-washing', 'window-cleaning'],
+    relatedNeighborhoods: ['dunes-west', 'hamlin-plantation', 'isle-of-palms']
   },
   {
-    slug: "best-time-year-pressure-wash",
-    title: "What's the Best Time of Year to Pressure Wash?",
-    question: "What's the Best Time of Year to Pressure Wash?",
-    answer: "Spring and fall are the ideal times for pressure washing in Mount Pleasant, SC. Spring cleaning removes winter grime, pollen, and early organic growth to prepare for summer. Fall cleaning removes summer accumulation before winter. Avoid pressure washing during extreme heat, heavy rain, or the rare freezing conditions.",
-    metaDescription: "Learn the best seasons for pressure washing in Mount Pleasant, SC. Expert advice on timing your exterior cleaning for optimal results and protection.",
+    slug: 'best-time-year-pressure-wash',
+    title: 'What's the Best Time of Year to Pressure Wash?',
+    question: 'What's the Best Time of Year to Pressure Wash?',
+    answer: 'Spring and fall are the ideal times for pressure washing in Mount Pleasant, SC. Spring cleaning removes winter grime, pollen, and early organic growth to prepare for summer. Fall cleaning removes summer accumulation before winter. Avoid pressure washing during extreme heat, heavy rain, or the rare freezing conditions.',
+    metaDescription: 'Learn the best seasons for pressure washing in Mount Pleasant, SC. Expert advice on timing your exterior cleaning for optimal results and protection.',
     content: `Timing your pressure washing appropriately can maximize results and protect your property. While pressure washing can be done most of the year in Mount Pleasant's mild climate, certain seasons offer advantages that make them ideal for scheduling exterior cleaning services.
 
 Spring is considered the best time for pressure washing by many professionals and homeowners. After winter, even Mount Pleasant's mild version, homes accumulate dirt, mildew, and organic growth that developed during cooler, damper months. Pollen season adds another layer of yellow-green coating to everything outdoor. Spring cleaning removes all this accumulation, restoring your home's appearance for the active outdoor season ahead.
@@ -688,15 +688,15 @@ Holiday preparation is another consideration for timing. Many Mount Pleasant hom
 Availability of reputable contractors varies seasonally. Spring and fall are peak seasons when schedules fill quickly. If you have specific timing requirements, book your service well in advance. Summer and winter may offer more flexible scheduling and sometimes lower prices, though quality contractors stay busy year-round.
 
 I provide pressure washing services throughout the year in Mount Pleasant. I can help you determine the ideal timing for your specific property and schedule service when conditions are optimal. Contact me to discuss your cleaning needs and find the right time for your home's exterior maintenance.`,
-    relatedServices: ["house-washing", "driveway-cleaning", "sidewalk-cleaning"],
-    relatedNeighborhoods: ["old-village", "park-west", "hamlin-plantation"]
+    relatedServices: ['house-washing', 'driveway-cleaning', 'sidewalk-cleaning'],
+    relatedNeighborhoods: ['old-village', 'park-west', 'hamlin-plantation']
   },
   {
-    slug: "remove-concrete-stains",
-    title: "How to Remove Stubborn Stains From Concrete",
-    question: "How to Remove Stubborn Stains From Concrete",
-    answer: "Removing stubborn concrete stains requires identifying the stain type and applying appropriate treatment. Oil stains need degreasers, rust stains require acid-based cleaners, and organic stains respond to oxygen-based cleaners. Professional pressure washing combines the right solutions with proper technique for the best results.",
-    metaDescription: "Learn how to remove tough stains from concrete in Mount Pleasant. Expert advice on treating oil, rust, organic, and other stubborn driveway stains.",
+    slug: 'remove-concrete-stains',
+    title: 'How to Remove Stubborn Stains From Concrete',
+    question: 'How to Remove Stubborn Stains From Concrete',
+    answer: 'Removing stubborn concrete stains requires identifying the stain type and applying appropriate treatment. Oil stains need degreasers, rust stains require acid-based cleaners, and organic stains respond to oxygen-based cleaners. Professional pressure washing combines the right solutions with proper technique for the best results.',
+    metaDescription: 'Learn how to remove tough stains from concrete in Mount Pleasant. Expert advice on treating oil, rust, organic, and other stubborn driveway stains.',
     content: `Concrete driveways, sidewalks, and patios are durable and long-lasting, but they're also porous and prone to staining. Over time, Mount Pleasant homeowners encounter a variety of stubborn stains that detract from their property's appearance. Understanding how different stains form and what treatments work best helps you address these problems effectively.
 
 Oil and automotive fluid stains are among the most common and challenging concrete problems. These petroleum-based substances penetrate concrete's porous surface, creating dark spots that worsen over time. Fresh oil stains are much easier to address than old, set-in stains, so immediate attention is important. For fresh spills, absorb excess oil with cat litter or commercial absorbent, then apply a degreaser and scrub the area. Older stains may require professional treatment with commercial-grade degreasers, heat, and extraction equipment.
@@ -718,15 +718,15 @@ Prevention strategies can reduce future staining. Applying a quality concrete se
 Professional concrete cleaning combines appropriate chemical treatments with commercial-grade pressure washing for optimal results. Professional technicians can identify stain types, apply correct treatments, and use appropriate pressure levels to remove staining without damaging the concrete surface. For stubborn stains that resist DIY treatment, professional service often achieves results that aren't possible with consumer-grade equipment and solutions.
 
 I specialize in concrete cleaning throughout Mount Pleasant. I assess each staining situation individually and apply treatments appropriate to the specific problems present. My commercial equipment and professional techniques remove stubborn stains that homeowners struggle to address on their own. Contact me for a free estimate on restoring your concrete surfaces.`,
-    relatedServices: ["driveway-cleaning", "sidewalk-cleaning", "house-washing"],
-    relatedNeighborhoods: ["carolina-park", "dunes-west", "park-west"]
+    relatedServices: ['driveway-cleaning', 'sidewalk-cleaning', 'house-washing'],
+    relatedNeighborhoods: ['carolina-park', 'dunes-west', 'park-west']
   },
   {
-    slug: "window-cleaning-professional-vs-diy",
-    title: "Window Cleaning: Professional vs. DIY",
-    question: "Window Cleaning: Professional vs. DIY",
-    answer: "Professional window cleaning delivers streak-free results that DIY methods struggle to achieve. Professionals use specialized tools, proper techniques, and can safely clean high windows. DIY cleaning often leaves streaks, requires significant time, and poses safety risks when accessing upper-story windows.",
-    metaDescription: "Compare professional vs DIY window cleaning in Mount Pleasant. Learn why professional service provides better results and superior value for your home.",
+    slug: 'window-cleaning-professional-vs-diy',
+    title: 'Window Cleaning: Professional vs. DIY',
+    question: 'Window Cleaning: Professional vs. DIY',
+    answer: 'Professional window cleaning delivers streak-free results that DIY methods struggle to achieve. Professionals use specialized tools, proper techniques, and can safely clean high windows. DIY cleaning often leaves streaks, requires significant time, and poses safety risks when accessing upper-story windows.',
+    metaDescription: 'Compare professional vs DIY window cleaning in Mount Pleasant. Learn why professional service provides better results and superior value for your home.',
     content: `Clean windows transform your home, maximizing natural light and providing crystal-clear views of the outdoors. But achieving truly clean, streak-free windows is more challenging than most homeowners expect. Understanding the differences between professional and DIY window cleaning helps you decide the best approach for your Mount Pleasant home.
 
 The streak-free challenge is what defeats most DIY window cleaning attempts. Commercial glass cleaners leave residue that streaks as it dries, especially in warm conditions or direct sunlight. Paper towels and newspapers leave lint. Sponges and cloths that aren't perfectly clean transfer contaminants. Even when technique is correct, consumer products and tools rarely achieve the crystal-clear results that professional cleaning delivers.
@@ -748,15 +748,15 @@ Screen cleaning is often neglected but important for complete window maintenance
 Cost comparison between DIY and professional window cleaning often favors professional service when you account for time, results quality, and safety factors. A bottle of glass cleaner and roll of paper towels may cost only a few dollars, but the hours of labor and mediocre results make it a poor value compared to professional cleaning that leaves windows truly sparkling.
 
 CanManCam provides professional window cleaning services throughout Mount Pleasant. Our trained technicians safely clean windows at any height, delivering streak-free results that maximize your home's natural light and views. Contact us to schedule window cleaning that makes a visible difference in your home's appearance.`,
-    relatedServices: ["window-cleaning", "house-washing", "sidewalk-cleaning"],
-    relatedNeighborhoods: ["planters-pointe", "long-point", "shem-creek"]
+    relatedServices: ['window-cleaning', 'house-washing', 'sidewalk-cleaning'],
+    relatedNeighborhoods: ['planters-pointe', 'long-point', 'shem-creek']
   },
   {
-    slug: "pressure-washing-selling-home",
-    title: "Pressure Washing Before Selling Your Home: Does It Help?",
-    question: "Pressure Washing Before Selling Your Home: Does It Help?",
-    answer: "Yes, pressure washing before selling your home is one of the highest-ROI improvements you can make. Clean exteriors create positive first impressions, suggest well-maintained property, and can influence perceived value. Professional cleaning typically costs a few hundred dollars but can positively affect offers by thousands.",
-    metaDescription: "Discover how pressure washing helps sell your Mount Pleasant home. Learn about curb appeal, buyer impressions, and the ROI of pre-sale exterior cleaning.",
+    slug: 'pressure-washing-selling-home',
+    title: 'Pressure Washing Before Selling Your Home: Does It Help?',
+    question: 'Pressure Washing Before Selling Your Home: Does It Help?',
+    answer: 'Yes, pressure washing before selling your home is one of the highest-ROI improvements you can make. Clean exteriors create positive first impressions, suggest well-maintained property, and can influence perceived value. Professional cleaning typically costs a few hundred dollars but can positively affect offers by thousands.',
+    metaDescription: 'Discover how pressure washing helps sell your Mount Pleasant home. Learn about curb appeal, buyer impressions, and the ROI of pre-sale exterior cleaning.',
     content: `When preparing to sell your Mount Pleasant home, you'll consider numerous improvements to maximize your sale price and minimize time on market. Of all the projects you might undertake, professional pressure washing offers one of the best returns on investment. Here's why exterior cleaning is so valuable for sellers and how to maximize its impact.
 
 First impressions matter enormously in real estate. Buyers begin forming opinions about your home before they ever step inside. Curb appeal – how your home looks from the street – creates the initial impression that colors everything that follows. A dirty, stained exterior suggests neglect and deferred maintenance, making buyers suspicious about what problems might lurk inside. A clean, well-maintained exterior conveys pride of ownership and careful stewardship.
@@ -780,15 +780,15 @@ The cost-to-value ratio for pre-sale pressure washing is exceptional. A comprehe
 Photography benefits from pressure washing as well. Online listings with photos of clean, bright exteriors attract more views and showings than listings showing dirty, stained homes. Since most buyers now begin their search online, making a strong impression in listing photos is essential.
 
 I help Mount Pleasant homeowners prepare properties for sale with comprehensive exterior cleaning. I work with your timeline to ensure your home looks its absolute best for listing photos and showings. Contact me to discuss your pre-sale cleaning needs and how I can help maximize your home's sale potential.`,
-    relatedServices: ["house-washing", "driveway-cleaning", "window-cleaning"],
-    relatedNeighborhoods: ["old-village", "park-west", "isle-of-palms"]
+    relatedServices: ['house-washing', 'driveway-cleaning', 'window-cleaning'],
+    relatedNeighborhoods: ['old-village', 'park-west', 'isle-of-palms']
   },
   {
-    slug: "prepare-property-pressure-washing",
-    title: "How to Prepare Your Property for Pressure Washing",
-    question: "How to Prepare Your Property for Pressure Washing",
-    answer: "Before pressure washing, move outdoor furniture away from work areas, close all windows and doors, protect sensitive plants by noting their locations, move vehicles from driveways, and inform neighbors. Clear the work area of toys, decorations, and obstacles. These simple preparations ensure efficient, effective cleaning.",
-    metaDescription: "Learn how to prepare your Mount Pleasant property for pressure washing. Simple preparation steps that ensure the best results and protect your belongings.",
+    slug: 'prepare-property-pressure-washing',
+    title: 'How to Prepare Your Property for Pressure Washing',
+    question: 'How to Prepare Your Property for Pressure Washing',
+    answer: 'Before pressure washing, move outdoor furniture away from work areas, close all windows and doors, protect sensitive plants by noting their locations, move vehicles from driveways, and inform neighbors. Clear the work area of toys, decorations, and obstacles. These simple preparations ensure efficient, effective cleaning.',
+    metaDescription: 'Learn how to prepare your Mount Pleasant property for pressure washing. Simple preparation steps that ensure the best results and protect your belongings.',
     content: `Proper preparation before your pressure washing appointment ensures the best possible results and protects your belongings. While professional pressure washing crews are experienced in working around obstacles and protecting property, some simple preparation on your part makes the process smoother and more efficient. Here's what Mount Pleasant homeowners should do before their scheduled service.
 
 Move outdoor furniture and decorations away from areas being cleaned. Patio furniture, potted plants, grills, children's toys, and lawn ornaments should be moved to locations away from the house and work areas. This protects these items from spray and cleaning solutions, and allows crews to work efficiently without constantly moving obstacles. For heavy items you can't easily move, let the company know in advance so crews can plan accordingly.
@@ -814,15 +814,15 @@ Plan for drying time. Freshly cleaned surfaces may be slippery while wet. Plan t
 Prepare for the results. Professional pressure washing often reveals issues that were hidden by dirt – peeling paint, damaged siding, cracked concrete, and other problems become visible once surfaces are clean. Be mentally prepared for this and consider it valuable information about your property's condition rather than a disappointment.
 
 I provide preparation guidance specific to your scheduled service when you book. I work carefully to protect your property regardless of preparation level, but the steps above help ensure the smoothest possible experience. Contact me to schedule your pressure washing and discuss any preparation concerns.`,
-    relatedServices: ["house-washing", "driveway-cleaning", "gutter-cleaning"],
-    relatedNeighborhoods: ["hamlin-plantation", "carolina-park", "dunes-west"]
+    relatedServices: ['house-washing', 'driveway-cleaning', 'gutter-cleaning'],
+    relatedNeighborhoods: ['hamlin-plantation', 'carolina-park', 'dunes-west']
   },
   {
-    slug: "trash-can-cleaning-importance",
-    title: "Trash Can Cleaning: Why It Matters",
-    question: "Trash Can Cleaning: Why It Matters",
-    answer: "Trash can cleaning eliminates bacteria, reduces odors, and prevents pest attraction. Dirty cans harbor harmful pathogens including Salmonella and E. coli, create unpleasant smells, and attract flies, ants, rats, and raccoons. Regular professional sanitization protects your family's health and improves property hygiene.",
-    metaDescription: "Discover why trash can cleaning matters for Mount Pleasant homes. Learn about health risks, pest prevention, and the benefits of professional sanitization.",
+    slug: 'trash-can-cleaning-importance',
+    title: 'Trash Can Cleaning: Why It Matters',
+    question: 'Trash Can Cleaning: Why It Matters',
+    answer: 'Trash can cleaning eliminates bacteria, reduces odors, and prevents pest attraction. Dirty cans harbor harmful pathogens including Salmonella and E. coli, create unpleasant smells, and attract flies, ants, rats, and raccoons. Regular professional sanitization protects your family's health and improves property hygiene.',
+    metaDescription: 'Discover why trash can cleaning matters for Mount Pleasant homes. Learn about health risks, pest prevention, and the benefits of professional sanitization.',
     content: `It might be the exterior cleaning service you've never considered, but trash can cleaning could significantly impact your family's health and property hygiene. Those plastic and metal bins you handle weekly are breeding grounds for bacteria, sources of persistent odors, and attractants for pests. Understanding why trash can cleaning matters may change how you think about this often-overlooked maintenance task.
 
 Bacteria and pathogens thrive in trash can environments. The combination of organic matter, moisture, and warmth creates ideal conditions for harmful microorganisms. Studies have found trash cans harboring Salmonella, E. coli, Listeria, and other pathogens that can cause serious illness. Every time you open the lid, touch the handle, or move your cans, you're potentially exposing yourself to these contaminants. In Mount Pleasant's heat and humidity, bacterial growth is accelerated, making trash cans especially problematic during warmer months.
@@ -846,15 +846,15 @@ The environmental responsibility of professional cleaning is worth noting. Comme
 Health protection for your family is perhaps the most compelling reason for regular trash can cleaning. Reducing exposure to harmful bacteria, eliminating pest attraction, and maintaining sanitary conditions around your home protects everyone who lives there. It's preventive health maintenance that most people don't think about – but probably should.
 
 I offer convenient trash can cleaning services scheduled around your regular garbage pickup. I clean your cans after they've been emptied, maximizing the time between cleaning and the next garbage deposit. Contact me to add this valuable service to your property maintenance routine.`,
-    relatedServices: ["trash-can-cleaning", "house-washing", "driveway-cleaning"],
-    relatedNeighborhoods: ["isle-of-palms", "shem-creek", "old-village"]
+    relatedServices: ['trash-can-cleaning', 'house-washing', 'driveway-cleaning'],
+    relatedNeighborhoods: ['isle-of-palms', 'shem-creek', 'old-village']
   },
   {
-    slug: "mold-mildew-removal",
-    title: "Mold and Mildew Removal: Pressure Washing Solutions",
-    question: "Mold and Mildew Removal: Pressure Washing Solutions",
-    answer: "Professional soft washing effectively removes mold and mildew from home exteriors by using specialized solutions that kill organisms at the root level. Unlike pressure-only cleaning that just removes surface growth, soft washing eliminates mold and mildew completely, providing longer-lasting results and protecting both your home and family health.",
-    metaDescription: "Learn about effective mold and mildew removal for Mount Pleasant homes. Professional soft washing solutions that eliminate growth and protect your property.",
+    slug: 'mold-mildew-removal',
+    title: 'Mold and Mildew Removal: Pressure Washing Solutions',
+    question: 'Mold and Mildew Removal: Pressure Washing Solutions',
+    answer: 'Professional soft washing effectively removes mold and mildew from home exteriors by using specialized solutions that kill organisms at the root level. Unlike pressure-only cleaning that just removes surface growth, soft washing eliminates mold and mildew completely, providing longer-lasting results and protecting both your home and family health.',
+    metaDescription: 'Learn about effective mold and mildew removal for Mount Pleasant homes. Professional soft washing solutions that eliminate growth and protect your property.',
     content: `Mold and mildew are constant challenges for Mount Pleasant homeowners. Our humid subtropical climate, with its warm temperatures and frequent rainfall, creates ideal conditions for these organisms to thrive on virtually every exterior surface. Understanding how mold and mildew affect your home and how professional cleaning addresses these problems helps you protect your property and your family's health.
 
 Mold and mildew are types of fungi that reproduce through airborne spores. When these spores land on suitable surfaces with adequate moisture, they establish colonies that spread across the surface. In Mount Pleasant's climate, this process happens quickly and continuously. The characteristic green, black, or gray staining you see on siding, roofs, fences, and hardscapes is the visible evidence of these established fungal colonies.
@@ -878,121 +878,121 @@ For Mount Pleasant homeowners, accepting some level of mold and mildew is realis
 Choosing the right contractor for mold and mildew removal is important. Look for companies that specifically discuss soft washing and cleaning solutions rather than just high-pressure washing. Ask about their experience with different exterior materials and any guarantees they offer. A reputable company will explain their approach and why it's appropriate for your specific situation.
 
 I specialize in mold and mildew removal using professional soft washing techniques. I understand Mount Pleasant's specific environmental challenges and have the experience to address even heavy fungal growth safely and effectively. Contact me to discuss your home's mold and mildew concerns and learn how I can help restore and protect your exterior surfaces.`,
-    relatedServices: ["house-washing", "gutter-cleaning", "window-cleaning"],
-    relatedNeighborhoods: ["shem-creek", "long-point", "planters-pointe"]
+    relatedServices: ['house-washing', 'gutter-cleaning', 'window-cleaning'],
+    relatedNeighborhoods: ['shem-creek', 'long-point', 'planters-pointe']
   }
 ];
 
 export const projects = [
   { 
-    slug: "house-washing-isle-of-palms", 
-    title: "House Washing in Isle of Palms",
-    service: "House Washing",
-    location: "Isle of Palms",
-    description: "Complete soft wash house cleaning for an oceanfront property in Isle of Palms. Removed years of salt buildup, algae, and coastal staining from vinyl siding and painted trim.",
-    image: "/assets/uploaded_images/lowcountry-home-soft-washing-front.JPEG"
+    slug: 'house-washing-isle-of-palms', 
+    title: 'House Washing in Isle of Palms',
+    service: 'House Washing',
+    location: 'Isle of Palms',
+    description: 'Complete soft wash house cleaning for an oceanfront property in Isle of Palms. Removed years of salt buildup, algae, and coastal staining from vinyl siding and painted trim.',
+    image: '/assets/uploaded_images/lowcountry-home-soft-washing-front.JPEG'
   },
   { 
-    slug: "driveway-cleaning-park-west", 
-    title: "Driveway Cleaning in Park West",
-    service: "Driveway Cleaning",
-    location: "Park West",
-    description: "Comprehensive driveway restoration for a Park West residence. Removed oil stains, tire marks, and algae growth from concrete driveway and walkways.",
-    image: "/assets/uploaded_images/concrete-driveway-cleaning-after.JPEG"
+    slug: 'driveway-cleaning-park-west', 
+    title: 'Driveway Cleaning in Park West',
+    service: 'Driveway Cleaning',
+    location: 'Park West',
+    description: 'Comprehensive driveway restoration for a Park West residence. Removed oil stains, tire marks, and algae growth from concrete driveway and walkways.',
+    image: '/assets/uploaded_images/concrete-driveway-cleaning-after.JPEG'
   },
   { 
-    slug: "window-cleaning-old-village", 
-    title: "Window Cleaning in Old Village",
-    service: "Window Cleaning",
-    location: "Old Village",
-    description: "Professional window cleaning for a historic Old Village home. Cleaned all interior and exterior windows, removing hard water spots and restoring clarity to antique glass.",
-    image: "/assets/uploaded_images/bay-window-exterior-cleaning.JPEG"
+    slug: 'window-cleaning-old-village', 
+    title: 'Window Cleaning in Old Village',
+    service: 'Window Cleaning',
+    location: 'Old Village',
+    description: 'Professional window cleaning for a historic Old Village home. Cleaned all interior and exterior windows, removing hard water spots and restoring clarity to antique glass.',
+    image: '/assets/uploaded_images/bay-window-exterior-cleaning.JPEG'
   },
   { 
-    slug: "sidewalk-cleaning-carolina-park", 
-    title: "Sidewalk Cleaning in Carolina Park",
-    service: "Sidewalk Cleaning",
-    location: "Carolina Park",
-    description: "Complete walkway and patio cleaning for a Carolina Park family home. Removed slippery algae and restored concrete brightness throughout outdoor living areas.",
-    image: "/assets/uploaded_images/front-walkway-pressure-washing-01.JPEG"
+    slug: 'sidewalk-cleaning-carolina-park', 
+    title: 'Sidewalk Cleaning in Carolina Park',
+    service: 'Sidewalk Cleaning',
+    location: 'Carolina Park',
+    description: 'Complete walkway and patio cleaning for a Carolina Park family home. Removed slippery algae and restored concrete brightness throughout outdoor living areas.',
+    image: '/assets/uploaded_images/front-walkway-pressure-washing-01.JPEG'
   },
   { 
-    slug: "gutter-cleaning-hamlin-plantation", 
-    title: "Gutter Cleaning in Hamlin Plantation",
-    service: "Gutter Cleaning",
-    location: "Hamlin Plantation",
-    description: "Comprehensive gutter cleaning for a large estate in Hamlin Plantation. Cleared debris from all gutters and downspouts, cleaned gutter exteriors, and ensured proper drainage.",
-    image: "/assets/uploaded_images/lowcountry-home-pressure-washing-01.JPEG"
+    slug: 'gutter-cleaning-hamlin-plantation', 
+    title: 'Gutter Cleaning in Hamlin Plantation',
+    service: 'Gutter Cleaning',
+    location: 'Hamlin Plantation',
+    description: 'Comprehensive gutter cleaning for a large estate in Hamlin Plantation. Cleared debris from all gutters and downspouts, cleaned gutter exteriors, and ensured proper drainage.',
+    image: '/assets/uploaded_images/lowcountry-home-pressure-washing-01.JPEG'
   },
   { 
-    slug: "house-washing-dunes-west", 
-    title: "House Washing in Dunes West",
-    service: "House Washing",
-    location: "Dunes West",
-    description: "Full exterior soft wash for a Dunes West golf course home. Removed heavy mildew growth from shaded areas and restored the home's elegant appearance.",
-    image: "/assets/uploaded_images/house-washing-mount-pleasant-01.JPEG"
+    slug: 'house-washing-dunes-west', 
+    title: 'House Washing in Dunes West',
+    service: 'House Washing',
+    location: 'Dunes West',
+    description: 'Full exterior soft wash for a Dunes West golf course home. Removed heavy mildew growth from shaded areas and restored the home's elegant appearance.',
+    image: '/assets/uploaded_images/house-washing-mount-pleasant-01.JPEG'
   },
   { 
-    slug: "driveway-cleaning-park-west", 
-    title: "Driveway Cleaning in Park West",
-    service: "Driveway Cleaning",
-    location: "Park West",
-    description: "Driveway and garage floor cleaning for a Park West residence. Removed years of staining and restored concrete to near-original condition.",
-    image: "/assets/uploaded_images/paver-walkway-pressure-washing-01.JPEG"
+    slug: 'driveway-cleaning-park-west', 
+    title: 'Driveway Cleaning in Park West',
+    service: 'Driveway Cleaning',
+    location: 'Park West',
+    description: 'Driveway and garage floor cleaning for a Park West residence. Removed years of staining and restored concrete to near-original condition.',
+    image: '/assets/uploaded_images/paver-walkway-pressure-washing-01.JPEG'
   },
   { 
-    slug: "trash-can-cleaning-shem-creek", 
-    title: "Trash Can Cleaning in Shem Creek",
-    service: "Trash Can Cleaning",
-    location: "Shem Creek",
-    description: "Sanitization service for a Shem Creek condominium community. Cleaned and sanitized all residential trash and recycling bins, eliminating odors and bacteria.",
-    image: "/assets/uploaded_images/trash-can-cleaning-after.JPEG"
+    slug: 'trash-can-cleaning-shem-creek', 
+    title: 'Trash Can Cleaning in Shem Creek',
+    service: 'Trash Can Cleaning',
+    location: 'Shem Creek',
+    description: 'Sanitization service for a Shem Creek condominium community. Cleaned and sanitized all residential trash and recycling bins, eliminating odors and bacteria.',
+    image: '/assets/uploaded_images/trash-can-cleaning-after.JPEG'
   },
   { 
-    slug: "house-washing-planters-pointe", 
-    title: "House Washing in Planters Pointe",
-    service: "House Washing",
-    location: "Planters Pointe",
-    description: "Complete house washing for a Planters Pointe home preparing for sale. Transformed the exterior appearance and dramatically improved curb appeal.",
-    image: "/assets/uploaded_images/lowcountry-home-soft-washing-side.JPEG"
+    slug: 'house-washing-planters-pointe', 
+    title: 'House Washing in Planters Pointe',
+    service: 'House Washing',
+    location: 'Planters Pointe',
+    description: 'Complete house washing for a Planters Pointe home preparing for sale. Transformed the exterior appearance and dramatically improved curb appeal.',
+    image: '/assets/uploaded_images/lowcountry-home-soft-washing-side.JPEG'
   },
   { 
-    slug: "sidewalk-cleaning-long-point", 
-    title: "Sidewalk Cleaning in Long Point",
-    service: "Sidewalk Cleaning",
-    location: "Long Point",
-    description: "Pool deck and patio cleaning for a waterfront Long Point property. Removed algae and salt deposits from all hardscape surfaces.",
-    image: "/assets/uploaded_images/paver-patio-cleaning-mount-pleasant-01.JPEG"
+    slug: 'sidewalk-cleaning-long-point', 
+    title: 'Sidewalk Cleaning in Long Point',
+    service: 'Sidewalk Cleaning',
+    location: 'Long Point',
+    description: 'Pool deck and patio cleaning for a waterfront Long Point property. Removed algae and salt deposits from all hardscape surfaces.',
+    image: '/assets/uploaded_images/paver-patio-cleaning-mount-pleasant-01.JPEG'
   },
   { 
-    slug: "window-cleaning-dunes-west", 
-    title: "Window Cleaning in Dunes West",
-    service: "Window Cleaning",
-    location: "Dunes West",
-    description: "Complete window cleaning for a two-story Dunes West home. Cleaned all windows inside and out, including screen cleaning and track detailing.",
-    image: "/assets/uploaded_images/screened-porch-cleaning-mount-pleasant.JPEG"
+    slug: 'window-cleaning-dunes-west', 
+    title: 'Window Cleaning in Dunes West',
+    service: 'Window Cleaning',
+    location: 'Dunes West',
+    description: 'Complete window cleaning for a two-story Dunes West home. Cleaned all windows inside and out, including screen cleaning and track detailing.',
+    image: '/assets/uploaded_images/screened-porch-cleaning-mount-pleasant.JPEG'
   },
   { 
-    slug: "gutter-cleaning-carolina-park", 
-    title: "Gutter Cleaning in Carolina Park",
-    service: "Gutter Cleaning",
-    location: "Carolina Park",
-    description: "Fall gutter cleaning service for a Carolina Park residence surrounded by mature trees. Cleared heavy debris accumulation and restored proper drainage.",
-    image: "/assets/uploaded_images/lowcountry-sunroom-cleaning.JPEG"
+    slug: 'gutter-cleaning-carolina-park', 
+    title: 'Gutter Cleaning in Carolina Park',
+    service: 'Gutter Cleaning',
+    location: 'Carolina Park',
+    description: 'Fall gutter cleaning service for a Carolina Park residence surrounded by mature trees. Cleared heavy debris accumulation and restored proper drainage.',
+    image: '/assets/uploaded_images/lowcountry-sunroom-cleaning.JPEG'
   }
 ];
 
 export const reviews = [
   {
-    name: "Nikki Hill Johnson",
+    name: 'Nikki Hill Johnson',
     rating: 5,
-    text: "We had Camrin pressure wash our house (including gutters), (very) long driveway, sidewalk, walkways, front porch, and deck, and the results were honestly incredible. It had been about four years since our last pressure washing, and he didn't rush anything. He went over tough spots five or six times to make sure they were actually clean, not just \"good enough.\"\n\nThe before and after was amazing. My kids came home from school and asked if he painted the house because it looked that different. ha!\n\nCamrin was extremely professional, communicated clearly from start to finish, showed up when he said he would, and was friendly and easy to work with the entire time. The price was very fair for the amount of work and the level of detail he put in.\n\nIf you're looking for someone who truly cares about doing the job right and takes pride in their work, Camrin is your guy. We'll absolutely be using him again and recommending him to neighbors.",
-    location: "Mount Pleasant"
+    text: 'We had Camrin pressure wash our house (including gutters), (very) long driveway, sidewalk, walkways, front porch, and deck, and the results were honestly incredible. It had been about four years since our last pressure washing, and he didn't rush anything. He went over tough spots five or six times to make sure they were actually clean, not just \'good enough.\'\n\nThe before and after was amazing. My kids came home from school and asked if he painted the house because it looked that different. ha!\n\nCamrin was extremely professional, communicated clearly from start to finish, showed up when he said he would, and was friendly and easy to work with the entire time. The price was very fair for the amount of work and the level of detail he put in.\n\nIf you're looking for someone who truly cares about doing the job right and takes pride in their work, Camrin is your guy. We'll absolutely be using him again and recommending him to neighbors.',
+    location: 'Mount Pleasant'
   },
   {
-    name: "Victor Dawkes",
+    name: 'Victor Dawkes',
     rating: 5,
-    text: "We were so pleased with the finished product. He performed the power washing in a timely manner and it showed his attention to detail. Will use him for power washing our entire home in the spring. Job well done.",
-    location: "Mount Pleasant"
+    text: 'We were so pleased with the finished product. He performed the power washing in a timely manner and it showed his attention to detail. Will use him for power washing our entire home in the spring. Job well done.',
+    location: 'Mount Pleasant'
   }
 ];
