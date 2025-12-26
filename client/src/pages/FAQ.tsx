@@ -119,24 +119,24 @@ export default function FAQ() {
           <div className="text-center mb-12">
             <h1 
               data-testid="text-faq-title"
-              className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
+              className="text-5xl md:text-7xl font-heading font-bold text-primary mb-6"
             >
               PRESSURE WASHING FAQ
             </h1>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Have questions about my pressure washing services in Mount Pleasant? Find answers to common questions below, or contact me directly for personalized assistance.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {faqs.map((section, idx) => (
-              <div key={idx} className="bg-gray-50 p-6">
-                <h2 className="text-xl font-heading font-bold text-primary mb-4 text-center">{section.category.toUpperCase()}</h2>
-                <div className="space-y-4">
+              <div key={idx} className="bg-gray-50 p-8 shadow-sm">
+                <h2 className="text-3xl font-heading font-bold text-primary mb-6 text-center border-b-2 border-accent pb-2">{section.category.toUpperCase()}</h2>
+                <div className="space-y-6">
                   {section.questions.map((item, qIdx) => (
-                    <div key={qIdx} className="border-l-4 border-accent pl-4 py-2 bg-white">
-                      <h3 className="font-bold text-primary mb-2 text-sm">{item.q}</h3>
-                      <p className="text-gray-700 text-sm">{item.a}</p>
+                    <div key={qIdx} className="border-l-4 border-accent pl-6 py-3 bg-white shadow-sm">
+                      <h3 className="font-bold text-primary mb-3 text-lg leading-tight">{item.q}</h3>
+                      <p className="text-gray-700 text-base leading-relaxed">{item.a}</p>
                     </div>
                   ))}
                 </div>

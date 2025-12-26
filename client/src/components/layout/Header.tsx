@@ -36,8 +36,8 @@ export function Header() {
   return (
     <header className="w-full shadow-sm sticky top-0 z-50" style={{ background: 'linear-gradient(135deg, #e6f4f9 0%, #ffffff 50%, #d4eef7 100%)' }}>
       <div className="bg-primary text-white py-2 px-4 text-right text-sm font-bold tracking-wide">
-        <div className="container mx-auto flex justify-end items-center gap-2">
-          <span>CONTACT US TODAY: <a href="tel:607-427-1175" className="hover:text-accent transition-colors">607-427-1175</a></span>
+        <div className="container mx-auto flex justify-end items-center gap-2 uppercase">
+          <span>CALL ME TODAY: <a href="tel:607-427-1175" className="hover:text-accent transition-colors">607-427-1175</a></span>
         </div>
       </div>
 
@@ -127,7 +127,7 @@ export function Header() {
           </div>
 
           <NavLink href="/pricing">PRICING</NavLink>
-          <NavLink href="/pressure-washing-tips">BLOG</NavLink>
+          <NavLink href="/pressure-washing-tips">TIPS</NavLink>
           <NavLink href="/reviews">REVIEWS</NavLink>
           <NavLink href="/contact">CONTACT</NavLink>
           

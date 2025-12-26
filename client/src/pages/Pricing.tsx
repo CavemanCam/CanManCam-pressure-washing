@@ -161,9 +161,9 @@ export default function PricingPage() {
         {/* The Core Pricing Grid */}
         <section className="py-20 container mx-auto px-4 border-t">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-heading font-bold text-primary mb-4 uppercase text-center">How Much Does It Cost?</h2>
-            <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
-            <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+            <h2 className="text-5xl md:text-7xl font-heading font-bold text-primary mb-6 uppercase text-center tracking-tight">How Much Does It Cost?</h2>
+            <div className="w-32 h-1.5 bg-accent mx-auto mb-8"></div>
+            <p className="text-gray-600 max-w-3xl mx-auto text-xl leading-relaxed">
               Every home in Mount Pleasant is different, but our commitment to fair pricing remains the same. Use these base rates to plan your next project.
             </p>
           </div>

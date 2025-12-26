@@ -111,15 +111,15 @@ export default function Home() {
 
       <section data-testid="intro-section" className="py-20 bg-white">
         <div className="container mx-auto px-4 text-center max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">
+          <h2 className="text-5xl md:text-6xl font-heading font-bold text-primary mb-8 leading-tight">
             Complete Exterior Pressure Washing In The Mount Pleasant Area
           </h2>
-          <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+          <p className="text-xl text-gray-600 mb-10 leading-relaxed">
             When you need any part of your home pressure washed in or around Mount Pleasant, the one to call is Camrin at CanManCam! I offer a complete line of pressure washing services, including all types of power washing and soft wash house cleaning. I'm highly trained, fully insured, and ready to serve you.
           </p>
-          <div className="p-6 bg-gray-50 inline-block">
-            <p className="font-bold text-xl text-primary mb-2">I make pressure washing simple, affordable, and thorough!</p>
-            <p className="text-gray-600">Serving Isle of Palms, Old Village, Park West, Hamlin Plantation, and all Mount Pleasant neighborhoods.</p>
+          <div className="p-8 bg-gray-50 inline-block border-l-4 border-accent">
+            <p className="font-bold text-2xl text-primary mb-3">I make pressure washing simple, affordable, and thorough!</p>
+            <p className="text-lg text-gray-600">Serving Isle of Palms, Old Village, Park West, Hamlin Plantation, and all Mount Pleasant neighborhoods.</p>
           </div>
         </div>
       </section>
@@ -127,8 +127,8 @@ export default function Home() {
       <section data-testid="services-section" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-heading font-bold text-primary mb-4">MY PREMIUM SERVICES</h2>
-            <div className="h-1 w-24 bg-accent mx-auto"></div>
+            <h2 className="text-5xl font-heading font-bold text-primary mb-4">MY PREMIUM SERVICES</h2>
+            <div className="h-1.5 w-32 bg-accent mx-auto"></div>
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
